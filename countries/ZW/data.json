@@ -1,0 +1,63 @@
+{
+  "country": "Zimbabwe",
+  "iso2": "ZW",
+  "iso3": "ZWE",
+  "callingCode": "+263",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXXXXXX",
+    "international": "+263 AA XXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Harare (024)",
+      "national": "024 2XXXXXX",
+      "international": "+263 24 2XXXXXX"
+    },
+    {
+      "label": "Bulawayo (029)",
+      "national": "029 2XXXXXX",
+      "international": "+263 29 2XXXXXX"
+    },
+    {
+      "label": "Mobile — Econet (077, 078), NetOne (071), Telecel (073)",
+      "national": "077 XXXXXXX",
+      "international": "+263 77 XXXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+263242123456",
+      "international": "+263 24 2123456",
+      "national": "024 2123456",
+      "note": "Harare — area code 024 with an added prefixing digit 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+263771234567",
+      "international": "+263 77 1234567",
+      "national": "077 1234567",
+      "note": "Mobile — 077 is an Econet range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+263712345678",
+      "international": "+263 71 2345678",
+      "national": "071 2345678",
+      "note": "Mobile — 071 is a NetOne range"
+    }
+  ],
+  "notes": [
+    "Zimbabwe restructured its geographic numbers by inserting a prefixing digit after the area code, giving a uniform 9-digit NSN.",
+    "Area codes are 2–3 digits after the trunk 0."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Zimbabwe",
+    "POTRAZ — Postal and Telecommunications Regulatory Authority of Zimbabwe: https://www.potraz.gov.zw/"
+  ]
+}
