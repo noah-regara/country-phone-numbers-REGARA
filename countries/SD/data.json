@@ -1,0 +1,58 @@
+{
+  "country": "Sudan",
+  "iso2": "SD",
+  "iso3": "SDN",
+  "callingCode": "+249",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0TP AXX XXXX (T = service type, P = provider)",
+    "international": "+249 TP AXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Fixed — Sudani (10, 11, 12), Canar (15), Sudatel (18)",
+      "national": "013 XXX XXXX",
+      "international": "+249 13 XXX XXXX"
+    },
+    {
+      "label": "Mobile — Zain (90, 91, 96), MTN (92, 93, 99), NOW (95)",
+      "national": "092 XXX XXXX",
+      "international": "+249 92 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+249131234567",
+      "international": "+249 13 123 4567",
+      "national": "013 123 4567",
+      "note": "Khartoum — Sudani fixed line; 1 denotes fixed service, 3 the Khartoum area"
+    },
+    {
+      "type": "mobile",
+      "e164": "+249921234567",
+      "international": "+249 92 123 4567",
+      "national": "092 123 4567",
+      "note": "Mobile — 92/93/99 are MTN Sudan ranges"
+    },
+    {
+      "type": "mobile",
+      "e164": "+249911234567",
+      "international": "+249 91 123 4567",
+      "national": "091 123 4567",
+      "note": "Mobile — 90/91/96 are Zain Sudan ranges"
+    }
+  ],
+  "notes": [
+    "Sudanese numbers encode service type in the first digit after the trunk 0 (1 = fixed, 9 = mobile) and the provider in the second.",
+    "South Sudan used +249 until 2011-10-01, when it moved to its own code +211."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Sudan",
+    "TPRA — Telecommunication and Post Regulatory Authority of Sudan: https://tpra.gov.sd/"
+  ]
+}
