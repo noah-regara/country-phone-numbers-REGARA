@@ -1,0 +1,58 @@
+{
+  "country": "Senegal",
+  "iso2": "SN",
+  "iso3": "SEN",
+  "callingCode": "+221",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "XX XXX XX XX",
+    "international": "+221 XX XXX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (33)",
+      "national": "33 XXX XX XX",
+      "international": "+221 33 XXX XX XX"
+    },
+    {
+      "label": "Mobile — Orange (77), Free (76), Expresso (70)",
+      "national": "77 XXX XX XX",
+      "international": "+221 77 XXX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+221338123456",
+      "international": "+221 33 812 34 56",
+      "national": "33 812 34 56",
+      "note": "Dakar — 33 is the fixed-line prefix, 8 the Dakar area digit"
+    },
+    {
+      "type": "mobile",
+      "e164": "+221775123456",
+      "international": "+221 77 512 34 56",
+      "national": "77 512 34 56",
+      "note": "Mobile — 77 is an Orange (Sonatel) range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+221761234567",
+      "international": "+221 76 123 45 67",
+      "national": "76 123 45 67",
+      "note": "Mobile — 76 range"
+    }
+  ],
+  "notes": [
+    "Closed 9-digit plan with no trunk prefix; the leading two digits identify service and operator rather than geography.",
+    "33 is fixed-line nationally; mobile ranges are 70, 75, 76, 77 and 78."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Senegal",
+    "ARTP — Autorité de Régulation des Télécommunications et des Postes: https://www.artpsenegal.net/"
+  ]
+}
