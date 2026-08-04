@@ -1,0 +1,52 @@
+{
+  "country": "Guinea",
+  "iso2": "GN",
+  "iso3": "GIN",
+  "callingCode": "+224",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "XXX XX XX XX",
+    "international": "+224 XXX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Conakry (30 4X)",
+      "national": "30 4X XX XX",
+      "international": "+224 30 4X XX XX"
+    },
+    {
+      "label": "Mobile — Orange (62X), MTN/Areeba (66X), Cellcom (65X)",
+      "national": "62X XX XX XX",
+      "international": "+224 62X XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+22430411234",
+      "international": "+224 3041 1234",
+      "national": "3041 1234",
+      "note": "Conakry — the 3041 fixed block serves the capital"
+    },
+    {
+      "type": "mobile",
+      "e164": "+224622123456",
+      "international": "+224 622 123 456",
+      "national": "622 123 456",
+      "note": "Mobile — 62X is an Orange Guinée range; mobile NSNs are 9 digits"
+    }
+  ],
+  "notes": [
+    "Fixed NSNs are 8 digits and mobile NSNs 9, so length distinguishes the two.",
+    "No trunk prefix; numbers are dialled in full."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Guinea",
+    "ARPT Guinée — Autorité de Régulation des Postes et Télécommunications: https://arpt.gov.gn/"
+  ]
+}
