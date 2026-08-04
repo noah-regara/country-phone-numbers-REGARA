@@ -1,0 +1,59 @@
+{
+  "country": "Côte d'Ivoire",
+  "iso2": "CI",
+  "iso3": "CIV",
+  "callingCode": "+225",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "XX XX XXX XXX",
+    "international": "+225 XX XX XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (27)",
+      "national": "27 XX XX XX XX",
+      "international": "+225 27 XX XX XX XX"
+    },
+    {
+      "label": "Mobile — Moov/Atlantic (01), MTN (05), Orange (07)",
+      "national": "07 XX XX XX XX",
+      "international": "+225 07 XX XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2252721123456",
+      "international": "+225 27 21 12 34 56",
+      "national": "27 21 12 34 56",
+      "note": "Abidjan — 27 is the fixed-line prefix, 21 the Abidjan area code"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2250712345678",
+      "international": "+225 07 12 34 56 78",
+      "national": "07 12 34 56 78",
+      "note": "Mobile — 07 is an Orange range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2250512345678",
+      "international": "+225 05 12 34 56 78",
+      "national": "05 12 34 56 78",
+      "note": "Mobile — 05 is an MTN range"
+    }
+  ],
+  "notes": [
+    "Côte d'Ivoire renumbered on 2021-01-31, going from 8 to 10 digits by prepending two digits that encode service and carrier (27 fixed, 01/05/07 mobile).",
+    "An earlier expansion from 6 to 8 digits took place on 2000-01-15.",
+    "There is no trunk prefix — the full 10 digits are dialled for every domestic call."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Ivory_Coast",
+    "ARTCI — Autorité de Régulation des Télécommunications de Côte d'Ivoire: https://www.artci.ci/"
+  ]
+}
