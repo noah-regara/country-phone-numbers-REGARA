@@ -1,0 +1,56 @@
+{
+  "country": "Eritrea",
+  "iso2": "ER",
+  "iso3": "ERI",
+  "callingCode": "+291",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "0A XXXXXX",
+    "international": "+291 A XXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Asmara (1)",
+      "national": "01 XXXXXX",
+      "international": "+291 1 XXXXXX"
+    },
+    {
+      "label": "Mobile (7)",
+      "national": "07 XXXXXX",
+      "international": "+291 7 XXXXXX"
+    },
+    {
+      "label": "Fixed CDMA (8)",
+      "national": "08 XXXXXX",
+      "international": "+291 8 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2911123456",
+      "international": "+291 1 123456",
+      "national": "01 123456",
+      "note": "Asmara — area code 1"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2917123456",
+      "international": "+291 7 123456",
+      "national": "07 123456",
+      "note": "Mobile — the 7 range, in service since May 2001"
+    }
+  ],
+  "notes": [
+    "Eritrea uses a single-digit area or service code followed by a 6-digit subscriber number.",
+    "Mobile allocations date from 2004 and fixed CDMA allocations from 2009; telecommunications are operated by the state monopoly EriTel."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Eritrea",
+    "ITU-T E.164 national numbering plans: https://www.itu.int/oth/T0202.aspx"
+  ]
+}
