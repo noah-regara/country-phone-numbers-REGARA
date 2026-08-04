@@ -20,7 +20,7 @@ International: +386 A XXX XX XX (trunk 0 dropped)
 | Ljubljana (area code 1) | `01 XXX XX XX` | `+386 1 XXX XX XX` |
 | Other geographic (2–7) | `0X XXX XX XX` | `+386 X XXX XX XX` |
 | Mobile (30, 31, 40, 41, 51, 64, 68, 69, 70, 71) | `030 XXX XXX` | `+386 30 XXX XXX` |
-| Freephone | `080 XX XX` | `+386 80 XX XX` |
+| Freephone | `080 XXX XXX` | `+386 80 XXX XXX` |
 
 ## Examples
 

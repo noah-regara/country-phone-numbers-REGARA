@@ -231,7 +231,7 @@
       { "label": "Ljubljana (area code 1)", "national": "01 XXX XX XX", "international": "+386 1 XXX XX XX" },
       { "label": "Other geographic (2–7)", "national": "0X XXX XX XX", "international": "+386 X XXX XX XX" },
       { "label": "Mobile (30, 31, 40, 41, 51, 64, 68, 69, 70, 71)", "national": "030 XXX XXX", "international": "+386 30 XXX XXX" },
-      { "label": "Freephone", "national": "080 XX XX", "international": "+386 80 XX XX" }
+      { "label": "Freephone", "national": "080 XXX XXX", "international": "+386 80 XXX XXX" }
     ],
     "examples": [
       { "type": "fixed-line", "e164": "+38612345678", "international": "+386 1 234 56 78", "national": "01 234 56 78", "note": "Ljubljana — area code 1" },
