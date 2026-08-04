@@ -1,0 +1,63 @@
+{
+  "country": "Iran, Islamic Republic of",
+  "iso2": "IR",
+  "iso3": "IRN",
+  "callingCode": "+98",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "0AA XXXX XXXX (landline) / 09XX XXX XXXX (mobile)",
+    "international": "+98 AA XXXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Tehran (021)",
+      "national": "021 XXXX XXXX",
+      "international": "+98 21 XXXX XXXX"
+    },
+    {
+      "label": "Other provinces (2-digit area codes, e.g. Mashhad 051, Isfahan 031)",
+      "national": "0XX XXXX XXXX",
+      "international": "+98 XX XXXX XXXX"
+    },
+    {
+      "label": "Mobile (091X IR-MCI, 093X Irancell, 092X RighTel)",
+      "national": "0910 123 4567",
+      "international": "+98 910 123 4567"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+982112345678",
+      "international": "+98 21 1234 5678",
+      "national": "021 1234 5678",
+      "note": "Tehran — area code 21"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+985112345678",
+      "international": "+98 51 1234 5678",
+      "national": "051 1234 5678",
+      "note": "Mashhad — area code 51"
+    },
+    {
+      "type": "mobile",
+      "e164": "+989101234567",
+      "international": "+98 910 123 4567",
+      "national": "0910 123 4567",
+      "note": "Mobile — 091X is an IR-MCI (Hamrah-e Avval) range"
+    }
+  ],
+  "notes": [
+    "Closed 10-digit plan: 11 digits including the trunk 0.",
+    "All mobile numbers begin 09, making them easy to distinguish from geographic ranges."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Iran",
+    "CRA — Communications Regulatory Authority of Iran: https://www.cra.ir/"
+  ]
+}
