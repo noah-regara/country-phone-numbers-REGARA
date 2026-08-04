@@ -1,0 +1,54 @@
+{
+  "country": "Lao People's Democratic Republic",
+  "iso2": "LA",
+  "iso3": "LAO",
+  "callingCode": "+856",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0AA XXXXXX (fixed) / 020 XXXXXXXX (mobile)",
+    "international": "+856 AA XXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Vientiane Prefecture (021)",
+      "national": "021 XXXXXX",
+      "international": "+856 21 XXXXXX"
+    },
+    {
+      "label": "Other provinces (2-digit area codes)",
+      "national": "0XX XXXXXX",
+      "international": "+856 XX XXXXXX"
+    },
+    {
+      "label": "Mobile (020)",
+      "national": "020 XXXXXXXX",
+      "international": "+856 20 XXXXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+85621123456",
+      "international": "+856 21 123456",
+      "national": "021 123456",
+      "note": "Vientiane Prefecture — area code 021"
+    },
+    {
+      "type": "mobile",
+      "e164": "+8562012345678",
+      "international": "+856 20 1234 5678",
+      "national": "020 1234 5678",
+      "note": "Mobile — all Lao mobiles use the 020 prefix with an 8-digit subscriber number"
+    }
+  ],
+  "notes": [
+    "Fixed NSNs are around 8 digits while mobile NSNs are 10, so length varies considerably.",
+    "Direct dialling to other provinces and countries without operator assistance has been available since January 2012."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Laos",
+    "Ministry of Technology and Communications, Laos: https://www.mtc.gov.la/"
+  ]
+}
