@@ -1,0 +1,76 @@
+{
+  "country": "Greece",
+  "iso2": "GR",
+  "iso3": "GRC",
+  "callingCode": "+30",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "XXX XXX XXXX (closed 10-digit plan, no trunk prefix)",
+    "international": "+30 XXX XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Athens (21x)",
+      "national": "210 XXX XXXX",
+      "international": "+30 210 XXX XXXX"
+    },
+    {
+      "label": "Thessaloniki (231x)",
+      "national": "2310 XXX XXX",
+      "international": "+30 2310 XXX XXX"
+    },
+    {
+      "label": "Mobile (69x)",
+      "national": "694 XXX XXXX",
+      "international": "+30 694 XXX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "800 XXX XXXX",
+      "international": "+30 800 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+302101234567",
+      "international": "+30 210 123 4567",
+      "national": "210 123 4567",
+      "note": "Athens — area code 21, the 0 that follows is part of the subscriber block"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+302310123456",
+      "international": "+30 2310 123 456",
+      "national": "2310 123 456",
+      "note": "Thessaloniki — area code 2310"
+    },
+    {
+      "type": "mobile",
+      "e164": "+306941234567",
+      "international": "+30 694 123 4567",
+      "national": "694 123 4567",
+      "note": "Mobile — all Greek mobiles begin 69"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+308001234567",
+      "international": "+30 800 123 4567",
+      "national": "800 123 4567",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Greece moved to a closed 10-digit plan in 2001–2002; there is no trunk prefix and the full number is dialled for every call.",
+    "All geographic numbers begin with 2 and all mobile numbers with 69.",
+    "Area codes are 2–4 digits and the subscriber number shrinks to keep the total at 10."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Greece",
+    "EETT — national numbering plan: https://www.eett.gr/"
+  ]
+}
