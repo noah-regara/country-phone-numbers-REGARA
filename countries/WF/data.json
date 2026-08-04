@@ -1,0 +1,51 @@
+{
+  "country": "Wallis and Futuna",
+  "iso2": "WF",
+  "iso3": "WLF",
+  "callingCode": "+681",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    6
+  ],
+  "formats": {
+    "national": "XX XX XX",
+    "international": "+681 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (72 XXXX)",
+      "national": "72 XX XX",
+      "international": "+681 72 XX XX"
+    },
+    {
+      "label": "Mobile (82 XXXX, 83 XXXX)",
+      "national": "82 XX XX",
+      "international": "+681 82 XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+681721234",
+      "international": "+681 72 12 34",
+      "national": "72 12 34",
+      "note": "Fixed line — the 72 prefix"
+    },
+    {
+      "type": "mobile",
+      "e164": "+681821234",
+      "international": "+681 82 12 34",
+      "national": "82 12 34",
+      "note": "Mobile — the 82/83 prefixes"
+    }
+  ],
+  "notes": [
+    "Wallis and Futuna is a French overseas collectivity but keeps its own country code +681 rather than joining the French plan.",
+    "All numbers are 6 digits with no trunk prefix; they are written in pairs in the French style."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Wallis_and_Futuna",
+    "ITU-T E.164 national numbering plans: https://www.itu.int/oth/T0202.aspx"
+  ]
+}
