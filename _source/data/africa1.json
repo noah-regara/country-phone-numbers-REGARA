@@ -73,7 +73,7 @@
     },
     "patterns": [
       { "label": "Nairobi (020)", "national": "020 XXXXXXX", "international": "+254 20 XXXXXXX" },
-      { "label": "Other regions (area codes 20–69)", "national": "0XX XXXXXX", "international": "+254 XX XXXXXX" },
+      { "label": "Other regions (area codes 20–69)", "national": "0XX XXXXXXX", "international": "+254 XX XXXXXXX" },
       { "label": "Mobile (701–799)", "national": "0722 XXXXXX", "international": "+254 722 XXXXXX" },
       { "label": "Toll-free", "national": "0800 XXXXXX", "international": "+254 800 XXXXXX" }
     ],

@@ -18,7 +18,7 @@ International: +254 AA XXXXXXX (trunk 0 dropped)
 | Range | National format | International format |
 | --- | --- | --- |
 | Nairobi (020) | `020 XXXXXXX` | `+254 20 XXXXXXX` |
-| Other regions (area codes 20–69) | `0XX XXXXXX` | `+254 XX XXXXXX` |
+| Other regions (area codes 20–69) | `0XX XXXXXXX` | `+254 XX XXXXXXX` |
 | Mobile (701–799) | `0722 XXXXXX` | `+254 722 XXXXXX` |
 | Toll-free | `0800 XXXXXX` | `+254 800 XXXXXX` |
 
