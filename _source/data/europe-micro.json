@@ -187,7 +187,7 @@
     "examples": [
       { "type": "fixed-line", "e164": "+3780549123456", "international": "+378 0549 123456", "national": "0549 123456", "note": "Fixed line — 0549 is the Italian area code San Marino incorporates" },
       { "type": "fixed-line", "e164": "+390549123456", "international": "+39 0549 123456", "national": "0549 123456", "note": "The same subscriber reached through the Italian country code +39" },
-      { "type": "mobile", "e164": "+378612345678", "international": "+378 61 234 5678", "national": "61 234 5678", "note": "Mobile — 6 range" }
+      { "type": "mobile", "e164": "+37861234567", "international": "+378 61 23 45 67", "national": "61 23 45 67", "note": "Mobile — the 6 range, 8 digits" }
     ],
     "notes": [
       "San Marino is dual-routed: it holds country code +378 but is also reachable through Italy as +39 0549 xxxxxx, because it is embedded in the Italian numbering plan.",

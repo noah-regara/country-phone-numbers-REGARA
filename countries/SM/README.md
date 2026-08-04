@@ -26,7 +26,7 @@ International: +378 0549 XXXXXX — also reachable as +39 0549 XXXXXX
 | --- | --- | --- | --- | --- |
 | fixed-line | `+3780549123456` | `+378 0549 123456` | `0549 123456` | Fixed line — 0549 is the Italian area code San Marino incorporates |
 | fixed-line | `+390549123456` | `+39 0549 123456` | `0549 123456` | The same subscriber reached through the Italian country code +39 |
-| mobile | `+378612345678` | `+378 61 234 5678` | `61 234 5678` | Mobile — 6 range |
+| mobile | `+37861234567` | `+378 61 23 45 67` | `61 23 45 67` | Mobile — the 6 range, 8 digits |
 
 ## Notes
 

@@ -42,10 +42,10 @@
     },
     {
       "type": "mobile",
-      "e164": "+378612345678",
-      "international": "+378 61 234 5678",
-      "national": "61 234 5678",
-      "note": "Mobile — 6 range"
+      "e164": "+37861234567",
+      "international": "+378 61 23 45 67",
+      "national": "61 23 45 67",
+      "note": "Mobile — the 6 range, 8 digits"
     }
   ],
   "notes": [
