@@ -1,0 +1,58 @@
+{
+  "country": "Oman",
+  "iso2": "OM",
+  "iso3": "OMN",
+  "callingCode": "+968",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX (4-digit NDC + 4-digit line number)",
+    "international": "+968 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Muscat (24xx)",
+      "national": "24XX XXXX",
+      "international": "+968 24XX XXXX"
+    },
+    {
+      "label": "Mobile — Omantel (91xx–95xx), Ooredoo (95xx–99xx)",
+      "national": "9XXX XXXX",
+      "international": "+968 9XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+96824212345",
+      "international": "+968 2421 2345",
+      "national": "2421 2345",
+      "note": "Muscat — the 24xx block is Omantel fixed service"
+    },
+    {
+      "type": "mobile",
+      "e164": "+96891234567",
+      "international": "+968 9123 4567",
+      "national": "9123 4567",
+      "note": "Mobile — 91xx is an Omantel range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+96895342109",
+      "international": "+968 9534 2109",
+      "national": "9534 2109",
+      "note": "Mobile — 95xx is an Ooredoo Oman range"
+    }
+  ],
+  "notes": [
+    "Oman's 8-digit NSN splits into a 4-digit national destination code and a 4-digit line number.",
+    "No trunk prefix; the full 8 digits are dialled for every domestic call."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Oman",
+    "TRA Oman — Telecommunications Regulatory Authority: https://www.tra.gov.om/"
+  ]
+}
