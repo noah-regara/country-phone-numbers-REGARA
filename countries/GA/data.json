@@ -1,0 +1,56 @@
+{
+  "country": "Gabon",
+  "iso2": "GA",
+  "iso3": "GAB",
+  "callingCode": "+241",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "0X XX XX XX",
+    "international": "+241 0X XX XX XX (the leading 0 is kept)"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Gabon Telecom (01)",
+      "national": "01 XX XX XX",
+      "international": "+241 01 XX XX XX"
+    },
+    {
+      "label": "Mobile — Libertis, Airtel, Moov (02–07)",
+      "national": "02 XX XX XX",
+      "international": "+241 02 XX XX XX"
+    },
+    {
+      "label": "Value-added services (8)",
+      "national": "8X XX XX XX",
+      "international": "+241 8X XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+24101441234",
+      "international": "+241 01 44 12 34",
+      "national": "01 44 12 34",
+      "note": "Libreville — 01 is Gabon Telecom's fixed prefix, retained when dialling from abroad"
+    },
+    {
+      "type": "mobile",
+      "e164": "+24102123456",
+      "international": "+241 02 12 34 56",
+      "national": "02 12 34 56",
+      "note": "Mobile — 02 is a Libertis range"
+    }
+  ],
+  "notes": [
+    "Gabon is one of the countries where the leading 0 is part of the number rather than a trunk prefix, so it must be dialled from abroad.",
+    "The plan was revised in 2012 and again on 2019-07-12."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Gabon",
+    "ARCEP Gabon: https://arcep.ga/"
+  ]
+}
