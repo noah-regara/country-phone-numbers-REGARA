@@ -1,0 +1,52 @@
+{
+  "country": "Guadeloupe",
+  "iso2": "GP",
+  "iso3": "GLP",
+  "callingCode": "+590",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0590 XX XX XX",
+    "international": "+590 590 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (0590)",
+      "national": "0590 XX XX XX",
+      "international": "+590 590 XX XX XX"
+    },
+    {
+      "label": "Mobile (0690, 0691)",
+      "national": "0690 XX XX XX",
+      "international": "+590 690 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+590590123456",
+      "international": "+590 590 12 34 56",
+      "national": "0590 12 34 56",
+      "note": "Guadeloupe fixed — note the 590 appears twice: once as country code, once as the internal area code"
+    },
+    {
+      "type": "mobile",
+      "e164": "+590690123456",
+      "international": "+590 690 12 34 56",
+      "national": "0690 12 34 56",
+      "note": "Mobile — the 0690 range"
+    }
+  ],
+  "notes": [
+    "Guadeloupe uses the French 10-digit national format with the country code doubling as the internal area code — +590 590 xx xx xx is correct and not a typo.",
+    "Saint Barthélemy and Saint Martin share the +590 country code with Guadeloupe.",
+    "Numbers are written in the French style as pairs."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+    "ARCEP — plan de numérotation: https://www.arcep.fr/"
+  ]
+}
