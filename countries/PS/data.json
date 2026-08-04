@@ -1,0 +1,68 @@
+{
+  "country": "Palestine, State of",
+  "iso2": "PS",
+  "iso3": "PSE",
+  "callingCode": "+970",
+  "additionalCallingCodes": [
+    "+972"
+  ],
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A XXX XXXX (landline) / 05X XXX XXXX (mobile)",
+    "international": "+970 A XXX XXXX — often also reachable as +972 A XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "West Bank — Ramallah/Jerusalem (02), Nablus (09), Hebron (02)",
+      "national": "02 XXX XXXX",
+      "international": "+970 2 XXX XXXX"
+    },
+    {
+      "label": "Gaza Strip (08)",
+      "national": "08 XXX XXXX",
+      "international": "+970 8 XXX XXXX"
+    },
+    {
+      "label": "Mobile — Jawwal (059), Ooredoo (056)",
+      "national": "059 XXX XXXX",
+      "international": "+970 59 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+97022951234",
+      "international": "+970 2 295 1234",
+      "national": "02 295 1234",
+      "note": "Ramallah, West Bank — area code 02"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+97082821234",
+      "international": "+970 8 282 1234",
+      "national": "08 282 1234",
+      "note": "Gaza City — area code 08"
+    },
+    {
+      "type": "mobile",
+      "e164": "+970599123456",
+      "international": "+970 59 912 3456",
+      "national": "059 912 3456",
+      "note": "Mobile — 059 is a Jawwal range"
+    }
+  ],
+  "notes": [
+    "Palestine holds country code +970, but because the network depends heavily on Israeli infrastructure many Palestinian numbers are also reachable via +972 — and from some countries +972 routes more reliably.",
+    "Any system validating Palestinian numbers should accept both +970 and +972 forms.",
+    "Area code 02 spans Ramallah, Jerusalem and Hebron; 08 covers the Gaza Strip; 09 covers Nablus and the northern West Bank."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_State_of_Palestine",
+    "Palestinian Ministry of Telecommunications and Digital Economy: https://www.mtit.pna.ps/"
+  ]
+}
