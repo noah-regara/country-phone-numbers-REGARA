@@ -1,0 +1,51 @@
+{
+  "country": "Svalbard and Jan Mayen",
+  "iso2": "SJ",
+  "iso3": "SJM",
+  "callingCode": "+47",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX (Norwegian plan)",
+    "international": "+47 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (Longyearbyen, historically 79 02)",
+      "national": "79 XX XX XX",
+      "international": "+47 79 XX XX XX"
+    },
+    {
+      "label": "Mobile (Norwegian ranges)",
+      "national": "XXX XX XXX",
+      "international": "+47 XXX XX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+4779021234",
+      "international": "+47 79 02 12 34",
+      "national": "79 02 12 34",
+      "note": "Longyearbyen, Svalbard — the 79 02 block historically served the archipelago"
+    },
+    {
+      "type": "mobile",
+      "e164": "+4741234567",
+      "international": "+47 412 34 567",
+      "national": "412 34 567",
+      "note": "Mobile — ordinary Norwegian mobile range"
+    }
+  ],
+  "notes": [
+    "Svalbard and Jan Mayen have no separate country code; they use Norway's +47 and its 8-digit closed plan.",
+    "Norway abolished geographic significance of number ranges in January 2020, so the 79 block no longer formally denotes Svalbard."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norway",
+    "Nkom — nummerplan: https://www.nkom.no/telefoni-og-telefonnummer/nummerressurser"
+  ]
+}
