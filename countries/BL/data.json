@@ -1,0 +1,51 @@
+{
+  "country": "Saint Barthélemy",
+  "iso2": "BL",
+  "iso3": "BLM",
+  "callingCode": "+590",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0590 XX XX XX",
+    "international": "+590 590 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (0590 27…)",
+      "national": "0590 27 XX XX",
+      "international": "+590 590 27 XX XX"
+    },
+    {
+      "label": "Mobile (0690)",
+      "national": "0690 XX XX XX",
+      "international": "+590 690 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+590590271234",
+      "international": "+590 590 27 12 34",
+      "national": "0590 27 12 34",
+      "note": "Saint Barthélemy — the 27 block within the shared Guadeloupe 0590 range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+590690123456",
+      "international": "+590 690 12 34 56",
+      "national": "0690 12 34 56",
+      "note": "Mobile — shares Guadeloupe's 0690 range"
+    }
+  ],
+  "notes": [
+    "Saint Barthélemy has no separate country code; it shares +590 with Guadeloupe and Saint Martin.",
+    "The three territories are distinguished by subscriber block, not by prefix, so the country cannot be determined from the number alone."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+    "ARCEP — plan de numérotation: https://www.arcep.fr/"
+  ]
+}
