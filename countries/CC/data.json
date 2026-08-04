@@ -1,0 +1,40 @@
+{
+  "country": "Cocos (Keeling) Islands",
+  "iso2": "CC",
+  "iso3": "CCK",
+  "callingCode": "+61",
+  "trunkPrefix": "0",
+  "internationalPrefix": "0011",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "(08) 9162 XXXX",
+    "international": "+61 8 9162 XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Cocos (Keeling) Islands (08 9162)",
+      "national": "(08) 9162 XXXX",
+      "international": "+61 8 9162 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+61891621234",
+      "international": "+61 8 9162 1234",
+      "national": "(08) 9162 1234",
+      "note": "Cocos (Keeling) Islands — the dedicated 9162 exchange within Australia's 08 area code"
+    }
+  ],
+  "notes": [
+    "The Cocos (Keeling) Islands are an Australian external territory inside the +61 plan; they have no country code of their own.",
+    "They used +672 until October 1994, when they migrated to +61 and eventually settled on the 08 9162 range.",
+    "Christmas Island uses the adjacent 08 9164 range."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Cocos_(Keeling)_Islands",
+    "ACMA — Australian Communications and Media Authority: https://www.acma.gov.au/numbering"
+  ]
+}
