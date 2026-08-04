@@ -1,0 +1,79 @@
+{
+  "country": "Germany",
+  "iso2": "DE",
+  "iso3": "DEU",
+  "callingCode": "+49",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0AA XXXXXXXX / 0AAA XXXXXXX (open plan, variable length)",
+    "international": "+49 AA XXXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Geographic, 2-digit area code (Berlin 30, Hamburg 40, Munich 89)",
+      "national": "030 XXXXXXXX",
+      "international": "+49 30 XXXXXXXX"
+    },
+    {
+      "label": "Geographic, 3-digit area code (Cologne 221, Frankfurt 69)",
+      "national": "0221 XXXXXXX",
+      "international": "+49 221 XXXXXXX"
+    },
+    {
+      "label": "Geographic, 4-digit area code",
+      "national": "0XXXX XXXXXX",
+      "international": "+49 XXXX XXXXXX"
+    },
+    {
+      "label": "Mobile",
+      "national": "0151 XXXXXXXX",
+      "international": "+49 151 XXXXXXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXXXXXX",
+      "international": "+49 800 XXXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+493022360",
+      "international": "+49 30 22360",
+      "national": "030 22360",
+      "note": "Berlin — area code 030; subscriber numbers are genuinely variable length"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+498912345678",
+      "international": "+49 89 12345678",
+      "national": "089 12345678",
+      "note": "Munich — area code 089"
+    },
+    {
+      "type": "mobile",
+      "e164": "+4915112345678",
+      "international": "+49 151 12345678",
+      "national": "0151 12345678",
+      "note": "Mobile — 0151 is a Telekom range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+498001234567",
+      "international": "+49 800 1234567",
+      "national": "0800 1234567",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Germany operates an open numbering plan: there is no fixed national number length. NSNs run from roughly 3 to 13 digits, so length alone cannot validate a German number.",
+    "Area codes are 2–5 digits after the trunk 0. Two-digit codes serve the largest cities; five-digit codes appear in the eastern states.",
+    "Direct-dial-in (Durchwahl) extensions are appended to a base number, which is why subscriber numbers vary in length within a single area code."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Germany",
+    "Bundesnetzagentur — Nummerierung: https://www.bundesnetzagentur.de/EN/Areas/Telecommunications/Companies/NumberManagement/"
+  ]
+}
