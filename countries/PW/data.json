@@ -1,0 +1,51 @@
+{
+  "country": "Palau",
+  "iso2": "PW",
+  "iso3": "PLW",
+  "callingCode": "+680",
+  "trunkPrefix": "",
+  "internationalPrefix": "011",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+680 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — PNCC, Koror (488)",
+      "national": "488 XXXX",
+      "international": "+680 488 XXXX"
+    },
+    {
+      "label": "Mobile — PT Waves (880), PNCC, PMC",
+      "national": "880 XXXX",
+      "international": "+680 880 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+6804881234",
+      "international": "+680 488 1234",
+      "national": "488 1234",
+      "note": "Koror State — the 488 PNCC exchange"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6808801234",
+      "international": "+680 880 1234",
+      "national": "880 1234",
+      "note": "Mobile — the 880 PT Waves range"
+    }
+  ],
+  "notes": [
+    "Palau uses 7-digit numbers with a 3-digit area or operator code plus a 4-digit line number.",
+    "The international access prefix is 011 (also 012), inherited from US practice, though Palau is not in the NANP."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Palau",
+    "Palau National Communications Corporation: https://www.palaunet.com/"
+  ]
+}
