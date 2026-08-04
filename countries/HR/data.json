@@ -1,0 +1,76 @@
+{
+  "country": "Croatia",
+  "iso2": "HR",
+  "iso3": "HRV",
+  "callingCode": "+385",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A XXXX XXX (Zagreb) / 0AA XXX XXX (elsewhere)",
+    "international": "+385 A XXXX XXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Zagreb (area code 1)",
+      "national": "01 XXXX XXX",
+      "international": "+385 1 XXXX XXX"
+    },
+    {
+      "label": "Other geographic (2-digit area codes)",
+      "national": "0XX XXX XXX",
+      "international": "+385 XX XXX XXX"
+    },
+    {
+      "label": "Mobile (91, 92, 95, 97, 98, 99)",
+      "national": "091 XXX XXXX",
+      "international": "+385 91 XXX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXX XXX",
+      "international": "+385 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+38512345678",
+      "international": "+385 1 2345 678",
+      "national": "01 2345 678",
+      "note": "Zagreb — single-digit area code 1"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+38521123456",
+      "international": "+385 21 123 456",
+      "national": "021 123 456",
+      "note": "Split — area code 21"
+    },
+    {
+      "type": "mobile",
+      "e164": "+385912345678",
+      "international": "+385 91 234 5678",
+      "national": "091 234 5678",
+      "note": "Mobile — 91 is an A1 Hrvatska range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+385800123456",
+      "international": "+385 800 123 456",
+      "national": "0800 123 456",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Croatia took +385 after the breakup of Yugoslavia (which shared +38) in 1991.",
+    "Zagreb has a single-digit area code; all other regions have two digits. Mobile NSNs are 9 digits."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Croatia",
+    "HAKOM — numbering: https://www.hakom.hr/"
+  ]
+}
