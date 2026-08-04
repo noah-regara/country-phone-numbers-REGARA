@@ -1,0 +1,63 @@
+{
+  "country": "Malta",
+  "iso2": "MT",
+  "iso3": "MLT",
+  "callingCode": "+356",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+356 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (21, 22, 27)",
+      "national": "21XX XXXX",
+      "international": "+356 21XX XXXX"
+    },
+    {
+      "label": "Mobile (79, 99, 77, 98)",
+      "national": "99XX XXXX",
+      "international": "+356 99XX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "8007 XXXX",
+      "international": "+356 8007 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+35621234567",
+      "international": "+356 2123 4567",
+      "national": "2123 4567",
+      "note": "Fixed line — 21 is a GO range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+35699234567",
+      "international": "+356 9923 4567",
+      "national": "9923 4567",
+      "note": "Mobile — 99 range (replaced the old 09 prefix in 2002)"
+    },
+    {
+      "type": "mobile",
+      "e164": "+35679123456",
+      "international": "+356 7912 3456",
+      "national": "7912 3456",
+      "note": "Mobile — 79 range"
+    }
+  ],
+  "notes": [
+    "Malta runs a closed 8-digit plan with no trunk prefix or area codes; numbers are conventionally written as two groups of four.",
+    "All numbers were expanded from 6–7 digits to 8 digits during the 2001–2002 reform."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Malta",
+    "MCA — national numbering plan: https://www.mca.org.mt/regulatory/numbering"
+  ]
+}
