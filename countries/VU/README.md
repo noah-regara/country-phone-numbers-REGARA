@@ -17,7 +17,7 @@ International: +678 XX XXX
 
 | Range | National format | International format |
 | --- | --- | --- |
-| Fixed line (2X — Telecom Vanuatu) | `20 XXXX` | `+678 20 XXXX` |
+| Fixed line (2X — Telecom Vanuatu, 5 digits) | `20 XXX` | `+678 20 XXX` |
 | Mobile (5X, 7X — Telecom Vanuatu, Digicel) | `70 XXXXX` | `+678 70 XXXXX` |
 
 ## Examples

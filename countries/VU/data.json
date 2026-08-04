@@ -12,9 +12,9 @@
   },
   "patterns": [
     {
-      "label": "Fixed line (2X — Telecom Vanuatu)",
-      "national": "20 XXXX",
-      "international": "+678 20 XXXX"
+      "label": "Fixed line (2X — Telecom Vanuatu, 5 digits)",
+      "national": "20 XXX",
+      "international": "+678 20 XXX"
     },
     {
       "label": "Mobile (5X, 7X — Telecom Vanuatu, Digicel)",
