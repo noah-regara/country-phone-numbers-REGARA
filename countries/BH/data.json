@@ -1,0 +1,58 @@
+{
+  "country": "Bahrain",
+  "iso2": "BH",
+  "iso3": "BHR",
+  "callingCode": "+973",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+973 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Batelco (17)",
+      "national": "17XX XXXX",
+      "international": "+973 17XX XXXX"
+    },
+    {
+      "label": "Mobile — Batelco (39, 380–389), Zain (36, 37), stc (34)",
+      "national": "39XX XXXX",
+      "international": "+973 39XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+97317123456",
+      "international": "+973 1712 3456",
+      "national": "1712 3456",
+      "note": "Fixed line — 17 is Batelco's fixed-line prefix"
+    },
+    {
+      "type": "mobile",
+      "e164": "+97339123456",
+      "international": "+973 3912 3456",
+      "national": "3912 3456",
+      "note": "Mobile — 39 is a Batelco range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+97336123456",
+      "international": "+973 3612 3456",
+      "national": "3612 3456",
+      "note": "Mobile — 36/37 are Zain Bahrain ranges"
+    }
+  ],
+  "notes": [
+    "Bahrain has no area codes or trunk prefix; all numbers are 8 digits.",
+    "The two digits following a landline prefix loosely indicate region, but the leading pair mainly identifies the operator."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bahrain",
+    "TRA Bahrain — Telecommunications Regulatory Authority: https://www.tra.org.bh/"
+  ]
+}
