@@ -1,0 +1,73 @@
+{
+  "country": "Finland",
+  "iso2": "FI",
+  "iso3": "FIN",
+  "callingCode": "+358",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0A XXX XXXX / 0AA XXX XXXX (open plan, variable)",
+    "international": "+358 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Helsinki",
+      "national": "09 XXXX XXXX",
+      "international": "+358 9 XXXX XXXX"
+    },
+    {
+      "label": "Other geographic (Tampere 03, Turku 02, Oulu 08)",
+      "national": "0X XXX XXXX",
+      "international": "+358 X XXX XXXX"
+    },
+    {
+      "label": "Mobile",
+      "national": "04X XXX XXXX / 050 XXX XXXX",
+      "international": "+358 4X XXX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXX XXX",
+      "international": "+358 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+358912345678",
+      "international": "+358 9 1234 5678",
+      "national": "09 1234 5678",
+      "note": "Helsinki — area code 09"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+35831234567",
+      "international": "+358 3 123 4567",
+      "national": "03 123 4567",
+      "note": "Tampere region — area code 03"
+    },
+    {
+      "type": "mobile",
+      "e164": "+358401234567",
+      "international": "+358 40 123 4567",
+      "national": "040 123 4567",
+      "note": "Mobile — 040/050 and 04x ranges"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+358800123456",
+      "international": "+358 800 123 456",
+      "national": "0800 123 456",
+      "note": "Maksuton palvelunumero (freephone)"
+    }
+  ],
+  "notes": [
+    "Finland has an open numbering plan; NSN length varies roughly from 5 to 12 digits, so length alone cannot validate a Finnish number.",
+    "Åland (AX) shares +358 and uses the 018 area code."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Finland",
+    "Traficom — numbering: https://www.traficom.fi/en/communications/telecommunications-networks/telephone-numbers"
+  ]
+}
