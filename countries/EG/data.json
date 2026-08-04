@@ -1,0 +1,67 @@
+{
+  "country": "Egypt",
+  "iso2": "EG",
+  "iso3": "EGY",
+  "callingCode": "+20",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0A XXXX XXXX (landline) / 01X XXXX XXXX (mobile)",
+    "international": "+20 A XXXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Cairo (2), Alexandria (3)",
+      "national": "02 XXXX XXXX",
+      "international": "+20 2 XXXX XXXX"
+    },
+    {
+      "label": "Governorates (2-digit area codes)",
+      "national": "0XX XXX XXXX",
+      "international": "+20 XX XXX XXXX"
+    },
+    {
+      "label": "Mobile (010 Vodafone, 011 Etisalat, 012 Orange, 015 WE)",
+      "national": "010 XXXX XXXX",
+      "international": "+20 10 XXXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "0800 XXX XXXX",
+      "international": "+20 800 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+20234567890",
+      "international": "+20 2 3456 7890",
+      "national": "02 3456 7890",
+      "note": "Cairo — single-digit area code 2 with an 8-digit subscriber number"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+2031234567",
+      "international": "+20 3 123 4567",
+      "national": "03 123 4567",
+      "note": "Alexandria — area code 3"
+    },
+    {
+      "type": "mobile",
+      "e164": "+201012345678",
+      "international": "+20 10 1234 5678",
+      "national": "010 1234 5678",
+      "note": "Mobile — 010 is a Vodafone Egypt range"
+    }
+  ],
+  "notes": [
+    "Landline NSNs vary (8–9 digits) because area codes are 1–2 digits; mobile NSNs are 10 digits.",
+    "Mobile operator prefixes: 010 Vodafone, 011 Etisalat, 012 Orange, 015 WE (Telecom Egypt).",
+    "Governed by the 2003 Telecom Act and administered by the NTRA."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Egypt",
+    "NTRA — National Telecommunications Regulatory Authority: https://www.tra.gov.eg/"
+  ]
+}
