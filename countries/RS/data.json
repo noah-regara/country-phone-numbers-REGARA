@@ -1,0 +1,76 @@
+{
+  "country": "Serbia",
+  "iso2": "RS",
+  "iso3": "SRB",
+  "callingCode": "+381",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XX XX (open plan)",
+    "international": "+381 AA XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Belgrade (011)",
+      "national": "011 XXX XX XX",
+      "international": "+381 11 XXX XX XX"
+    },
+    {
+      "label": "Novi Sad (021), Niš (018)",
+      "national": "021 XXX XXX",
+      "international": "+381 21 XXX XXX"
+    },
+    {
+      "label": "Mobile (060–069)",
+      "national": "064 XXX XXXX",
+      "international": "+381 64 XXX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXX XXX",
+      "international": "+381 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+381111234567",
+      "international": "+381 11 123 45 67",
+      "national": "011 123 45 67",
+      "note": "Belgrade — area code 011 covers the city and surrounding municipalities"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+38121123456",
+      "international": "+381 21 123 456",
+      "national": "021 123 456",
+      "note": "Novi Sad — area code 021"
+    },
+    {
+      "type": "mobile",
+      "e164": "+381641234567",
+      "international": "+381 64 123 4567",
+      "national": "064 123 4567",
+      "note": "Mobile — the 060–069 range is shared by A1, Yettel and mts"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+381800123456",
+      "international": "+381 800 123 456",
+      "national": "0800 123 456",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Serbia uses an open numbering plan; area codes are largely unchanged from the Yugoslav era, and subscriber numbers run 6–7 digits.",
+    "The international prefix changed from 99 to 00 on 2008-04-01."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Serbia",
+    "RATEL — numbering plan: https://www.ratel.rs/"
+  ]
+}
