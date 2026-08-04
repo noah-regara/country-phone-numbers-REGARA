@@ -1,0 +1,64 @@
+{
+  "country": "Peru",
+  "iso2": "PE",
+  "iso3": "PER",
+  "callingCode": "+51",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A XXXXXXX (Lima) / 0AA XXXXXX (regional) / 9XX XXX XXX (mobile)",
+    "international": "+51 A XXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Lima and Callao (1)",
+      "national": "(01) XXX XXXX",
+      "international": "+51 1 XXX XXXX"
+    },
+    {
+      "label": "Regional (2-digit area codes, e.g. Cusco 84, Arequipa 54)",
+      "national": "(084) XXXXXX",
+      "international": "+51 84 XXXXXX"
+    },
+    {
+      "label": "Mobile (9XX, non-geographic)",
+      "national": "9XX XXX XXX",
+      "international": "+51 9XX XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+5111234567",
+      "international": "+51 1 123 4567",
+      "national": "(01) 123 4567",
+      "note": "Lima — area code 1, the only area with 7-digit subscriber numbers"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+5184123456",
+      "international": "+51 84 123456",
+      "national": "(084) 123456",
+      "note": "Cusco — area code 84 with a 6-digit subscriber number"
+    },
+    {
+      "type": "mobile",
+      "e164": "+51912345678",
+      "international": "+51 912 345 678",
+      "national": "912 345 678",
+      "note": "Mobile — all Peruvian mobiles are 9 digits beginning with 9"
+    }
+  ],
+  "notes": [
+    "Lima/Callao has a single-digit area code and 7-digit subscriber numbers; every other region has a 2-digit code and 6-digit numbers.",
+    "Mobile numbers became fully non-geographic under the 2010 'Área Virtual Móvil' reform and are dialled as a flat 9 digits nationwide."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Peru",
+    "OSIPTEL — Organismo Supervisor de Inversión Privada en Telecomunicaciones: https://www.osiptel.gob.pe/"
+  ]
+}
