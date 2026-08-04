@@ -1,0 +1,52 @@
+{
+  "country": "Solomon Islands",
+  "iso2": "SB",
+  "iso3": "SLB",
+  "callingCode": "+677",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    5,
+    7
+  ],
+  "formats": {
+    "national": "XXXXX (fixed) / XXX XXXX (mobile)",
+    "international": "+677 XXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Honiara (1xxxx)",
+      "national": "XXXXX",
+      "international": "+677 XXXXX"
+    },
+    {
+      "label": "Mobile (74xxxxx, 75xxxxx, 7xxxxxx)",
+      "national": "740 XXXX",
+      "international": "+677 740 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+67721234",
+      "international": "+677 21234",
+      "national": "21234",
+      "note": "Honiara — fixed lines are 5 digits"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6777401234",
+      "international": "+677 740 1234",
+      "national": "740 1234",
+      "note": "Mobile — 7 digits, in the 74xxxxx prepaid range"
+    }
+  ],
+  "notes": [
+    "Fixed NSNs are 5 digits and mobile NSNs 7.",
+    "Honiara holds several dedicated fixed blocks; regional centres such as Auki, Gizo and Lata have their own."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Solomon_Islands",
+    "Telecommunications Commission of Solomon Islands: https://www.tcsi.org.sb/"
+  ]
+}
