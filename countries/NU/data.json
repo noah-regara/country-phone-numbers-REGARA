@@ -1,0 +1,65 @@
+{
+  "country": "Niue",
+  "iso2": "NU",
+  "iso3": "NIU",
+  "callingCode": "+683",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    4,
+    7
+  ],
+  "formats": {
+    "national": "XXXX",
+    "international": "+683 XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Postpaid PSTN (4000–4999, 7000–9999)",
+      "national": "4XXX",
+      "international": "+683 4XXX"
+    },
+    {
+      "label": "Prepaid GSM mobile (5000–5999, 6000–6999)",
+      "national": "5XXX",
+      "international": "+683 5XXX"
+    },
+    {
+      "label": "Prepaid LTE mobile (8884000–8889999)",
+      "national": "888XXXX",
+      "international": "+683 888XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+6834747",
+      "international": "+683 4747",
+      "national": "4747",
+      "note": "Postpaid PSTN — the 4000–4999 range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6835123",
+      "international": "+683 5123",
+      "national": "5123",
+      "note": "Prepaid GSM mobile — the 5000–5999 range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6838884000",
+      "international": "+683 888 4000",
+      "national": "8884000",
+      "note": "Prepaid LTE mobile — the 7-digit 8884000–8889999 range"
+    }
+  ],
+  "notes": [
+    "Niue has one of the shortest numbering plans in the world: most numbers are just 4 digits.",
+    "An updated ITU-registered plan took effect on 2018-05-01, adding a 7-digit LTE mobile range alongside the 4-digit numbers.",
+    "Telecom Niue is the sole provider."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Niue",
+    "ITU — Niue (country code +683) numbering plan: https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000EC0003PDFE.pdf"
+  ]
+}
