@@ -1,0 +1,50 @@
+{
+  "country": "Sint Maarten (Dutch part)",
+  "iso2": "SX",
+  "iso3": "SXM",
+  "callingCode": "+1",
+  "trunkPrefix": "1",
+  "internationalPrefix": "011",
+  "nsnLengths": [
+    10
+  ],
+  "areaCodes": [
+    "721"
+  ],
+  "formats": {
+    "national": "(NPA) NXX-XXXX",
+    "international": "+1 NPA NXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Geographic (fixed or mobile)",
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    {
+      "label": "Toll-free (shared NANP-wide)",
+      "national": "(800) NXX-XXXX",
+      "international": "+1 800 NXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+17215421234",
+      "international": "+1 721 542 1234",
+      "national": "(721) 542-1234",
+      "note": "Philipsburg"
+    }
+  ],
+  "notes": [
+    "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+    "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+    "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+    "Sint Maarten uses the single area code 721, assigned in 2011 when it left the Netherlands Antilles (+599)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+    "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+    "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+  ]
+}
