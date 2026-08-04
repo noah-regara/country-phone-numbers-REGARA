@@ -1,0 +1,51 @@
+{
+  "country": "Andorra",
+  "iso2": "AD",
+  "iso3": "AND",
+  "callingCode": "+376",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    6
+  ],
+  "formats": {
+    "national": "XXX XXX",
+    "international": "+376 XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (7xxxxx, 8xxxxx)",
+      "national": "8XX XXX",
+      "international": "+376 8XX XXX"
+    },
+    {
+      "label": "Mobile (3xxxxx, 6xxxxx)",
+      "national": "3XX XXX",
+      "international": "+376 3XX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+376812345",
+      "international": "+376 812 345",
+      "national": "812 345",
+      "note": "Fixed line — 7 and 8 ranges"
+    },
+    {
+      "type": "mobile",
+      "e164": "+376312345",
+      "international": "+376 312 345",
+      "national": "312 345",
+      "note": "Mobile — 3 and 6 ranges"
+    }
+  ],
+  "notes": [
+    "Andorra took its own country code +376 on 1994-12-17; it was previously reachable through France (prefix 628) and Spain (area code 9738).",
+    "All numbers are 6 digits with no trunk prefix or area codes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Andorra",
+    "Andorra Telecom: https://www.andorratelecom.ad/"
+  ]
+}
