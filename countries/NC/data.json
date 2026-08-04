@@ -1,0 +1,51 @@
+{
+  "country": "New Caledonia",
+  "iso2": "NC",
+  "iso3": "NCL",
+  "callingCode": "+687",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    6
+  ],
+  "formats": {
+    "national": "XX XX XX",
+    "international": "+687 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (20–29, 30–35, 41–47)",
+      "national": "20 XX XX",
+      "international": "+687 20 XX XX"
+    },
+    {
+      "label": "Mobile (70, 73–79, 80–87, 89–99)",
+      "national": "70 XX XX",
+      "international": "+687 70 XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+687201234",
+      "international": "+687 20 12 34",
+      "national": "20 12 34",
+      "note": "Fixed line — the 2x range serves the PSTN"
+    },
+    {
+      "type": "mobile",
+      "e164": "+687701234",
+      "international": "+687 70 12 34",
+      "national": "70 12 34",
+      "note": "Mobile — the 7x–9x ranges (Mobilis)"
+    }
+  ],
+  "notes": [
+    "New Caledonia keeps a short 6-digit plan with no trunk prefix or area codes.",
+    "Leading digits classify the service: 2–4 fixed, 7–9 mobile."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_New_Caledonia",
+    "OPT-NC — Office des Postes et Télécommunications de Nouvelle-Calédonie: https://www.opt.nc/"
+  ]
+}
