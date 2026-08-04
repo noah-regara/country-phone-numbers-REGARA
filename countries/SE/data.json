@@ -1,0 +1,75 @@
+{
+  "country": "Sweden",
+  "iso2": "SE",
+  "iso3": "SWE",
+  "callingCode": "+46",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0AA-XXX XX XX (open plan, variable length)",
+    "international": "+46 AA XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Stockholm (08)",
+      "national": "08-XXX XX XX",
+      "international": "+46 8 XXX XX XX"
+    },
+    {
+      "label": "Gothenburg (031), Malmö (040)",
+      "national": "031-XXX XX XX",
+      "international": "+46 31 XXX XX XX"
+    },
+    {
+      "label": "Mobile (07x)",
+      "national": "070-XXX XX XX",
+      "international": "+46 70 XXX XX XX"
+    },
+    {
+      "label": "Freephone",
+      "national": "020-XXX XXX",
+      "international": "+46 20 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+4681234567",
+      "international": "+46 8 123 45 67",
+      "national": "08-123 45 67",
+      "note": "Stockholm — area code 08, the shortest in the country"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+4631123456",
+      "international": "+46 31 123 456",
+      "national": "031-123 456",
+      "note": "Gothenburg — area code 031"
+    },
+    {
+      "type": "mobile",
+      "e164": "+46701234567",
+      "international": "+46 70 123 45 67",
+      "national": "070-123 45 67",
+      "note": "Mobile — 07x ranges"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+4620123456",
+      "international": "+46 20 123 456",
+      "national": "020-123 456",
+      "note": "Freephone — not reachable from outside Sweden"
+    }
+  ],
+  "notes": [
+    "Sweden has an open numbering plan: area codes are 2–4 digits including the trunk 0, and NSN length varies (roughly 7–13 digits).",
+    "Larger cities get shorter area codes — Stockholm is 08, Gothenburg 031, and rural areas run to four digits.",
+    "The hyphen after the area code is the conventional Swedish written separator.",
+    "020 freephone numbers generally cannot be reached from abroad."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Sweden",
+    "PTS — svensk nummerplan: https://www.pts.se/sv/bransch/telefoni/nummer-och-adressering/"
+  ]
+}
