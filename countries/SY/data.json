@@ -1,0 +1,56 @@
+{
+  "country": "Syrian Arab Republic",
+  "iso2": "SY",
+  "iso3": "SYR",
+  "callingCode": "+963",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXXXXXX",
+    "international": "+963 AA XXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Damascus (11)",
+      "national": "011 XXXXXXX",
+      "international": "+963 11 XXXXXXX"
+    },
+    {
+      "label": "Aleppo (21), Homs (31), Latakia (41), Al-Hasakah (52)",
+      "national": "021 XXXXXXX",
+      "international": "+963 21 XXXXXXX"
+    },
+    {
+      "label": "Mobile — Syriatel (93, 98, 99), MTN Syria (94, 95, 96)",
+      "national": "093X XXXXXX",
+      "international": "+963 93X XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+963111234567",
+      "international": "+963 11 123 4567",
+      "national": "011 123 4567",
+      "note": "Damascus — area code 11"
+    },
+    {
+      "type": "mobile",
+      "e164": "+963933123456",
+      "international": "+963 933 123 456",
+      "national": "0933 123 456",
+      "note": "Mobile — 93 is a Syriatel range"
+    }
+  ],
+  "notes": [
+    "Closed plan with twelve regional area codes running from Damascus (11) to Al-Hasakah (52).",
+    "The NSN is 9 digits: a 2-digit area or operator code plus a 7-digit subscriber number."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Syria",
+    "Syrian Telecommunications Regulatory Authority: https://www.sytra.gov.sy/"
+  ]
+}
