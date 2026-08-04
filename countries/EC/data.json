@@ -1,0 +1,64 @@
+{
+  "country": "Ecuador",
+  "iso2": "EC",
+  "iso3": "ECU",
+  "callingCode": "+593",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "(0A) XXX-XXXX (landline) / 09X XXX XXXX (mobile)",
+    "international": "+593 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Quito / Pichincha (02)",
+      "national": "(02) XXX-XXXX",
+      "international": "+593 2 XXX XXXX"
+    },
+    {
+      "label": "Guayaquil / Guayas (04), other provinces (03, 05, 06, 07)",
+      "national": "(04) XXX-XXXX",
+      "international": "+593 4 XXX XXXX"
+    },
+    {
+      "label": "Mobile (09X)",
+      "national": "09X XXX XXXX",
+      "international": "+593 9X XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+59322111111",
+      "international": "+593 2 211 1111",
+      "national": "(02) 211-1111",
+      "note": "Quito — area code 2 covers Pichincha province"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+59341234567",
+      "international": "+593 4 123 4567",
+      "national": "(04) 123-4567",
+      "note": "Guayaquil — area code 4"
+    },
+    {
+      "type": "mobile",
+      "e164": "+593991234567",
+      "international": "+593 99 123 4567",
+      "national": "099 123 4567",
+      "note": "Mobile — the 9 prefix denotes cellular; 92–99 identify networks"
+    }
+  ],
+  "notes": [
+    "Geographic area codes 2–7 map to provinces; the 9 prefix is reserved for mobile.",
+    "Fixed NSNs are 8 digits and mobile NSNs 9."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Ecuador",
+    "ARCOTEL — Agencia de Regulación y Control de las Telecomunicaciones: https://www.arcotel.gob.ec/"
+  ]
+}
