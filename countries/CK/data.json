@@ -1,0 +1,51 @@
+{
+  "country": "Cook Islands",
+  "iso2": "CK",
+  "iso3": "COK",
+  "callingCode": "+682",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    5
+  ],
+  "formats": {
+    "national": "XX XXX",
+    "international": "+682 XX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Rarotonga (2XXXX)",
+      "national": "2XXXX",
+      "international": "+682 2XXXX"
+    },
+    {
+      "label": "Mobile (50–59, 7XXXX, 8XXXX)",
+      "national": "5XXXX",
+      "international": "+682 5XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+68221234",
+      "international": "+682 21 234",
+      "national": "21234",
+      "note": "Rarotonga — the 2 prefix routes to the main island subscriber network"
+    },
+    {
+      "type": "mobile",
+      "e164": "+68251234",
+      "international": "+682 51 234",
+      "national": "51234",
+      "note": "Mobile — the 5X range"
+    }
+  ],
+  "notes": [
+    "The Cook Islands use a short 5-digit NSN with no trunk prefix or area codes.",
+    "Self-governing in free association with New Zealand, but with its own country code +682 rather than sharing +64."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Cook_Islands",
+    "ITU-T E.164 national numbering plans: https://www.itu.int/oth/T0202.aspx"
+  ]
+}
