@@ -1,0 +1,69 @@
+{
+  "country": "Nigeria",
+  "iso2": "NG",
+  "iso3": "NGA",
+  "callingCode": "+234",
+  "trunkPrefix": "0",
+  "internationalPrefix": "009",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "0AAA XXX XXXX (landline) / 0AAA XXX XXXX (mobile)",
+    "international": "+234 AAA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Lagos (0201)",
+      "national": "0201 XXX XXXX",
+      "international": "+234 201 XXX XXXX"
+    },
+    {
+      "label": "Abuja (0209)",
+      "national": "0209 XXX XXXX",
+      "international": "+234 209 XXX XXXX"
+    },
+    {
+      "label": "Mobile (070X, 080X, 081X, 090X, 091X)",
+      "national": "0803 XXX XXXX",
+      "international": "+234 803 XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "0800 XXX XXXX",
+      "international": "+234 800 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2342012345678",
+      "international": "+234 201 234 5678",
+      "national": "0201 234 5678",
+      "note": "Lagos — '20' was prepended to every fixed-line area code in 2023, so the old 01 became 0201"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2348031234567",
+      "international": "+234 803 123 4567",
+      "national": "0803 123 4567",
+      "note": "Mobile — 0803 is an MTN Nigeria range, though portability makes this indicative only"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+2348001234567",
+      "international": "+234 800 123 4567",
+      "national": "0800 123 4567",
+      "note": "Toll-free"
+    }
+  ],
+  "notes": [
+    "Nigeria renumbered fixed lines in 2023 by prefixing '20' to every geographic area code; the grace period for the old codes ended on 2024-01-01.",
+    "The international access prefix is 009, not 00.",
+    "Mobile numbers are 11 digits nationally including the trunk 0."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Nigeria",
+    "NCC — Nigerian Communications Commission: https://www.ncc.gov.ng/"
+  ]
+}
