@@ -1,0 +1,63 @@
+{
+  "country": "Bolivia",
+  "iso2": "BO",
+  "iso3": "BOL",
+  "callingCode": "+591",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "A XXXXXXX",
+    "international": "+591 A XXXXXXX"
+  },
+  "patterns": [
+    {
+      "label": "La Paz, Oruro, Potosí (2)",
+      "national": "2 XXXXXXX",
+      "international": "+591 2 XXXXXXX"
+    },
+    {
+      "label": "Santa Cruz, Beni, Pando (3); Cochabamba, Chuquisaca, Tarija (4)",
+      "national": "3 XXXXXXX",
+      "international": "+591 3 XXXXXXX"
+    },
+    {
+      "label": "Mobile (6, 7)",
+      "national": "7 XXXXXXX",
+      "international": "+591 7 XXXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+59122123456",
+      "international": "+591 2 212 3456",
+      "national": "2 2123456",
+      "note": "La Paz — area code 2 also covers Oruro and Potosí departments"
+    },
+    {
+      "type": "mobile",
+      "e164": "+59171234567",
+      "international": "+591 7 123 4567",
+      "national": "7 1234567",
+      "note": "Mobile — 6 and 7 are the mobile ranges"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+59133123456",
+      "international": "+591 3 312 3456",
+      "national": "3 3123456",
+      "note": "Santa Cruz — area code 3"
+    }
+  ],
+  "notes": [
+    "Closed 8-digit plan; the leading digit is the area code (2, 3, 4 geographic; 5 national services; 6, 7 mobile).",
+    "Administered by the ATT (Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bolivia",
+    "ATT — Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes: https://www.att.gob.bo/"
+  ]
+}
