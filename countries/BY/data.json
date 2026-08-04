@@ -1,0 +1,64 @@
+{
+  "country": "Belarus",
+  "iso2": "BY",
+  "iso3": "BLR",
+  "callingCode": "+375",
+  "trunkPrefix": "8",
+  "internationalPrefix": "810",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "8 0AA XXX XX XX (trunk prefix 8, not 0)",
+    "international": "+375 AA XXX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Minsk (17)",
+      "national": "8 017 XXX XX XX",
+      "international": "+375 17 XXX XX XX"
+    },
+    {
+      "label": "Other geographic (152 Grodno, 162 Brest, 212 Vitebsk)",
+      "national": "8 0162 XX XX XX",
+      "international": "+375 162 XX XX XX"
+    },
+    {
+      "label": "Mobile (25, 29, 33, 44)",
+      "national": "8 029 XXX XX XX",
+      "international": "+375 29 XXX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+375172123456",
+      "international": "+375 17 212 34 56",
+      "national": "8 017 212 34 56",
+      "note": "Minsk — area code 17"
+    },
+    {
+      "type": "mobile",
+      "e164": "+375291234567",
+      "international": "+375 29 123 45 67",
+      "national": "8 029 123 45 67",
+      "note": "Mobile — 29 is shared by A1 and MTS Belarus"
+    },
+    {
+      "type": "mobile",
+      "e164": "+375331234567",
+      "international": "+375 33 123 45 67",
+      "national": "8 033 123 45 67",
+      "note": "Mobile — 33 range"
+    }
+  ],
+  "notes": [
+    "Belarus retains the Soviet-era trunk prefix 8 rather than the European 0, and uses 810 as the international access code.",
+    "Belarus took country code +375 in 1995, replacing the Soviet +7.",
+    "Area codes derive from the old 3-digit USSR codes with the leading zero removed."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Belarus",
+    "Beltelecom: https://beltelecom.by/"
+  ]
+}
