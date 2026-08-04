@@ -1,0 +1,64 @@
+{
+  "country": "Colombia",
+  "iso2": "CO",
+  "iso3": "COL",
+  "callingCode": "+57",
+  "trunkPrefix": "0 + carrier code",
+  "internationalPrefix": "00 + carrier code",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "60B XXX XXXX (landline) / 3XX XXX XXXX (mobile)",
+    "international": "+57 60B XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Bogotá (601), Medellín (604), Cali (602)",
+      "national": "601 XXX XXXX",
+      "international": "+57 601 XXX XXXX"
+    },
+    {
+      "label": "Mobile (3XX)",
+      "national": "310 XXX XXXX",
+      "international": "+57 310 XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "01 8000 XXXXXX",
+      "international": "not reachable from abroad"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+576012345678",
+      "international": "+57 601 234 5678",
+      "national": "601 234 5678",
+      "note": "Bogotá — the 601 prefix covers Bogotá and Cundinamarca"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+576042345678",
+      "international": "+57 604 234 5678",
+      "national": "604 234 5678",
+      "note": "Medellín and Antioquia — prefix 604"
+    },
+    {
+      "type": "mobile",
+      "e164": "+573105678901",
+      "international": "+57 310 567 8901",
+      "national": "310 567 8901",
+      "note": "Mobile — 3XX ranges; 310 is a Claro range"
+    }
+  ],
+  "notes": [
+    "Colombia renumbered in September 2021–2022: the old single-digit dialling zones with 7-digit local numbers became uniform 10-digit numbers by inserting '60' in front of the zone digit.",
+    "So the old Bogotá (1) 234 5678 is now 601 234 5678.",
+    "Mobile numbers were already 10 digits and were unaffected by the reform."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Colombia",
+    "MinTIC — Ministerio de Tecnologías de la Información y las Comunicaciones: https://www.mintic.gov.co/"
+  ]
+}
