@@ -1,0 +1,50 @@
+{
+  "country": "Somalia",
+  "iso2": "SO",
+  "iso3": "SOM",
+  "callingCode": "+252",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0YX XXX XXX",
+    "international": "+252 YX XXX XXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Mogadishu (021) and Federal Member State codes (02X)",
+      "national": "021 XXX XXX",
+      "international": "+252 21 XXX XXX"
+    },
+    {
+      "label": "Mobile — Hormuud, Somtel, Telesom (6X, 7X–9X)",
+      "national": "061 XXX XXX",
+      "international": "+252 61 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+25221123456",
+      "international": "+252 21 123 456",
+      "national": "021 123 456",
+      "note": "Mogadishu — area code 21"
+    },
+    {
+      "type": "mobile",
+      "e164": "+25261123456",
+      "international": "+252 61 123 456",
+      "national": "061 123 456",
+      "note": "Mobile — 61 is a Hormuud range"
+    }
+  ],
+  "notes": [
+    "Somali numbering was largely unregulated between 1991 and the establishment of the National Communications Authority in 2017; NSN length is inconsistent across operators, so length-based validation is unreliable.",
+    "Fixed-line area codes were standardised in 2021 around an 02X series for the Federal Member States.",
+    "Somaliland, which declares independence but is internationally recognised as part of Somalia, also uses +252 — the country code does not distinguish the two."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Somalia",
+    "NCA Somalia — National Communications Authority: https://nca.gov.so/"
+  ]
+}
