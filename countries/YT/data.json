@@ -1,0 +1,51 @@
+{
+  "country": "Mayotte",
+  "iso2": "YT",
+  "iso3": "MYT",
+  "callingCode": "+262",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0269 XX XX XX",
+    "international": "+262 269 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (0269)",
+      "national": "0269 XX XX XX",
+      "international": "+262 269 XX XX XX"
+    },
+    {
+      "label": "Mobile (0639)",
+      "national": "0639 XX XX XX",
+      "international": "+262 639 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+262269123456",
+      "international": "+262 269 12 34 56",
+      "national": "0269 12 34 56",
+      "note": "Mayotte fixed — the 0269 range distinguishes Mayotte from Réunion inside +262"
+    },
+    {
+      "type": "mobile",
+      "e164": "+262639123456",
+      "international": "+262 639 12 34 56",
+      "national": "0639 12 34 56",
+      "note": "Mobile — the 0639 range"
+    }
+  ],
+  "notes": [
+    "Mayotte has no country code of its own: it shares +262 with Réunion and is identified by the internal prefixes 269 (fixed) and 639 (mobile).",
+    "Mayotte moved from +269 (now Comoros only) to +262 in 2007."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+    "ARCEP — plan de numérotation: https://www.arcep.fr/"
+  ]
+}
