@@ -67,6 +67,7 @@
     "Antarctica has no public telephone network. Calls reach research stations over satellite links, and each national programme numbers its own bases.",
     "+672 covers the Australian Antarctic Territory bases (Davis, Mawson, Casey) plus Macquarie Island — it is shared with Norfolk Island, which uses area code 3.",
     "New Zealand's Scott Base and the US McMurdo Station are reached via +64; other national programmes use their own home country codes or Iridium/Inmarsat satellite numbers (+870 range).",
+    "The Scott Base example below follows New Zealand's numbering plan, including its trunk prefix 0 in the national form — the +672 base numbers have no trunk prefix.",
     "ISO 3166-1 assigns AQ to Antarctica as a whole, but no single numbering plan covers the continent."
   ],
   "sources": [
