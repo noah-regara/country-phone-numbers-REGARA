@@ -1,0 +1,59 @@
+{
+  "country": "Mauritius",
+  "iso2": "MU",
+  "iso3": "MUS",
+  "callingCode": "+230",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    8
+  ],
+  "formats": {
+    "national": "XXX XXXX (fixed) / 5XXX XXXX (mobile)",
+    "international": "+230 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — north (2), centre (4), south (6)",
+      "national": "4XX XXXX",
+      "international": "+230 4XX XXXX"
+    },
+    {
+      "label": "Mobile (5, 7)",
+      "national": "5XXX XXXX",
+      "international": "+230 5XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2304123456",
+      "international": "+230 412 3456",
+      "national": "412 3456",
+      "note": "Central region — fixed prefix 4"
+    },
+    {
+      "type": "mobile",
+      "e164": "+23051234567",
+      "international": "+230 5123 4567",
+      "national": "5123 4567",
+      "note": "Mobile — 5 prefix; mobile numbers are one digit longer than fixed"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+2302123456",
+      "international": "+230 212 3456",
+      "national": "212 3456",
+      "note": "Northern region — fixed prefix 2"
+    }
+  ],
+  "notes": [
+    "Closed plan with no trunk prefix or area codes. Fixed numbers are 7 digits, mobile numbers 8.",
+    "The leading digit of a fixed number indicates the region: 2 north, 4 centre, 6 south."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Mauritius",
+    "ICTA — Information and Communication Technologies Authority: https://www.icta.mu/"
+  ]
+}
