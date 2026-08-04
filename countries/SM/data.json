@@ -50,7 +50,7 @@
   ],
   "notes": [
     "San Marino is dual-routed: it holds country code +378 but is also reachable through Italy as +39 0549 xxxxxx, because it is embedded in the Italian numbering plan.",
-    "All digits are always dialled; there is no trunk prefix.",
+    "All digits are always dialled; there is no trunk prefix. The leading 0 of 0549 is part of the number itself — as in Italy, it is retained when dialling from abroad.",
     "Leading digits 0/8/9 denote landlines, 6 mobile, 5 IP telephony and 7 premium services."
   ],
   "sources": [
