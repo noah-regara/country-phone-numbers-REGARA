@@ -1,0 +1,76 @@
+{
+  "country": "Bulgaria",
+  "iso2": "BG",
+  "iso3": "BGR",
+  "callingCode": "+359",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A XXX XXXX (Sofia) / 0AA XXX XXX (elsewhere)",
+    "international": "+359 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Sofia (area code 2)",
+      "national": "02 XXX XXXX",
+      "international": "+359 2 XXX XXXX"
+    },
+    {
+      "label": "Other geographic",
+      "national": "0XX XXX XXX",
+      "international": "+359 XX XXX XXX"
+    },
+    {
+      "label": "Mobile (87, 88, 89, 98, 99)",
+      "national": "088 XXX XXXX",
+      "international": "+359 88 XXX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXXXX",
+      "international": "+359 800 XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+35921234567",
+      "international": "+359 2 123 4567",
+      "national": "02 123 4567",
+      "note": "Sofia — single-digit area code 2"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+35932123456",
+      "international": "+359 32 123 456",
+      "national": "032 123 456",
+      "note": "Plovdiv — area code 32"
+    },
+    {
+      "type": "mobile",
+      "e164": "+359881234567",
+      "international": "+359 88 123 4567",
+      "national": "088 123 4567",
+      "note": "Mobile — 088 is an A1 Bulgaria range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+35980012345",
+      "international": "+359 800 12345",
+      "national": "0800 12345",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "The full national number, including the trunk 0, must be dialled for all domestic calls.",
+    "Geographic NSNs are typically 8 digits; mobile NSNs are 9."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bulgaria",
+    "CRC — numbering plan: https://crc.bg/en/"
+  ]
+}
