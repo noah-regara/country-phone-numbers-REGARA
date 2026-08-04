@@ -1,0 +1,75 @@
+{
+  "country": "Portugal",
+  "iso2": "PT",
+  "iso3": "PRT",
+  "callingCode": "+351",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "XXX XXX XXX (closed plan, no trunk prefix)",
+    "international": "+351 XXX XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Lisbon (21), Porto (22)",
+      "national": "21 XXX XXXX",
+      "international": "+351 21 XXX XXXX"
+    },
+    {
+      "label": "Other geographic",
+      "national": "2XX XXX XXX",
+      "international": "+351 2XX XXX XXX"
+    },
+    {
+      "label": "Mobile",
+      "national": "9X XXX XXXX",
+      "international": "+351 9X XXX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "800 XXX XXX",
+      "international": "+351 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+351213456789",
+      "international": "+351 21 345 6789",
+      "national": "21 345 6789",
+      "note": "Lisbon — geographic code 21"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+351223456789",
+      "international": "+351 22 345 6789",
+      "national": "22 345 6789",
+      "note": "Porto — geographic code 22"
+    },
+    {
+      "type": "mobile",
+      "e164": "+351912345678",
+      "international": "+351 91 234 5678",
+      "national": "91 234 5678",
+      "note": "Mobile — 91/92/93/96; the second digit identifies the original operator"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+351800123456",
+      "international": "+351 800 123 456",
+      "national": "800 123 456",
+      "note": "Número verde"
+    }
+  ],
+  "notes": [
+    "Portugal dropped the trunk prefix 0 on 1999-10-31 and moved to a closed 9-digit plan; the full number is dialled for every call.",
+    "Geographic numbers begin with 2, mobile numbers with 9."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Portugal",
+    "ANACOM — plano nacional de numeração: https://www.anacom.pt/render.jsp?categoryId=1044"
+  ]
+}
