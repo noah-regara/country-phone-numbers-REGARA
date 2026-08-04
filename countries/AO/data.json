@@ -1,0 +1,63 @@
+{
+  "country": "Angola",
+  "iso2": "AO",
+  "iso3": "AGO",
+  "callingCode": "+244",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "XXX XXX XXX",
+    "international": "+244 XXX XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Luanda (222)",
+      "national": "222 XXX XXX",
+      "international": "+244 222 XXX XXX"
+    },
+    {
+      "label": "Other provinces (2XX)",
+      "national": "2XX XXX XXX",
+      "international": "+244 2XX XXX XXX"
+    },
+    {
+      "label": "Mobile (91X, 92X, 93X, 94X, 99X)",
+      "national": "923 XXX XXX",
+      "international": "+244 923 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+244222123456",
+      "international": "+244 222 123 456",
+      "national": "222 123 456",
+      "note": "Luanda — fixed lines begin with 2, followed by the area code"
+    },
+    {
+      "type": "mobile",
+      "e164": "+244923123456",
+      "international": "+244 923 123 456",
+      "national": "923 123 456",
+      "note": "Mobile — 923 is a Unitel range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+244912345678",
+      "international": "+244 912 345 678",
+      "national": "912 345 678",
+      "note": "Mobile — 91X range"
+    }
+  ],
+  "notes": [
+    "Closed 9-digit plan dialled in full for every call.",
+    "Fixed-line numbers begin with 2 followed by a 1–2 digit geographic area code; mobile numbers begin with 9."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Angola",
+    "INACOM — Instituto Angolano das Comunicações: https://www.inacom.gov.ao/"
+  ]
+}
