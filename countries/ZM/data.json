@@ -1,0 +1,63 @@
+{
+  "country": "Zambia",
+  "iso2": "ZM",
+  "iso3": "ZMB",
+  "callingCode": "+260",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AAA XXXXXX",
+    "international": "+260 AAA XXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Lusaka Province (0211)",
+      "national": "0211 XXXXXX",
+      "international": "+260 211 XXXXXX"
+    },
+    {
+      "label": "Other provinces (212–218)",
+      "national": "021X XXXXXX",
+      "international": "+260 21X XXXXXX"
+    },
+    {
+      "label": "Mobile — MTN (096, 076), Airtel (097, 077), Zamtel (095, 075)",
+      "national": "0961 XXXXXX",
+      "international": "+260 961 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+260211123456",
+      "international": "+260 211 123456",
+      "national": "0211 123456",
+      "note": "Lusaka Province — area code 211 (ZAMTEL)"
+    },
+    {
+      "type": "mobile",
+      "e164": "+260961234567",
+      "international": "+260 961 234567",
+      "national": "0961 234567",
+      "note": "Mobile — 096/076 are MTN Zambia ranges"
+    },
+    {
+      "type": "mobile",
+      "e164": "+260971234567",
+      "international": "+260 971 234567",
+      "national": "0971 234567",
+      "note": "Mobile — 097/077 are Airtel Zambia ranges"
+    }
+  ],
+  "notes": [
+    "Geographic area codes 211–218 map to Zambia's provinces.",
+    "Mobile prefixes 095/096/097 (and the newer 075/076/077 blocks) identify the operator."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Zambia",
+    "ZICTA — Zambia Information and Communications Technology Authority: https://www.zicta.zm/"
+  ]
+}
