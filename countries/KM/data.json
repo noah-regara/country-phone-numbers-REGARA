@@ -1,0 +1,51 @@
+{
+  "country": "Comoros",
+  "iso2": "KM",
+  "iso3": "COM",
+  "callingCode": "+269",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+269 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Moroni, Mutsamudu, Domoni, Mohéli (760–779)",
+      "national": "773 XXXX",
+      "international": "+269 773 XXXX"
+    },
+    {
+      "label": "Mobile — Comores Telecom, Telma (32X, 33X, 34X)",
+      "national": "32X XXXX",
+      "international": "+269 32X XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2697731234",
+      "international": "+269 773 1234",
+      "national": "773 1234",
+      "note": "Moroni — the 773 geographic prefix"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2693212345",
+      "international": "+269 321 2345",
+      "national": "321 2345",
+      "note": "Mobile — the 32/33/34 non-geographic ranges"
+    }
+  ],
+  "notes": [
+    "Closed 7-digit plan with no trunk prefix.",
+    "Mayotte, geographically part of the Comoros archipelago, is a French department and left +269 for +262 in 2007."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Comoros",
+    "ANRTIC — Autorité Nationale de Régulation des TIC, Comores: https://www.anrtic.km/"
+  ]
+}
