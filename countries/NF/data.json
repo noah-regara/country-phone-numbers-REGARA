@@ -1,0 +1,52 @@
+{
+  "country": "Norfolk Island",
+  "iso2": "NF",
+  "iso3": "NFK",
+  "callingCode": "+672",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    6
+  ],
+  "formats": {
+    "national": "3 XX XXX",
+    "international": "+672 3 XX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (3 2X XXX)",
+      "national": "3 2X XXX",
+      "international": "+672 3 2X XXX"
+    },
+    {
+      "label": "Mobile (3 5X XXX)",
+      "national": "3 5X XXX",
+      "international": "+672 3 5X XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+672322123",
+      "international": "+672 3 22 123",
+      "national": "3 22 123",
+      "note": "Norfolk Island — area code 3 within +672, fixed range 2X"
+    },
+    {
+      "type": "mobile",
+      "e164": "+672351234",
+      "international": "+672 3 51 234",
+      "national": "3 51 234",
+      "note": "Mobile — the 5X range"
+    }
+  ],
+  "notes": [
+    "Norfolk Island shares country code +672 with the Australian Antarctic Territory, taking area code 3.",
+    "Christmas Island and the Cocos (Keeling) Islands also used +672 until October 1994, when they migrated to +61.",
+    "+672 was assigned to Portuguese Timor until 1975, and +672 9 was used for Timor-Leste under an interim arrangement after 1999."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norfolk_Island",
+    "ACMA — Australian Communications and Media Authority: https://www.acma.gov.au/numbering"
+  ]
+}
