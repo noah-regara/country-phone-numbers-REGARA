@@ -1,0 +1,58 @@
+{
+  "country": "South Sudan",
+  "iso2": "SS",
+  "iso3": "SSD",
+  "callingCode": "+211",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "MM NNN NNNN",
+    "international": "+211 MM NNN NNNN"
+  },
+  "patterns": [
+    {
+      "label": "Fixed — Sudani CDMA (12), Sudani landline (18)",
+      "national": "18 NNN NNNN",
+      "international": "+211 18 NNN NNNN"
+    },
+    {
+      "label": "Mobile — Zain (91), MTN (92), Digitel (98)",
+      "national": "91 NNN NNNN",
+      "international": "+211 91 NNN NNNN"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+211181111111",
+      "international": "+211 18 111 1111",
+      "national": "18 111 1111",
+      "note": "Juba — Sudani fixed service, prefix 18"
+    },
+    {
+      "type": "mobile",
+      "e164": "+211915555555",
+      "international": "+211 91 555 5555",
+      "national": "91 555 5555",
+      "note": "Mobile — 91 is a Zain South Sudan range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+211921234567",
+      "international": "+211 92 123 4567",
+      "national": "92 123 4567",
+      "note": "Mobile — 92 is an MTN South Sudan range"
+    }
+  ],
+  "notes": [
+    "South Sudan continued using Sudan's +249 after independence on 2011-07-09 and switched to its own code +211 on 2011-10-01.",
+    "The NSN is 9 digits: a 2-digit operator code plus a 7-digit subscriber number."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_South_Sudan",
+    "National Communication Authority of South Sudan: https://nca.gov.ss/"
+  ]
+}
