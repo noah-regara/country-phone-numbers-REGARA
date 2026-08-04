@@ -1,0 +1,64 @@
+{
+  "country": "Tanzania, United Republic of",
+  "iso2": "TZ",
+  "iso3": "TZA",
+  "callingCode": "+255",
+  "trunkPrefix": "0",
+  "internationalPrefix": "000",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX",
+    "international": "+255 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Dar es Salaam (022)",
+      "national": "022 XXX XXXX",
+      "international": "+255 22 XXX XXXX"
+    },
+    {
+      "label": "Other regions (2X, 4X geographic)",
+      "national": "0XX XXX XXXX",
+      "international": "+255 XX XXX XXXX"
+    },
+    {
+      "label": "Mobile (06X, 07X)",
+      "national": "074 XXX XXXX",
+      "international": "+255 74 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+255221234567",
+      "international": "+255 22 123 4567",
+      "national": "022 123 4567",
+      "note": "Dar es Salaam — area code 22"
+    },
+    {
+      "type": "mobile",
+      "e164": "+255741234567",
+      "international": "+255 74 123 4567",
+      "national": "074 123 4567",
+      "note": "Mobile — 74 is a Vodacom Tanzania range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+255651234567",
+      "international": "+255 65 123 4567",
+      "national": "065 123 4567",
+      "note": "Mobile — 65 range"
+    }
+  ],
+  "notes": [
+    "Tanzania adopted its own numbering plan in 1999, replacing a system shared with Kenya and Uganda.",
+    "Zanzibar is part of Tanzania and uses the same +255 plan (area code 024).",
+    "The international access prefix is 000."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tanzania",
+    "TCRA — Tanzania Communications Regulatory Authority: https://www.tcra.go.tz/"
+  ]
+}
