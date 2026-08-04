@@ -1,0 +1,51 @@
+{
+  "country": "Nauru",
+  "iso2": "NR",
+  "iso3": "NRU",
+  "callingCode": "+674",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+674 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Mobile (556, 557, 558)",
+      "national": "556 XXXX",
+      "international": "+674 556 XXXX"
+    },
+    {
+      "label": "Fixed line (444, 555) — largely out of service",
+      "national": "444 XXXX",
+      "international": "+674 444 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "mobile",
+      "e164": "+6745561234",
+      "international": "+674 556 1234",
+      "national": "556 1234",
+      "note": "Mobile — 556/557/558 are the ranges actually in service"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+6744445678",
+      "international": "+674 444 5678",
+      "national": "444 5678",
+      "note": "Legacy landline range; Nauru reported no landlines in service as of 2011"
+    }
+  ],
+  "notes": [
+    "Nauru is effectively mobile-only: the regulator has reported that only the 556, 557 and 558 ranges are in use and that no landlines remain in service.",
+    "Closed 7-digit plan with no trunk prefix or area codes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Nauru",
+    "ITU-T E.164 national numbering plans: https://www.itu.int/oth/T0202.aspx"
+  ]
+}
