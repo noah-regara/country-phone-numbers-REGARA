@@ -1,0 +1,70 @@
+{
+  "country": "Argentina",
+  "iso2": "AR",
+  "iso3": "ARG",
+  "callingCode": "+54",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10,
+    11
+  ],
+  "formats": {
+    "national": "0AA XXXX-XXXX (landline) / 0AA 15 XXXX-XXXX (mobile)",
+    "international": "+54 AA XXXX XXXX — mobiles take an extra 9: +54 9 AA XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Buenos Aires (11)",
+      "national": "(011) XXXX-XXXX",
+      "international": "+54 11 XXXX XXXX"
+    },
+    {
+      "label": "Other areas (3–4 digit area codes)",
+      "national": "(0223) XXX-XXXX",
+      "international": "+54 223 XXX XXXX"
+    },
+    {
+      "label": "Mobile (domestic 15 prefix)",
+      "national": "(0223) 15 XXX-XXXX",
+      "international": "+54 9 223 XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "0800 XXX XXXX",
+      "international": "+54 800 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+541112345678",
+      "international": "+54 11 1234 5678",
+      "national": "(011) 1234-5678",
+      "note": "Buenos Aires — 2-digit area code 11 with an 8-digit subscriber number"
+    },
+    {
+      "type": "mobile",
+      "e164": "+5492231234567",
+      "international": "+54 9 223 123 4567",
+      "national": "(0223) 15 123-4567",
+      "note": "Mar del Plata mobile — note the 9 replaces the domestic 15 when dialling from abroad"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+548001234567",
+      "international": "+54 800 123 4567",
+      "national": "0800 123 4567",
+      "note": "Toll-free"
+    }
+  ],
+  "notes": [
+    "Argentine mobile numbers are written two different ways: domestically the digit 15 sits between the area code and the subscriber number, but from abroad you drop the 15 and insert a 9 immediately after +54.",
+    "So (0223) 15 123-4567 dialled locally becomes +54 9 223 123 4567 internationally — the same line, two forms. This trips up a lot of validation code.",
+    "The national number is always 10 digits (excluding the mobile 9); area codes run 2–4 digits with the subscriber number sized to match."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Argentina",
+    "ENACOM — Ente Nacional de Comunicaciones: https://www.enacom.gob.ar/"
+  ]
+}
