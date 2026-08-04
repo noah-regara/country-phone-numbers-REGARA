@@ -1,0 +1,55 @@
+{
+  "country": "Korea, Democratic People's Republic of",
+  "iso2": "KP",
+  "iso3": "PRK",
+  "callingCode": "+850",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0A XXX XXXX (fixed) / 019X XXXXXXX (mobile)",
+    "international": "+850 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Pyongyang (2)",
+      "national": "02 XXX XXXX",
+      "international": "+850 2 XXX XXXX"
+    },
+    {
+      "label": "Provincial (2-digit area codes)",
+      "national": "0XX XXXXXX",
+      "international": "+850 XX XXXXXX"
+    },
+    {
+      "label": "Mobile (019X)",
+      "national": "019X XXXXXXX",
+      "international": "+850 19X XXXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+85023811234",
+      "international": "+850 2 381 1234",
+      "national": "02 381 1234",
+      "note": "Pyongyang — area code 2; the 381 block includes lines reachable from abroad"
+    },
+    {
+      "type": "mobile",
+      "e164": "+8501921234567",
+      "international": "+850 192 1234567",
+      "national": "0192 1234567",
+      "note": "Mobile — the 019X ranges (Koryolink)"
+    }
+  ],
+  "notes": [
+    "International connectivity is heavily restricted: most calls into North Korea require operator assistance via +850 2 18111, and only selected numbers can be dialled directly.",
+    "Calls between North and South Korea are banned outside the former Kaesong Industrial Region.",
+    "NSN length varies — roughly 8 digits for Pyongyang landlines and 10 for mobile numbers."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_North_Korea",
+    "ITU-T E.164 assigned country codes: https://www.itu.int/pub/T-SP-E.164D"
+  ]
+}
