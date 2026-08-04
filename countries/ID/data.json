@@ -1,0 +1,66 @@
+{
+  "country": "Indonesia",
+  "iso2": "ID",
+  "iso3": "IDN",
+  "callingCode": "+62",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0AA-XXXX-XXXX (landline) / 08XX-XXXX-XXXX (mobile)",
+    "international": "+62 AA XXXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Jakarta (21), Surabaya (31), Bandung (22)",
+      "national": "021-XXXX-XXXX",
+      "international": "+62 21 XXXX XXXX"
+    },
+    {
+      "label": "Other regions (3-digit area codes)",
+      "national": "0XXX-XXXXXX",
+      "international": "+62 XXX XXXXXX"
+    },
+    {
+      "label": "Mobile (8XX)",
+      "national": "08XX-XXXX-XXXX",
+      "international": "+62 8XX XXXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "0800-1-XXXXXX",
+      "international": "+62 800 1 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+622112345678",
+      "international": "+62 21 1234 5678",
+      "national": "021-1234-5678",
+      "note": "Jakarta — area code 21"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+62311234567",
+      "international": "+62 31 123 4567",
+      "national": "031-123-4567",
+      "note": "Surabaya — area code 31"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6281234567890",
+      "international": "+62 812 3456 7890",
+      "national": "0812-3456-7890",
+      "note": "Mobile — 8XX ranges; 812 is a Telkomsel range"
+    }
+  ],
+  "notes": [
+    "Landlines carry area codes (2 digits for the largest cities, 3 elsewhere); mobile numbers do not.",
+    "Mobile subscriber numbers vary in length by operator, giving NSNs of roughly 9–12 digits, so length-based validation is unreliable."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Indonesia",
+    "Kominfo — Ministry of Communication and Informatics: https://www.komdigi.go.id/"
+  ]
+}
