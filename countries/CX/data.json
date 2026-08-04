@@ -1,0 +1,40 @@
+{
+  "country": "Christmas Island",
+  "iso2": "CX",
+  "iso3": "CXR",
+  "callingCode": "+61",
+  "trunkPrefix": "0",
+  "internationalPrefix": "0011",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "(08) 9164 XXXX",
+    "international": "+61 8 9164 XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Christmas Island (08 9164)",
+      "national": "(08) 9164 XXXX",
+      "international": "+61 8 9164 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+61891641234",
+      "international": "+61 8 9164 1234",
+      "national": "(08) 9164 1234",
+      "note": "Christmas Island — the dedicated 9164 exchange within Australia's 08 area code"
+    }
+  ],
+  "notes": [
+    "Christmas Island is an Australian external territory inside the +61 plan; it has no country code of its own.",
+    "It used +672 until October 1994, when it migrated to +61 and eventually settled on the 08 9164 range.",
+    "Administered by ACMA under the Australian Telecommunications Numbering Plan."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Christmas_Island",
+    "ACMA — Australian Communications and Media Authority: https://www.acma.gov.au/numbering"
+  ]
+}
