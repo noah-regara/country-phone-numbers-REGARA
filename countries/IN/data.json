@@ -1,0 +1,76 @@
+{
+  "country": "India",
+  "iso2": "IN",
+  "iso3": "IND",
+  "callingCode": "+91",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "0AA-XXXX-XXXX (STD code + subscriber number, 10 digits total)",
+    "international": "+91 AA XXXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Metro STD codes — Delhi (11), Mumbai (22), Kolkata (33), Chennai (44)",
+      "national": "011-XXXX-XXXX",
+      "international": "+91 11 XXXX XXXX"
+    },
+    {
+      "label": "Second-tier cities — Jaipur (141), Lucknow (522)",
+      "national": "0141-XXX-XXXX",
+      "international": "+91 141 XXX XXXX"
+    },
+    {
+      "label": "Mobile (starts 6, 7, 8 or 9)",
+      "national": "9XXXX XXXXX",
+      "international": "+91 9XXXX XXXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "1800-XXX-XXXX",
+      "international": "+91 1800 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+911123456789",
+      "international": "+91 11 2345 6789",
+      "national": "011-2345-6789",
+      "note": "Delhi — STD code 11"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+912223456789",
+      "international": "+91 22 2345 6789",
+      "national": "022-2345-6789",
+      "note": "Mumbai — STD code 22"
+    },
+    {
+      "type": "mobile",
+      "e164": "+919812345678",
+      "international": "+91 98123 45678",
+      "national": "98123 45678",
+      "note": "Mobile — 10 digits beginning 6, 7, 8 or 9; operator-independent since number portability"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+911412345678",
+      "international": "+91 141 234 5678",
+      "national": "0141-234-5678",
+      "note": "Jaipur — 3-digit STD code 141"
+    }
+  ],
+  "notes": [
+    "India runs a closed 10-digit plan: the STD (area) code plus subscriber number always totals 10 digits, so a 2-digit metro code leaves 8 subscriber digits while an 8-digit rural code leaves 2.",
+    "Mobile numbers are 10 digits beginning with 6, 7, 8 or 9 and carry no area code.",
+    "Governed by the National Numbering Plan 2003 under the Department of Telecommunications."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_India",
+    "DoT — National Numbering Plan: https://dot.gov.in/"
+  ]
+}
