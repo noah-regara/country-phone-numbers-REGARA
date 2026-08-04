@@ -1,0 +1,66 @@
+{
+  "country": "United States of America",
+  "iso2": "US",
+  "iso3": "USA",
+  "callingCode": "+1",
+  "trunkPrefix": "1",
+  "internationalPrefix": "011",
+  "nsnLengths": [
+    10
+  ],
+  "areaCodes": [
+    "201–989 (hundreds of area codes)"
+  ],
+  "formats": {
+    "national": "(NPA) NXX-XXXX",
+    "international": "+1 NPA NXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Geographic (fixed or mobile)",
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    {
+      "label": "Toll-free (shared NANP-wide)",
+      "national": "(800) NXX-XXXX",
+      "international": "+1 800 NXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+12127361234",
+      "international": "+1 212 736 1234",
+      "national": "(212) 736-1234",
+      "note": "New York City, NY — area code 212 covers Manhattan"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+14156261234",
+      "international": "+1 415 626 1234",
+      "national": "(415) 626-1234",
+      "note": "San Francisco, CA — area code 415"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+18005551234",
+      "international": "+1 800 555 1234",
+      "national": "(800) 555-1234",
+      "note": "Toll-free — 800/888/877/866/855/844/833 are shared NANP-wide"
+    }
+  ],
+  "notes": [
+    "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+    "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+    "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+    "The United States uses hundreds of area codes; 212 (Manhattan) and 415 (San Francisco) are shown as representative examples.",
+    "NANP numbers give no indication of whether a line is mobile or fixed — US mobile numbers are drawn from the same geographic area codes as landlines.",
+    "555-0100 through 555-0199 are reserved NANP-wide for fictional use in film and television."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+    "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+    "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+  ]
+}
