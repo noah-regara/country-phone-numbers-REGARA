@@ -1,0 +1,51 @@
+{
+  "country": "Djibouti",
+  "iso2": "DJ",
+  "iso3": "DJI",
+  "callingCode": "+253",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX",
+    "international": "+253 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Djibouti City (21)",
+      "national": "21 XX XX XX",
+      "international": "+253 21 XX XX XX"
+    },
+    {
+      "label": "Mobile — Djibouti Telecom (77)",
+      "national": "77 XX XX XX",
+      "international": "+253 77 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+25321123456",
+      "international": "+253 21 12 34 56",
+      "national": "21 12 34 56",
+      "note": "Djibouti City and Balbala — the 21 fixed range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+25377123456",
+      "international": "+253 77 12 34 56",
+      "national": "77 12 34 56",
+      "note": "Mobile — the 77 GSM range (Djibouti Telecom)"
+    }
+  ],
+  "notes": [
+    "The first two digits define the service type and the next two the locality for fixed lines.",
+    "Closed 8-digit plan with no trunk prefix; numbers are written in pairs."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Djibouti",
+    "Djibouti Telecom: https://www.djiboutitelecom.dj/"
+  ]
+}
