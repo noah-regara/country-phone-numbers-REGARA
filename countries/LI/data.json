@@ -1,0 +1,52 @@
+{
+  "country": "Liechtenstein",
+  "iso2": "LI",
+  "iso3": "LIE",
+  "callingCode": "+423",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XX XX",
+    "international": "+423 XXX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2xx xxxx)",
+      "national": "2XX XX XX",
+      "international": "+423 2XX XX XX"
+    },
+    {
+      "label": "Mobile (7xx xxxx)",
+      "national": "7XX XX XX",
+      "international": "+423 7XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+4232371234",
+      "international": "+423 237 12 34",
+      "national": "237 12 34",
+      "note": "Vaduz — fixed lines begin with 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+4237871234",
+      "international": "+423 787 12 34",
+      "national": "787 12 34",
+      "note": "Mobile — 7xx ranges"
+    }
+  ],
+  "notes": [
+    "Liechtenstein adopted its own country code +423 on 1999-04-05; it was previously reached as +41 75 through the Swiss numbering plan.",
+    "Calls from Switzerland now require international dialling (00423), despite the close integration of the two networks.",
+    "All numbers are 7 digits with no trunk prefix or area codes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Liechtenstein",
+    "Amt für Kommunikation (AK) Liechtenstein: https://www.llv.li/de/landesverwaltung/amt-fuer-kommunikation"
+  ]
+}
