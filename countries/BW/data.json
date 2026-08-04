@@ -1,0 +1,59 @@
+{
+  "country": "Botswana",
+  "iso2": "BW",
+  "iso3": "BWA",
+  "callingCode": "+267",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    8
+  ],
+  "formats": {
+    "national": "XXX XXXX (fixed) / XX XXX XXX (mobile)",
+    "international": "+267 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Gaborone (39x), Francistown (24x)",
+      "national": "39X XXXX",
+      "international": "+267 39X XXXX"
+    },
+    {
+      "label": "Mobile — Mascom (71, 74), Orange (72, 75), beMobile (73, 76)",
+      "national": "71 XXX XXX",
+      "international": "+267 71 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2673903650",
+      "international": "+267 390 3650",
+      "national": "390 3650",
+      "note": "Gaborone — the leading 39 identifies the area; there are no separate area codes"
+    },
+    {
+      "type": "mobile",
+      "e164": "+26771234567",
+      "international": "+267 71 234 567",
+      "national": "71 234 567",
+      "note": "Mobile — 71 is a Mascom Wireless range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+26772345678",
+      "international": "+267 72 345 678",
+      "national": "72 345 678",
+      "note": "Mobile — 72 is an Orange Botswana range"
+    }
+  ],
+  "notes": [
+    "Botswana has no area codes or trunk prefix; geography is encoded in the first two or three digits of a 7-digit fixed number.",
+    "Mobile numbers are 8 digits, one longer than fixed lines."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Botswana",
+    "BOCRA — Botswana Communications Regulatory Authority: https://www.bocra.org.bw/"
+  ]
+}
