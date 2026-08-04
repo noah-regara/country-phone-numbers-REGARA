@@ -1,0 +1,76 @@
+{
+  "country": "Türkiye",
+  "iso2": "TR",
+  "iso3": "TUR",
+  "callingCode": "+90",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "0 (AAA) XXX XX XX",
+    "international": "+90 AAA XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Istanbul — European side (212), Asian side (216)",
+      "national": "0212 XXX XX XX",
+      "international": "+90 212 XXX XX XX"
+    },
+    {
+      "label": "Ankara (312), İzmir (232)",
+      "national": "0312 XXX XX XX",
+      "international": "+90 312 XXX XX XX"
+    },
+    {
+      "label": "Mobile (5XX)",
+      "national": "0530 XXX XX XX",
+      "international": "+90 530 XXX XX XX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXX XX XX",
+      "international": "+90 800 XXX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+902121234567",
+      "international": "+90 212 123 45 67",
+      "national": "0212 123 45 67",
+      "note": "Istanbul, European side — area code 212"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+903121234567",
+      "international": "+90 312 123 45 67",
+      "national": "0312 123 45 67",
+      "note": "Ankara — area code 312"
+    },
+    {
+      "type": "mobile",
+      "e164": "+905301234567",
+      "international": "+90 530 123 45 67",
+      "national": "0530 123 45 67",
+      "note": "Mobile — 530–539 are Turkcell ranges; all mobiles begin with 5"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+908001234567",
+      "international": "+90 800 123 45 67",
+      "national": "0800 123 45 67",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Closed plan: every province has a 3-digit area code and a 7-digit local number, giving a uniform 10-digit NSN.",
+    "Istanbul is the only province with two area codes — 212 for the European side and 216 for the Asian side.",
+    "Northern Cyprus is integrated into the Turkish plan as +90 392."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Turkey",
+    "BTK — Information and Communication Technologies Authority: https://www.btk.gov.tr/"
+  ]
+}
