@@ -1,0 +1,69 @@
+{
+  "country": "Pakistan",
+  "iso2": "PK",
+  "iso3": "PAK",
+  "callingCode": "+92",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "(0AA) XXXXXXXX (landline) / 03XX-XXXXXXX (mobile)",
+    "international": "+92 AA XXXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Karachi (21), Lahore (42), Islamabad (51)",
+      "national": "(021) XXXXXXXX",
+      "international": "+92 21 XXXXXXXX"
+    },
+    {
+      "label": "Smaller cities (3–5 digit area codes)",
+      "national": "(0XXX) XXXXXX",
+      "international": "+92 XXX XXXXXX"
+    },
+    {
+      "label": "Mobile (03XX)",
+      "national": "03XX-XXXXXXX",
+      "international": "+92 3XX XXXXXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "0800-XXXXX",
+      "international": "+92 800 XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+922112345678",
+      "international": "+92 21 1234 5678",
+      "national": "(021) 12345678",
+      "note": "Karachi — area code 21"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+924212345678",
+      "international": "+92 42 1234 5678",
+      "national": "(042) 12345678",
+      "note": "Lahore — area code 42"
+    },
+    {
+      "type": "mobile",
+      "e164": "+923001234567",
+      "international": "+92 300 1234567",
+      "national": "0300-1234567",
+      "note": "Mobile — 0300 is a Jazz range; 0310 Zong, 0330 Ufone, 0340 Telenor"
+    }
+  ],
+  "notes": [
+    "Landline area codes are 2–5 digits; the largest cities have the shortest codes.",
+    "All mobile numbers begin 03 and are 10 digits in NSN form.",
+    "Toll-free 0800 numbers have shorter NSNs (8 digits) than the 10-digit norm."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Pakistan",
+    "PTA — Pakistan Telecommunication Authority: https://www.pta.gov.pk/"
+  ]
+}
