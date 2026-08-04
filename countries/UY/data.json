@@ -1,0 +1,63 @@
+{
+  "country": "Uruguay",
+  "iso2": "UY",
+  "iso3": "URY",
+  "callingCode": "+598",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX (fixed) / 9X XXX XXX (mobile)",
+    "international": "+598 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Montevideo fixed (2)",
+      "national": "2XXX XXXX",
+      "international": "+598 2XXX XXXX"
+    },
+    {
+      "label": "Fixed outside Montevideo (4)",
+      "national": "4XXX XXXX",
+      "international": "+598 4XXX XXXX"
+    },
+    {
+      "label": "Mobile (9X)",
+      "national": "09X XXX XXX",
+      "international": "+598 9X XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+59822045199",
+      "international": "+598 2204 5199",
+      "national": "2204 5199",
+      "note": "Montevideo — the 2 prefix identifies the metropolitan area"
+    },
+    {
+      "type": "mobile",
+      "e164": "+59899123456",
+      "international": "+598 99 123 456",
+      "national": "099 123 456",
+      "note": "Mobile — 99 was an Antel range; portability means prefixes no longer identify the operator"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+59843123456",
+      "international": "+598 4312 3456",
+      "national": "4312 3456",
+      "note": "Fixed line outside Montevideo — the 4 prefix"
+    }
+  ],
+  "notes": [
+    "Uruguay abolished area codes in 2010 and moved to a flat 8-digit plan with no trunk prefix.",
+    "Number portability means the leading digits of a mobile number no longer indicate the operator."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Uruguay",
+    "URSEC — Unidad Reguladora de Servicios de Comunicaciones: https://www.gub.uy/unidad-reguladora-servicios-comunicaciones/"
+  ]
+}
