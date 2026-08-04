@@ -1,0 +1,70 @@
+{
+  "country": "Thailand",
+  "iso2": "TH",
+  "iso3": "THA",
+  "callingCode": "+66",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A-XXX-XXXX (landline) / 0AX-XXX-XXXX (mobile)",
+    "international": "+66 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Bangkok (02)",
+      "national": "02-XXX-XXXX",
+      "international": "+66 2 XXX XXXX"
+    },
+    {
+      "label": "Provincial (2-digit area codes: 032 Phetchaburi, 053 Chiang Mai)",
+      "national": "0XX-XXX-XXX",
+      "international": "+66 XX XXX XXX"
+    },
+    {
+      "label": "Mobile (08x, 09x, 06x)",
+      "national": "08X-XXX-XXXX",
+      "international": "+66 8X XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "1800-XXX-XXX",
+      "international": "not reachable from abroad"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+6622134567",
+      "international": "+66 2 213 4567",
+      "national": "02-213-4567",
+      "note": "Bangkok — area code 02 also covers nearby provinces"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+6653123456",
+      "international": "+66 53 123 456",
+      "national": "053-123-456",
+      "note": "Chiang Mai — area code 053"
+    },
+    {
+      "type": "mobile",
+      "e164": "+66812345678",
+      "international": "+66 81 234 5678",
+      "national": "081-234-5678",
+      "note": "Mobile — 08x, 09x and 06x ranges"
+    }
+  ],
+  "notes": [
+    "Thailand uses a closed plan: the area code must be dialled even for calls within the same area.",
+    "Bangkok has the single-digit area code 2 with a 7-digit subscriber number; provinces have 2-digit codes with 6-digit subscriber numbers.",
+    "1800 toll-free numbers are domestic-only and cannot be reached from abroad."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Thailand",
+    "NBTC — National Broadcasting and Telecommunications Commission: https://www.nbtc.go.th/"
+  ]
+}
