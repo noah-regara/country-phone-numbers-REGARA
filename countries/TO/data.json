@@ -1,0 +1,52 @@
+{
+  "country": "Tonga",
+  "iso2": "TO",
+  "iso3": "TON",
+  "callingCode": "+676",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    5,
+    7
+  ],
+  "formats": {
+    "national": "XX XXX",
+    "international": "+676 XX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Nukuʻalofa (20–29)",
+      "national": "20 XXX",
+      "international": "+676 20 XXX"
+    },
+    {
+      "label": "Mobile (77, 84, 87, 88)",
+      "national": "87 XXX",
+      "international": "+676 87 XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+67620123",
+      "international": "+676 20 123",
+      "national": "20 123",
+      "note": "Nukuʻalofa — area code 20"
+    },
+    {
+      "type": "mobile",
+      "e164": "+67687456",
+      "international": "+676 87 456",
+      "national": "87 456",
+      "note": "Mobile — Tongatapu island group, prefix 87"
+    }
+  ],
+  "notes": [
+    "Tonga uses a short 5-digit NSN: a 2-digit area code plus a 3-digit local number. Some newer mobile ranges have been extended to 7 digits.",
+    "No trunk prefix — the full number is dialled for every domestic call."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tonga",
+    "Ministry of MEIDECC, Department of Communications, Tonga: https://www.meidecc.gov.to/"
+  ]
+}
