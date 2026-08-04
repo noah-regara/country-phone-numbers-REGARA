@@ -1,0 +1,51 @@
+{
+  "country": "French Polynesia",
+  "iso2": "PF",
+  "iso3": "PYF",
+  "callingCode": "+689",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX",
+    "international": "+689 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — OPT (40–49)",
+      "national": "40 XX XX XX",
+      "international": "+689 40 XX XX XX"
+    },
+    {
+      "label": "Mobile — VINI (87), VITI (88), Pacific Mobile Telecom (89)",
+      "national": "87 XX XX XX",
+      "international": "+689 87 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+68940123456",
+      "international": "+689 40 12 34 56",
+      "national": "40 12 34 56",
+      "note": "Fixed line — the 40–49 range is operated by OPT"
+    },
+    {
+      "type": "mobile",
+      "e164": "+68987123456",
+      "international": "+689 87 12 34 56",
+      "national": "87 12 34 56",
+      "note": "Mobile — 87 is a VINI range"
+    }
+  ],
+  "notes": [
+    "French Polynesia has used a closed 8-digit plan since 2014, replacing the earlier 6-digit numbers.",
+    "No trunk prefix; numbers are written in pairs in the French style."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_French_Polynesia",
+    "OPT French Polynesia: https://www.opt.pf/"
+  ]
+}
