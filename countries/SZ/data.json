@@ -1,0 +1,51 @@
+{
+  "country": "Eswatini",
+  "iso2": "SZ",
+  "iso3": "SWZ",
+  "callingCode": "+268",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XXXX",
+    "international": "+268 XX XX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Mbabane / Hhohho fixed (2404, 2405, 2406)",
+      "national": "24 XX XXXX",
+      "international": "+268 24 XX XXXX"
+    },
+    {
+      "label": "Mobile — MTN Eswatini (76, 78, 79)",
+      "national": "79 XX XXXX",
+      "international": "+268 79 XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+26824041234",
+      "international": "+268 24 04 1234",
+      "national": "24 04 1234",
+      "note": "Mbabane — the 2404–2406 blocks serve the capital in the Hhohho region"
+    },
+    {
+      "type": "mobile",
+      "e164": "+26879123456",
+      "international": "+268 79 12 3456",
+      "national": "79 12 3456",
+      "note": "Mobile — non-geographic GSM on the 7x range"
+    }
+  ],
+  "notes": [
+    "Eswatini expanded to 8 digits in 2010–2011 by prepending 2 to fixed lines and 7 to mobile numbers.",
+    "No trunk prefix or area codes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Eswatini",
+    "ESCCOM — Eswatini Communications Commission: https://www.esccom.org.sz/"
+  ]
+}
