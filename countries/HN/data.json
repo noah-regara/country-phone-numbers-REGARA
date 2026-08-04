@@ -1,0 +1,51 @@
+{
+  "country": "Honduras",
+  "iso2": "HN",
+  "iso3": "HND",
+  "callingCode": "+504",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX-XXXX",
+    "international": "+504 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2)",
+      "national": "2XXX-XXXX",
+      "international": "+504 2XXX XXXX"
+    },
+    {
+      "label": "Mobile — Tigo (9), Digicel (8), Hondutel (7), Claro (3)",
+      "national": "9XXX-XXXX",
+      "international": "+504 9XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+50422345678",
+      "international": "+504 2234 5678",
+      "national": "2234-5678",
+      "note": "Fixed line — the leading 2 was added in 2010 when numbers went from 7 to 8 digits"
+    },
+    {
+      "type": "mobile",
+      "e164": "+50491234567",
+      "international": "+504 9123 4567",
+      "national": "9123-4567",
+      "note": "Mobile — 9 denotes Tigo"
+    }
+  ],
+  "notes": [
+    "No area codes or trunk prefix; the leading digit encodes service and operator.",
+    "Mobile numbers expanded from 7 to 8 digits in 2007 and fixed lines in 2010."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Honduras",
+    "CONATEL Honduras — Comisión Nacional de Telecomunicaciones: https://www.conatel.gob.hn/"
+  ]
+}
