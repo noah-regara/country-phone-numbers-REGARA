@@ -30,6 +30,7 @@ International: +39 06 698 XXXXX — the assigned code +379 is not in general use
 
 - +379 is assigned to Vatican City by the ITU but is effectively unused for public dialling. Almost every reachable Vatican number sits inside the Italian numbering plan as +39 06 698xxxxx.
 - The 698 block within Rome's 06 area code is reserved for the Holy See.
+- Because these are Italian numbers, Italy's rule applies: the leading 0 of 06 is part of the number and is kept when dialling from abroad (+39 06 698…, not +39 6 698…).
 - Numbers on +379 exist only as short internal exchange extensions and are not publicly routable.
 
 ## Sources
