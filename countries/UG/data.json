@@ -1,0 +1,63 @@
+{
+  "country": "Uganda",
+  "iso2": "UG",
+  "iso3": "UGA",
+  "callingCode": "+256",
+  "trunkPrefix": "0",
+  "internationalPrefix": "000",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX",
+    "international": "+256 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Kampala (041)",
+      "national": "041 XXX XXXX",
+      "international": "+256 41 XXX XXXX"
+    },
+    {
+      "label": "Other regions (2-digit area codes)",
+      "national": "0XX XXX XXXX",
+      "international": "+256 XX XXX XXXX"
+    },
+    {
+      "label": "Mobile (07X)",
+      "national": "077 XXX XXXX",
+      "international": "+256 77 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+256411234567",
+      "international": "+256 41 123 4567",
+      "national": "041 123 4567",
+      "note": "Kampala — area code 41"
+    },
+    {
+      "type": "mobile",
+      "e164": "+256771234567",
+      "international": "+256 77 123 4567",
+      "national": "077 123 4567",
+      "note": "Mobile — 77 is an MTN Uganda range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+256701234567",
+      "international": "+256 70 123 4567",
+      "national": "070 123 4567",
+      "note": "Mobile — 70 range"
+    }
+  ],
+  "notes": [
+    "Closed 9-digit plan requiring the full number for domestic calls.",
+    "The international access prefix is 000."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Uganda",
+    "UCC — Uganda Communications Commission: https://www.ucc.co.ug/"
+  ]
+}
