@@ -1,0 +1,75 @@
+{
+  "country": "Slovakia",
+  "iso2": "SK",
+  "iso3": "SVK",
+  "callingCode": "+421",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0A/XXXX XXXX (Bratislava) / 0AA/XXX XXXX (elsewhere)",
+    "international": "+421 A XXXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Bratislava (area code 2)",
+      "national": "02/XXXX XXXX",
+      "international": "+421 2 XXXX XXXX"
+    },
+    {
+      "label": "Other geographic (2-digit area codes)",
+      "national": "0XX/XXX XXXX",
+      "international": "+421 XX XXX XXXX"
+    },
+    {
+      "label": "Mobile (090x, 091x, 094x, 095x)",
+      "national": "0905 XXX XXX",
+      "international": "+421 905 XXX XXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXX XXX",
+      "international": "+421 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+421212345678",
+      "international": "+421 2 1234 5678",
+      "national": "02/1234 5678",
+      "note": "Bratislava — single-digit area code 2 with an 8-digit subscriber number"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+421551234567",
+      "international": "+421 55 123 4567",
+      "national": "055/123 4567",
+      "note": "Košice — 2-digit area code 55"
+    },
+    {
+      "type": "mobile",
+      "e164": "+421905123456",
+      "international": "+421 905 123 456",
+      "national": "0905 123 456",
+      "note": "Mobile — 0905 is a Slovak Telekom range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+421800123456",
+      "international": "+421 800 123 456",
+      "national": "0800 123 456",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Slovakia uses a closed 9-digit NSN. Bratislava has a 1-digit area code plus 8-digit subscriber number; everywhere else has a 2-digit area code plus 7 digits.",
+    "The slash notation (02/1234 5678) separating area code from subscriber number is a common Slovak and Czech writing convention."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Slovakia",
+    "RÚ — číslovací plán: https://www.teleoff.gov.sk/"
+  ]
+}
