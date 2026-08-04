@@ -1,0 +1,51 @@
+{
+  "country": "Belize",
+  "iso2": "BZ",
+  "iso3": "BLZ",
+  "callingCode": "+501",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "ZNY-XXXX",
+    "international": "+501 ZNY XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Belize District (2), Cayo (8), Orange Walk (3), Corozal (4), Stann Creek (5), Toledo (7)",
+      "national": "22X-XXXX",
+      "international": "+501 22X XXXX"
+    },
+    {
+      "label": "Mobile, countrywide (6)",
+      "national": "6XX-XXXX",
+      "international": "+501 6XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+5012224940",
+      "international": "+501 222 4940",
+      "national": "222-4940",
+      "note": "Belize City — 2 = Belize District, second 2 = BTL's PSTN service"
+    },
+    {
+      "type": "mobile",
+      "e164": "+5016149076",
+      "international": "+501 614 9076",
+      "national": "614-9076",
+      "note": "Mobile — 6 is countrywide mobile, 1 identifies the provider"
+    }
+  ],
+  "notes": [
+    "Since 2002 numbers follow a ZNY-XXXX structure: Z is the geographic/service code, N the service type (0 prepaid, 1 mobile, 2 PSTN), and the rest the subscriber number.",
+    "The full 7 digits are dialled for every local call regardless of distance."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Belize",
+    "PUC Belize — Public Utilities Commission: https://www.puc.bz/"
+  ]
+}
