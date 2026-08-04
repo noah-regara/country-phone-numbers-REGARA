@@ -1,0 +1,77 @@
+{
+  "country": "Belgium",
+  "iso2": "BE",
+  "iso3": "BEL",
+  "callingCode": "+32",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A XXX XX XX (large cities) / 0AA XX XX XX (smaller areas)",
+    "international": "+32 A XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Brussels (02), Antwerp (03), Liège (04), Ghent (09)",
+      "national": "02 XXX XX XX",
+      "international": "+32 2 XXX XX XX"
+    },
+    {
+      "label": "Two-digit area codes (smaller regions)",
+      "national": "0XX XX XX XX",
+      "international": "+32 XX XX XX XX"
+    },
+    {
+      "label": "Mobile",
+      "national": "04XX XX XX XX",
+      "international": "+32 4XX XX XX XX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XX XXX",
+      "international": "+32 800 XX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+3225551212",
+      "international": "+32 2 555 12 12",
+      "national": "02 555 12 12",
+      "note": "Brussels — single-digit area code 2"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+3232123456",
+      "international": "+32 3 212 34 56",
+      "national": "03 212 34 56",
+      "note": "Antwerp — area code 3"
+    },
+    {
+      "type": "mobile",
+      "e164": "+32474123456",
+      "international": "+32 474 12 34 56",
+      "national": "0474 12 34 56",
+      "note": "Mobile — 047x is a Proximus range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+3280012345",
+      "international": "+32 800 12 345",
+      "national": "0800 12 345",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Belgium uses full-number dialling: the trunk 0 and area code are required even for local calls.",
+    "Geographic NSNs are 8 digits; mobile NSNs are 9 digits.",
+    "The four largest cities have single-digit area codes (2, 3, 4, 9); everywhere else has two digits."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Belgium",
+    "BIPT — numbering plan: https://www.bipt.be/operators/numbering"
+  ]
+}
