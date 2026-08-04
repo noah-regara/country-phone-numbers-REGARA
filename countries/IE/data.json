@@ -1,0 +1,78 @@
+{
+  "country": "Ireland",
+  "iso2": "IE",
+  "iso3": "IRL",
+  "callingCode": "+353",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX (open plan, variable)",
+    "international": "+353 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Dublin",
+      "national": "01 XXX XXXX",
+      "international": "+353 1 XXX XXXX"
+    },
+    {
+      "label": "Other geographic (Cork 021, Galway 091)",
+      "national": "0XX XXX XXXX",
+      "international": "+353 XX XXX XXXX"
+    },
+    {
+      "label": "Mobile",
+      "national": "08X XXX XXXX",
+      "international": "+353 8X XXX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "1800 XXX XXX",
+      "international": "+353 1800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+35312345678",
+      "international": "+353 1 234 5678",
+      "national": "01 234 5678",
+      "note": "Dublin — area code 01"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+353214123456",
+      "international": "+353 21 412 3456",
+      "national": "021 412 3456",
+      "note": "Cork — area code 021"
+    },
+    {
+      "type": "mobile",
+      "e164": "+353871234567",
+      "international": "+353 87 123 4567",
+      "national": "087 123 4567",
+      "note": "Mobile — 087 originally Vodafone"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+3531800123456",
+      "international": "+353 1800 123 456",
+      "national": "1800 123 456",
+      "note": "Freephone — dialled without a trunk 0"
+    }
+  ],
+  "notes": [
+    "Ireland uses an open numbering plan: area codes are 1–3 digits after the trunk 0 and subscriber numbers vary, so NSN length ranges from 7 to 9 digits (10 for 1800 freephone).",
+    "Freephone (1800) and shared-cost (1850/0818) numbers are dialled without the trunk 0."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Republic_of_Ireland",
+    "ComReg — National Numbering Conventions: https://www.comreg.ie/industry/electronic-communications/numbering/"
+  ]
+}
