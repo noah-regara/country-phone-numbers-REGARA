@@ -1,0 +1,64 @@
+{
+  "country": "Nepal",
+  "iso2": "NP",
+  "iso3": "NPL",
+  "callingCode": "+977",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    10
+  ],
+  "formats": {
+    "national": "0A XXXXXXX (fixed) / 98X XXX XXXX (mobile)",
+    "international": "+977 A XXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Kathmandu (1)",
+      "national": "01 4XXXXXX",
+      "international": "+977 1 4XXXXXX"
+    },
+    {
+      "label": "Other districts (2-digit area codes, e.g. Pokhara 61)",
+      "national": "061 XXXXXX",
+      "international": "+977 61 XXXXXX"
+    },
+    {
+      "label": "Mobile (97X, 98X)",
+      "national": "98X XXX XXXX",
+      "international": "+977 98X XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+97714441234",
+      "international": "+977 1 444 1234",
+      "national": "01 444 1234",
+      "note": "Kathmandu — area code 1; subscriber numbers begin 4, 5 or 6"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+97761123456",
+      "international": "+977 61 123456",
+      "national": "061 123456",
+      "note": "Pokhara — area code 61"
+    },
+    {
+      "type": "mobile",
+      "e164": "+9779841234567",
+      "international": "+977 984 123 4567",
+      "national": "984 123 4567",
+      "note": "Mobile — 98X and 97X ranges; 10-digit NSN dialled without a trunk 0"
+    }
+  ],
+  "notes": [
+    "Geographic numbers take the trunk prefix 0 for domestic long-distance; mobile numbers are dialled as a flat 10 digits with no trunk prefix.",
+    "Area codes are 1–2 digits with the subscriber number sized to match, giving an 8-digit fixed NSN and a 10-digit mobile NSN."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Nepal",
+    "NTA — Nepal Telecommunications Authority: https://nta.gov.np/"
+  ]
+}
