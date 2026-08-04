@@ -1,0 +1,70 @@
+{
+  "country": "Kazakhstan",
+  "iso2": "KZ",
+  "iso3": "KAZ",
+  "callingCode": "+7",
+  "trunkPrefix": "8",
+  "internationalPrefix": "810",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "8 (AAA) XXX XX XX",
+    "international": "+7 AAA XXX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Almaty (727), Astana (717)",
+      "national": "8 (727) XXX XX XX",
+      "international": "+7 727 XXX XX XX"
+    },
+    {
+      "label": "Other regions (zone codes 710–729)",
+      "national": "8 (7XX) XXX XX XX",
+      "international": "+7 7XX XXX XX XX"
+    },
+    {
+      "label": "Mobile (70X, 77X)",
+      "national": "8 (701) XXX XX XX",
+      "international": "+7 701 XXX XX XX"
+    },
+    {
+      "label": "Non-geographic (75X, 76X)",
+      "national": "8 (75X) XXX XX XX",
+      "international": "+7 75X XXX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+77271234567",
+      "international": "+7 727 123 45 67",
+      "national": "8 (727) 123 45 67",
+      "note": "Almaty — zone code 727"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+77171234567",
+      "international": "+7 717 123 45 67",
+      "national": "8 (717) 123 45 67",
+      "note": "Astana — zone code 717"
+    },
+    {
+      "type": "mobile",
+      "e164": "+77011234567",
+      "international": "+7 701 123 45 67",
+      "national": "8 (701) 123 45 67",
+      "note": "Mobile — 70X and 77X ranges"
+    }
+  ],
+  "notes": [
+    "Kazakhstan shares country code +7 with Russia; the two are distinguished by zone code, with Kazakhstan holding 6xx and 7xx blocks.",
+    "Kazakhstan planned to adopt its own code (+997) but confirmed continued code-sharing with Russia in a November 2023 agreement.",
+    "Trunk prefix 8 and international access 8~10 follow the Soviet-era convention retained across the region.",
+    "Geographic zone codes 710–729 were assigned by region under a 2006 agreement with Russia."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kazakhstan",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Russia"
+  ]
+}
