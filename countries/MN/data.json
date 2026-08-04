@@ -1,0 +1,64 @@
+{
+  "country": "Mongolia",
+  "iso2": "MN",
+  "iso3": "MNG",
+  "callingCode": "+976",
+  "trunkPrefix": "01 (carrier-based; 02 for the railway network)",
+  "internationalPrefix": "001 (also 002, 003, 008, 009)",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XXXX",
+    "international": "+976 XX XX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Ulaanbaatar (11)",
+      "national": "11 XX XXXX",
+      "international": "+976 11 XX XXXX"
+    },
+    {
+      "label": "Provincial (2-digit area codes)",
+      "national": "XX XX XXXX",
+      "international": "+976 XX XX XXXX"
+    },
+    {
+      "label": "Mobile — Mobicom (94, 95, 99, 85), Unitel (80, 86, 88, 89), Skytel (90–92, 96), G-Mobile (93, 97, 98)",
+      "national": "94 XX XXXX",
+      "international": "+976 94 XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+97611452222",
+      "international": "+976 11 45 2222",
+      "national": "11 45 2222",
+      "note": "Ulaanbaatar — area code 11 (Mongolia Telecom)"
+    },
+    {
+      "type": "mobile",
+      "e164": "+97694123456",
+      "international": "+976 94 12 3456",
+      "national": "94 12 3456",
+      "note": "Mobile — 94/95 are Mobicom ranges"
+    },
+    {
+      "type": "mobile",
+      "e164": "+97688123456",
+      "international": "+976 88 12 3456",
+      "national": "88 12 3456",
+      "note": "Mobile — 88/89 are Unitel ranges"
+    }
+  ],
+  "notes": [
+    "Mongolia's domestic trunk access is carrier-based rather than a single national 0: 01 reaches the Mongolia Telecom network and 02 the railway network.",
+    "The international access prefix likewise varies by carrier (001, 002, 003, 008, 009).",
+    "All NSNs are 8 digits. Mobile numbers begin with 6, 8 or 9."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Mongolia",
+    "CRC — Communications Regulatory Commission of Mongolia: https://crc.gov.mn/"
+  ]
+}
