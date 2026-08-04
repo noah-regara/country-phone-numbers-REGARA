@@ -1,0 +1,63 @@
+{
+  "country": "North Macedonia",
+  "iso2": "MK",
+  "iso3": "MKD",
+  "callingCode": "+389",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "0A XXX XXXX (Skopje) / 0AA XXX XXX (elsewhere)",
+    "international": "+389 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Skopje (02)",
+      "national": "02 XXX XXXX",
+      "international": "+389 2 XXX XXXX"
+    },
+    {
+      "label": "Other geographic (031–047)",
+      "national": "0XX XXX XXX",
+      "international": "+389 XX XXX XXX"
+    },
+    {
+      "label": "Mobile (070–078)",
+      "national": "070 XXX XXX",
+      "international": "+389 70 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+38921234567",
+      "international": "+389 2 123 4567",
+      "national": "02 123 4567",
+      "note": "Skopje — single-digit area code 2"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+38946123456",
+      "international": "+389 46 123 456",
+      "national": "046 123 456",
+      "note": "Ohrid — area code 046"
+    },
+    {
+      "type": "mobile",
+      "e164": "+38970123456",
+      "international": "+389 70 123 456",
+      "national": "070 123 456",
+      "note": "Mobile — 070–072 Makedonski Telekom, 075–078 A1"
+    }
+  ],
+  "notes": [
+    "Closed 8-digit plan. The area code must always be dialled domestically because many fixed and mobile operators share the plan.",
+    "Skopje uses the single-digit area code 2; other regions use two digits."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_North_Macedonia",
+    "AEK — Agency for Electronic Communications: https://aek.mk/"
+  ]
+}
