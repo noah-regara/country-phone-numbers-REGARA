@@ -1,0 +1,75 @@
+{
+  "country": "Czechia",
+  "iso2": "CZ",
+  "iso3": "CZE",
+  "callingCode": "+420",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "XXX XXX XXX (closed plan, no trunk prefix)",
+    "international": "+420 XXX XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Prague (2xx)",
+      "national": "2XX XXX XXX",
+      "international": "+420 2XX XXX XXX"
+    },
+    {
+      "label": "Other geographic (3xx–5xx)",
+      "national": "5XX XXX XXX",
+      "international": "+420 5XX XXX XXX"
+    },
+    {
+      "label": "Mobile (6xx, 7xx)",
+      "national": "6XX XXX XXX",
+      "international": "+420 6XX XXX XXX"
+    },
+    {
+      "label": "Freephone (zelená linka)",
+      "national": "800 XXX XXX",
+      "international": "+420 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+420224123456",
+      "international": "+420 224 123 456",
+      "national": "224 123 456",
+      "note": "Prague — geographic numbers there begin with 2"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+420541123456",
+      "international": "+420 541 123 456",
+      "national": "541 123 456",
+      "note": "Brno — 5xx range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+420602123456",
+      "international": "+420 602 123 456",
+      "national": "602 123 456",
+      "note": "Mobile — 602 is an O2 Czech Republic range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+420800123456",
+      "international": "+420 800 123 456",
+      "national": "800 123 456",
+      "note": "Zelená linka (freephone)"
+    }
+  ],
+  "notes": [
+    "Czechia adopted a closed 9-digit plan on 2002-09-22 and dropped the trunk prefix 0; the full number is dialled for every call.",
+    "Numbers are conventionally grouped in threes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Czech_Republic",
+    "ČTÚ — číslovací plán: https://ctu.gov.cz/"
+  ]
+}
