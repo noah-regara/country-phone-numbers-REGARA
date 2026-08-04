@@ -1,0 +1,51 @@
+{
+  "country": "El Salvador",
+  "iso2": "SV",
+  "iso3": "SLV",
+  "callingCode": "+503",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX-XXXX",
+    "international": "+503 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2)",
+      "national": "2XXX-XXXX",
+      "international": "+503 2XXX XXXX"
+    },
+    {
+      "label": "Mobile (6, 7)",
+      "national": "7XXX-XXXX",
+      "international": "+503 7XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+50322458901",
+      "international": "+503 2245 8901",
+      "national": "2245-8901",
+      "note": "Metropolitan fixed line — NDC 2, with the second digit marking the metro area"
+    },
+    {
+      "type": "mobile",
+      "e164": "+50370123456",
+      "international": "+503 7012 3456",
+      "national": "7012-3456",
+      "note": "Mobile — NDCs 6 and 7 are non-geographic"
+    }
+  ],
+  "notes": [
+    "The plan was updated in 2005: fixed services use NDC 2, mobile services NDCs 6 and 7.",
+    "No trunk prefix or area codes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_El_Salvador",
+    "SIGET — Superintendencia General de Electricidad y Telecomunicaciones: https://www.siget.gob.sv/"
+  ]
+}
