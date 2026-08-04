@@ -1,0 +1,51 @@
+{
+  "country": "Micronesia, Federated States of",
+  "iso2": "FM",
+  "iso3": "FSM",
+  "callingCode": "+691",
+  "trunkPrefix": "",
+  "internationalPrefix": "011",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+691 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Pohnpei (320, 920)",
+      "national": "320 XXXX",
+      "international": "+691 320 XXXX"
+    },
+    {
+      "label": "Chuuk (330, 930), Yap (350, 950), Kosrae (370, 970)",
+      "national": "330 XXXX",
+      "international": "+691 330 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+6919201234",
+      "international": "+691 920 1234",
+      "national": "920 1234",
+      "note": "Pohnpei — the 920 prefix"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6919305678",
+      "international": "+691 930 5678",
+      "national": "930 5678",
+      "note": "Chuuk — the 930 prefix"
+    }
+  ],
+  "notes": [
+    "The current plan dates from 2003, with prefixes assigned by state (Pohnpei, Chuuk, Yap, Kosrae) and by service type.",
+    "The international access prefix is 011, inherited from US practice, though the FSM is not part of the NANP."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Federated_States_of_Micronesia",
+    "FSM Telecommunications Regulation Authority: https://www.fsmtra.fm/"
+  ]
+}
