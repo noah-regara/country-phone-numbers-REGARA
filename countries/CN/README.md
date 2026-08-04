@@ -29,7 +29,7 @@ International: +86 AA XXXXXXXX (trunk 0 dropped)
 | fixed-line | `+861012345678` | `+86 10 1234 5678` | `010-12345678` | Beijing — 2-digit area code 10 |
 | fixed-line | `+862112345678` | `+86 21 1234 5678` | `021-12345678` | Shanghai — 2-digit area code 21 |
 | mobile | `+8613812345678` | `+86 138 1234 5678` | `138 1234 5678` | Mobile — always 11 digits beginning with 1; 138 is a China Mobile range |
-| toll-free | `+864001234567` | `+86 400 123 4567` | `400-123-4567` | Shared-cost service number; 800 is the true freephone range |
+| shared-cost | `+864001234567` | `+86 400 123 4567` | `400-123-4567` | Shared-cost service number; 800 is the true freephone range |
 
 ## Notes
 

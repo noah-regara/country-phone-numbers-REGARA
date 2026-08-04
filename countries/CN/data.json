@@ -55,7 +55,7 @@
       "note": "Mobile — always 11 digits beginning with 1; 138 is a China Mobile range"
     },
     {
-      "type": "toll-free",
+      "type": "shared-cost",
       "e164": "+864001234567",
       "international": "+86 400 123 4567",
       "national": "400-123-4567",
