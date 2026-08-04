@@ -1,0 +1,25 @@
+{
+  "country": "Pitcairn",
+  "iso2": "PN",
+  "iso3": "PCN",
+  "callingCode": "+64",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "noPublicNumbering": true,
+  "formats": {
+    "national": "no local numbering plan",
+    "international": "reached via +64 (New Zealand) or satellite"
+  },
+  "patterns": [],
+  "examples": [],
+  "notes": [
+    "Pitcairn has no numbering plan of its own and no local exchange. With a population of a few dozen, the island is served by satellite.",
+    "Contact numbers for the Pitcairn Islands administration are New Zealand +64 numbers, and the island itself has historically been reached over Inmarsat satellite numbers in the +872 range.",
+    "ISO 3166-1 assigns PN, but no country calling code is allocated to the territory."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_country_calling_codes",
+    "Government of the Pitcairn Islands: https://www.government.pn/"
+  ]
+}
