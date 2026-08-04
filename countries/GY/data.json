@@ -1,0 +1,51 @@
+{
+  "country": "Guyana",
+  "iso2": "GY",
+  "iso3": "GUY",
+  "callingCode": "+592",
+  "trunkPrefix": "",
+  "internationalPrefix": "001",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX-XXXX",
+    "international": "+592 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Georgetown fixed (22X, 23X)",
+      "national": "223-XXXX",
+      "international": "+592 223 XXXX"
+    },
+    {
+      "label": "Mobile (600–699)",
+      "national": "624-XXXX",
+      "international": "+592 624 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+5922231234",
+      "international": "+592 223 1234",
+      "national": "223-1234",
+      "note": "Georgetown — the 223 billing prefix serves the capital"
+    },
+    {
+      "type": "mobile",
+      "e164": "+5926245678",
+      "international": "+592 624 5678",
+      "national": "624-5678",
+      "note": "Mobile — the 600–699 range has been GSM-only since 2007-12-01"
+    }
+  ],
+  "notes": [
+    "All numbers are 7 digits: a 3-digit billing prefix plus a 4-digit directory number.",
+    "Prefixes are allocated by geography for fixed lines and by service type for mobile and special numbers."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Guyana",
+    "Guyana Telecommunications Agency: https://www.gta.gov.gy/"
+  ]
+}
