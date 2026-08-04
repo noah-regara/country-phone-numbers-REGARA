@@ -1,0 +1,75 @@
+{
+  "country": "Romania",
+  "iso2": "RO",
+  "iso3": "ROU",
+  "callingCode": "+40",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX (10 digits including trunk 0)",
+    "international": "+40 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Bucharest (21, 31)",
+      "national": "021 XXX XXXX",
+      "international": "+40 21 XXX XXXX"
+    },
+    {
+      "label": "Other geographic (2xx, 3xx)",
+      "national": "0264 XXX XXX",
+      "international": "+40 264 XXX XXX"
+    },
+    {
+      "label": "Mobile (7xx)",
+      "national": "0721 XXX XXX",
+      "international": "+40 721 XXX XXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXX XXX",
+      "international": "+40 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+40212345678",
+      "international": "+40 21 234 5678",
+      "national": "021 234 5678",
+      "note": "Bucharest — area code 21"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+40264123456",
+      "international": "+40 264 123 456",
+      "national": "0264 123 456",
+      "note": "Cluj-Napoca — area code 264"
+    },
+    {
+      "type": "mobile",
+      "e164": "+40721234567",
+      "international": "+40 721 234 567",
+      "national": "0721 234 567",
+      "note": "Mobile — 072x/073x are Vodafone Romania ranges"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+40800123456",
+      "international": "+40 800 123 456",
+      "national": "0800 123 456",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Romania requires the full 10-digit national form (trunk 0 + 9-digit NSN) for every domestic call, including local ones.",
+    "The digit after the trunk 0 encodes the service: 2–3 geographic, 7 mobile, 8 special/toll-free, 9 premium."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Romania",
+    "ANCOM — planul naţional de numerotaţie: https://www.ancom.ro/en/numerotatie_2314"
+  ]
+}
