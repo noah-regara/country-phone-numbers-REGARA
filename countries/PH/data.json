@@ -1,0 +1,70 @@
+{
+  "country": "Philippines",
+  "iso2": "PH",
+  "iso3": "PHL",
+  "callingCode": "+63",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9,
+    10
+  ],
+  "formats": {
+    "national": "0AA-XXX-XXXX (landline) / 09XX-XXX-XXXX (mobile)",
+    "international": "+63 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Metro Manila (2) — 8-digit subscriber numbers",
+      "national": "02-XXXX-XXXX",
+      "international": "+63 2 XXXX XXXX"
+    },
+    {
+      "label": "Other areas (2–3 digit area codes)",
+      "national": "0XX-XXX-XXXX",
+      "international": "+63 XX XXX XXXX"
+    },
+    {
+      "label": "Mobile (9XX)",
+      "national": "09XX-XXX-XXXX",
+      "international": "+63 9XX XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "1800-X-XXX-XXXX",
+      "international": "+63 1800 X XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+63281234567",
+      "international": "+63 2 8123 4567",
+      "national": "02-8123-4567",
+      "note": "Metro Manila — area code 2, expanded to 8-digit subscriber numbers in 2019"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+63321234567",
+      "international": "+63 32 123 4567",
+      "national": "032-123-4567",
+      "note": "Cebu — area code 32"
+    },
+    {
+      "type": "mobile",
+      "e164": "+639171234567",
+      "international": "+63 917 123 4567",
+      "national": "0917-123-4567",
+      "note": "Mobile — 0917 is a Globe Telecom range"
+    }
+  ],
+  "notes": [
+    "The Philippines uses an open plan: within the same area code the area code is normally omitted from landline-to-landline calls.",
+    "Metro Manila landlines were expanded from 7 to 8 subscriber digits in 2019, so older 7-digit Manila numbers are no longer valid.",
+    "All mobile numbers are 10 digits in NSN form and begin with 9."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Philippines",
+    "NTC — National Telecommunications Commission: https://ntc.gov.ph/"
+  ]
+}
