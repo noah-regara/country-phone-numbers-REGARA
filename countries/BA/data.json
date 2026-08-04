@@ -1,0 +1,75 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "iso2": "BA",
+  "iso3": "BIH",
+  "callingCode": "+387",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "0AA XXX XXX",
+    "international": "+387 AA XXX XXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Sarajevo (033)",
+      "national": "033 XXX XXX",
+      "international": "+387 33 XXX XXX"
+    },
+    {
+      "label": "Banja Luka (051), Mostar (036)",
+      "national": "051 XXX XXX",
+      "international": "+387 51 XXX XXX"
+    },
+    {
+      "label": "Mobile (60–66)",
+      "national": "061 XXX XXX",
+      "international": "+387 61 XXX XXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXXXX",
+      "international": "+387 800 XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+38733123456",
+      "international": "+387 33 123 456",
+      "national": "033 123 456",
+      "note": "Sarajevo — area code 033"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+38751123456",
+      "international": "+387 51 123 456",
+      "national": "051 123 456",
+      "note": "Banja Luka — area code 051"
+    },
+    {
+      "type": "mobile",
+      "e164": "+38761234567",
+      "international": "+387 61 234 567",
+      "national": "061 234 567",
+      "note": "Mobile — 61 is a BH Mobile range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+38780020002",
+      "international": "+387 800 20002",
+      "national": "0800 20002",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Bosnia and Herzegovina uses 8-digit NSNs: a 2-digit area code plus a 6-digit subscriber number.",
+    "Area codes broadly follow the entity structure — 033 Sarajevo, 051 Banja Luka, 036 Mostar."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bosnia_and_Herzegovina",
+    "RAK — Communications Regulatory Agency: https://www.rak.ba/"
+  ]
+}
