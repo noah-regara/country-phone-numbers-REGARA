@@ -1,0 +1,51 @@
+{
+  "country": "Central African Republic",
+  "iso2": "CF",
+  "iso3": "CAF",
+  "callingCode": "+236",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+236 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Socatel, Bangui (21)",
+      "national": "21XX XXXX",
+      "international": "+236 21XX XXXX"
+    },
+    {
+      "label": "Mobile — Orange, Telecel, Nationlink, Acell (70, 72, 75, 77)",
+      "national": "70XX XXXX",
+      "international": "+236 70XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+23621123456",
+      "international": "+236 2112 3456",
+      "national": "2112 3456",
+      "note": "Bangui — the 21 prefix is Socatel's fixed service"
+    },
+    {
+      "type": "mobile",
+      "e164": "+23670123456",
+      "international": "+236 7012 3456",
+      "national": "7012 3456",
+      "note": "Mobile — the 70 range"
+    }
+  ],
+  "notes": [
+    "On 2007-11-01 the Central African Republic expanded from 6 to 8 digits to align with ITU-T E.164.",
+    "No trunk prefix; the full 8 digits are dialled for every call."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Central_African_Republic",
+    "ARCEP RCA — Autorité de Régulation des Communications Électroniques et des Postes: https://arcep.cf/"
+  ]
+}
