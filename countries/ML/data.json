@@ -1,0 +1,51 @@
+{
+  "country": "Mali",
+  "iso2": "ML",
+  "iso3": "MLI",
+  "callingCode": "+223",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+223 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — SOTELMA (20, 21)",
+      "national": "20 XX XX XX",
+      "international": "+223 20 XX XX XX"
+    },
+    {
+      "label": "Mobile — Malitel, Orange Mali (6X, 7X)",
+      "national": "6X XX XX XX",
+      "international": "+223 6X XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+22320201234",
+      "international": "+223 2020 1234",
+      "national": "2020 1234",
+      "note": "Bamako — SOTELMA fixed service on the 20 prefix"
+    },
+    {
+      "type": "mobile",
+      "e164": "+22365012345",
+      "international": "+223 6501 2345",
+      "national": "6501 2345",
+      "note": "Mobile — 6X and 7X GSM ranges"
+    }
+  ],
+  "notes": [
+    "Mali has no area codes; all calls use the full 8 digits.",
+    "The plan was restructured in 2008 to accommodate growth."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Mali",
+    "AMRTP — Autorité Malienne de Régulation des Télécommunications: https://amrtp.ml/"
+  ]
+}
