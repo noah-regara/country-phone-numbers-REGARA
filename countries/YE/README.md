@@ -4,7 +4,7 @@
 **Country calling code:** +967  
 **Trunk prefix:** `0`  
 **International call prefix:** `00`  
-**National significant number:** 8 or 9 digits
+**National significant number:** 7 or 8 or 9 digits
 
 ## Formatting
 
@@ -26,12 +26,14 @@ International: +967 A XXXXXXX (trunk 0 dropped)
 | Type | E.164 | International | National | Notes |
 | --- | --- | --- | --- | --- |
 | fixed-line | `+96712345678` | `+967 1 234 5678` | `01 234 5678` | Sanaa — area code 01 |
+| fixed-line | `+9672234567` | `+967 2 234567` | `02 234567` | Aden — area code 2 with a 6-digit subscriber number, giving the usual 7-digit governorate NSN |
 | mobile | `+967711234567` | `+967 71 123 4567` | `71 123 4567` | Mobile — 71 is a Sabafon range; mobile numbers carry no trunk 0 |
 
 ## Notes
 
 - The trunk prefix 0 applies to landlines only; mobile numbers are dialled without it.
-- Fixed NSNs are 8 digits and mobile NSNs 9.
+- Fixed-line area codes are a single digit (1 Sana'a, 2 Aden, 3 Hodeidah, 4 Taiz/Ibb, 5 Hadhramaut, 6 Marib, 7 Saada/Amran), so most governorate NSNs are 7 digits.
+- Sana'a has sub-ranges with 7-digit subscriber numbers, giving an 8-digit NSN there; mobile NSNs are 9 digits.
 
 ## Sources
 

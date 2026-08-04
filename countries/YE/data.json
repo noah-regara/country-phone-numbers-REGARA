@@ -6,6 +6,7 @@
   "trunkPrefix": "0",
   "internationalPrefix": "00",
   "nsnLengths": [
+    7,
     8,
     9
   ],
@@ -39,6 +40,13 @@
       "note": "Sanaa — area code 01"
     },
     {
+      "type": "fixed-line",
+      "e164": "+9672234567",
+      "international": "+967 2 234567",
+      "national": "02 234567",
+      "note": "Aden — area code 2 with a 6-digit subscriber number, giving the usual 7-digit governorate NSN"
+    },
+    {
       "type": "mobile",
       "e164": "+967711234567",
       "international": "+967 71 123 4567",
@@ -48,7 +56,8 @@
   ],
   "notes": [
     "The trunk prefix 0 applies to landlines only; mobile numbers are dialled without it.",
-    "Fixed NSNs are 8 digits and mobile NSNs 9."
+    "Fixed-line area codes are a single digit (1 Sana'a, 2 Aden, 3 Hodeidah, 4 Taiz/Ibb, 5 Hadhramaut, 6 Marib, 7 Saada/Amran), so most governorate NSNs are 7 digits.",
+    "Sana'a has sub-ranges with 7-digit subscriber numbers, giving an 8-digit NSN there; mobile NSNs are 9 digits."
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/Telephone_numbers_in_Yemen",
