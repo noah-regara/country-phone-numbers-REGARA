@@ -1,0 +1,56 @@
+{
+  "country": "Costa Rica",
+  "iso2": "CR",
+  "iso3": "CRI",
+  "callingCode": "+506",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX-XXXX",
+    "international": "+506 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2)",
+      "national": "2XXX-XXXX",
+      "international": "+506 2XXX XXXX"
+    },
+    {
+      "label": "Mobile (6, 7, 8)",
+      "national": "8XXX-XXXX",
+      "international": "+506 8XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "800-XXX-XXXX",
+      "international": "+506 800 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+50622221234",
+      "international": "+506 2222 1234",
+      "national": "2222-1234",
+      "note": "San José — the 2 prefix marks all Costa Rican landlines"
+    },
+    {
+      "type": "mobile",
+      "e164": "+50687654321",
+      "international": "+506 8765 4321",
+      "national": "8765-4321",
+      "note": "Mobile — 8 prefix (also 6 and 7)"
+    }
+  ],
+  "notes": [
+    "On 2008-03-20 Costa Rica moved from 7 to 8 digits by prefixing 2 to every landline and 8 to every mobile number.",
+    "No area codes or trunk prefix; the leading digit distinguishes fixed from mobile."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Costa_Rica",
+    "SUTEL — Superintendencia de Telecomunicaciones: https://sutel.go.cr/"
+  ]
+}
