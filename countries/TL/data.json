@@ -1,0 +1,52 @@
+{
+  "country": "Timor-Leste",
+  "iso2": "TL",
+  "iso3": "TLS",
+  "callingCode": "+670",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    8
+  ],
+  "formats": {
+    "national": "XXX XXXX (fixed) / XXXX XXXX (mobile)",
+    "international": "+670 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Dili (33X)",
+      "national": "33X XXXX",
+      "international": "+670 33X XXXX"
+    },
+    {
+      "label": "Mobile (73XX–78XX)",
+      "national": "73XX XXXX",
+      "international": "+670 73XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+6703301234",
+      "international": "+670 330 1234",
+      "national": "330 1234",
+      "note": "Dili — the 33X fixed allocation"
+    },
+    {
+      "type": "mobile",
+      "e164": "+67073123456",
+      "international": "+670 7312 3456",
+      "national": "7312 3456",
+      "note": "Mobile — a 7 was prefixed to mobile numbers, making them 8 digits"
+    }
+  ],
+  "notes": [
+    "Timor-Leste moved off Indonesia's +62 plan after 1999 and took its own code +670.",
+    "Closed plan: fixed NSNs are 7 digits, mobile NSNs 8."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_East_Timor",
+    "ANC — Autoridade Nacional de Comunicações, Timor-Leste: https://www.anc.tl/"
+  ]
+}
