@@ -1,0 +1,25 @@
+{
+  "country": "Bouvet Island",
+  "iso2": "BV",
+  "iso3": "BVT",
+  "callingCode": "+47",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "noPublicNumbering": true,
+  "formats": {
+    "national": "no numbering assigned",
+    "international": "no numbering assigned"
+  },
+  "patterns": [],
+  "examples": [],
+  "notes": [
+    "Bouvet Island is an uninhabited subantarctic dependency of Norway. It has no permanent population, no exchange and no telephone numbers.",
+    "It is nominally associated with Norway's +47 country code, but no numbers are allocated to it and none are reachable.",
+    "Any communication with expeditions on the island is by satellite."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_country_calling_codes",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norway"
+  ]
+}
