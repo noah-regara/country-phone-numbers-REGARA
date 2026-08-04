@@ -1,0 +1,56 @@
+{
+  "country": "Equatorial Guinea",
+  "iso2": "GQ",
+  "iso3": "GNQ",
+  "callingCode": "+240",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "XX XXX XXXX",
+    "international": "+240 XX XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (3J XXX XXXX; 9 = Bioko, 8 = Litoral/Annobón, 7 = mainland)",
+      "national": "33 XXX XXXX",
+      "international": "+240 33 XXX XXXX"
+    },
+    {
+      "label": "Mobile — GETESA, HiTs G.E. (2J, 5J)",
+      "national": "22 XXX XXXX",
+      "international": "+240 22 XXX XXXX"
+    },
+    {
+      "label": "Freephone (80X) / premium (90X)",
+      "national": "80X XXX XXX",
+      "international": "+240 80X XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+240333091234",
+      "international": "+240 33 309 1234",
+      "national": "33 309 1234",
+      "note": "Malabo, Bioko Island — fixed numbers begin with 3"
+    },
+    {
+      "type": "mobile",
+      "e164": "+240222123456",
+      "international": "+240 22 212 3456",
+      "national": "22 212 3456",
+      "note": "Mobile — numbers beginning 2 or 5"
+    }
+  ],
+  "notes": [
+    "Fixed numbers begin with 3 and mobile numbers with 2 or 5.",
+    "Within the fixed plan a geographic digit identifies the region: 9 Bioko Island, 8 Litoral and Annobón, 7 Centro-Sur, Kié-Ntem and Wele-Nzás."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Equatorial_Guinea",
+    "ORTEL — Órgano Regulador de las Telecomunicaciones de Guinea Ecuatorial: https://www.ortel.gq/"
+  ]
+}
