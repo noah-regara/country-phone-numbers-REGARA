@@ -1,0 +1,77 @@
+{
+  "country": "Morocco",
+  "iso2": "MA",
+  "iso3": "MAR",
+  "callingCode": "+212",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AAA XX XX XX",
+    "international": "+212 AAA XX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Casablanca (0522, 0529)",
+      "national": "0522 XX XX XX",
+      "international": "+212 522 XX XX XX"
+    },
+    {
+      "label": "Rabat (0537), Marrakesh (0524), Fes (0535)",
+      "national": "0537 XX XX XX",
+      "international": "+212 537 XX XX XX"
+    },
+    {
+      "label": "Mobile (06X, 07X)",
+      "national": "0661 XX XX XX",
+      "international": "+212 661 XX XX XX"
+    },
+    {
+      "label": "Toll-free (080)",
+      "national": "0800 XX XX XX",
+      "international": "+212 800 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+212522123456",
+      "international": "+212 522 12 34 56",
+      "national": "0522 12 34 56",
+      "note": "Casablanca — one of about ten prefixes serving the city"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+212537123456",
+      "international": "+212 537 12 34 56",
+      "national": "0537 12 34 56",
+      "note": "Rabat — prefix 0537"
+    },
+    {
+      "type": "mobile",
+      "e164": "+212661123456",
+      "international": "+212 661 12 34 56",
+      "national": "0661 12 34 56",
+      "note": "Mobile — 06X and 07X ranges across Maroc Telecom, Orange Maroc and INWI"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+212800123456",
+      "international": "+212 800 12 34 56",
+      "national": "0800 12 34 56",
+      "note": "Numéro vert (freephone)"
+    }
+  ],
+  "notes": [
+    "Closed 9-digit plan: the prefix must be dialled even for local calls.",
+    "One geographic area may be served by several prefixes — Casablanca alone has around ten.",
+    "Numbers grew from 6 digits (1990) to 7, then 8 (2000) and finally 9 (2009).",
+    "Western Sahara is administered within the same +212 plan, principally under the 0528 prefix."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Morocco",
+    "ANRT — Agence Nationale de Réglementation des Télécommunications: https://www.anrt.ma/"
+  ]
+}
