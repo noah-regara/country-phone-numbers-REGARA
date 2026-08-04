@@ -1,0 +1,51 @@
+{
+  "country": "Aruba",
+  "iso2": "AW",
+  "iso3": "ABW",
+  "callingCode": "+297",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+297 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (28, 52, 58)",
+      "national": "58X XXXX",
+      "international": "+297 58X XXXX"
+    },
+    {
+      "label": "Mobile (56, 59, 64, 73, 74, 99)",
+      "national": "56X XXXX",
+      "international": "+297 56X XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2975821234",
+      "international": "+297 582 1234",
+      "national": "582 1234",
+      "note": "Fixed line — the 58 range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2975601234",
+      "international": "+297 560 1234",
+      "national": "560 1234",
+      "note": "Mobile — the 56 range"
+    }
+  ],
+  "notes": [
+    "Aruba left the Netherlands Antilles plan (+599 8) in 1986 and took its own code +297.",
+    "Although the 7-digit format resembles a NANP local number, Aruba is not part of the NANP — calls are international."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Aruba",
+    "DTZ Aruba — Directie Telecommunicatie Zaken: https://www.dtz.aw/"
+  ]
+}
