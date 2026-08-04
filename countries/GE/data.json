@@ -1,0 +1,68 @@
+{
+  "country": "Georgia",
+  "iso2": "GE",
+  "iso3": "GEO",
+  "callingCode": "+995",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX",
+    "international": "+995 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Tbilisi (32)",
+      "national": "0 32 2XX XXXX",
+      "international": "+995 32 2XX XXXX"
+    },
+    {
+      "label": "Eastern Georgia (3xx), Western Georgia (4xx)",
+      "national": "0 4XX XX XXXX",
+      "international": "+995 4XX XX XXXX"
+    },
+    {
+      "label": "Mobile (5XX)",
+      "national": "0 5XX XXX XXX",
+      "international": "+995 5XX XXX XXX"
+    },
+    {
+      "label": "Fixed wireless (7XX)",
+      "national": "0 7XX XXX XXX",
+      "international": "+995 7XX XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+995322123456",
+      "international": "+995 32 212 3456",
+      "national": "0 32 212 3456",
+      "note": "Tbilisi — area code 32; Tbilisi subscriber numbers begin with 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+995595123456",
+      "international": "+995 595 123 456",
+      "national": "0 595 123 456",
+      "note": "Mobile — 595 is a MagtiCom range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+995551123456",
+      "international": "+995 551 123 456",
+      "national": "0 551 123 456",
+      "note": "Mobile — all Georgian mobile prefixes begin with 5"
+    }
+  ],
+  "notes": [
+    "Closed 9-digit plan. Geographic numbers begin with 3 (eastern Georgia) or 4 (western Georgia); mobile numbers begin with 5.",
+    "A leading 5 was added to all mobile prefixes on 2011-06-20 to separate them cleanly from geographic ranges."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Georgia_(country)",
+    "ComCom Georgia — National Communications Commission: https://comcom.ge/"
+  ]
+}
