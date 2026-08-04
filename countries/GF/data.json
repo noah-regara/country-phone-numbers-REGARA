@@ -1,0 +1,51 @@
+{
+  "country": "French Guiana",
+  "iso2": "GF",
+  "iso3": "GUF",
+  "callingCode": "+594",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0594 XX XX XX",
+    "international": "+594 594 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (0594)",
+      "national": "0594 XX XX XX",
+      "international": "+594 594 XX XX XX"
+    },
+    {
+      "label": "Mobile (0694)",
+      "national": "0694 XX XX XX",
+      "international": "+594 694 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+594594123456",
+      "international": "+594 594 12 34 56",
+      "national": "0594 12 34 56",
+      "note": "French Guiana fixed — country code repeats as the internal area code"
+    },
+    {
+      "type": "mobile",
+      "e164": "+594694123456",
+      "international": "+594 694 12 34 56",
+      "national": "0694 12 34 56",
+      "note": "Mobile — the 0694 range"
+    }
+  ],
+  "notes": [
+    "French Guiana is an overseas department using the French 10-digit national format.",
+    "Numbers are written in pairs in the French style."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+    "ARCEP — plan de numérotation: https://www.arcep.fr/"
+  ]
+}
