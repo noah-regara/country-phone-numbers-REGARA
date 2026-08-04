@@ -1,0 +1,64 @@
+{
+  "country": "Guatemala",
+  "iso2": "GT",
+  "iso3": "GTM",
+  "callingCode": "+502",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX-XXXX",
+    "international": "+502 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Guatemala City fixed (2, 6)",
+      "national": "2XXX-XXXX",
+      "international": "+502 2XXX XXXX"
+    },
+    {
+      "label": "Provincial fixed (7)",
+      "national": "7XXX-XXXX",
+      "international": "+502 7XXX XXXX"
+    },
+    {
+      "label": "Mobile (3, 4, 5)",
+      "national": "5XXX-XXXX",
+      "international": "+502 5XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+50222345678",
+      "international": "+502 2234 5678",
+      "national": "2234-5678",
+      "note": "Guatemala City — leading 2 (also 6) denotes a capital landline"
+    },
+    {
+      "type": "mobile",
+      "e164": "+50251234567",
+      "international": "+502 5123 4567",
+      "national": "5123-4567",
+      "note": "Mobile — 3, 4 and 5 are mobile prefixes"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+50271234567",
+      "international": "+502 7123 4567",
+      "national": "7123-4567",
+      "note": "Provincial landline — leading 7"
+    }
+  ],
+  "notes": [
+    "No area codes or trunk prefix; the first digit classifies the service (2/6 capital fixed, 7 provincial fixed, 3/4/5 mobile).",
+    "The three digits after the first identify the service provider.",
+    "1-800 gives international toll-free access and 1-801 domestic toll-free."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Guatemala",
+    "SIT — Superintendencia de Telecomunicaciones de Guatemala: https://sit.gob.gt/"
+  ]
+}
