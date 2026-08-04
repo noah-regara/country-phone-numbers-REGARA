@@ -34,7 +34,7 @@ One folder per ISO 3166-1 alpha-2 entry. Each holds a machine-readable `data.jso
 | [`BL`](countries/BL/) | Saint Barthélemy | +590 | 9 | 2 |
 | [`BM`](countries/BM/) | Bermuda | +1 | 10 | 1 |
 | [`BN`](countries/BN/) | Brunei Darussalam | +673 | 7 | 2 |
-| [`BO`](countries/BO/) | Bolivia | +591 | 8 | 3 |
+| [`BO`](countries/BO/) | Bolivia, Plurinational State of | +591 | 8 | 3 |
 | [`BQ`](countries/BQ/) | Bonaire, Sint Eustatius and Saba | +599 | 7 | 3 |
 | [`BR`](countries/BR/) | Brazil | +55 | 10/11 | 3 |
 | [`BS`](countries/BS/) | Bahamas | +1 | 10 | 1 |
@@ -82,7 +82,7 @@ One folder per ISO 3166-1 alpha-2 entry. Each holds a machine-readable `data.jso
 | [`FO`](countries/FO/) | Faroe Islands | +298 | 6 | 2 |
 | [`FR`](countries/FR/) | France | +33 | 9 | 4 |
 | [`GA`](countries/GA/) | Gabon | +241 | 8 | 2 |
-| [`GB`](countries/GB/) | United Kingdom | +44 | 9/10 | 4 |
+| [`GB`](countries/GB/) | United Kingdom of Great Britain and Northern Ireland | +44 | 9/10 | 4 |
 | [`GD`](countries/GD/) | Grenada | +1 | 10 | 1 |
 | [`GE`](countries/GE/) | Georgia | +995 | 9 | 3 |
 | [`GF`](countries/GF/) | French Guiana | +594 | 9 | 2 |

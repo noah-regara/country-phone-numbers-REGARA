@@ -1,4 +1,4 @@
-# Bolivia — Phone Number Formats
+# Bolivia, Plurinational State of — Phone Number Formats
 
 **ISO 3166-1:** `BO` / `BOL`  
 **Country calling code:** +591  

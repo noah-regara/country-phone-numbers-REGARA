@@ -1,4 +1,4 @@
-# United Kingdom — Phone Number Formats
+# United Kingdom of Great Britain and Northern Ireland — Phone Number Formats
 
 **ISO 3166-1:** `GB` / `GBR`  
 **Country calling code:** +44  
