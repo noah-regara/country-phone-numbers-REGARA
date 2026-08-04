@@ -1,0 +1,64 @@
+{
+  "country": "Mozambique",
+  "iso2": "MZ",
+  "iso3": "MOZ",
+  "callingCode": "+258",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "AA XXXXXX (fixed) / AA XXXXXXX (mobile)",
+    "international": "+258 AA XXXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Maputo (21)",
+      "national": "21 XXXXXX",
+      "international": "+258 21 XXXXXX"
+    },
+    {
+      "label": "Other provinces (2-digit area codes)",
+      "national": "XX XXXXXX",
+      "international": "+258 XX XXXXXX"
+    },
+    {
+      "label": "Mobile — Mcel (82, 83), Vodacom (84, 85), Movitel (86, 87)",
+      "national": "84 XXXXXXX",
+      "international": "+258 84 XXXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+25821123456",
+      "international": "+258 21 123456",
+      "national": "21 123456",
+      "note": "Maputo — area code 21"
+    },
+    {
+      "type": "mobile",
+      "e164": "+258841234567",
+      "international": "+258 84 1234567",
+      "national": "84 1234567",
+      "note": "Mobile — 84/85 are Vodacom Moçambique ranges"
+    },
+    {
+      "type": "mobile",
+      "e164": "+258821234567",
+      "international": "+258 82 1234567",
+      "national": "82 1234567",
+      "note": "Mobile — 82/83 are Mcel ranges"
+    }
+  ],
+  "notes": [
+    "No trunk prefix; fixed NSNs are 8 digits and mobile NSNs 9, so length distinguishes the two.",
+    "Mobile operator blocks: 82/83 Mcel, 84/85 Vodacom, 86/87 Movitel."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Mozambique",
+    "INCM — Instituto Nacional das Comunicações de Moçambique: https://www.incm.gov.mz/"
+  ]
+}
