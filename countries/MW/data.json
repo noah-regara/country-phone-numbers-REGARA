@@ -1,0 +1,52 @@
+{
+  "country": "Malawi",
+  "iso2": "MW",
+  "iso3": "MWI",
+  "callingCode": "+265",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    9
+  ],
+  "formats": {
+    "national": "X XXX XXX (7-digit) / X XXXX XXXX (9-digit)",
+    "international": "+265 X XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Geographic — Malawi Telecom (1)",
+      "national": "1 XXX XXX",
+      "international": "+265 1 XXX XXX"
+    },
+    {
+      "label": "Mobile — TNM (8), Airtel (9)",
+      "national": "9 XXXX XXXX",
+      "international": "+265 9 XXXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2651234567",
+      "international": "+265 1 234 567",
+      "national": "1 234 567",
+      "note": "Lilongwe — Malawi Telecom geographic numbers on the 1 prefix are 7 digits"
+    },
+    {
+      "type": "mobile",
+      "e164": "+265981234567",
+      "international": "+265 9 8123 4567",
+      "national": "9 8123 4567",
+      "note": "Mobile — 9 is an Airtel Malawi range; mobile NSNs are 9 digits"
+    }
+  ],
+  "notes": [
+    "Malawi has no area codes; the leading digit identifies the operator and service.",
+    "Legacy 7-digit geographic numbers on the 1 prefix coexist with 9-digit numbers introduced after the 2009 plan revision, so length varies."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Malawi",
+    "MACRA — Malawi Communications Regulatory Authority: https://www.macra.mw/"
+  ]
+}
