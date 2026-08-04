@@ -1,0 +1,69 @@
+{
+  "country": "Denmark",
+  "iso2": "DK",
+  "iso3": "DNK",
+  "callingCode": "+45",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX",
+    "international": "+45 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line",
+      "national": "XX XX XX XX",
+      "international": "+45 XX XX XX XX"
+    },
+    {
+      "label": "Mobile",
+      "national": "XX XX XX XX",
+      "international": "+45 XX XX XX XX"
+    },
+    {
+      "label": "Freephone",
+      "national": "80 XX XX XX",
+      "international": "+45 80 XX XX XX"
+    },
+    {
+      "label": "Premium rate",
+      "national": "90 XX XX XX",
+      "international": "+45 90 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+4533123456",
+      "international": "+45 33 12 34 56",
+      "national": "33 12 34 56",
+      "note": "Fixed line — 33 is a Copenhagen-origin range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+4525876543",
+      "international": "+45 25 87 65 43",
+      "national": "25 87 65 43",
+      "note": "Mobile — 2x ranges"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+4580123456",
+      "international": "+45 80 12 34 56",
+      "national": "80 12 34 56",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Denmark abolished area codes in 1989. All numbers are 8 digits with no trunk prefix, dialled in full for every call.",
+    "Numbers are portable across both provider and geography, so the leading digits do not reliably indicate operator or location.",
+    "Fixed and mobile numbers share the same 8-digit format and are distinguished only by allocated range."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Denmark",
+    "Danish Energy Agency — nummerplan: https://ens.dk/ansvarsomraader/telepolitik/nummerforhold"
+  ]
+}
