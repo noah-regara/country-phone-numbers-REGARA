@@ -1,0 +1,39 @@
+{
+  "country": "South Georgia and the South Sandwich Islands",
+  "iso2": "GS",
+  "iso3": "SGS",
+  "callingCode": "+500",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    5
+  ],
+  "formats": {
+    "national": "XXXXX (Falkland Islands plan)",
+    "international": "+500 XXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed / research station lines",
+      "national": "2XXXX",
+      "international": "+500 2XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+50021234",
+      "international": "+500 21234",
+      "national": "21234",
+      "note": "South Georgia shares the Falkland Islands numbering plan; King Edward Point is served through it"
+    }
+  ],
+  "notes": [
+    "South Georgia and the South Sandwich Islands have no separate country code and no permanent civilian population; the territory shares +500 with the Falkland Islands.",
+    "Communications serve the British Antarctic Survey station at King Edward Point and visiting vessels, and satellite services are widely used in place of terrestrial numbering."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Falkland_Islands",
+    "Government of South Georgia and the South Sandwich Islands: https://www.gov.gs/"
+  ]
+}
