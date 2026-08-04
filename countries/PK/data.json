@@ -20,8 +20,8 @@
     },
     {
       "label": "Smaller cities (3–5 digit area codes)",
-      "national": "(0XXX) XXXXXX",
-      "international": "+92 XXX XXXXXX"
+      "national": "(0XXX) XXXXXXX",
+      "international": "+92 XXX XXXXXXX"
     },
     {
       "label": "Mobile (03XX)",

@@ -169,7 +169,7 @@
     },
     "patterns": [
       { "label": "Karachi (21), Lahore (42), Islamabad (51)", "national": "(021) XXXXXXXX", "international": "+92 21 XXXXXXXX" },
-      { "label": "Smaller cities (3–5 digit area codes)", "national": "(0XXX) XXXXXX", "international": "+92 XXX XXXXXX" },
+      { "label": "Smaller cities (3–5 digit area codes)", "national": "(0XXX) XXXXXXX", "international": "+92 XXX XXXXXXX" },
       { "label": "Mobile (03XX)", "national": "03XX-XXXXXXX", "international": "+92 3XX XXXXXXX" },
       { "label": "Toll-free", "national": "0800-XXXXX", "international": "+92 800 XXXXX" }
     ],

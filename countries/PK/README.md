@@ -18,7 +18,7 @@ International: +92 AA XXXXXXXX (trunk 0 dropped)
 | Range | National format | International format |
 | --- | --- | --- |
 | Karachi (21), Lahore (42), Islamabad (51) | `(021) XXXXXXXX` | `+92 21 XXXXXXXX` |
-| Smaller cities (3–5 digit area codes) | `(0XXX) XXXXXX` | `+92 XXX XXXXXX` |
+| Smaller cities (3–5 digit area codes) | `(0XXX) XXXXXXX` | `+92 XXX XXXXXXX` |
 | Mobile (03XX) | `03XX-XXXXXXX` | `+92 3XX XXXXXXX` |
 | Toll-free | `0800-XXXXX` | `+92 800 XXXXX` |
 
