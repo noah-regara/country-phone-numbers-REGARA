@@ -1,0 +1,65 @@
+{
+  "country": "Cambodia",
+  "iso2": "KH",
+  "iso3": "KHM",
+  "callingCode": "+855",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0AA-XXX-XXX (landline) / 0AA-XXX-XXXX (mobile)",
+    "international": "+855 AA XXX XXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Phnom Penh (023)",
+      "national": "023-XXX-XXX",
+      "international": "+855 23 XXX XXX"
+    },
+    {
+      "label": "Provincial (2-digit area codes)",
+      "national": "0XX-XXX-XXX",
+      "international": "+855 XX XXX XXX"
+    },
+    {
+      "label": "Mobile (010, 011, 012, 015–017, 06x, 07x, 08x, 09x)",
+      "national": "010-XXX-XXXX",
+      "international": "+855 10 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+85523123456",
+      "international": "+855 23 123 456",
+      "national": "023-123-456",
+      "note": "Phnom Penh — area code 023"
+    },
+    {
+      "type": "mobile",
+      "e164": "+855102345678",
+      "international": "+855 10 234 5678",
+      "national": "010-234-5678",
+      "note": "Mobile — 010 is a Smart Axiata range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+855882345678",
+      "international": "+855 88 234 5678",
+      "national": "088-234-5678",
+      "note": "Mobile — 088 is a Metfone range"
+    }
+  ],
+  "notes": [
+    "Cambodia uses a closed plan compliant with ITU-T E.164; the leading 0 is dropped when dialling from abroad.",
+    "The first two digits after the trunk 0 identify the operator for mobile numbers.",
+    "Mobile NSNs run 8–9 digits depending on the operator's allocated block."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cambodia",
+    "TRC — Telecommunication Regulator of Cambodia: https://trc.gov.kh/"
+  ]
+}
