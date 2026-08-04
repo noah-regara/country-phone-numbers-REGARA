@@ -1,0 +1,61 @@
+{
+  "country": "Myanmar",
+  "iso2": "MM",
+  "iso3": "MMR",
+  "callingCode": "+95",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0A XXX XXXX (fixed) / 09 XXX XXXXXX (mobile)",
+    "international": "+95 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Yangon (1)",
+      "national": "01 XXX XXXX",
+      "international": "+95 1 XXX XXXX"
+    },
+    {
+      "label": "Mandalay (2), Nay Pyi Taw (67)",
+      "national": "02 XXX XXXX",
+      "international": "+95 2 XXX XXXX"
+    },
+    {
+      "label": "Mobile (09)",
+      "national": "09 XXX XXXXXX",
+      "international": "+95 9 XXX XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+9512345678",
+      "international": "+95 1 234 5678",
+      "national": "01 234 5678",
+      "note": "Yangon — area code 1"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+9522834567",
+      "international": "+95 2 283 4567",
+      "national": "02 283 4567",
+      "note": "Mandalay — area code 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+95797123456",
+      "international": "+95 797 123 456",
+      "national": "09 797 123 456",
+      "note": "Mobile — 097 is a Telenor range; 096 Mytel, 098/099 Ooredoo, 092/094/095 MPT"
+    }
+  ],
+  "notes": [
+    "Myanmar's NSN varies from about 7 to 10 digits, so length-based validation is unreliable.",
+    "All mobile numbers are dialled domestically with the 09 prefix; the operator is identified by the digit that follows."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Myanmar",
+    "PTD — Posts and Telecommunications Department, Myanmar: https://www.ptd.gov.mm/"
+  ]
+}
