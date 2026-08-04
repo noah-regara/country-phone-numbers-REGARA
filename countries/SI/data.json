@@ -1,0 +1,75 @@
+{
+  "country": "Slovenia",
+  "iso2": "SI",
+  "iso3": "SVN",
+  "callingCode": "+386",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "0A XXX XX XX",
+    "international": "+386 A XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Ljubljana (area code 1)",
+      "national": "01 XXX XX XX",
+      "international": "+386 1 XXX XX XX"
+    },
+    {
+      "label": "Other geographic (2–7)",
+      "national": "0X XXX XX XX",
+      "international": "+386 X XXX XX XX"
+    },
+    {
+      "label": "Mobile (30, 31, 40, 41, 51, 64, 68, 69, 70, 71)",
+      "national": "030 XXX XXX",
+      "international": "+386 30 XXX XXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "080 XX XX",
+      "international": "+386 80 XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+38612345678",
+      "international": "+386 1 234 56 78",
+      "national": "01 234 56 78",
+      "note": "Ljubljana — area code 1"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+38621234567",
+      "international": "+386 2 123 45 67",
+      "national": "02 123 45 67",
+      "note": "Maribor — area code 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+38630123456",
+      "international": "+386 30 123 456",
+      "national": "030 123 456",
+      "note": "Mobile — 030 is an A1 Slovenija range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+38680123456",
+      "international": "+386 80 123 456",
+      "national": "080 123 456",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "All Slovenian numbers are 9 digits in national form: trunk 0 plus an 8-digit NSN.",
+    "Mobile prefixes are dialled in full even from within the same network."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Slovenia",
+    "AKOS — številski načrt: https://www.akos-rs.si/"
+  ]
+}
