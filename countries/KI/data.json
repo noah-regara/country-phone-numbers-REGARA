@@ -1,0 +1,51 @@
+{
+  "country": "Kiribati",
+  "iso2": "KI",
+  "iso3": "KIR",
+  "callingCode": "+686",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+686 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — South Tarawa (65X XXXXX)",
+      "national": "6502 XXXX",
+      "international": "+686 6502 XXXX"
+    },
+    {
+      "label": "Mobile (63X XXXXX)",
+      "national": "6300 XXXX",
+      "international": "+686 6300 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+68665021500",
+      "international": "+686 6502 1500",
+      "national": "6502 1500",
+      "note": "Bairiki, South Tarawa — the 650 geographic block"
+    },
+    {
+      "type": "mobile",
+      "e164": "+68663005000",
+      "international": "+686 6300 5000",
+      "national": "6300 5000",
+      "note": "Mobile — the 630 cellular block"
+    }
+  ],
+  "notes": [
+    "Kiribati expanded from 5-digit to 8-digit numbers in a phased migration between 2013 and 2018.",
+    "No trunk prefix or area codes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kiribati",
+    "CCK — Communications Commission of Kiribati: https://www.cck.ki/"
+  ]
+}
