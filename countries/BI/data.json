@@ -1,0 +1,51 @@
+{
+  "country": "Burundi",
+  "iso2": "BI",
+  "iso3": "BDI",
+  "callingCode": "+257",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XXXX",
+    "international": "+257 XX XX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Bujumbura (2220–2229)",
+      "national": "22 20 XXXX",
+      "international": "+257 22 20 XXXX"
+    },
+    {
+      "label": "Mobile — Onatel (77), Econet/Lumitel and others (61–79)",
+      "national": "77 XX XXXX",
+      "international": "+257 77 XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+25722201234",
+      "international": "+257 2220 1234",
+      "national": "2220 1234",
+      "note": "Bujumbura — the 2220 block serves the capital"
+    },
+    {
+      "type": "mobile",
+      "e164": "+25777125678",
+      "international": "+257 7712 5678",
+      "national": "7712 5678",
+      "note": "Mobile — 77 is an Onatel GSM range"
+    }
+  ],
+  "notes": [
+    "Closed 8-digit plan with no trunk prefix.",
+    "Mobile blocks fall in the 61–79 range across Onatel, Lumitel, Smart and other operators; the regulator is ARCT."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Burundi",
+    "ARCT — Agence de Régulation et de Contrôle des Télécommunications: https://www.arct.gov.bi/"
+  ]
+}
