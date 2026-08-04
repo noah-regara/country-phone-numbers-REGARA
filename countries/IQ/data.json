@@ -1,0 +1,61 @@
+{
+  "country": "Iraq",
+  "iso2": "IQ",
+  "iso3": "IRQ",
+  "callingCode": "+964",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0A XXXXXXX (landline) / 07XX XXX XXXX (mobile)",
+    "international": "+964 A XXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Baghdad (1)",
+      "national": "01 XXXXXXX",
+      "international": "+964 1 XXXXXXX"
+    },
+    {
+      "label": "Governorates (2-digit area codes)",
+      "national": "0XX XXXXXX",
+      "international": "+964 XX XXXXXX"
+    },
+    {
+      "label": "Mobile (75X Korek, 77X Asiacell, 78X/79X Zain)",
+      "national": "0751 234 5678",
+      "international": "+964 751 234 5678"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+96412345678",
+      "international": "+964 1 234 5678",
+      "national": "01 234 5678",
+      "note": "Baghdad — area code 1; Baghdad has 7-digit subscriber numbers where most governorates have 6"
+    },
+    {
+      "type": "mobile",
+      "e164": "+9647512345678",
+      "international": "+964 751 234 5678",
+      "national": "0751 234 5678",
+      "note": "Mobile — 75X is a Korek Telecom range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+9647712345678",
+      "international": "+964 771 234 5678",
+      "national": "0771 234 5678",
+      "note": "Mobile — 77X is an Asiacell range"
+    }
+  ],
+  "notes": [
+    "Area codes are 1–2 digits and subscriber numbers 6–7, so landline NSN length varies.",
+    "Mobile numbers use a 3-digit operator code plus 7 digits, giving a 10-digit NSN."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Iraq",
+    "CMC — Communications and Media Commission of Iraq: https://www.cmc.iq/"
+  ]
+}
