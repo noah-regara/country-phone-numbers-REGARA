@@ -1,0 +1,52 @@
+{
+  "country": "Papua New Guinea",
+  "iso2": "PG",
+  "iso3": "PNG",
+  "callingCode": "+675",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    8
+  ],
+  "formats": {
+    "national": "XXX XXXX (fixed) / XXXX XXXX (mobile)",
+    "international": "+675 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Port Moresby (300–303)",
+      "national": "300 XXXX",
+      "international": "+675 300 XXXX"
+    },
+    {
+      "label": "Mobile — Digicel (70–79, 88), bmobile (75–77), Vodafone (81–84)",
+      "national": "70XX XXXX",
+      "international": "+675 70XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+6753001234",
+      "international": "+675 300 1234",
+      "national": "300 1234",
+      "note": "Port Moresby — the 300–303 block serves the National Capital District"
+    },
+    {
+      "type": "mobile",
+      "e164": "+67570123456",
+      "international": "+675 7012 3456",
+      "national": "7012 3456",
+      "note": "Mobile — 8 digits, one more than a fixed line; 70–79 are Digicel PNG ranges"
+    }
+  ],
+  "notes": [
+    "Fixed NSNs are 7 digits and mobile NSNs 8, so length distinguishes the two.",
+    "The international access prefix changed from 05 to 00 in 2010."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Papua_New_Guinea",
+    "NICTA — National Information and Communications Technology Authority: https://www.nicta.gov.pg/"
+  ]
+}
