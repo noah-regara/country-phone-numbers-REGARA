@@ -1,0 +1,51 @@
+{
+  "country": "Monaco",
+  "iso2": "MC",
+  "iso3": "MCO",
+  "callingCode": "+377",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX",
+    "international": "+377 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (9x)",
+      "national": "9X XX XX XX",
+      "international": "+377 9X XX XX XX"
+    },
+    {
+      "label": "Mobile (4x, 6x)",
+      "national": "6X XX XX XX",
+      "international": "+377 6X XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+37793151234",
+      "international": "+377 93 15 12 34",
+      "national": "93 15 12 34",
+      "note": "Fixed line — Monaco landlines begin with 9"
+    },
+    {
+      "type": "mobile",
+      "e164": "+37764123456",
+      "international": "+377 64 12 34 56",
+      "national": "64 12 34 56",
+      "note": "Mobile — 4x and 6x ranges"
+    }
+  ],
+  "notes": [
+    "Monaco left the French numbering plan on 1996-06-21 and took country code +377. Calls between Monaco and neighbouring France must be dialled in full international format.",
+    "Numbers are 8 digits, written as four pairs in the French style, with no trunk prefix."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Monaco",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_France"
+  ]
+}
