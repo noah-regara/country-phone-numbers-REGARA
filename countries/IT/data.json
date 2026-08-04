@@ -1,0 +1,80 @@
+{
+  "country": "Italy",
+  "iso2": "IT",
+  "iso3": "ITA",
+  "callingCode": "+39",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0AA XXXXXXXX (landline, leading 0 retained) / 3XX XXXXXXX (mobile)",
+    "international": "+39 0AA XXXXXXXX — the leading 0 is KEPT when dialling from abroad"
+  },
+  "patterns": [
+    {
+      "label": "Rome",
+      "national": "06 XXXX XXXX",
+      "international": "+39 06 XXXX XXXX"
+    },
+    {
+      "label": "Milan",
+      "national": "02 XXXX XXXX",
+      "international": "+39 02 XXXX XXXX"
+    },
+    {
+      "label": "Other cities (3–4 digit area code)",
+      "national": "0XXX XXXXXX",
+      "international": "+39 0XXX XXXXXX"
+    },
+    {
+      "label": "Mobile",
+      "national": "3XX XXX XXXX",
+      "international": "+39 3XX XXX XXXX"
+    },
+    {
+      "label": "Toll-free (numero verde)",
+      "national": "800 XXX XXX",
+      "international": "+39 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+390648901234",
+      "international": "+39 06 4890 1234",
+      "national": "06 4890 1234",
+      "note": "Rome — area code 06, leading 0 retained internationally"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+390272001234",
+      "international": "+39 02 7200 1234",
+      "national": "02 7200 1234",
+      "note": "Milan — area code 02"
+    },
+    {
+      "type": "mobile",
+      "e164": "+393351234567",
+      "international": "+39 335 123 4567",
+      "national": "335 123 4567",
+      "note": "Mobile — 335 was originally TIM; mobile numbers never carry a leading 0"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+39800123456",
+      "international": "+39 800 123 456",
+      "national": "800 123 456",
+      "note": "Numero verde"
+    }
+  ],
+  "notes": [
+    "Italy is the notable European exception: since 1998 the leading 0 of a landline number is an integral part of the number and MUST be dialled from abroad (+39 06 …, not +39 6 …).",
+    "Mobile numbers start with 3 and carry no leading 0.",
+    "Italian regulations prescribe no fixed digit-grouping rules; spaces, dots and hyphens are all seen in practice.",
+    "Landline NSNs range from about 6 to 11 digits, so length alone does not validate an Italian number."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Italy",
+    "AGCOM — piano di numerazione: https://www.agcom.it/piano-di-numerazione"
+  ]
+}
