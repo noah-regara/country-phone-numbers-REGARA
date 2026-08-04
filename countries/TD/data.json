@@ -1,0 +1,51 @@
+{
+  "country": "Chad",
+  "iso2": "TD",
+  "iso3": "TCD",
+  "callingCode": "+235",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX",
+    "international": "+235 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — N'Djamena (2251)",
+      "national": "22 51 XX XX",
+      "international": "+235 22 51 XX XX"
+    },
+    {
+      "label": "Mobile — Airtel (66), Moov (63), Sotel (9X)",
+      "national": "66 XX XX XX",
+      "international": "+235 66 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+23522511234",
+      "international": "+235 22 51 12 34",
+      "national": "22 51 12 34",
+      "note": "N'Djamena — the 2251 block serves the capital"
+    },
+    {
+      "type": "mobile",
+      "e164": "+23566123456",
+      "international": "+235 66 12 34 56",
+      "national": "66 12 34 56",
+      "note": "Mobile — 66 is an Airtel Chad range"
+    }
+  ],
+  "notes": [
+    "Closed 8-digit plan with no trunk prefix; the first four digits act as the area or operator code.",
+    "Numbers are written in pairs in the French style."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Chad",
+    "ARCEP Tchad: https://www.arcep.td/"
+  ]
+}
