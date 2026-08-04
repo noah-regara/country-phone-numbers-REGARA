@@ -1,0 +1,75 @@
+{
+  "country": "Switzerland",
+  "iso2": "CH",
+  "iso3": "CHE",
+  "callingCode": "+41",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XX XX (closed plan, area code always dialled)",
+    "international": "+41 AA XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Zurich (044/043)",
+      "national": "044 XXX XX XX",
+      "international": "+41 44 XXX XX XX"
+    },
+    {
+      "label": "Bern (031), Geneva (022), Basel (061)",
+      "national": "031 XXX XX XX",
+      "international": "+41 31 XXX XX XX"
+    },
+    {
+      "label": "Mobile",
+      "national": "07X XXX XX XX",
+      "international": "+41 7X XXX XX XX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXX XXX",
+      "international": "+41 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+41441234567",
+      "international": "+41 44 123 45 67",
+      "national": "044 123 45 67",
+      "note": "Zurich — area code 044"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+41311234567",
+      "international": "+41 31 123 45 67",
+      "national": "031 123 45 67",
+      "note": "Bern — area code 031"
+    },
+    {
+      "type": "mobile",
+      "e164": "+41791234567",
+      "international": "+41 79 123 45 67",
+      "national": "079 123 45 67",
+      "note": "Mobile — 079 is a Swisscom range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+41800123456",
+      "international": "+41 800 123 456",
+      "national": "0800 123 456",
+      "note": "Gratisnummer / numéro gratuit"
+    }
+  ],
+  "notes": [
+    "Switzerland runs a closed plan: the full 10-digit national form (0 + 9-digit NSN) is dialled for every call, including local ones.",
+    "Liechtenstein (+423) is a separate country code but is closely integrated with the Swiss network."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Switzerland",
+    "OFCOM/BAKOM — numbering: https://www.bakom.admin.ch/bakom/en/homepage/telecommunication/numbering-and-addressing.html"
+  ]
+}
