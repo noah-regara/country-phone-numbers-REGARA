@@ -1,0 +1,49 @@
+{
+  "country": "Samoa",
+  "iso2": "WS",
+  "iso3": "WSM",
+  "callingCode": "+685",
+  "trunkPrefix": "",
+  "internationalPrefix": "0",
+  "nsnLengths": [],
+  "formats": {
+    "national": "XX XXX / XXX XXXX (variable)",
+    "international": "+685 XX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2–6)",
+      "national": "20 XXX",
+      "international": "+685 20 XXX"
+    },
+    {
+      "label": "Mobile (7X, 83–87, 89)",
+      "national": "72 XX XXX",
+      "international": "+685 72 XX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+68520123",
+      "international": "+685 20 123",
+      "national": "20 123",
+      "note": "Apia — 5-digit fixed line in the 2x range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6857201234",
+      "international": "+685 7201 234",
+      "national": "7201 234",
+      "note": "Mobile — 7x ranges, 7 digits"
+    }
+  ],
+  "notes": [
+    "Samoa has a genuinely variable plan: NSNs run from about 3 to 7 digits depending on the service, so length cannot validate a Samoan number.",
+    "Numbers beginning 2–6 are mainly fixed; 7, 83–87 and 89 are cellular and special services."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Samoa",
+    "Office of the Regulator, Samoa: https://www.regulator.gov.ws/"
+  ]
+}
