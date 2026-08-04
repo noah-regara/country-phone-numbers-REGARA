@@ -1,0 +1,58 @@
+{
+  "country": "Tunisia",
+  "iso2": "TN",
+  "iso3": "TUN",
+  "callingCode": "+216",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XXX XXX",
+    "international": "+216 XX XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Tunis (7X), other governorates",
+      "national": "7X XXX XXX",
+      "international": "+216 7X XXX XXX"
+    },
+    {
+      "label": "Mobile — Tunisie Telecom (9X), Ooredoo (2X), Orange (5X)",
+      "national": "9X XXX XXX",
+      "international": "+216 9X XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+21670123456",
+      "international": "+216 70 123 456",
+      "national": "70 123 456",
+      "note": "Tunis governorate — 7X fixed range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+21691234567",
+      "international": "+216 91 234 567",
+      "national": "91 234 567",
+      "note": "Mobile — 9X is a Tunisie Telecom range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+21620123456",
+      "international": "+216 20 123 456",
+      "national": "20 123 456",
+      "note": "Mobile — 2X is an Ooredoo range"
+    }
+  ],
+  "notes": [
+    "Closed 8-digit plan with no trunk prefix; the same digits are dialled at home and abroad after +216.",
+    "The leading digit encodes service and operator rather than geography for mobile ranges."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tunisia",
+    "INT — Instance Nationale des Télécommunications: https://www.intt.tn/"
+  ]
+}
