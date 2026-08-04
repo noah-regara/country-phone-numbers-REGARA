@@ -131,7 +131,7 @@
       { "label": "Mobile (5X, 7X — Telecom Vanuatu, Digicel)", "national": "70 XXXXX", "international": "+678 70 XXXXX" }
     ],
     "examples": [
-      { "type": "fixed-line", "e164": "+678201234", "international": "+678 20 1234", "national": "20 1234", "note": "Fixed line — the 2x range is Telecom Vanuatu" },
+      { "type": "fixed-line", "e164": "+67820123", "international": "+678 20 123", "national": "20 123", "note": "Fixed line — 5 digits; the 20xxx and 22–29xxx ranges are Telecom Vanuatu" },
       { "type": "mobile", "e164": "+6787012345", "international": "+678 70 12345", "national": "70 12345", "note": "Mobile — 7x ranges; mobile numbers are one digit longer than fixed" }
     ],
     "notes": [

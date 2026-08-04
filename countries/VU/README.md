@@ -24,7 +24,7 @@ International: +678 XX XXX
 
 | Type | E.164 | International | National | Notes |
 | --- | --- | --- | --- | --- |
-| fixed-line | `+678201234` | `+678 20 1234` | `20 1234` | Fixed line — the 2x range is Telecom Vanuatu |
+| fixed-line | `+67820123` | `+678 20 123` | `20 123` | Fixed line — 5 digits; the 20xxx and 22–29xxx ranges are Telecom Vanuatu |
 | mobile | `+6787012345` | `+678 70 12345` | `70 12345` | Mobile — 7x ranges; mobile numbers are one digit longer than fixed |
 
 ## Notes
