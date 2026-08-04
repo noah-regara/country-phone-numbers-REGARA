@@ -1,0 +1,51 @@
+{
+  "country": "Togo",
+  "iso2": "TG",
+  "iso3": "TGO",
+  "callingCode": "+228",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX",
+    "international": "+228 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Lomé (22)",
+      "national": "22 XX XX XX",
+      "international": "+228 22 XX XX XX"
+    },
+    {
+      "label": "Mobile — Togocel (70–73, 90–93), Moov (78, 79, 96–99)",
+      "national": "70 XX XX XX",
+      "international": "+228 70 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+22822123456",
+      "international": "+228 22 12 34 56",
+      "national": "22 12 34 56",
+      "note": "Lomé — area code 22"
+    },
+    {
+      "type": "mobile",
+      "e164": "+22870123456",
+      "international": "+228 70 12 34 56",
+      "national": "70 12 34 56",
+      "note": "Mobile — 70 is a Togocel range"
+    }
+  ],
+  "notes": [
+    "Closed 8-digit plan with no trunk prefix; numbers are written in pairs in the French style.",
+    "Mobile codes begin 7x or 9x with the second digit identifying the operator."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Togo",
+    "ARCEP Togo: https://arcep.tg/"
+  ]
+}
