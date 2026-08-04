@@ -1,0 +1,56 @@
+{
+  "country": "Bhutan",
+  "iso2": "BT",
+  "iso3": "BTN",
+  "callingCode": "+975",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    8
+  ],
+  "formats": {
+    "national": "X XXXXXX (fixed) / XX XXXXXX (mobile)",
+    "international": "+975 X XXXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Thimphu (2)",
+      "national": "2 XXXXXX",
+      "international": "+975 2 XXXXXX"
+    },
+    {
+      "label": "Other dzongkhags (3–8)",
+      "national": "X XXXXXX",
+      "international": "+975 X XXXXXX"
+    },
+    {
+      "label": "Mobile — B-Mobile (17), TashiCell (77)",
+      "national": "17 XXXXXX",
+      "international": "+975 17 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+9752123456",
+      "international": "+975 2 123456",
+      "national": "2 123456",
+      "note": "Thimphu — area code 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+97517123456",
+      "international": "+975 17 123456",
+      "national": "17 123456",
+      "note": "Mobile — 17 is a B-Mobile range"
+    }
+  ],
+  "notes": [
+    "Closed plan with no trunk prefix. Fixed NSNs are 7 digits (1-digit area code + 6) and mobile NSNs 8 (2-digit operator code + 6)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bhutan",
+    "BICMA — Bhutan InfoComm and Media Authority: https://www.bicma.gov.bt/"
+  ]
+}
