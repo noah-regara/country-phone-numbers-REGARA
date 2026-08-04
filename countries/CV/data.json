@@ -1,0 +1,51 @@
+{
+  "country": "Cabo Verde",
+  "iso2": "CV",
+  "iso3": "CPV",
+  "callingCode": "+238",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+238 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Santiago/Praia (26X)",
+      "national": "26X XXXX",
+      "international": "+238 26X XXXX"
+    },
+    {
+      "label": "Mobile (9XX)",
+      "national": "9XX XXXX",
+      "international": "+238 9XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2382601234",
+      "international": "+238 260 1234",
+      "national": "260 1234",
+      "note": "Praia — the first three digits of a fixed number encode the geographic area (26 = Santiago)"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2389912345",
+      "international": "+238 991 2345",
+      "national": "991 2345",
+      "note": "Mobile — the 9 prefix carries no geographic meaning"
+    }
+  ],
+  "notes": [
+    "Closed 7-digit plan restructured on 2004-07-03 by prepending digits to the older shorter numbers.",
+    "Fixed numbers encode geography in their first three digits; mobile numbers do not."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cape_Verde",
+    "ARME — Agência Reguladora Multissetorial da Economia: https://www.arme.cv/"
+  ]
+}
