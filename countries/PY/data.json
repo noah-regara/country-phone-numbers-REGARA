@@ -1,0 +1,61 @@
+{
+  "country": "Paraguay",
+  "iso2": "PY",
+  "iso3": "PRY",
+  "callingCode": "+595",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "(0AA) XXXXXX (landline) / (09XX) XXXXXX (mobile)",
+    "international": "+595 AA XXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Asunción (21)",
+      "national": "(021) XXXXXX",
+      "international": "+595 21 XXXXXX"
+    },
+    {
+      "label": "Other areas (2–3 digit area codes)",
+      "national": "(0XXX) XXXXXX",
+      "international": "+595 XXX XXXXXX"
+    },
+    {
+      "label": "Mobile — Claro (991–995), Personal (971–976), Tigo (981–985), VOX (961, 963)",
+      "national": "(0991) XXXXXX",
+      "international": "+595 991 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+59521123456",
+      "international": "+595 21 123456",
+      "national": "(021) 123456",
+      "note": "Asunción — area code 21"
+    },
+    {
+      "type": "mobile",
+      "e164": "+595991123456",
+      "international": "+595 991 123456",
+      "national": "(0991) 123456",
+      "note": "Mobile — 991 is a Claro Paraguay range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+595981123456",
+      "international": "+595 981 123456",
+      "national": "(0981) 123456",
+      "note": "Mobile — 981 is a Tigo range"
+    }
+  ],
+  "notes": [
+    "Area codes are 2–3 digits and subscriber numbers 6–7, so NSN length varies between 8 and 9 digits.",
+    "All mobile prefixes begin with 9."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Paraguay",
+    "CONATEL — Comisión Nacional de Telecomunicaciones: https://www.conatel.gov.py/"
+  ]
+}
