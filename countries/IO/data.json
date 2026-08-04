@@ -1,0 +1,52 @@
+{
+  "country": "British Indian Ocean Territory",
+  "iso2": "IO",
+  "iso3": "IOT",
+  "callingCode": "+246",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+246 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (37X XXXX)",
+      "national": "37X XXXX",
+      "international": "+246 37X XXXX"
+    },
+    {
+      "label": "Mobile (38X XXXX)",
+      "national": "38X XXXX",
+      "international": "+246 38X XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2463709100",
+      "international": "+246 370 9100",
+      "national": "370 9100",
+      "note": "Diego Garcia — the 37X fixed range (this specific number is a network test tone)"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2463801234",
+      "international": "+246 380 1234",
+      "national": "380 1234",
+      "note": "Mobile — the 38X range"
+    }
+  ],
+  "notes": [
+    "The British Indian Ocean Territory's only inhabited island is Diego Garcia, a joint UK–US military facility; there is no civilian population.",
+    "Note the collision risk: +246 is the BIOT country code, while 246 is also the NANP area code for Barbados (+1 246). These are entirely different numbers.",
+    "No area codes; the NSN is a flat 7 digits."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_British_Indian_Ocean_Territory",
+    "ITU — Diego Garcia (country code +246) numbering plan: https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000390001MSWE.doc"
+  ]
+}
