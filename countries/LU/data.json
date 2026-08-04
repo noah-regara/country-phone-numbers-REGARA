@@ -1,0 +1,73 @@
+{
+  "country": "Luxembourg",
+  "iso2": "LU",
+  "iso3": "LUX",
+  "callingCode": "+352",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "XX XX XX (variable length, closed dialling)",
+    "international": "+352 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (legacy short form)",
+      "national": "XX XXXX",
+      "international": "+352 XX XXXX"
+    },
+    {
+      "label": "Fixed line (Luxembourg City 4xxxxx)",
+      "national": "4X XX XX",
+      "international": "+352 4X XX XX"
+    },
+    {
+      "label": "Mobile (621, 661, 691…)",
+      "national": "6X1 XXX XXX",
+      "international": "+352 6X1 XXX XXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "800 XXXXX",
+      "international": "+352 800 XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+3524123456",
+      "international": "+352 4 123 456",
+      "national": "4 123 456",
+      "note": "Luxembourg City fixed line"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+35226791234",
+      "international": "+352 2679 1234",
+      "national": "2679 1234",
+      "note": "Consdorf — 8-digit form introduced in 2000"
+    },
+    {
+      "type": "mobile",
+      "e164": "+352661234567",
+      "international": "+352 661 234 567",
+      "national": "661 234 567",
+      "note": "Mobile — 661 is an Orange range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+35280012345",
+      "international": "+352 800 12345",
+      "national": "800 12345",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Luxembourg uses a closed dialling system: numbers are dialled identically from inside and outside the country (minus the country code), with no trunk prefix.",
+    "Fixed-line NSNs are genuinely variable — historically 6 digits, extended to 7–8 — so length-based validation is unreliable. Mobile NSNs are 9 digits."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Luxembourg",
+    "ILR — plan de numérotation: https://web.ilr.lu/communications-electroniques/Pages/Numerotation.aspx"
+  ]
+}
