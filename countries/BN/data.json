@@ -1,0 +1,51 @@
+{
+  "country": "Brunei Darussalam",
+  "iso2": "BN",
+  "iso3": "BRN",
+  "callingCode": "+673",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+673 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (20X–29X, 3XX–5XX)",
+      "national": "22X XXXX",
+      "international": "+673 22X XXXX"
+    },
+    {
+      "label": "Mobile (7XX, 8XX)",
+      "national": "7XX XXXX",
+      "international": "+673 7XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+6732234567",
+      "international": "+673 223 4567",
+      "national": "223 4567",
+      "note": "Fixed line — the 22X block"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6737123456",
+      "international": "+673 712 3456",
+      "national": "712 3456",
+      "note": "Mobile — 7XX and 8XX ranges"
+    }
+  ],
+  "notes": [
+    "Brunei removed its trunk prefix and area codes on 2003-03-22, moving to a flat closed 7-digit plan.",
+    "The old area codes (02 Bandar Seri Begawan, 03 Seria/Kuala Belait) survive only as the leading digits of the number."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brunei",
+    "AITI — Authority for Info-communications Technology Industry of Brunei Darussalam: https://www.aiti.gov.bn/"
+  ]
+}
