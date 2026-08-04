@@ -1,0 +1,64 @@
+{
+  "country": "Estonia",
+  "iso2": "EE",
+  "iso3": "EST",
+  "callingCode": "+372",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    8
+  ],
+  "formats": {
+    "national": "XXX XXXX (fixed) / XXXX XXXX (mobile)",
+    "international": "+372 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (3xx–7xx)",
+      "national": "XXX XXXX",
+      "international": "+372 XXX XXXX"
+    },
+    {
+      "label": "Mobile (5xxx)",
+      "national": "5XXX XXXX",
+      "international": "+372 5XXX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "800 XXXX",
+      "international": "+372 800 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+3727992222",
+      "international": "+372 799 2222",
+      "national": "799 2222",
+      "note": "Tallinn — fixed lines are 7 digits"
+    },
+    {
+      "type": "mobile",
+      "e164": "+37251234567",
+      "international": "+372 5123 4567",
+      "national": "5123 4567",
+      "note": "Mobile — all Estonian mobiles begin with 5"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+3723441234",
+      "international": "+372 344 1234",
+      "national": "344 1234",
+      "note": "Narva region fixed line"
+    }
+  ],
+  "notes": [
+    "Estonia moved to a closed plan on 2003-05-01, abolishing area codes and the trunk prefix; every call within Estonia is dialled as a plain local number.",
+    "Fixed lines are 7 digits; mobile numbers are 7 or 8 digits and always start with 5."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Estonia",
+    "Estonian Consumer Protection and Technical Regulatory Authority: https://ttja.ee/"
+  ]
+}
