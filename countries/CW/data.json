@@ -1,0 +1,51 @@
+{
+  "country": "Curaçao",
+  "iso2": "CW",
+  "iso3": "CUW",
+  "callingCode": "+599",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "9 XXX XXXX",
+    "international": "+599 9 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (9 4XX XXXX, 9 8XX XXXX)",
+      "national": "9 461 XXXX",
+      "international": "+599 9 461 XXXX"
+    },
+    {
+      "label": "Mobile (9 5XX XXXX, 9 6XX XXXX)",
+      "national": "9 518 XXXX",
+      "international": "+599 9 518 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+59994611234",
+      "international": "+599 9 461 1234",
+      "national": "9 461 1234",
+      "note": "Curaçao — area code 9 plus a 7-digit local number"
+    },
+    {
+      "type": "mobile",
+      "e164": "+59995181234",
+      "international": "+599 9 518 1234",
+      "national": "9 518 1234",
+      "note": "Mobile — the 9 5XX range"
+    }
+  ],
+  "notes": [
+    "Curaçao retains country code +599, originally assigned to the Netherlands Antilles, with area code 9.",
+    "Sint Maarten left +599 in 2011 to join the NANP as +1 721; Aruba had left earlier for +297."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cura%C3%A7ao_and_the_Caribbean_Netherlands",
+    "BT&P — Bureau Telecommunicatie en Post Curaçao: https://www.btnp.org/"
+  ]
+}
