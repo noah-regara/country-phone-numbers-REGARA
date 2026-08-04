@@ -1,0 +1,70 @@
+{
+  "country": "Malaysia",
+  "iso2": "MY",
+  "iso3": "MYS",
+  "callingCode": "+60",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9,
+    10
+  ],
+  "formats": {
+    "national": "0A-XXXX XXXX (landline) / 01X-XXX XXXX (mobile)",
+    "international": "+60 A XXXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Kuala Lumpur / Selangor (03)",
+      "national": "03-XXXX XXXX",
+      "international": "+60 3 XXXX XXXX"
+    },
+    {
+      "label": "Other states (04 Penang, 07 Johor, 088 Sabah)",
+      "national": "04-XXX XXXX",
+      "international": "+60 4 XXX XXXX"
+    },
+    {
+      "label": "Mobile (010–019)",
+      "national": "012-XXX XXXX",
+      "international": "+60 12 XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "1800-XX-XXXX",
+      "international": "not reachable from abroad"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+60321234567",
+      "international": "+60 3 2123 4567",
+      "national": "03-2123 4567",
+      "note": "Kuala Lumpur — area code 03, the largest block"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+6041234567",
+      "international": "+60 4 123 4567",
+      "national": "04-123 4567",
+      "note": "Penang — area code 04"
+    },
+    {
+      "type": "mobile",
+      "e164": "+60123456789",
+      "international": "+60 12 345 6789",
+      "national": "012-345 6789",
+      "note": "Mobile — 010–019 ranges"
+    }
+  ],
+  "notes": [
+    "Malaysia uses an open plan: landline area codes are 1–2 digits with 6–8 subscriber digits; mobile codes are 2 digits with 7–8 subscriber digits.",
+    "Until 2017 Singapore could be dialled from Malaysia as a domestic call using the 02 code; that arrangement ended and +65 international dialling is now required."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Malaysia",
+    "MCMC — Malaysian Communications and Multimedia Commission: https://www.mcmc.gov.my/"
+  ]
+}
