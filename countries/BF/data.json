@@ -1,0 +1,51 @@
+{
+  "country": "Burkina Faso",
+  "iso2": "BF",
+  "iso3": "BFA",
+  "callingCode": "+226",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX",
+    "international": "+226 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Ouagadougou (50 30–50 38)",
+      "national": "50 XX XX XX",
+      "international": "+226 50 XX XX XX"
+    },
+    {
+      "label": "Mobile — ONATEL (60, 61), Airtel (65, 66, 77), Telecel (68, 79)",
+      "national": "70 XX XX XX",
+      "international": "+226 70 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+22650301234",
+      "international": "+226 50 30 12 34",
+      "national": "50 30 12 34",
+      "note": "Ouagadougou — the 50 30–50 38 fixed block"
+    },
+    {
+      "type": "mobile",
+      "e164": "+22670123456",
+      "international": "+226 70 12 34 56",
+      "national": "70 12 34 56",
+      "note": "Mobile — 7x range"
+    }
+  ],
+  "notes": [
+    "Burkina Faso restructured its plan in 2004, prefixing two digits to area codes to reach the current 8-digit format.",
+    "No trunk prefix; numbers are written in pairs in the French style."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Burkina_Faso",
+    "ARCEP Burkina Faso: https://www.arcep.bf/"
+  ]
+}
