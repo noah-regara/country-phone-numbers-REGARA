@@ -1,0 +1,77 @@
+{
+  "country": "Antarctica",
+  "iso2": "AQ",
+  "iso3": "ATA",
+  "callingCode": "+672",
+  "additionalCallingCodes": [
+    "+64"
+  ],
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "1X XXXX (Australian Antarctic bases)",
+    "international": "+672 1X XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Davis Station (10 XXXX)",
+      "national": "10 XXXX",
+      "international": "+672 10 XXXX"
+    },
+    {
+      "label": "Mawson Station (11 XXXX)",
+      "national": "11 XXXX",
+      "international": "+672 11 XXXX"
+    },
+    {
+      "label": "Casey Station (12 XXXX)",
+      "national": "12 XXXX",
+      "international": "+672 12 XXXX"
+    },
+    {
+      "label": "Macquarie Island (13 XXXX)",
+      "national": "13 XXXX",
+      "international": "+672 13 XXXX"
+    },
+    {
+      "label": "Vessels, Wilkins and mobiles (14 XXXX)",
+      "national": "14 XXXX",
+      "international": "+672 14 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+672101234",
+      "international": "+672 10 1234",
+      "national": "10 1234",
+      "note": "Davis Station — Australian Antarctic Division numbering"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+672121234",
+      "international": "+672 12 1234",
+      "national": "12 1234",
+      "note": "Casey Station"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+6449999999",
+      "international": "+64 4 999 9999",
+      "national": "04 999 9999",
+      "note": "Scott Base (NZ) and the nearby US McMurdo Station are reached through New Zealand's +64, not +672"
+    }
+  ],
+  "notes": [
+    "Antarctica has no public telephone network. Calls reach research stations over satellite links, and each national programme numbers its own bases.",
+    "+672 covers the Australian Antarctic Territory bases (Davis, Mawson, Casey) plus Macquarie Island — it is shared with Norfolk Island, which uses area code 3.",
+    "New Zealand's Scott Base and the US McMurdo Station are reached via +64; other national programmes use their own home country codes or Iridium/Inmarsat satellite numbers (+870 range).",
+    "ISO 3166-1 assigns AQ to Antarctica as a whole, but no single numbering plan covers the continent."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Australian_Antarctic_Territory",
+    "https://en.wikipedia.org/wiki/Telecommunications_in_Antarctica",
+    "Australian Antarctic Program — communicating with Antarctica: https://www.antarctica.gov.au/antarctic-operations/family-and-friends/introductory-package/communicating-with-antarctica-by-phone-and-email/"
+  ]
+}
