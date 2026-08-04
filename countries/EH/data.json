@@ -1,0 +1,52 @@
+{
+  "country": "Western Sahara",
+  "iso2": "EH",
+  "iso3": "ESH",
+  "callingCode": "+212",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0528 XX XX XX (Moroccan plan)",
+    "international": "+212 528 XX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Laayoune / Dakhla region (0528)",
+      "national": "0528 XX XX XX",
+      "international": "+212 528 XX XX XX"
+    },
+    {
+      "label": "Mobile (06X, 07X — Moroccan ranges)",
+      "national": "0661 XX XX XX",
+      "international": "+212 661 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+212528123456",
+      "international": "+212 528 12 34 56",
+      "national": "0528 12 34 56",
+      "note": "Laayoune — the 0528 prefix serves the southern provinces including Western Sahara"
+    },
+    {
+      "type": "mobile",
+      "e164": "+212661123456",
+      "international": "+212 661 12 34 56",
+      "national": "0661 12 34 56",
+      "note": "Mobile — Moroccan mobile ranges apply throughout the territory"
+    }
+  ],
+  "notes": [
+    "Western Sahara has no separate country code. The territory is administered by Morocco for telecommunications purposes and falls entirely within the +212 numbering plan.",
+    "The 0528 prefix covers the southern provinces including Laayoune and Dakhla.",
+    "The territory's political status is disputed; this entry reflects the numbering arrangement in operational use, not a position on sovereignty."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Morocco",
+    "ANRT — Agence Nationale de Réglementation des Télécommunications: https://www.anrt.ma/"
+  ]
+}
