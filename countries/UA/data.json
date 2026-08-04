@@ -1,0 +1,75 @@
+{
+  "country": "Ukraine",
+  "iso2": "UA",
+  "iso3": "UKR",
+  "callingCode": "+380",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XX XX",
+    "international": "+380 AA XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Kyiv (044)",
+      "national": "044 XXX XX XX",
+      "international": "+380 44 XXX XX XX"
+    },
+    {
+      "label": "Other geographic (2–4 digit area codes)",
+      "national": "032 XXX XX XX",
+      "international": "+380 32 XXX XX XX"
+    },
+    {
+      "label": "Mobile (039, 050, 06x, 09x)",
+      "national": "067 XXX XX XX",
+      "international": "+380 67 XXX XX XX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXX XXX",
+      "international": "+380 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+380441234567",
+      "international": "+380 44 123 45 67",
+      "national": "044 123 45 67",
+      "note": "Kyiv — area code 44"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+380321234567",
+      "international": "+380 32 123 45 67",
+      "national": "032 123 45 67",
+      "note": "Lviv — area code 32"
+    },
+    {
+      "type": "mobile",
+      "e164": "+380671234567",
+      "international": "+380 67 123 45 67",
+      "national": "067 123 45 67",
+      "note": "Mobile — 067 is a Kyivstar range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+380800123456",
+      "international": "+380 800 123 456",
+      "national": "0800 123 456",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Ukraine switched to EU-style numbering conventions on 2009-10-14, replacing the Soviet-era trunk prefix 8 with 0.",
+    "NSNs are 9 digits; area codes are 2–4 digits with the subscriber number shrinking to match."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Ukraine",
+    "NCEC — National Commission for State Regulation of Electronic Communications: https://nkrzi.gov.ua/"
+  ]
+}
