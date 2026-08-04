@@ -1,0 +1,51 @@
+{
+  "country": "Falkland Islands (Malvinas)",
+  "iso2": "FK",
+  "iso3": "FLK",
+  "callingCode": "+500",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    5
+  ],
+  "formats": {
+    "national": "XXXXX",
+    "international": "+500 XXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2XXXX, 3XXXX, 4XXXX, 7XXXX)",
+      "national": "2XXXX",
+      "international": "+500 2XXXX"
+    },
+    {
+      "label": "Mobile (5XXXX, 6XXXX)",
+      "national": "5XXXX",
+      "international": "+500 5XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+50021234",
+      "international": "+500 21234",
+      "national": "21234",
+      "note": "Stanley — PSTN range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+50051234",
+      "international": "+500 51234",
+      "national": "51234",
+      "note": "Mobile — GSM range 5XXXX"
+    }
+  ],
+  "notes": [
+    "The Falkland Islands use a short 5-digit NSN with no trunk prefix or area codes.",
+    "South Georgia and the South Sandwich Islands share the +500 code."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Falkland_Islands",
+    "Sure South Atlantic: https://www.sure.co.fk/"
+  ]
+}
