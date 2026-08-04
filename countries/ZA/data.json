@@ -1,0 +1,75 @@
+{
+  "country": "South Africa",
+  "iso2": "ZA",
+  "iso3": "ZAF",
+  "callingCode": "+27",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX",
+    "international": "+27 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Johannesburg / Gauteng (011)",
+      "national": "011 XXX XXXX",
+      "international": "+27 11 XXX XXXX"
+    },
+    {
+      "label": "Cape Town / Western Cape (021), Durban / KZN (031)",
+      "national": "021 XXX XXXX",
+      "international": "+27 21 XXX XXXX"
+    },
+    {
+      "label": "Mobile (060–069, 071–079, 081–084)",
+      "national": "082 XXX XXXX",
+      "international": "+27 82 XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "0800 XXX XXX",
+      "international": "+27 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+27111234567",
+      "international": "+27 11 123 4567",
+      "national": "011 123 4567",
+      "note": "Johannesburg — area code 011"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+27211234567",
+      "international": "+27 21 123 4567",
+      "national": "021 123 4567",
+      "note": "Cape Town — area code 021"
+    },
+    {
+      "type": "mobile",
+      "e164": "+27821234567",
+      "international": "+27 82 123 4567",
+      "national": "082 123 4567",
+      "note": "Mobile — 082 is a Vodacom range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+27800123456",
+      "international": "+27 800 123 456",
+      "national": "0800 123 456",
+      "note": "Toll-free"
+    }
+  ],
+  "notes": [
+    "South Africa moved to a closed numbering plan on 2007-01-16: the full 10-digit national form (trunk 0 + 9-digit NSN) is required even for local calls.",
+    "Administered by ICASA."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_South_Africa",
+    "ICASA — Independent Communications Authority of South Africa: https://www.icasa.org.za/"
+  ]
+}
