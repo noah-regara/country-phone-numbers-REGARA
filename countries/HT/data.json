@@ -1,0 +1,51 @@
+{
+  "country": "Haiti",
+  "iso2": "HT",
+  "iso3": "HTI",
+  "callingCode": "+509",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XXXX",
+    "international": "+509 XX XX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2X)",
+      "national": "22 XX XXXX",
+      "international": "+509 22 XX XXXX"
+    },
+    {
+      "label": "Mobile (3X, 4X)",
+      "national": "30 XX XXXX",
+      "international": "+509 30 XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+50922123456",
+      "international": "+509 22 12 3456",
+      "national": "22 12 3456",
+      "note": "Port-au-Prince — NATCOM fixed line, 2X range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+50930123456",
+      "international": "+509 30 12 3456",
+      "national": "30 12 3456",
+      "note": "Mobile — 3X is a Digicel Haiti range"
+    }
+  ],
+  "notes": [
+    "Haiti expanded from 7 to 8 digits on 2008-03-01.",
+    "No trunk prefix or area codes; the leading digit distinguishes fixed (2) from mobile (3, 4)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Haiti",
+    "CONATEL Haïti — Conseil National des Télécommunications: https://www.conatel.gouv.ht/"
+  ]
+}
