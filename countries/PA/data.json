@@ -1,0 +1,52 @@
+{
+  "country": "Panama",
+  "iso2": "PA",
+  "iso3": "PAN",
+  "callingCode": "+507",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    8
+  ],
+  "formats": {
+    "national": "XXX-XXXX (fixed) / 6XXX-XXXX (mobile)",
+    "international": "+507 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Panama City (2, 3)",
+      "national": "2XX-XXXX",
+      "international": "+507 2XX XXXX"
+    },
+    {
+      "label": "Mobile (6)",
+      "national": "6XXX-XXXX",
+      "international": "+507 6XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+5072123456",
+      "international": "+507 212 3456",
+      "national": "212-3456",
+      "note": "Panama City — the leading 2 or 3 encodes location"
+    },
+    {
+      "type": "mobile",
+      "e164": "+50761234567",
+      "international": "+507 6123 4567",
+      "national": "6123-4567",
+      "note": "Mobile — 8-digit numbers beginning with 6, introduced August 2005"
+    }
+  ],
+  "notes": [
+    "Panama has no area codes. Fixed lines are 7 digits with geography encoded in the first digit; mobile numbers are 8 digits beginning with 6.",
+    "Numbers are recycled after a subscriber cancels or goes inactive."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Panama",
+    "ASEP — Autoridad Nacional de los Servicios Públicos: https://www.asep.gob.pa/"
+  ]
+}
