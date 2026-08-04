@@ -1,0 +1,76 @@
+{
+  "country": "Saudi Arabia",
+  "iso2": "SA",
+  "iso3": "SAU",
+  "callingCode": "+966",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9,
+    10
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX",
+    "international": "+966 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Riyadh (011)",
+      "national": "011 XXX XXXX",
+      "international": "+966 11 XXX XXXX"
+    },
+    {
+      "label": "Western region incl. Jeddah (012), Eastern Province (013)",
+      "national": "012 XXX XXXX",
+      "international": "+966 12 XXX XXXX"
+    },
+    {
+      "label": "Mobile (050, 053, 055 STC; 054, 056 Mobily; 058, 059 Zain)",
+      "national": "050 XXX XXXX",
+      "international": "+966 50 XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "800 XXX XXXX",
+      "international": "+966 800 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+966111234567",
+      "international": "+966 11 123 4567",
+      "national": "011 123 4567",
+      "note": "Riyadh — area code 011"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+966121234567",
+      "international": "+966 12 123 4567",
+      "national": "012 123 4567",
+      "note": "Jeddah and the western region — area code 012"
+    },
+    {
+      "type": "mobile",
+      "e164": "+966501234567",
+      "international": "+966 50 123 4567",
+      "national": "050 123 4567",
+      "note": "Mobile — 050 is an STC range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+9668001234567",
+      "international": "+966 800 123 4567",
+      "national": "800 123 4567",
+      "note": "Toll-free — 10-digit NSN, longer than the 9-digit norm"
+    }
+  ],
+  "notes": [
+    "Saudi area codes were expanded to three digits (011, 012, 013…) in a 2013 renumbering.",
+    "Mobile prefixes map to operators: 050/053/055 STC, 054/056 Mobily, 058/059 Zain."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Saudi_Arabia",
+    "CST — Communications, Space and Technology Commission: https://www.cst.gov.sa/"
+  ]
+}
