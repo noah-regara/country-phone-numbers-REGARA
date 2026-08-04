@@ -1,0 +1,51 @@
+{
+  "country": "Lesotho",
+  "iso2": "LS",
+  "iso3": "LSO",
+  "callingCode": "+266",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XXX XXX",
+    "international": "+266 XX XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Maseru fixed (22, 28)",
+      "national": "22 XXX XXX",
+      "international": "+266 22 XXX XXX"
+    },
+    {
+      "label": "Mobile (56, 57, 58, 59, 63, 6x)",
+      "national": "58 XXX XXX",
+      "international": "+266 58 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+26622123456",
+      "international": "+266 22 123 456",
+      "national": "22 123 456",
+      "note": "Maseru — fixed prefixes 22 and 28"
+    },
+    {
+      "type": "mobile",
+      "e164": "+26658123456",
+      "international": "+266 58 123 456",
+      "national": "58 123 456",
+      "note": "Mobile — 5x and 6x ranges"
+    }
+  ],
+  "notes": [
+    "Closed 8-digit plan with no trunk prefix or area codes; the leading pair identifies the service.",
+    "Before independence-era renumbering, Lesotho was reached from South Africa via the regional code 050."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Lesotho",
+    "LCA — Lesotho Communications Authority: https://www.lca.org.ls/"
+  ]
+}
