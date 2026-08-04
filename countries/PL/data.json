@@ -1,0 +1,76 @@
+{
+  "country": "Poland",
+  "iso2": "PL",
+  "iso3": "POL",
+  "callingCode": "+48",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "XX XXX XX XX (geographic) / XXX XXX XXX (mobile)",
+    "international": "+48 XX XXX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Warsaw (22), Kraków (12), Gdańsk (58)",
+      "national": "22 XXX XX XX",
+      "international": "+48 22 XXX XX XX"
+    },
+    {
+      "label": "Mobile (45x, 5xx, 6xx, 7xx, 88x)",
+      "national": "501 234 567",
+      "international": "+48 501 234 567"
+    },
+    {
+      "label": "Freephone",
+      "national": "800 XXX XXX",
+      "international": "+48 800 XXX XXX"
+    },
+    {
+      "label": "Premium rate",
+      "national": "70X XXX XXX",
+      "international": "+48 70X XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+48221234567",
+      "international": "+48 22 123 45 67",
+      "national": "22 123 45 67",
+      "note": "Warsaw — area code 22"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+48121234567",
+      "international": "+48 12 123 45 67",
+      "national": "12 123 45 67",
+      "note": "Kraków — area code 12"
+    },
+    {
+      "type": "mobile",
+      "e164": "+48501234567",
+      "international": "+48 501 234 567",
+      "national": "501 234 567",
+      "note": "Mobile — 50x is an allocated Polish mobile range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+48800123456",
+      "international": "+48 800 123 456",
+      "national": "800 123 456",
+      "note": "Freephone (free for callers in Poland)"
+    }
+  ],
+  "notes": [
+    "Poland abolished the trunk prefix 0 on 2009-09-30 and moved to a closed 9-digit plan; the full number is dialled for every call.",
+    "Poland is one of only a handful of EU states (with Spain, Portugal, Denmark and others) to have dropped the trunk prefix entirely.",
+    "Geographic numbers are conventionally grouped 2-3-2-2; mobile numbers 3-3-3."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Poland",
+    "UKE — plan numeracji krajowej: https://www.uke.gov.pl/"
+  ]
+}
