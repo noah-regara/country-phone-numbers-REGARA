@@ -1,0 +1,62 @@
+{
+  "country": "Bangladesh",
+  "iso2": "BD",
+  "iso3": "BGD",
+  "callingCode": "+880",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0A-XXXXXXXX (landline) / 01XXX-XXXXXX (mobile)",
+    "international": "+880 A XXXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Dhaka (2)",
+      "national": "02-XXXXXXXX",
+      "international": "+880 2 XXXXXXXX"
+    },
+    {
+      "label": "Other districts (2–4 digit area codes)",
+      "national": "0XXX-XXXXXX",
+      "international": "+880 XXX XXXXXX"
+    },
+    {
+      "label": "Mobile (013, 014, 015, 016, 017, 018, 019)",
+      "national": "01XXX-XXXXXX",
+      "international": "+880 1XXX XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+880212345678",
+      "international": "+880 2 1234 5678",
+      "national": "02-12345678",
+      "note": "Dhaka — area code 2, operated by BTCL"
+    },
+    {
+      "type": "mobile",
+      "e164": "+8801712345678",
+      "international": "+880 1712 345678",
+      "national": "01712-345678",
+      "note": "Mobile — 017 and 013 are Grameenphone ranges"
+    },
+    {
+      "type": "mobile",
+      "e164": "+8801812345678",
+      "international": "+880 1812 345678",
+      "national": "01812-345678",
+      "note": "Mobile — 018 is a Robi Axiata range"
+    }
+  ],
+  "notes": [
+    "All Bangladeshi mobile numbers begin with 01; the following two digits identify the original operator (013/017 Grameenphone, 014/019 Banglalink, 018 Robi Axiata, 015 Teletalk, 016 Airtel).",
+    "Landline area codes are 2–4 digits with variable subscriber lengths, so NSN length varies.",
+    "The national numbering plan was last revised on 2017-07-31."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bangladesh",
+    "BTRC — Bangladesh Telecommunication Regulatory Commission: https://btrc.gov.bd/"
+  ]
+}
