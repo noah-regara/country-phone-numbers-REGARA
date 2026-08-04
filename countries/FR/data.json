@@ -1,0 +1,96 @@
+{
+  "country": "France",
+  "iso2": "FR",
+  "iso3": "FRA",
+  "callingCode": "+33",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0X XX XX XX XX (five digit-pairs)",
+    "international": "+33 X XX XX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Île-de-France / Paris",
+      "national": "01 XX XX XX XX",
+      "international": "+33 1 XX XX XX XX"
+    },
+    {
+      "label": "North-west",
+      "national": "02 XX XX XX XX",
+      "international": "+33 2 XX XX XX XX"
+    },
+    {
+      "label": "North-east",
+      "national": "03 XX XX XX XX",
+      "international": "+33 3 XX XX XX XX"
+    },
+    {
+      "label": "South-east",
+      "national": "04 XX XX XX XX",
+      "international": "+33 4 XX XX XX XX"
+    },
+    {
+      "label": "South-west",
+      "national": "05 XX XX XX XX",
+      "international": "+33 5 XX XX XX XX"
+    },
+    {
+      "label": "Mobile",
+      "national": "06 XX XX XX XX / 07 XX XX XX XX",
+      "international": "+33 6 XX XX XX XX"
+    },
+    {
+      "label": "Freephone / shared cost",
+      "national": "08 XX XX XX XX",
+      "international": "+33 8 XX XX XX XX"
+    },
+    {
+      "label": "Non-geographic / VoIP",
+      "national": "09 XX XX XX XX",
+      "international": "+33 9 XX XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+33142685300",
+      "international": "+33 1 42 68 53 00",
+      "national": "01 42 68 53 00",
+      "note": "Paris — 01 covers Île-de-France"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+33491123456",
+      "international": "+33 4 91 12 34 56",
+      "national": "04 91 12 34 56",
+      "note": "Marseille — 04 covers the south-east"
+    },
+    {
+      "type": "mobile",
+      "e164": "+33612345678",
+      "international": "+33 6 12 34 56 78",
+      "national": "06 12 34 56 78",
+      "note": "Mobile — 06 and 07 are both mobile"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+33800123456",
+      "international": "+33 8 00 12 34 56",
+      "national": "0 800 12 34 56",
+      "note": "Numéro vert (freephone)"
+    }
+  ],
+  "notes": [
+    "The NSN is always exactly 9 digits, written nationally as the trunk 0 plus five pairs.",
+    "The leading digit after the trunk 0 encodes geography (1–5), mobile (6–7), special services (8) or non-geographic/VoIP (9).",
+    "Freephone 08 numbers are conventionally written as '0 800 12 34 56' rather than in strict pairs."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+    "ARCEP — plan de numérotation: https://www.arcep.fr/demarches-et-services/utilisateurs/numeros-speciaux.html"
+  ]
+}
