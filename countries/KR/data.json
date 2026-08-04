@@ -1,0 +1,71 @@
+{
+  "country": "Korea, Republic of",
+  "iso2": "KR",
+  "iso3": "KOR",
+  "callingCode": "+82",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00X (carrier-selected, e.g. 001, 002, 00700)",
+  "nsnLengths": [
+    8,
+    9,
+    10
+  ],
+  "formats": {
+    "national": "0A-XXX-XXXX (Seoul) / 0AA-XXX-XXXX (elsewhere)",
+    "international": "+82 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Seoul (02)",
+      "national": "02-XXX-XXXX",
+      "international": "+82 2 XXX XXXX"
+    },
+    {
+      "label": "Busan (051), Incheon (032), Daegu (053)",
+      "national": "051-XXX-XXXX",
+      "international": "+82 51 XXX XXXX"
+    },
+    {
+      "label": "Mobile (010)",
+      "national": "010-XXXX-XXXX",
+      "international": "+82 10 XXXX XXXX"
+    },
+    {
+      "label": "Nationwide single number",
+      "national": "1577-XXXX",
+      "international": "+82 1577 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+8223123456",
+      "international": "+82 2 312 3456",
+      "national": "02-312-3456",
+      "note": "Seoul — area code 02, the only single-digit code"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+82511234567",
+      "international": "+82 51 123 4567",
+      "national": "051-123-4567",
+      "note": "Busan — area code 051"
+    },
+    {
+      "type": "mobile",
+      "e164": "+821012345678",
+      "international": "+82 10 1234 5678",
+      "national": "010-1234-5678",
+      "note": "Mobile — since 2004-01-01 all South Korean mobiles use the single 010 prefix"
+    }
+  ],
+  "notes": [
+    "Since 2004 every South Korean mobile number uses the 010 prefix regardless of carrier, replacing the old per-operator prefixes (011, 016, 017, 018, 019).",
+    "The international access prefix is carrier-selected — 001, 002, 00700 and others all work and are billed differently.",
+    "Seoul has the single-digit area code 2; other regions have two digits."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_South_Korea",
+    "KCC — Korea Communications Commission: https://www.kcc.go.kr/"
+  ]
+}
