@@ -1,0 +1,51 @@
+{
+  "country": "Congo",
+  "iso2": "CG",
+  "iso3": "COG",
+  "callingCode": "+242",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "YY ZZ XXXXX",
+    "international": "+242 YY ZZ XXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Brazzaville (2228)",
+      "national": "22 28 XXXXX",
+      "international": "+242 22 28 XXXXX"
+    },
+    {
+      "label": "Mobile — MTN Congo (06), Airtel (05)",
+      "national": "06 XX XXXXX",
+      "international": "+242 06 XX XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+242222812345",
+      "international": "+242 22 28 12345",
+      "national": "22 28 12345",
+      "note": "Brazzaville — the 2228 fixed block serves the capital"
+    },
+    {
+      "type": "mobile",
+      "e164": "+242061234567",
+      "international": "+242 06 123 4567",
+      "national": "06 123 4567",
+      "note": "Mobile — 06 is an MTN Congo range"
+    }
+  ],
+  "notes": [
+    "The Republic of the Congo (+242) is distinct from the Democratic Republic of the Congo (+243) — the two are frequently confused.",
+    "NSNs are 9 digits; mobile numbers keep their leading 0 when dialled internationally."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Republic_of_the_Congo",
+    "ARPCE Congo — Agence de Régulation des Postes et des Communications Électroniques: https://www.arpce.cg/"
+  ]
+}
