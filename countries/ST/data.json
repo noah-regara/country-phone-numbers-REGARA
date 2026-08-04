@@ -1,0 +1,56 @@
+{
+  "country": "Sao Tome and Principe",
+  "iso2": "ST",
+  "iso3": "STP",
+  "callingCode": "+239",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+239 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2XX XXXX)",
+      "national": "222 XXXX",
+      "international": "+239 222 XXXX"
+    },
+    {
+      "label": "Mobile — CST, Unitel STP (9XX XXXX)",
+      "national": "98X XXXX",
+      "international": "+239 98X XXXX"
+    },
+    {
+      "label": "Freephone (8XX XXXX)",
+      "national": "8XX XXXX",
+      "international": "+239 8XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2392220050",
+      "international": "+239 222 0050",
+      "national": "222 0050",
+      "note": "Santo Amaro area — fixed numbers begin with 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2399812345",
+      "international": "+239 981 2345",
+      "national": "981 2345",
+      "note": "Mobile — the 9 prefix denotes GSM service"
+    }
+  ],
+  "notes": [
+    "Closed 7-digit plan with no area codes or trunk prefix.",
+    "The leading digit classifies the service: 2 fixed, 6 premium, 7 VPN, 8 freephone, 9 mobile."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+    "AGER — Autoridade Geral de Regulação, São Tomé e Príncipe: https://www.ager.st/"
+  ]
+}
