@@ -1,0 +1,58 @@
+{
+  "country": "Puerto Rico",
+  "iso2": "PR",
+  "iso3": "PRI",
+  "callingCode": "+1",
+  "trunkPrefix": "1",
+  "internationalPrefix": "011",
+  "nsnLengths": [
+    10
+  ],
+  "areaCodes": [
+    "787",
+    "939"
+  ],
+  "formats": {
+    "national": "(NPA) NXX-XXXX",
+    "international": "+1 NPA NXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Geographic (fixed or mobile)",
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    {
+      "label": "Toll-free (shared NANP-wide)",
+      "national": "(800) NXX-XXXX",
+      "international": "+1 800 NXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+17877211234",
+      "international": "+1 787 721 1234",
+      "national": "(787) 721-1234",
+      "note": "San Juan — 787 is the original Puerto Rico area code"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+19395551234",
+      "international": "+1 939 555 1234",
+      "national": "(939) 555-1234",
+      "note": "Puerto Rico — 939 is the overlay area code added in 2001"
+    }
+  ],
+  "notes": [
+    "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+    "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+    "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+    "Puerto Rico uses two overlaid area codes, 787 and 939; ten-digit dialling is mandatory."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+    "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+    "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+  ]
+}
