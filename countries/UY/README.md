@@ -2,7 +2,7 @@
 
 **ISO 3166-1:** `UY` / `URY`  
 **Country calling code:** +598  
-**Trunk prefix:** none  
+**Trunk prefix:** `0`  
 **International call prefix:** `00`  
 **National significant number:** 8 digits
 
@@ -31,7 +31,8 @@ International: +598 XXXX XXXX
 
 ## Notes
 
-- Uruguay abolished area codes in 2010 and moved to a flat 8-digit plan with no trunk prefix.
+- Uruguay abolished area codes on 2010-08-29 and moved to a flat 8-digit NSN.
+- The trunk prefix 0 shows up on mobile numbers, which are written and dialled domestically as 09X XXX XXX; the NSN is the 8 digits after it (9X XXX XXX). Fixed lines are dialled as a plain 8 digits with no prefix.
 - Number portability means the leading digits of a mobile number no longer indicate the operator.
 
 ## Sources
