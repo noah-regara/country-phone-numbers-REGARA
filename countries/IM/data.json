@@ -1,0 +1,53 @@
+{
+  "country": "Isle of Man",
+  "iso2": "IM",
+  "iso3": "IMN",
+  "callingCode": "+44",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "01624 XXXXXX",
+    "international": "+44 1624 XXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line",
+      "national": "01624 XXXXXX",
+      "international": "+44 1624 XXXXXX"
+    },
+    {
+      "label": "Mobile (Manx-allocated)",
+      "national": "07624 XXXXXX",
+      "international": "+44 7624 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+441624123456",
+      "international": "+44 1624 123456",
+      "national": "01624 123456",
+      "note": "Isle of Man — area code 01624"
+    },
+    {
+      "type": "mobile",
+      "e164": "+447624123456",
+      "international": "+44 7624 123456",
+      "national": "07624 123456",
+      "note": "Mobile — 07624 is the Manx-allocated range"
+    }
+  ],
+  "notes": [
+    "The Isle of Man is a Crown Dependency sharing the +44 country code and UK numbering plan.",
+    "All Manx landlines use area code 01624 and Manx mobiles use 07624, making the island unusually easy to identify by prefix.",
+    "Manx numbers are often excluded from UK inclusive call allowances."
+  ],
+  "sources": [
+    "https://www.area-codes.org.uk/international/uk-offshore",
+    "Isle of Man Communications Commission: https://www.gov.im/categories/business-and-industries/communications-commission/",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom"
+  ]
+}
