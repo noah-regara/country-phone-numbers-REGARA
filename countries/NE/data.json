@@ -1,0 +1,51 @@
+{
+  "country": "Niger",
+  "iso2": "NE",
+  "iso3": "NER",
+  "callingCode": "+227",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX (AB identifies service/network)",
+    "international": "+227 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Niamey (20 20)",
+      "national": "20 XX XX XX",
+      "international": "+227 20 XX XX XX"
+    },
+    {
+      "label": "Mobile (9X, 8X)",
+      "national": "96 XX XX XX",
+      "international": "+227 96 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+22720201234",
+      "international": "+227 20 20 12 34",
+      "national": "20 20 12 34",
+      "note": "Niamey — 2 marks fixed service, the following digit the operator"
+    },
+    {
+      "type": "mobile",
+      "e164": "+22796051234",
+      "international": "+227 96 05 12 34",
+      "national": "96 05 12 34",
+      "note": "Mobile — the 96 prefix, allocated under the 2006 restructuring"
+    }
+  ],
+  "notes": [
+    "The first two digits (AB) identify the service or network; the remaining six identify the subscriber.",
+    "No trunk prefix or geographic area codes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Niger",
+    "ARCEP Niger: https://www.arcep.ne/"
+  ]
+}
