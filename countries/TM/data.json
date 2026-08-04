@@ -1,0 +1,56 @@
+{
+  "country": "Turkmenistan",
+  "iso2": "TM",
+  "iso3": "TKM",
+  "callingCode": "+993",
+  "trunkPrefix": "8",
+  "internationalPrefix": "810",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "8 AA XX-XX-XX",
+    "international": "+993 AA XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Ashgabat (12)",
+      "national": "8 12 XX-XX-XX",
+      "international": "+993 12 XX XX XX"
+    },
+    {
+      "label": "Other regions (2-digit area codes)",
+      "national": "8 XX XX-XX-XX",
+      "international": "+993 XX XX XX XX"
+    },
+    {
+      "label": "Mobile — Altyn Asyr (61–65, 71)",
+      "national": "8 6X XX-XX-XX",
+      "international": "+993 6X XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+99312345678",
+      "international": "+993 12 34 56 78",
+      "national": "8 12 34-56-78",
+      "note": "Ashgabat — area code 12"
+    },
+    {
+      "type": "mobile",
+      "e164": "+99361234567",
+      "international": "+993 61 23 45 67",
+      "national": "8 61 23-45-67",
+      "note": "Mobile — 61–65 are Altyn Asyr ranges"
+    }
+  ],
+  "notes": [
+    "Turkmenistan retains the Soviet-era trunk prefix 8 and 8~10 international access.",
+    "The 8-digit NSN is conventionally written in 2-2-2-2 groups."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Turkmenistan",
+    "Turkmentelecom: https://www.telecom.tm/"
+  ]
+}
