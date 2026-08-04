@@ -1,0 +1,64 @@
+{
+  "country": "Bonaire, Sint Eustatius and Saba",
+  "iso2": "BQ",
+  "iso3": "BES",
+  "callingCode": "+599",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+599 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Bonaire (7XX XXXX)",
+      "national": "717 XXXX",
+      "international": "+599 717 XXXX"
+    },
+    {
+      "label": "Saba (416 XXXX)",
+      "national": "416 XXXX",
+      "international": "+599 416 XXXX"
+    },
+    {
+      "label": "Sint Eustatius (318 XXXX)",
+      "national": "318 XXXX",
+      "international": "+599 318 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+5997171234",
+      "international": "+599 717 1234",
+      "national": "717 1234",
+      "note": "Bonaire — the 7XX range"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+5994161234",
+      "international": "+599 416 1234",
+      "national": "416 1234",
+      "note": "Saba — the 416 range"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+5993181234",
+      "international": "+599 318 1234",
+      "national": "318 1234",
+      "note": "Sint Eustatius — the 318 range"
+    }
+  ],
+  "notes": [
+    "The Caribbean Netherlands (Bonaire, Sint Eustatius and Saba) share +599 with Curaçao but use different leading digits rather than a separate country code.",
+    "The three islands are distinguished only by their number blocks, so the specific island cannot be inferred from the country code alone.",
+    "Local numbers were standardised to seven digits in the 1999 reforms."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cura%C3%A7ao_and_the_Caribbean_Netherlands",
+    "Rijksdienst Caribisch Nederland: https://www.rijksdienstcn.com/"
+  ]
+}
