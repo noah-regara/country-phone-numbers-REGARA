@@ -1,0 +1,57 @@
+{
+  "country": "Yemen",
+  "iso2": "YE",
+  "iso3": "YEM",
+  "callingCode": "+967",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A XXXXXXX (fixed) / 7X XXXXXXX (mobile)",
+    "international": "+967 A XXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Sanaa (01)",
+      "national": "01 XXXXXXX",
+      "international": "+967 1 XXXXXXX"
+    },
+    {
+      "label": "Aden (02), Taiz (04), other governorates",
+      "national": "0X XXXXXX",
+      "international": "+967 X XXXXXX"
+    },
+    {
+      "label": "Mobile — Sabafon (71), MTN/Yemen Mobile (73, 77, 70)",
+      "national": "71 XXXXXXX",
+      "international": "+967 71 XXXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+96712345678",
+      "international": "+967 1 234 5678",
+      "national": "01 234 5678",
+      "note": "Sanaa — area code 01"
+    },
+    {
+      "type": "mobile",
+      "e164": "+967711234567",
+      "international": "+967 71 123 4567",
+      "national": "71 123 4567",
+      "note": "Mobile — 71 is a Sabafon range; mobile numbers carry no trunk 0"
+    }
+  ],
+  "notes": [
+    "The trunk prefix 0 applies to landlines only; mobile numbers are dialled without it.",
+    "Fixed NSNs are 8 digits and mobile NSNs 9."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Yemen",
+    "Ministry of Telecommunications and Information Technology, Yemen: https://www.mtit.gov.ye/"
+  ]
+}
