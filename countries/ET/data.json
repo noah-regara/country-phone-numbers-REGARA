@@ -1,0 +1,68 @@
+{
+  "country": "Ethiopia",
+  "iso2": "ET",
+  "iso3": "ETH",
+  "callingCode": "+251",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX",
+    "international": "+251 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Addis Ababa (011)",
+      "national": "011 XXX XXXX",
+      "international": "+251 11 XXX XXXX"
+    },
+    {
+      "label": "Regional (area codes 22–58)",
+      "national": "0XX XXX XXXX",
+      "international": "+251 XX XXX XXXX"
+    },
+    {
+      "label": "Mobile — Ethio telecom (09X)",
+      "national": "091 XXX XXXX",
+      "international": "+251 91 XXX XXXX"
+    },
+    {
+      "label": "Mobile — Safaricom Ethiopia (07X)",
+      "national": "070 XXX XXXX",
+      "international": "+251 70 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+251111112345",
+      "international": "+251 11 111 2345",
+      "national": "011 111 2345",
+      "note": "Addis Ababa — area code 11"
+    },
+    {
+      "type": "mobile",
+      "e164": "+251911234567",
+      "international": "+251 91 123 4567",
+      "national": "091 123 4567",
+      "note": "Mobile — 9X denotes Ethio telecom"
+    },
+    {
+      "type": "mobile",
+      "e164": "+251701234567",
+      "international": "+251 70 123 4567",
+      "national": "070 123 4567",
+      "note": "Mobile — 7X denotes Safaricom Ethiopia"
+    }
+  ],
+  "notes": [
+    "Closed 9-digit plan; area codes were revised in 2005 with Addis Ababa on 11 and regional codes running 22–58.",
+    "The first digit of a mobile number identifies the operator: 9 Ethio telecom, 7 Safaricom Ethiopia."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Ethiopia",
+    "ECA — Ethiopian Communications Authority: https://eca.et/"
+  ]
+}
