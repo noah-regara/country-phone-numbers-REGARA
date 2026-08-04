@@ -134,7 +134,7 @@
     "patterns": [
       { "label": "Fixed line (2, 3)", "national": "2XXX XXXX", "international": "+852 2XXX XXXX" },
       { "label": "Mobile (4, 5, 6, 7, 9)", "national": "5XXX XXXX", "international": "+852 5XXX XXXX" },
-      { "label": "Toll-free", "national": "800 XXX XXX", "international": "+852 800 XXX XXX" }
+      { "label": "Toll-free", "national": "800X XXXX", "international": "+852 800X XXXX" }
     ],
     "examples": [
       { "type": "fixed-line", "e164": "+85221234567", "international": "+852 2123 4567", "national": "2123 4567", "note": "Fixed line — 2 and 3 prefixes" },

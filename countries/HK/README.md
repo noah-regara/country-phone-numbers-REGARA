@@ -19,7 +19,7 @@ International: +852 XXXX XXXX
 | --- | --- | --- |
 | Fixed line (2, 3) | `2XXX XXXX` | `+852 2XXX XXXX` |
 | Mobile (4, 5, 6, 7, 9) | `5XXX XXXX` | `+852 5XXX XXXX` |
-| Toll-free | `800 XXX XXX` | `+852 800 XXX XXX` |
+| Toll-free | `800X XXXX` | `+852 800X XXXX` |
 
 ## Examples
 
