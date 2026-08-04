@@ -1,0 +1,64 @@
+{
+  "country": "Libya",
+  "iso2": "LY",
+  "iso3": "LBY",
+  "callingCode": "+218",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX",
+    "international": "+218 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Tripoli (021)",
+      "national": "021 XXX XXXX",
+      "international": "+218 21 XXX XXXX"
+    },
+    {
+      "label": "Benghazi (061)",
+      "national": "061 XXX XXXX",
+      "international": "+218 61 XXX XXXX"
+    },
+    {
+      "label": "Mobile — Al-Madar (91, 93), Libyana (92, 94), LibyaPhone (95)",
+      "national": "091 XXX XXXX",
+      "international": "+218 91 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+218211234567",
+      "international": "+218 21 123 4567",
+      "national": "021 123 4567",
+      "note": "Tripoli — area code 21"
+    },
+    {
+      "type": "mobile",
+      "e164": "+218911234567",
+      "international": "+218 91 123 4567",
+      "national": "091 123 4567",
+      "note": "Mobile — 91/93 are Al-Madar ranges"
+    },
+    {
+      "type": "mobile",
+      "e164": "+218921234567",
+      "international": "+218 92 123 4567",
+      "national": "092 123 4567",
+      "note": "Mobile — 92/94 are Libyana ranges"
+    }
+  ],
+  "notes": [
+    "The trunk prefix 0 is dropped and replaced by +218 when dialling from abroad.",
+    "Mobile prefixes identify the operator: 91/93 Al-Madar, 92/94 Libyana, 95 LibyaPhone (LTT)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Libya",
+    "GECOL/LPTIC — Libyan Post Telecommunications and Information Technology Company: https://lptic.ly/"
+  ]
+}
