@@ -1,0 +1,64 @@
+{
+  "country": "Hong Kong",
+  "iso2": "HK",
+  "iso3": "HKG",
+  "callingCode": "+852",
+  "trunkPrefix": "",
+  "internationalPrefix": "001",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+852 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2, 3)",
+      "national": "2XXX XXXX",
+      "international": "+852 2XXX XXXX"
+    },
+    {
+      "label": "Mobile (4, 5, 6, 7, 9)",
+      "national": "5XXX XXXX",
+      "international": "+852 5XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "800 XXX XXX",
+      "international": "+852 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+85221234567",
+      "international": "+852 2123 4567",
+      "national": "2123 4567",
+      "note": "Fixed line — 2 and 3 prefixes"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+85231234567",
+      "international": "+852 3123 4567",
+      "national": "3123 4567",
+      "note": "Fixed line — 3 prefix, generally newer allocations"
+    },
+    {
+      "type": "mobile",
+      "e164": "+85251234567",
+      "international": "+852 5123 4567",
+      "national": "5123 4567",
+      "note": "Mobile — 4, 5, 6, 7 and 9 prefixes"
+    }
+  ],
+  "notes": [
+    "Hong Kong abolished area codes at the end of 1989; all numbers are a flat 8 digits with no trunk prefix.",
+    "The international access prefix is 001, not 00.",
+    "Hong Kong keeps its own country code +852 separate from mainland China's +86; calls between them are international."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Hong_Kong",
+    "OFCA — Office of the Communications Authority: https://www.ofca.gov.hk/"
+  ]
+}
