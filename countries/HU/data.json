@@ -1,0 +1,76 @@
+{
+  "country": "Hungary",
+  "iso2": "HU",
+  "iso3": "HUN",
+  "callingCode": "+36",
+  "trunkPrefix": "06",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "06 A XXX XXXX (Budapest) / 06 AA XXX XXX (elsewhere)",
+    "international": "+36 A XXX XXXX (trunk 06 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Budapest (area code 1)",
+      "national": "06 1 XXX XXXX",
+      "international": "+36 1 XXX XXXX"
+    },
+    {
+      "label": "Other geographic (2-digit area codes)",
+      "national": "06 XX XXX XXX",
+      "international": "+36 XX XXX XXX"
+    },
+    {
+      "label": "Mobile (20, 30, 31, 50, 70)",
+      "national": "06 20 XXX XXXX",
+      "international": "+36 20 XXX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "06 80 XXX XXX",
+      "international": "+36 80 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+3612345678",
+      "international": "+36 1 234 5678",
+      "national": "06 1 234 5678",
+      "note": "Budapest — area code 1, 7-digit subscriber number"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+3652123456",
+      "international": "+36 52 123 456",
+      "national": "06 52 123 456",
+      "note": "Debrecen — 2-digit area code 52, 6-digit subscriber number"
+    },
+    {
+      "type": "mobile",
+      "e164": "+36201234567",
+      "international": "+36 20 123 4567",
+      "national": "06 20 123 4567",
+      "note": "Mobile — 20 is a Yettel range; 30 and 70 are also mobile"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+3680123456",
+      "international": "+36 80 123 456",
+      "national": "06 80 123 456",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Hungary's trunk prefix is the two-digit 06, not a single 0 — an unusual arrangement in Europe.",
+    "Budapest numbers have a 1-digit area code and 7-digit subscriber number (NSN 8); everywhere else has a 2-digit area code and 6-digit subscriber number (NSN 8). Mobile NSNs are 9 digits."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Hungary",
+    "NMHH — számozási terv: https://nmhh.hu/"
+  ]
+}
