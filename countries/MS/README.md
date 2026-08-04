@@ -2,6 +2,7 @@
 
 **ISO 3166-1:** `MS` / `MSR`  
 **Country calling code:** +1  
+**Area code:** `664`  
 **Trunk prefix:** `1`  
 **International call prefix:** `011`  
 **National significant number:** 10 digits

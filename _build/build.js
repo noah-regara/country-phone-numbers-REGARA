@@ -109,6 +109,16 @@ function readme(r, meta) {
   L.push(`**ISO 3166-1:** \`${meta.a2}\` / \`${meta.a3}\`  `);
   const allCodes = [r.callingCode, ...(r.additionalCallingCodes || [])].join(', ');
   L.push(`**Country calling code:** ${allCodes}  `);
+  // NANP territories all share +1, so the area code is what actually identifies
+  // them. Bare numeric codes are set in backticks; descriptive entries (the US
+  // and Canadian ranges) are printed as written.
+  if (Array.isArray(r.areaCodes) && r.areaCodes.length) {
+    const codes = r.areaCodes.map((c) => (/^\d+$/.test(c) ? `\`${c}\`` : c)).join(', ');
+    // Plural unless it is a single bare code: the US and Canadian entries are one
+    // array element but describe a whole range, so "Area code: 201-989" misreads.
+    const plural = r.areaCodes.length > 1 || !/^\d+$/.test(r.areaCodes[0]);
+    L.push(`**Area code${plural ? 's' : ''}:** ${codes}  `);
+  }
   L.push(`**Trunk prefix:** ${r.trunkPrefix ? `\`${r.trunkPrefix}\`` : 'none'}  `);
   L.push(`**International call prefix:** ${r.internationalPrefix ? `\`${r.internationalPrefix}\`` : '—'}  `);
   L.push(

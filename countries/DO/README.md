@@ -2,6 +2,7 @@
 
 **ISO 3166-1:** `DO` / `DOM`  
 **Country calling code:** +1  
+**Area codes:** `809`, `829`, `849`  
 **Trunk prefix:** `1`  
 **International call prefix:** `011`  
 **National significant number:** 10 digits

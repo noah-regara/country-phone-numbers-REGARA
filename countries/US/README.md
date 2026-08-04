@@ -2,6 +2,7 @@
 
 **ISO 3166-1:** `US` / `USA`  
 **Country calling code:** +1  
+**Area codes:** 201–989 (hundreds of area codes)  
 **Trunk prefix:** `1`  
 **International call prefix:** `011`  
 **National significant number:** 10 digits

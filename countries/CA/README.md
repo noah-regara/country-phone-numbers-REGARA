@@ -2,6 +2,7 @@
 
 **ISO 3166-1:** `CA` / `CAN`  
 **Country calling code:** +1  
+**Area codes:** 204, 226, 416, 604, 905 and many others  
 **Trunk prefix:** `1`  
 **International call prefix:** `011`  
 **National significant number:** 10 digits

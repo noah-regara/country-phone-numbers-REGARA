@@ -2,6 +2,7 @@
 
 **ISO 3166-1:** `PR` / `PRI`  
 **Country calling code:** +1  
+**Area codes:** `787`, `939`  
 **Trunk prefix:** `1`  
 **International call prefix:** `011`  
 **National significant number:** 10 digits

@@ -2,6 +2,7 @@
 
 **ISO 3166-1:** `TC` / `TCA`  
 **Country calling code:** +1  
+**Area code:** `649`  
 **Trunk prefix:** `1`  
 **International call prefix:** `011`  
 **National significant number:** 10 digits
