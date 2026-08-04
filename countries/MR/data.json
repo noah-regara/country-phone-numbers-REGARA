@@ -1,0 +1,51 @@
+{
+  "country": "Mauritania",
+  "iso2": "MR",
+  "iso3": "MRT",
+  "callingCode": "+222",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+222 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Nouakchott (45)",
+      "national": "45XX XXXX",
+      "international": "+222 45XX XXXX"
+    },
+    {
+      "label": "Mobile — Chinguitel (24), Mauritel (2X, 3X), Mattel (4X)",
+      "national": "24XX XXXX",
+      "international": "+222 24XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+22245123456",
+      "international": "+222 4512 3456",
+      "national": "4512 3456",
+      "note": "Nouakchott — the 45 fixed prefix"
+    },
+    {
+      "type": "mobile",
+      "e164": "+22224123456",
+      "international": "+222 2412 3456",
+      "national": "2412 3456",
+      "note": "Mobile — the 24 prefix belongs to Chinguitel"
+    }
+  ],
+  "notes": [
+    "Mauritania moved from 7-digit to 8-digit NSNs in 2011.",
+    "No trunk prefix or area codes; the leading pair identifies the operator and service."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Mauritania",
+    "ARE — Autorité de Régulation, Mauritanie: https://www.are.mr/"
+  ]
+}
