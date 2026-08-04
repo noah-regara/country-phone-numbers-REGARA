@@ -1,0 +1,64 @@
+{
+  "country": "Norway",
+  "iso2": "NO",
+  "iso3": "NOR",
+  "callingCode": "+47",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XX XX XX (landline) / XXX XX XXX (mobile)",
+    "international": "+47 XX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line",
+      "national": "XX XX XX XX",
+      "international": "+47 XX XX XX XX"
+    },
+    {
+      "label": "Mobile (4x / 9x)",
+      "national": "XXX XX XXX",
+      "international": "+47 XXX XX XXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "800 XX XXX",
+      "international": "+47 800 XX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+4722123456",
+      "international": "+47 22 12 34 56",
+      "national": "22 12 34 56",
+      "note": "Historically Oslo; geographic meaning was abolished in January 2020"
+    },
+    {
+      "type": "mobile",
+      "e164": "+4741234567",
+      "international": "+47 412 34 567",
+      "national": "412 34 567",
+      "note": "Mobile — ranges beginning 4 or 9"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+4780012345",
+      "international": "+47 800 12 345",
+      "national": "800 12 345",
+      "note": "Grønt nummer (freephone)"
+    }
+  ],
+  "notes": [
+    "Norway has no trunk prefix and no area codes: all subscriber numbers are 8 digits, dialled in full every time.",
+    "Geographic significance of the leading digits was formally abolished in January 2020 — a number beginning 22 no longer implies Oslo.",
+    "Landlines are conventionally grouped in four pairs; mobiles in a 3-2-3 pattern."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norway",
+    "Nkom — nummerplan: https://www.nkom.no/telefoni-og-telefonnummer/nummerressurser"
+  ]
+}
