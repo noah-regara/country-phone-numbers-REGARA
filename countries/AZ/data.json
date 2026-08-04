@@ -1,0 +1,63 @@
+{
+  "country": "Azerbaijan",
+  "iso2": "AZ",
+  "iso3": "AZE",
+  "callingCode": "+994",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XX XX",
+    "international": "+994 AA XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Baku (12)",
+      "national": "012 XXX XX XX",
+      "international": "+994 12 XXX XX XX"
+    },
+    {
+      "label": "Other regions (2-digit area codes)",
+      "national": "0XX XXX XX XX",
+      "international": "+994 XX XXX XX XX"
+    },
+    {
+      "label": "Mobile (50–55 Azercell, 55–59/99 Bakcell, 70 Nar)",
+      "national": "050 XXX XX XX",
+      "international": "+994 50 XXX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+994124980335",
+      "international": "+994 12 498 03 35",
+      "national": "012 498 03 35",
+      "note": "Baku — area code 12"
+    },
+    {
+      "type": "mobile",
+      "e164": "+994501234567",
+      "international": "+994 50 123 45 67",
+      "national": "050 123 45 67",
+      "note": "Mobile — 50 is an Azercell range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+994701234567",
+      "international": "+994 70 123 45 67",
+      "national": "070 123 45 67",
+      "note": "Mobile — 70 is a Nar Mobile range"
+    }
+  ],
+  "notes": [
+    "Closed 9-digit plan: a 2-digit area or operator code plus a 7-digit subscriber number.",
+    "Mobile operator prefixes: 50/51 Azercell, 55/99 Bakcell, 70/77 Nar Mobile."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Azerbaijan",
+    "Ministry of Digital Development and Transport of Azerbaijan: https://mincom.gov.az/"
+  ]
+}
