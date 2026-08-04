@@ -1,0 +1,69 @@
+{
+  "country": "Jordan",
+  "iso2": "JO",
+  "iso3": "JOR",
+  "callingCode": "+962",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A XXX XXXX (landline) / 07X XXX XXXX (mobile)",
+    "international": "+962 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Amman (6)",
+      "national": "06 XXX XXXX",
+      "international": "+962 6 XXX XXXX"
+    },
+    {
+      "label": "North — Irbid, Ajloun, Jerash, Mafraq (2)",
+      "national": "02 XXX XXXX",
+      "international": "+962 2 XXX XXXX"
+    },
+    {
+      "label": "South — Karak, Ma'an, Aqaba, Petra (3); Zarqa (5)",
+      "national": "03 XXX XXXX",
+      "international": "+962 3 XXX XXXX"
+    },
+    {
+      "label": "Mobile (77 Orange, 78 Umniah, 79 Zain)",
+      "national": "079 XXX XXXX",
+      "international": "+962 79 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+96265555555",
+      "international": "+962 6 555 5555",
+      "national": "06 555 5555",
+      "note": "Amman — area code 6"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+96221234567",
+      "international": "+962 2 123 4567",
+      "national": "02 123 4567",
+      "note": "Irbid and the north — area code 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+962791234567",
+      "international": "+962 79 123 4567",
+      "national": "079 123 4567",
+      "note": "Mobile — 79 is a Zain range; 77 Orange, 78 Umniah"
+    }
+  ],
+  "notes": [
+    "Closed plan with single-digit geographic area codes; mobile numbers use 2-digit codes starting with 7.",
+    "8xx and 9xx ranges are reserved for free and service lines."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Jordan",
+    "TRC — Telecommunications Regulatory Commission of Jordan: https://trc.gov.jo/"
+  ]
+}
