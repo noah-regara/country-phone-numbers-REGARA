@@ -1,0 +1,51 @@
+{
+  "country": "Seychelles",
+  "iso2": "SC",
+  "iso3": "SYC",
+  "callingCode": "+248",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "X XXX XXX",
+    "international": "+248 X XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Cable & Wireless Seychelles (4XX XXXX)",
+      "national": "4 XXX XXX",
+      "international": "+248 4 XXX XXX"
+    },
+    {
+      "label": "Mobile — Airtel, Cable & Wireless (2XX XXXX)",
+      "national": "2 XXX XXX",
+      "international": "+248 2 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2484201234",
+      "international": "+248 4 201 234",
+      "national": "4 201 234",
+      "note": "Fixed line — the 4 prefix is Cable & Wireless Seychelles"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2482795678",
+      "international": "+248 2 795 678",
+      "national": "2 795 678",
+      "note": "Mobile — the 2 prefix (Airtel Seychelles)"
+    }
+  ],
+  "notes": [
+    "The numbering plan was revised in May 2011, moving to the current 7-digit format.",
+    "No trunk prefix or area codes; the leading digit identifies the service."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Seychelles",
+    "Department of Information Communications Technology, Seychelles: https://www.ict.gov.sc/"
+  ]
+}
