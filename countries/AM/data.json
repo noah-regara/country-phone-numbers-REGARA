@@ -1,0 +1,63 @@
+{
+  "country": "Armenia",
+  "iso2": "AM",
+  "iso3": "ARM",
+  "callingCode": "+374",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "0AA XXXXXX",
+    "international": "+374 AA XXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Yerevan (10, 11, 12, 15)",
+      "national": "0 10 XXXXXX",
+      "international": "+374 10 XXXXXX"
+    },
+    {
+      "label": "Other regions (2-digit destination codes)",
+      "national": "0 XX XXXXXX",
+      "international": "+374 XX XXXXXX"
+    },
+    {
+      "label": "Mobile (91, 93, 94, 95, 96, 98, 99, 77)",
+      "national": "0 91 XXXXXX",
+      "international": "+374 91 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+37410123456",
+      "international": "+374 10 123456",
+      "national": "0 10 123456",
+      "note": "Yerevan — destination codes 10, 11, 12 and 15"
+    },
+    {
+      "type": "mobile",
+      "e164": "+37491123456",
+      "international": "+374 91 123456",
+      "national": "0 91 123456",
+      "note": "Mobile — 91, 93, 95, 96 and 99 are Team/Viva ranges"
+    },
+    {
+      "type": "mobile",
+      "e164": "+37477123456",
+      "international": "+374 77 123456",
+      "national": "0 77 123456",
+      "note": "Mobile — 77 range"
+    }
+  ],
+  "notes": [
+    "Closed 8-digit plan: a 2-digit destination code plus a 6-digit subscriber number.",
+    "The trunk prefix 0 is used domestically and dropped when dialling from abroad."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Armenia",
+    "PSRC — Public Services Regulatory Commission of Armenia: https://psrc.am/"
+  ]
+}
