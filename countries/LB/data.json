@@ -1,0 +1,64 @@
+{
+  "country": "Lebanon",
+  "iso2": "LB",
+  "iso3": "LBN",
+  "callingCode": "+961",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7,
+    8
+  ],
+  "formats": {
+    "national": "0A XXX XXX (landline) / 0AA XXX XXX (mobile)",
+    "international": "+961 A XXX XXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Beirut (01)",
+      "national": "01 XXX XXX",
+      "international": "+961 1 XXX XXX"
+    },
+    {
+      "label": "Other regions (04 Metn, 05 Aley, 06 Tripoli, 07 South, 08 Bekaa, 09 Keserwan)",
+      "national": "0X XXX XXX",
+      "international": "+961 X XXX XXX"
+    },
+    {
+      "label": "Mobile — Alfa (03, 071, 076, 078, 079), touch (03, 070, 081)",
+      "national": "071 XXX XXX",
+      "international": "+961 71 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+9611123456",
+      "international": "+961 1 123 456",
+      "national": "01 123 456",
+      "note": "Beirut — area code 01 covers the city and its metropolitan area"
+    },
+    {
+      "type": "mobile",
+      "e164": "+96171123456",
+      "international": "+961 71 123 456",
+      "national": "071 123 456",
+      "note": "Mobile — 071 is an Alfa (MIC1) range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+96170123456",
+      "international": "+961 70 123 456",
+      "national": "070 123 456",
+      "note": "Mobile — 070 is a touch (MIC2) range"
+    }
+  ],
+  "notes": [
+    "Landline NSNs are 7 digits and mobile NSNs 8, so length distinguishes the two.",
+    "The two mobile operators are known by their licence names MIC1 (Alfa) and MIC2 (touch)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Lebanon",
+    "TRA Lebanon — Telecommunications Regulatory Authority: https://www.tra.gov.lb/"
+  ]
+}
