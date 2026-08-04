@@ -1,0 +1,40 @@
+{
+  "country": "Tokelau",
+  "iso2": "TK",
+  "iso3": "TKL",
+  "callingCode": "+690",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    5
+  ],
+  "formats": {
+    "national": "XXXXX",
+    "international": "+690 XXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed and mobile services",
+      "national": "2XXXX",
+      "international": "+690 2XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+69021234",
+      "international": "+690 21234",
+      "national": "21234",
+      "note": "Tokelau — 5-digit number after the November 2015 expansion"
+    }
+  ],
+  "notes": [
+    "Tokelau moved from 4-digit to 5-digit numbers in November 2015 by prefixing '2' to existing numbers.",
+    "The registered plan permits 3 to 7 digits, but numbers in service are 5 digits.",
+    "Tokelau is a New Zealand territory but holds its own country code +690."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tokelau",
+    "ITU — Tokelau (country code +690) numbering plan: https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000D20003PDFE.pdf"
+  ]
+}
