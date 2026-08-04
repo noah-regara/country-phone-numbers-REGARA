@@ -1,0 +1,51 @@
+{
+  "country": "Marshall Islands",
+  "iso2": "MH",
+  "iso3": "MHL",
+  "callingCode": "+692",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+692 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Majuro (247, 528), Ebeye (329)",
+      "national": "528 XXXX",
+      "international": "+692 528 XXXX"
+    },
+    {
+      "label": "Mobile — GSM (455, 456)",
+      "national": "455 XXXX",
+      "international": "+692 455 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+6925281234",
+      "international": "+692 528 1234",
+      "national": "528 1234",
+      "note": "Majuro Atoll, Laura exchange — PSTN service"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6924551234",
+      "international": "+692 455 1234",
+      "national": "455 1234",
+      "note": "Mobile — Majuro Atoll GSM range"
+    }
+  ],
+  "notes": [
+    "Closed 7-digit plan with geographic prefixes for Majuro, Ebeye and the outer atolls.",
+    "Operated by the Marshall Islands National Telecommunications Authority."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Marshall_Islands",
+    "NTA Marshall Islands: https://www.ntamar.net/"
+  ]
+}
