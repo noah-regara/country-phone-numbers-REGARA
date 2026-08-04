@@ -1,0 +1,51 @@
+{
+  "country": "Martinique",
+  "iso2": "MQ",
+  "iso3": "MTQ",
+  "callingCode": "+596",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0596 XX XX XX",
+    "international": "+596 596 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (0596)",
+      "national": "0596 XX XX XX",
+      "international": "+596 596 XX XX XX"
+    },
+    {
+      "label": "Mobile (0696, 0697)",
+      "national": "0696 XX XX XX",
+      "international": "+596 696 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+596596123456",
+      "international": "+596 596 12 34 56",
+      "national": "0596 12 34 56",
+      "note": "Martinique fixed — the country code repeats as the internal area code"
+    },
+    {
+      "type": "mobile",
+      "e164": "+596696123456",
+      "international": "+596 696 12 34 56",
+      "national": "0696 12 34 56",
+      "note": "Mobile — the 0696 range"
+    }
+  ],
+  "notes": [
+    "Martinique follows the French 10-digit national format; +596 596 xx xx xx repeats the code by design.",
+    "Numbers are written in pairs in the French style."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+    "ARCEP — plan de numérotation: https://www.arcep.fr/"
+  ]
+}
