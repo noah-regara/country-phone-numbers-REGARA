@@ -1,0 +1,64 @@
+{
+  "country": "Singapore",
+  "iso2": "SG",
+  "iso3": "SGP",
+  "callingCode": "+65",
+  "trunkPrefix": "",
+  "internationalPrefix": "000 (or carrier codes 001 SingTel, 002 M1, 008 StarHub)",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+65 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line / residential IP telephony (6)",
+      "national": "6XXX XXXX",
+      "international": "+65 6XXX XXXX"
+    },
+    {
+      "label": "Mobile (8, 9)",
+      "national": "9XXX XXXX",
+      "international": "+65 9XXX XXXX"
+    },
+    {
+      "label": "Toll-free (domestic alias)",
+      "national": "1800 XXX XXXX",
+      "international": "reachable from abroad as +65 6XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+6561234567",
+      "international": "+65 6123 4567",
+      "national": "6123 4567",
+      "note": "Fixed line — the 6 prefix covers PSTN and residential IP telephony"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6591234567",
+      "international": "+65 9123 4567",
+      "national": "9123 4567",
+      "note": "Mobile — 8 and 9 prefixes"
+    },
+    {
+      "type": "mobile",
+      "e164": "+6581234567",
+      "international": "+65 8123 4567",
+      "national": "8123 4567",
+      "note": "Mobile — 8 prefix, including prepaid and data services"
+    }
+  ],
+  "notes": [
+    "Singapore has no area codes or trunk prefix — the country is a single numbering area. All numbers are 8 digits, adopted in 2002.",
+    "A 1800 toll-free number is an alias for a 6xxx xxxx line; from abroad you dial the underlying +65 6xxx xxxx number instead.",
+    "Until 1995 Singapore was dialled from Malaysia using a trunk prefix rather than a country code."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Singapore",
+    "IMDA — Infocomm Media Development Authority: https://www.imda.gov.sg/"
+  ]
+}
