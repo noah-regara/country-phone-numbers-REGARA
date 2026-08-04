@@ -1,0 +1,63 @@
+{
+  "country": "Afghanistan",
+  "iso2": "AF",
+  "iso3": "AFG",
+  "callingCode": "+93",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX",
+    "international": "+93 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Kabul (020)",
+      "national": "020 XXX XXXX",
+      "international": "+93 20 XXX XXXX"
+    },
+    {
+      "label": "Other provinces (2-digit area codes)",
+      "national": "0XX XXX XXXX",
+      "international": "+93 XX XXX XXXX"
+    },
+    {
+      "label": "Mobile — AWCC (070, 071), Roshan (079, 072), Etisalat (078), MTN (077)",
+      "national": "070 XXX XXXX",
+      "international": "+93 70 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+93201234567",
+      "international": "+93 20 123 4567",
+      "national": "020 123 4567",
+      "note": "Kabul — area code 020"
+    },
+    {
+      "type": "mobile",
+      "e164": "+93701234567",
+      "international": "+93 70 123 4567",
+      "national": "070 123 4567",
+      "note": "Mobile — 070 is an AWCC range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+93791234567",
+      "international": "+93 79 123 4567",
+      "national": "079 123 4567",
+      "note": "Mobile — 079 is a Roshan range"
+    }
+  ],
+  "notes": [
+    "Closed 9-digit plan; all area codes are two digits after the trunk 0.",
+    "Mobile prefixes identify the operator: 070/071 AWCC, 072/079 Roshan, 077 MTN, 078 Etisalat."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Afghanistan",
+    "ATRA — Afghanistan Telecom Regulatory Authority: https://atra.gov.af/"
+  ]
+}
