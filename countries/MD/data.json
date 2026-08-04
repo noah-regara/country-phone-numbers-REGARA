@@ -1,0 +1,68 @@
+{
+  "country": "Moldova, Republic of",
+  "iso2": "MD",
+  "iso3": "MDA",
+  "callingCode": "+373",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "0AA XXX XXX",
+    "international": "+373 AA XXX XXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Chișinău (022)",
+      "national": "022 XXX XXX",
+      "international": "+373 22 XXX XXX"
+    },
+    {
+      "label": "Other geographic (2XX)",
+      "national": "0XXX XX XXX",
+      "international": "+373 XXX XX XXX"
+    },
+    {
+      "label": "Mobile (6XX, 7XX)",
+      "national": "069 XXX XXX",
+      "international": "+373 69 XXX XXX"
+    },
+    {
+      "label": "Freephone (8XX)",
+      "national": "0800 XXXXX",
+      "international": "+373 800 XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+37322123456",
+      "international": "+373 22 123 456",
+      "national": "022 123 456",
+      "note": "Chișinău — area code 22"
+    },
+    {
+      "type": "mobile",
+      "e164": "+37369123456",
+      "international": "+373 69 123 456",
+      "national": "069 123 456",
+      "note": "Mobile — 6XX and 7XX are non-geographic mobile ranges"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+37380012345",
+      "international": "+373 800 12345",
+      "national": "0800 12345",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Moldova adopted its current closed 8-digit plan on 2004-02-01 and took country code +373 in 1993.",
+    "Leading digits encode service type: 2XX fixed/geographic, 6XX and 7XX mobile, 8XX freephone, 9XX premium."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Moldova",
+    "ANRCETI — National Regulatory Agency: https://www.anrceti.md/"
+  ]
+}
