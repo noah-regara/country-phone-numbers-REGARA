@@ -1,0 +1,75 @@
+{
+  "country": "Netherlands, Kingdom of the",
+  "iso2": "NL",
+  "iso3": "NLD",
+  "callingCode": "+31",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XX XX / 0AAA XX XX XX",
+    "international": "+31 AA XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Geographic, 2-digit area code (Amsterdam 20, Rotterdam 10, The Hague 70)",
+      "national": "020 XXX XX XX",
+      "international": "+31 20 XXX XX XX"
+    },
+    {
+      "label": "Geographic, 3-digit area code (smaller towns)",
+      "national": "0XXX XX XX XX",
+      "international": "+31 XXX XX XX XX"
+    },
+    {
+      "label": "Mobile",
+      "national": "06 XX XX XX XX",
+      "international": "+31 6 XX XX XX XX"
+    },
+    {
+      "label": "Freephone",
+      "national": "0800 XXXX",
+      "international": "+31 800 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+31201234567",
+      "international": "+31 20 123 45 67",
+      "national": "020 123 45 67",
+      "note": "Amsterdam — 2-digit area code 20, 7-digit subscriber number"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+31101234567",
+      "international": "+31 10 123 45 67",
+      "national": "010 123 45 67",
+      "note": "Rotterdam — area code 10"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+31519123456",
+      "international": "+31 519 12 34 56",
+      "national": "0519 12 34 56",
+      "note": "Dokkum — 3-digit area code 519, 6-digit subscriber number"
+    },
+    {
+      "type": "mobile",
+      "e164": "+31612345678",
+      "international": "+31 6 12 34 56 78",
+      "national": "06 12 34 56 78",
+      "note": "Mobile — all Dutch mobiles are 06 + 8 digits"
+    }
+  ],
+  "notes": [
+    "The NSN is always 9 digits. Large cities have 2-digit area codes with 7-digit subscriber numbers; everywhere else has 3-digit area codes with 6-digit subscriber numbers.",
+    "Mobile numbers are effectively a single '6' area code followed by 8 digits."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Netherlands",
+    "ACM — nummerplan: https://www.acm.nl/nl/onderwerpen/telecommunicatie/telefoonnummers"
+  ]
+}
