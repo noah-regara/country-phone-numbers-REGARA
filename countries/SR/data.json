@@ -1,0 +1,57 @@
+{
+  "country": "Suriname",
+  "iso2": "SR",
+  "iso3": "SUR",
+  "callingCode": "+597",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    6,
+    7
+  ],
+  "formats": {
+    "national": "XXX XXX (fixed) / XXX XXXX (mobile)",
+    "international": "+597 XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Paramaribo fixed (4xxxxx)",
+      "national": "4XXXXX",
+      "international": "+597 4XXXXX"
+    },
+    {
+      "label": "Other geographic (21–37)",
+      "national": "XXXXXX",
+      "international": "+597 XXXXXX"
+    },
+    {
+      "label": "Mobile (71–89)",
+      "national": "71XXXXX",
+      "international": "+597 71XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+597412345",
+      "international": "+597 412 345",
+      "national": "412345",
+      "note": "Paramaribo — the 4 prefix marks Telesur geographic numbers"
+    },
+    {
+      "type": "mobile",
+      "e164": "+5977112345",
+      "international": "+597 711 2345",
+      "national": "7112345",
+      "note": "Mobile — 71 is a Digicel Suriname range; mobile numbers are 7 digits"
+    }
+  ],
+  "notes": [
+    "Fixed NSNs are 6 digits and mobile NSNs 7, so length distinguishes the two.",
+    "Geographic codes 21–37 cover the districts; 56, 68 and 71–89 are non-geographic (VoIP, wireless local loop, mobile)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Suriname",
+    "TAS — Telecommunicatie Autoriteit Suriname: https://tas.sr/"
+  ]
+}
