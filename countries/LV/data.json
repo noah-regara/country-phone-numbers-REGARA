@@ -1,0 +1,63 @@
+{
+  "country": "Latvia",
+  "iso2": "LV",
+  "iso3": "LVA",
+  "callingCode": "+371",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XXX XXX",
+    "international": "+371 XX XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (6xxxxxxx; 67x = Riga)",
+      "national": "67 XXX XXX",
+      "international": "+371 67 XXX XXX"
+    },
+    {
+      "label": "Mobile (2xxxxxxx)",
+      "national": "2X XXX XXX",
+      "international": "+371 2X XXX XXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "80 XXX XXX",
+      "international": "+371 80 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+37167123456",
+      "international": "+371 67 123 456",
+      "national": "67 123 456",
+      "note": "Riga — the 67x block serves the Riga district"
+    },
+    {
+      "type": "mobile",
+      "e164": "+37121234567",
+      "international": "+371 21 234 567",
+      "national": "21 234 567",
+      "note": "Mobile — all Latvian mobiles begin with 2"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+37180123456",
+      "international": "+371 80 123 456",
+      "national": "80 123 456",
+      "note": "Freephone"
+    }
+  ],
+  "notes": [
+    "Latvia uses a closed 8-digit plan with no trunk prefix or separately dialled area codes.",
+    "All fixed lines begin with 6 and all mobiles with 2 — a reform completed in 2008."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Latvia",
+    "SPRK — Public Utilities Commission: https://www.sprk.gov.lv/"
+  ]
+}
