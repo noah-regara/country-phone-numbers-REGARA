@@ -1,0 +1,51 @@
+{
+  "country": "Sierra Leone",
+  "iso2": "SL",
+  "iso3": "SLE",
+  "callingCode": "+232",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "0YY XXXXXX",
+    "international": "+232 YY XXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Sierratel, Freetown (22)",
+      "national": "022 XXXXXX",
+      "international": "+232 22 XXXXXX"
+    },
+    {
+      "label": "Mobile — Airtel (76, 30), Orange (78, 79, 88)",
+      "national": "076 XXXXXX",
+      "international": "+232 76 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+23222212345",
+      "international": "+232 22 212345",
+      "national": "022 212345",
+      "note": "Freetown — area code 22 (Sierratel)"
+    },
+    {
+      "type": "mobile",
+      "e164": "+23276123456",
+      "international": "+232 76 123456",
+      "national": "076 123456",
+      "note": "Mobile — 76 is an Airtel Sierra Leone range"
+    }
+  ],
+  "notes": [
+    "The 8-digit NSN comprises a 2-digit area or operator code plus a 6-digit subscriber number.",
+    "The trunk 0 is used domestically and dropped when dialling from abroad."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Sierra_Leone",
+    "NatCA — National Communications Authority of Sierra Leone: https://natca.gov.sl/"
+  ]
+}
