@@ -1,0 +1,64 @@
+{
+  "country": "Chile",
+  "iso2": "CL",
+  "iso3": "CHL",
+  "callingCode": "+56",
+  "trunkPrefix": "",
+  "internationalPrefix": "1XX0 (carrier-selected, e.g. 1230, 1880)",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "X XXXX XXXX (9 digits, no area codes)",
+    "international": "+56 X XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2 = Santiago, other digits by region)",
+      "national": "2 XXXX XXXX",
+      "international": "+56 2 XXXX XXXX"
+    },
+    {
+      "label": "Mobile (9)",
+      "national": "9 XXXX XXXX",
+      "international": "+56 9 XXXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "800 XXX XXX",
+      "international": "+56 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+56221234567",
+      "international": "+56 2 2123 4567",
+      "national": "2 2123 4567",
+      "note": "Santiago — fixed lines renumbered onto the 2 prefix in 2012–2013"
+    },
+    {
+      "type": "mobile",
+      "e164": "+56987654321",
+      "international": "+56 9 8765 4321",
+      "national": "9 8765 4321",
+      "note": "Mobile — the 9 prefix, though portability blurs the fixed/mobile distinction"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+56800123456",
+      "international": "+56 800 123 456",
+      "national": "800 123 456",
+      "note": "Toll-free"
+    }
+  ],
+  "notes": [
+    "Chile has no geographic area codes and no trunk prefix — every call within Chile is a local call and all numbers are a flat 9 digits.",
+    "Full number portability across fixed, mobile and VoIP means the leading digit no longer reliably identifies the line type.",
+    "The international access prefix is carrier-selected in the form 1XX0."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Chile",
+    "SUBTEL — Subsecretaría de Telecomunicaciones: https://www.subtel.gob.cl/"
+  ]
+}
