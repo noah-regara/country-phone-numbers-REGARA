@@ -1,0 +1,65 @@
+{
+  "country": "Brazil",
+  "iso2": "BR",
+  "iso3": "BRA",
+  "callingCode": "+55",
+  "trunkPrefix": "0 + 2-digit carrier selection code",
+  "internationalPrefix": "00 + 2-digit carrier selection code",
+  "nsnLengths": [
+    10,
+    11
+  ],
+  "formats": {
+    "national": "(AA) NNNN-NNNN (landline) / (AA) 9NNNN-NNNN (mobile)",
+    "international": "+55 AA NNNN NNNN"
+  },
+  "patterns": [
+    {
+      "label": "São Paulo (11), Rio de Janeiro (21), Brasília (61)",
+      "national": "(11) NNNN-NNNN",
+      "international": "+55 11 NNNN NNNN"
+    },
+    {
+      "label": "Mobile (9 prepended to the 8-digit number)",
+      "national": "(11) 9NNNN-NNNN",
+      "international": "+55 11 9NNNN NNNN"
+    },
+    {
+      "label": "Toll-free",
+      "national": "0800 NNN NNNN",
+      "international": "+55 800 NNN NNNN"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+551132109876",
+      "international": "+55 11 3210 9876",
+      "national": "(11) 3210-9876",
+      "note": "São Paulo — DDD area code 11"
+    },
+    {
+      "type": "mobile",
+      "e164": "+5511960102030",
+      "international": "+55 11 96010 2030",
+      "national": "(11) 96010-2030",
+      "note": "São Paulo mobile — the leading 9 was added on 2012-07-29, making mobile NSNs 11 digits"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+558007290001",
+      "international": "+55 800 729 0001",
+      "national": "0800 729 0001",
+      "note": "Toll-free — always billed as a local call regardless of where the call centre sits"
+    }
+  ],
+  "notes": [
+    "Brazil requires a carrier selection code (CSP) for long-distance calls: you dial 0, then a 2-digit carrier code (21 Claro, 41 TIM, 15 Vivo), then the area code and number.",
+    "Area codes are called DDD codes and are always 2 digits.",
+    "Mobile numbers gained a leading 9 in 2012, so mobile NSNs are 11 digits against 10 for landlines — this is the reliable way to tell them apart."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brazil",
+    "ANATEL — Agência Nacional de Telecomunicações: https://www.gov.br/anatel/"
+  ]
+}
