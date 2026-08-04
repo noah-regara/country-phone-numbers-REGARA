@@ -1,0 +1,52 @@
+{
+  "country": "Tuvalu",
+  "iso2": "TV",
+  "iso3": "TUV",
+  "callingCode": "+688",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    5,
+    6
+  ],
+  "formats": {
+    "national": "XX XXX",
+    "international": "+688 XX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Funafuti (20, 21); other atolls (22–29)",
+      "national": "20 XXX",
+      "international": "+688 20 XXX"
+    },
+    {
+      "label": "Mobile (90 XXXX)",
+      "national": "90 XXXX",
+      "international": "+688 90 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+68820123",
+      "international": "+688 20 123",
+      "national": "20 123",
+      "note": "Funafuti — atoll code 20"
+    },
+    {
+      "type": "mobile",
+      "e164": "+688901234",
+      "international": "+688 90 1234",
+      "national": "90 1234",
+      "note": "Mobile — the 90 prepaid range, one digit longer than fixed"
+    }
+  ],
+  "notes": [
+    "Each of Tuvalu's nine atolls has its own dialling code (20–29), with Funafuti holding two (20 and 21).",
+    "Fixed NSNs are 5 digits and mobile NSNs 6."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tuvalu",
+    "ITU-T E.164 national numbering plans: https://www.itu.int/oth/T0202.aspx"
+  ]
+}
