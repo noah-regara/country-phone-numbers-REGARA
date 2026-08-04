@@ -250,7 +250,7 @@ One folder per ISO 3166-1 alpha-2 entry. Each holds a machine-readable `data.jso
 | [`VU`](countries/VU/) | Vanuatu | +678 | var | 2 |
 | [`WF`](countries/WF/) | Wallis and Futuna | +681 | 6 | 2 |
 | [`WS`](countries/WS/) | Samoa | +685 | var | 2 |
-| [`YE`](countries/YE/) | Yemen | +967 | 8/9 | 2 |
+| [`YE`](countries/YE/) | Yemen | +967 | 7/8/9 | 3 |
 | [`YT`](countries/YT/) | Mayotte | +262 | 9 | 2 |
 | [`ZA`](countries/ZA/) | South Africa | +27 | 9 | 4 |
 | [`ZM`](countries/ZM/) | Zambia | +260 | 9 | 3 |
