@@ -49,6 +49,7 @@
   ],
   "notes": [
     "Côte d'Ivoire renumbered on 2021-01-31, going from 8 to 10 digits by prepending two digits that encode service and carrier (27 fixed, 01/05/07 mobile).",
+    "Mobile numbers therefore begin with a 0 (01, 05, 07), but that leading 0 is part of the number rather than a trunk prefix — it is kept when dialling from abroad, as in +225 07 12 34 56 78.",
     "An earlier expansion from 6 to 8 digits took place on 2000-01-15.",
     "There is no trunk prefix — the full 10 digits are dialled for every domestic call."
   ],
