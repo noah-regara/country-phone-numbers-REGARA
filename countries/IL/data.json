@@ -1,0 +1,75 @@
+{
+  "country": "Israel",
+  "iso2": "IL",
+  "iso3": "ISR",
+  "callingCode": "+972",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00 (also carrier codes 012, 013, 014, 018)",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A-XXX-XXXX (landline) / 05X-XXX-XXXX (mobile)",
+    "international": "+972 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Tel Aviv and Central District (03)",
+      "national": "03-XXX-XXXX",
+      "international": "+972 3 XXX XXXX"
+    },
+    {
+      "label": "Jerusalem (02), Haifa (04), South (08), Sharon (09)",
+      "national": "02-XXX-XXXX",
+      "international": "+972 2 XXX XXXX"
+    },
+    {
+      "label": "Mobile (050–059)",
+      "national": "050-XXX-XXXX",
+      "international": "+972 50 XXX XXXX"
+    },
+    {
+      "label": "VoIP (07X)",
+      "national": "077-XXX-XXXX",
+      "international": "+972 77 XXX XXXX"
+    },
+    {
+      "label": "Toll-free (domestic only)",
+      "national": "1-800-XXX-XXX",
+      "international": "not reachable from abroad"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+97235551234",
+      "international": "+972 3 555 1234",
+      "national": "03-555-1234",
+      "note": "Tel Aviv — area code 03 covers Tel Aviv and the Central District"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+97226665678",
+      "international": "+972 2 666 5678",
+      "national": "02-666-5678",
+      "note": "Jerusalem — area code 02"
+    },
+    {
+      "type": "mobile",
+      "e164": "+972501234567",
+      "international": "+972 50 123 4567",
+      "national": "050-123-4567",
+      "note": "Mobile — 050 is a Pelephone range; 050–059 are all mobile"
+    }
+  ],
+  "notes": [
+    "International access can be dialled as 00 or via a carrier-specific code (012, 013, 014, 018), each billed differently.",
+    "1-800 toll-free numbers work only from inside Israel.",
+    "The +972 code is also used for Palestinian numbers in some contexts; the State of Palestine additionally holds +970."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Israel",
+    "Israeli Ministry of Communications: https://www.gov.il/en/departments/ministry_of_communications"
+  ]
+}
