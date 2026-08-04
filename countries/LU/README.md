@@ -17,19 +17,19 @@ International: +352 XX XX XX
 
 | Range | National format | International format |
 | --- | --- | --- |
-| Fixed line (legacy short form) | `XX XXXX` | `+352 XX XXXX` |
+| Fixed line (legacy short form) | `XX XX XX` | `+352 XX XX XX` |
 | Fixed line (Luxembourg City 4xxxxx) | `4X XX XX` | `+352 4X XX XX` |
 | Mobile (621, 661, 691…) | `6X1 XXX XXX` | `+352 6X1 XXX XXX` |
-| Freephone | `800 XXXXX` | `+352 800 XXXXX` |
+| Freephone | `800 XX XXX` | `+352 800 XX XXX` |
 
 ## Examples
 
 | Type | E.164 | International | National | Notes |
 | --- | --- | --- | --- | --- |
-| fixed-line | `+3524123456` | `+352 4 123 456` | `4 123 456` | Luxembourg City fixed line |
-| fixed-line | `+35226791234` | `+352 2679 1234` | `2679 1234` | Consdorf — 8-digit form introduced in 2000 |
+| fixed-line | `+3524123456` | `+352 41 23 45 6` | `41 23 45 6` | Luxembourg City fixed line — written in pairs, leaving a trailing single digit on odd-length numbers |
+| fixed-line | `+35226791234` | `+352 26 79 12 34` | `26 79 12 34` | Consdorf — 8-digit form introduced in 2000 |
 | mobile | `+352661234567` | `+352 661 234 567` | `661 234 567` | Mobile — 661 is an Orange range |
-| toll-free | `+35280012345` | `+352 800 12345` | `800 12345` | Freephone |
+| toll-free | `+35280012345` | `+352 800 12 345` | `800 12 345` | Freephone |
 
 ## Notes
 

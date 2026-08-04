@@ -13,8 +13,8 @@
   "patterns": [
     {
       "label": "Fixed line (legacy short form)",
-      "national": "XX XXXX",
-      "international": "+352 XX XXXX"
+      "national": "XX XX XX",
+      "international": "+352 XX XX XX"
     },
     {
       "label": "Fixed line (Luxembourg City 4xxxxx)",
@@ -28,23 +28,23 @@
     },
     {
       "label": "Freephone",
-      "national": "800 XXXXX",
-      "international": "+352 800 XXXXX"
+      "national": "800 XX XXX",
+      "international": "+352 800 XX XXX"
     }
   ],
   "examples": [
     {
       "type": "fixed-line",
       "e164": "+3524123456",
-      "international": "+352 4 123 456",
-      "national": "4 123 456",
-      "note": "Luxembourg City fixed line"
+      "international": "+352 41 23 45 6",
+      "national": "41 23 45 6",
+      "note": "Luxembourg City fixed line — written in pairs, leaving a trailing single digit on odd-length numbers"
     },
     {
       "type": "fixed-line",
       "e164": "+35226791234",
-      "international": "+352 2679 1234",
-      "national": "2679 1234",
+      "international": "+352 26 79 12 34",
+      "national": "26 79 12 34",
       "note": "Consdorf — 8-digit form introduced in 2000"
     },
     {
@@ -57,8 +57,8 @@
     {
       "type": "toll-free",
       "e164": "+35280012345",
-      "international": "+352 800 12345",
-      "national": "800 12345",
+      "international": "+352 800 12 345",
+      "national": "800 12 345",
       "note": "Freephone"
     }
   ],
