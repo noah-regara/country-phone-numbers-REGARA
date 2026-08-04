@@ -1,0 +1,62 @@
+{
+  "country": "Congo, Democratic Republic of the",
+  "iso2": "CD",
+  "iso3": "COD",
+  "callingCode": "+243",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0A XXX XX XX (landline) / 0AA XXX XX XX (mobile)",
+    "international": "+243 A XXX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Kinshasa (1)",
+      "national": "01 XXX XX XX",
+      "international": "+243 1 XXX XX XX"
+    },
+    {
+      "label": "Katanga (2), Bas-Congo/Bandundu (3), Kasaï (4), Orientale (5), Kivu (6)",
+      "national": "0X XXX XX XX",
+      "international": "+243 X XXX XX XX"
+    },
+    {
+      "label": "Mobile (81, 82, 84, 85, 89, 90, 97, 99)",
+      "national": "082 XXX XX XX",
+      "international": "+243 82 XXX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+24312345678",
+      "international": "+243 1 234 56 78",
+      "national": "01 234 56 78",
+      "note": "Kinshasa — area code 1"
+    },
+    {
+      "type": "mobile",
+      "e164": "+243821234567",
+      "international": "+243 82 123 45 67",
+      "national": "082 123 45 67",
+      "note": "Mobile — 82 is a Vodacom Congo range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+243991234567",
+      "international": "+243 99 123 45 67",
+      "national": "099 123 45 67",
+      "note": "Mobile — 99 range"
+    }
+  ],
+  "notes": [
+    "Landline area codes are single digits mapping to former provinces; mobile prefixes are two digits.",
+    "Fixed-line infrastructure is limited and mobile numbers dominate in practice.",
+    "NSN length varies between fixed (8) and mobile (9), so length alone is a weak validator."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Democratic_Republic_of_the_Congo",
+    "ARPTC — Autorité de Régulation de la Poste et des Télécommunications du Congo: https://www.arptc.gouv.cd/"
+  ]
+}
