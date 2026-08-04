@@ -1,0 +1,65 @@
+{
+  "country": "Algeria",
+  "iso2": "DZ",
+  "iso3": "DZA",
+  "callingCode": "+213",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0AA XX XX XX (landline) / 0AXX XX XX XX (mobile)",
+    "international": "+213 AA XX XX XX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Algiers (021, 023)",
+      "national": "021 XX XX XX",
+      "international": "+213 21 XX XX XX"
+    },
+    {
+      "label": "Other wilayas (2-digit area codes)",
+      "national": "0XX XX XX XX",
+      "international": "+213 XX XX XX XX"
+    },
+    {
+      "label": "Mobile — Ooredoo (05), Mobilis (06), Djezzy (07)",
+      "national": "05XX XX XX XX",
+      "international": "+213 5XX XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+21321123456",
+      "international": "+213 21 12 34 56",
+      "national": "021 12 34 56",
+      "note": "Algiers — area codes 021 and 023"
+    },
+    {
+      "type": "mobile",
+      "e164": "+213550123456",
+      "international": "+213 550 12 34 56",
+      "national": "0550 12 34 56",
+      "note": "Mobile — 05 denotes Ooredoo"
+    },
+    {
+      "type": "mobile",
+      "e164": "+213660123456",
+      "international": "+213 660 12 34 56",
+      "national": "0660 12 34 56",
+      "note": "Mobile — 06 denotes Mobilis"
+    }
+  ],
+  "notes": [
+    "Landline NSNs are 8 digits and mobile NSNs 9, so length distinguishes the two.",
+    "The digit after the trunk 0 identifies the mobile operator: 5 Ooredoo, 6 Mobilis, 7 Djezzy.",
+    "Numbers are conventionally written in pairs in the French style."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Algeria",
+    "ARPCE — Autorité de Régulation de la Poste et des Communications Électroniques: https://www.arpce.dz/"
+  ]
+}
