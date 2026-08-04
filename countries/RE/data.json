@@ -1,0 +1,51 @@
+{
+  "country": "Réunion",
+  "iso2": "RE",
+  "iso3": "REU",
+  "callingCode": "+262",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0262 XX XX XX",
+    "international": "+262 262 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (0262, 0263)",
+      "national": "0262 XX XX XX",
+      "international": "+262 262 XX XX XX"
+    },
+    {
+      "label": "Mobile (0692, 0693)",
+      "national": "0692 XX XX XX",
+      "international": "+262 692 XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+262262123456",
+      "international": "+262 262 12 34 56",
+      "national": "0262 12 34 56",
+      "note": "Réunion fixed — country code repeats as the internal area code"
+    },
+    {
+      "type": "mobile",
+      "e164": "+262692123456",
+      "international": "+262 692 12 34 56",
+      "national": "0692 12 34 56",
+      "note": "Mobile — the 0692/0693 ranges"
+    }
+  ],
+  "notes": [
+    "Réunion shares country code +262 with Mayotte; the two are separated by their internal prefixes (262/692 for Réunion, 269/639 for Mayotte).",
+    "The French Southern and Antarctic Lands are also administratively attached to +262."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+    "ARCEP — plan de numérotation: https://www.arcep.fr/"
+  ]
+}
