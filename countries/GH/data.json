@@ -1,0 +1,63 @@
+{
+  "country": "Ghana",
+  "iso2": "GH",
+  "iso3": "GHA",
+  "callingCode": "+233",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXX XXXX",
+    "international": "+233 AA XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Greater Accra (030)",
+      "national": "030 2XXXXXX",
+      "international": "+233 30 2XXXXXX"
+    },
+    {
+      "label": "Kumasi / Ashanti (032)",
+      "national": "032 XXXXXXX",
+      "international": "+233 32 XXXXXXX"
+    },
+    {
+      "label": "Mobile (020, 023, 024, 026, 027, 028, 050, 054, 055, 059)",
+      "national": "024 XXX XXXX",
+      "international": "+233 24 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+233302123456",
+      "international": "+233 30 2123456",
+      "national": "030 2123456",
+      "note": "Accra — regional code 030 with '2' designating Accra itself"
+    },
+    {
+      "type": "mobile",
+      "e164": "+233241234567",
+      "international": "+233 24 123 4567",
+      "national": "024 123 4567",
+      "note": "Mobile — 024 is an MTN Ghana range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+233201234567",
+      "international": "+233 20 123 4567",
+      "national": "020 123 4567",
+      "note": "Mobile — 020 range"
+    }
+  ],
+  "notes": [
+    "Since 2010-05-01 all Ghanaian fixed and mobile numbers have a uniform 9-digit NSN.",
+    "Administered by the National Communications Authority."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Ghana",
+    "NCA — National Communications Authority of Ghana: https://nca.org.gh/"
+  ]
+}
