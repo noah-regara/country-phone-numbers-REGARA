@@ -44,8 +44,8 @@
     },
     {
       "type": "mobile",
-      "e164": "+95797123456",
-      "international": "+95 797 123 456",
+      "e164": "+959797123456",
+      "international": "+95 9 797 123 456",
       "national": "09 797 123 456",
       "note": "Mobile — 097 is a Telenor range; 096 Mytel, 098/099 Ooredoo, 092/094/095 MPT"
     }

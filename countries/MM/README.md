@@ -27,7 +27,7 @@ International: +95 A XXX XXXX (trunk 0 dropped)
 | --- | --- | --- | --- | --- |
 | fixed-line | `+9512345678` | `+95 1 234 5678` | `01 234 5678` | Yangon — area code 1 |
 | fixed-line | `+9522834567` | `+95 2 283 4567` | `02 283 4567` | Mandalay — area code 2 |
-| mobile | `+95797123456` | `+95 797 123 456` | `09 797 123 456` | Mobile — 097 is a Telenor range; 096 Mytel, 098/099 Ooredoo, 092/094/095 MPT |
+| mobile | `+959797123456` | `+95 9 797 123 456` | `09 797 123 456` | Mobile — 097 is a Telenor range; 096 Mytel, 098/099 Ooredoo, 092/094/095 MPT |
 
 ## Notes
 
