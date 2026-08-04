@@ -1,0 +1,64 @@
+{
+  "country": "Venezuela, Bolivarian Republic of",
+  "iso2": "VE",
+  "iso3": "VEN",
+  "callingCode": "+58",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "0AAA XXXXXXX",
+    "international": "+58 AAA XXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Caracas / Distrito Capital (212)",
+      "national": "0212 XXXXXXX",
+      "international": "+58 212 XXXXXXX"
+    },
+    {
+      "label": "Other states (3-digit area codes)",
+      "national": "0XXX XXXXXXX",
+      "international": "+58 XXX XXXXXXX"
+    },
+    {
+      "label": "Mobile (412 Digitel, 414/424 Movistar, 416/426 Movilnet)",
+      "national": "0412 XXXXXXX",
+      "international": "+58 412 XXXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+582125551212",
+      "international": "+58 212 555 1212",
+      "national": "0212 5551212",
+      "note": "Caracas — area code 212"
+    },
+    {
+      "type": "mobile",
+      "e164": "+584121234567",
+      "international": "+58 412 123 4567",
+      "national": "0412 1234567",
+      "note": "Mobile — 412 is a Digitel range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+584141234567",
+      "international": "+58 414 123 4567",
+      "national": "0414 1234567",
+      "note": "Mobile — 414/424 are Movistar ranges"
+    }
+  ],
+  "notes": [
+    "Closed 10-digit plan: a 3-digit area code plus a 7-digit subscriber number. The plan was last revised on 2000-09-21.",
+    "Mobile operator codes fall in the 412–426 range.",
+    "Numbers beginning with 5 are region-free and billed as local calls nationwide."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Venezuela",
+    "CONATEL — Comisión Nacional de Telecomunicaciones: https://www.conatel.gob.ve/"
+  ]
+}
