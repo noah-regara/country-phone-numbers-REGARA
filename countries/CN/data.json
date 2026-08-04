@@ -1,0 +1,74 @@
+{
+  "country": "China",
+  "iso2": "CN",
+  "iso3": "CHN",
+  "callingCode": "+86",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "0AA-XXXXXXXX (landline) / 1XX-XXXX-XXXX (mobile)",
+    "international": "+86 AA XXXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Beijing (10), Shanghai (21) — 2-digit area codes",
+      "national": "010-XXXXXXXX",
+      "international": "+86 10 XXXXXXXX"
+    },
+    {
+      "label": "Other cities — 3-digit area codes",
+      "national": "0XXX-XXXXXXX",
+      "international": "+86 XXX XXXXXXX"
+    },
+    {
+      "label": "Mobile (11 digits, always begins with 1)",
+      "national": "1XX XXXX XXXX",
+      "international": "+86 1XX XXXX XXXX"
+    },
+    {
+      "label": "Service numbers",
+      "national": "400-XXX-XXXX / 800-XXX-XXXX",
+      "international": "+86 400 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+861012345678",
+      "international": "+86 10 1234 5678",
+      "national": "010-12345678",
+      "note": "Beijing — 2-digit area code 10"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+862112345678",
+      "international": "+86 21 1234 5678",
+      "national": "021-12345678",
+      "note": "Shanghai — 2-digit area code 21"
+    },
+    {
+      "type": "mobile",
+      "e164": "+8613812345678",
+      "international": "+86 138 1234 5678",
+      "national": "138 1234 5678",
+      "note": "Mobile — always 11 digits beginning with 1; 138 is a China Mobile range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+864001234567",
+      "international": "+86 400 123 4567",
+      "national": "400-123-4567",
+      "note": "Shared-cost service number; 800 is the true freephone range"
+    }
+  ],
+  "notes": [
+    "Landlines carry area codes (2 digits for the largest cities, 3 elsewhere) but mobile numbers do not — a mobile number is always a flat 11 digits starting with 1.",
+    "Because landline NSN length varies with area-code length, length alone cannot validate a Chinese number.",
+    "400 numbers are shared-cost (the caller pays a local rate); 800 numbers are true freephone but are often unreachable from mobiles."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_China",
+    "MIIT — Ministry of Industry and Information Technology: https://www.miit.gov.cn/"
+  ]
+}
