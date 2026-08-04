@@ -41,4 +41,3 @@ International: +49 AA XXXXXXXX (trunk 0 dropped)
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Germany
-- Bundesnetzagentur — Nummerierung: https://www.bundesnetzagentur.de/EN/Areas/Telecommunications/Companies/NumberManagement/

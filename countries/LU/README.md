@@ -39,4 +39,3 @@ International: +352 XX XX XX
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Luxembourg
-- ILR — plan de numérotation: https://web.ilr.lu/communications-electroniques/Pages/Numerotation.aspx

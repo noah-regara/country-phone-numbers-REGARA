@@ -58,8 +58,7 @@
       "The four largest cities have single-digit area codes (2, 3, 4, 9); everywhere else has two digits."
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Belgium",
-      "BIPT — numbering plan: https://www.bipt.be/operators/numbering"
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Belgium"
     ]
   },
   {
@@ -89,8 +88,7 @@
       "Liechtenstein (+423) is a separate country code but is closely integrated with the Swiss network."
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Switzerland",
-      "OFCOM/BAKOM — numbering: https://www.bakom.admin.ch/bakom/en/homepage/telecommunication/numbering-and-addressing.html"
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Switzerland"
     ]
   },
   {
@@ -121,8 +119,7 @@
       "Length-based validation of Austrian numbers is unreliable — match on prefix instead."
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Austria",
-      "RTR — Nummerierung: https://www.rtr.at/TKP/was_wir_tun/telekommunikation/nummerierung/"
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Austria"
     ]
   },
   {
@@ -152,8 +149,7 @@
       "Geographic numbers begin with 2, mobile numbers with 9."
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Portugal",
-      "ANACOM — plano nacional de numeração: https://www.anacom.pt/render.jsp?categoryId=1044"
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Portugal"
     ]
   },
   {
@@ -182,8 +178,7 @@
       "Landlines are conventionally grouped in four pairs; mobiles in a 3-2-3 pattern."
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norway",
-      "Nkom — nummerplan: https://www.nkom.no/telefoni-og-telefonnummer/nummerressurser"
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norway"
     ]
   },
   {
@@ -213,8 +208,7 @@
       "Fixed and mobile numbers share the same 8-digit format and are distinguished only by allocated range."
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Denmark",
-      "Danish Energy Agency — nummerplan: https://ens.dk/ansvarsomraader/telepolitik/nummerforhold"
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Denmark"
     ]
   },
   {
@@ -244,8 +238,7 @@
       "Åland (AX) shares +358 and uses the 018 area code."
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Finland",
-      "Traficom — numbering: https://www.traficom.fi/en/communications/telecommunications-networks/telephone-numbers"
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Finland"
     ]
   }
 ]

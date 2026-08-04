@@ -39,4 +39,3 @@ International: +351 XXX XXX XXX
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Portugal
-- ANACOM — plano nacional de numeração: https://www.anacom.pt/render.jsp?categoryId=1044

@@ -39,4 +39,3 @@ International: +41 AA XXX XX XX (trunk 0 dropped)
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Switzerland
-- OFCOM/BAKOM — numbering: https://www.bakom.admin.ch/bakom/en/homepage/telecommunication/numbering-and-addressing.html

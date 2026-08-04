@@ -39,4 +39,3 @@ International: +45 XX XX XX XX
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Denmark
-- Danish Energy Agency — nummerplan: https://ens.dk/ansvarsomraader/telepolitik/nummerforhold

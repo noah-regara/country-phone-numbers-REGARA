@@ -42,4 +42,3 @@ International: +39 0AA XXXXXXXX — the leading 0 is KEPT when dialling from abr
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Italy
-- AGCOM — piano di numerazione: https://www.agcom.it/piano-di-numerazione

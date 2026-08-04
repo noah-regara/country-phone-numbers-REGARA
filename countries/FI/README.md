@@ -39,4 +39,3 @@ International: +358 A XXX XXXX (trunk 0 dropped)
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Finland
-- Traficom — numbering: https://www.traficom.fi/en/communications/telecommunications-networks/telephone-numbers

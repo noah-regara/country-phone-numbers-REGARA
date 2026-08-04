@@ -38,4 +38,3 @@ International: +47 XX XX XX XX
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Norway
-- Nkom — nummerplan: https://www.nkom.no/telefoni-og-telefonnummer/nummerressurser

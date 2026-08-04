@@ -35,4 +35,3 @@ International: +358 18 XXXXX (trunk 0 dropped)
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Finland
-- Traficom — numbering: https://www.traficom.fi/en/communications/telecommunications-networks/telephone-numbers

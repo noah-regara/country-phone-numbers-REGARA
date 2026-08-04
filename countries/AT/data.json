@@ -68,7 +68,6 @@
     "Length-based validation of Austrian numbers is unreliable — match on prefix instead."
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Austria",
-    "RTR — Nummerierung: https://www.rtr.at/TKP/was_wir_tun/telekommunikation/nummerierung/"
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Austria"
   ]
 }

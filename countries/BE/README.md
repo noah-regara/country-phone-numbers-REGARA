@@ -40,4 +40,3 @@ International: +32 A XXX XX XX (trunk 0 dropped)
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Belgium
-- BIPT — numbering plan: https://www.bipt.be/operators/numbering

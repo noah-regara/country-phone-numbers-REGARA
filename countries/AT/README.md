@@ -40,4 +40,3 @@ International: +43 A XXXXXXX (trunk 0 dropped)
 ## Sources
 
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_Austria
-- RTR — Nummerierung: https://www.rtr.at/TKP/was_wir_tun/telekommunikation/nummerierung/
