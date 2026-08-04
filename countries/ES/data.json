@@ -1,0 +1,76 @@
+{
+  "country": "Spain",
+  "iso2": "ES",
+  "iso3": "ESP",
+  "callingCode": "+34",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "XXX XXX XXX (closed plan, no trunk prefix)",
+    "international": "+34 XXX XXX XXX"
+  },
+  "patterns": [
+    {
+      "label": "Geographic (Madrid 91, Barcelona 93)",
+      "national": "9XX XXX XXX",
+      "international": "+34 9XX XXX XXX"
+    },
+    {
+      "label": "Geographic overflow",
+      "national": "8XX XXX XXX",
+      "international": "+34 8XX XXX XXX"
+    },
+    {
+      "label": "Mobile",
+      "national": "6XX XXX XXX / 7XX XXX XXX",
+      "international": "+34 6XX XXX XXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "900 XXX XXX",
+      "international": "+34 900 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+34913123456",
+      "international": "+34 913 123 456",
+      "national": "913 123 456",
+      "note": "Madrid — geographic code 91"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+34934123456",
+      "international": "+34 934 123 456",
+      "national": "934 123 456",
+      "note": "Barcelona — geographic code 93"
+    },
+    {
+      "type": "mobile",
+      "e164": "+34612345678",
+      "international": "+34 612 345 678",
+      "national": "612 345 678",
+      "note": "Mobile — 6xx and 7xx ranges"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+34900123456",
+      "international": "+34 900 123 456",
+      "national": "900 123 456",
+      "note": "Teléfono gratuito"
+    }
+  ],
+  "notes": [
+    "Spain abolished the trunk prefix on 1998-12-01 and moved to a closed 9-digit plan: the full national number is dialled for every call, local or long distance.",
+    "The old area codes survive as the leading digits of the 9-digit number (91 = Madrid, 93 = Barcelona), but they are no longer separable prefixes.",
+    "Numbers are conventionally grouped in threes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Spain",
+    "CNMC — plan nacional de numeración: https://numeracionyoperadores.cnmc.es/numeracion"
+  ]
+}
