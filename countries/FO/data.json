@@ -1,0 +1,52 @@
+{
+  "country": "Faroe Islands",
+  "iso2": "FO",
+  "iso3": "FRO",
+  "callingCode": "+298",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    6
+  ],
+  "formats": {
+    "national": "XX XX XX",
+    "international": "+298 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (3x)",
+      "national": "3X XX XX",
+      "international": "+298 3X XX XX"
+    },
+    {
+      "label": "Mobile (2x, 5x, 7x)",
+      "national": "2X XX XX",
+      "international": "+298 2X XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+298302010",
+      "international": "+298 30 20 10",
+      "national": "30 20 10",
+      "note": "Tórshavn — fixed network ranges begin with 3"
+    },
+    {
+      "type": "mobile",
+      "e164": "+298211234",
+      "international": "+298 21 12 34",
+      "national": "21 12 34",
+      "note": "Mobile — 21 is a GSM range"
+    }
+  ],
+  "notes": [
+    "The Faroe Islands are a self-governing part of Denmark but have their own country code +298, separate from Denmark's +45.",
+    "All numbers are 6 digits with no trunk prefix or area codes, written as three pairs.",
+    "The islands received a code beginning with 2 (a range normally allocated to Africa) because the European 3xx and 4xx ranges were exhausted."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Faroe_Islands",
+    "Faroese Telecom (Føroya Tele): https://www.telefon.fo/"
+  ]
+}
