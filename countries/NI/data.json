@@ -1,0 +1,51 @@
+{
+  "country": "Nicaragua",
+  "iso2": "NI",
+  "iso3": "NIC",
+  "callingCode": "+505",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+505 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2)",
+      "national": "2XXX XXXX",
+      "international": "+505 2XXX XXXX"
+    },
+    {
+      "label": "Mobile (5, 7, 8)",
+      "national": "8XXX XXXX",
+      "international": "+505 8XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+50522345678",
+      "international": "+505 2234 5678",
+      "national": "2234 5678",
+      "note": "Fixed line — leading 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+50581234567",
+      "international": "+505 8123 4567",
+      "national": "8123 4567",
+      "note": "Mobile — 5, 7 and 8 prefixes"
+    }
+  ],
+  "notes": [
+    "Nicaragua moved from 7 to 8 digits in 2009 by prefixing 2 for fixed lines and 5/7/8 for mobile.",
+    "Closed plan with no area codes or trunk prefix."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Nicaragua",
+    "TELCOR — Instituto Nicaragüense de Telecomunicaciones y Correos: https://www.telcor.gob.ni/"
+  ]
+}
