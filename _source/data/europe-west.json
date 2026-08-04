@@ -20,7 +20,7 @@
     "examples": [
       { "type": "fixed-line", "e164": "+442071234567", "international": "+44 20 7123 4567", "national": "020 7123 4567", "note": "London — area code 020, subscriber block 7xxx" },
       { "type": "fixed-line", "e164": "+441612361234", "international": "+44 161 236 1234", "national": "0161 236 1234", "note": "Manchester — area code 0161" },
-      { "type": "mobile", "e164": "+447911123456", "international": "+44 7911 123456", "national": "07911 123456", "note": "Mobile — 07911 is an allocated UK mobile range" },
+      { "type": "mobile", "e164": "+447400123456", "international": "+44 7400 123456", "national": "07400 123456", "note": "Mobile — 07400 is an allocated Great Britain mobile range (07911 was previously shown here, but 079111 is allocated to Guernsey)" },
       { "type": "toll-free", "e164": "+448001234567", "international": "+44 800 123 4567", "national": "0800 123 4567", "note": "Freephone" }
     ],
     "notes": [

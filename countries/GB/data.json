@@ -62,10 +62,10 @@
     },
     {
       "type": "mobile",
-      "e164": "+447911123456",
-      "international": "+44 7911 123456",
-      "national": "07911 123456",
-      "note": "Mobile — 07911 is an allocated UK mobile range"
+      "e164": "+447400123456",
+      "international": "+44 7400 123456",
+      "national": "07400 123456",
+      "note": "Mobile — 07400 is an allocated Great Britain mobile range (07911 was previously shown here, but 079111 is allocated to Guernsey)"
     },
     {
       "type": "toll-free",

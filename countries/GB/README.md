@@ -30,7 +30,7 @@ International: +44 AA XXXX XXXX (trunk 0 dropped)
 | --- | --- | --- | --- | --- |
 | fixed-line | `+442071234567` | `+44 20 7123 4567` | `020 7123 4567` | London — area code 020, subscriber block 7xxx |
 | fixed-line | `+441612361234` | `+44 161 236 1234` | `0161 236 1234` | Manchester — area code 0161 |
-| mobile | `+447911123456` | `+44 7911 123456` | `07911 123456` | Mobile — 07911 is an allocated UK mobile range |
+| mobile | `+447400123456` | `+44 7400 123456` | `07400 123456` | Mobile — 07400 is an allocated Great Britain mobile range (07911 was previously shown here, but 079111 is allocated to Guernsey) |
 | toll-free | `+448001234567` | `+44 800 123 4567` | `0800 123 4567` | Freephone |
 
 ## Notes
