@@ -1,0 +1,51 @@
+{
+  "country": "Saint Pierre and Miquelon",
+  "iso2": "PM",
+  "iso3": "SPM",
+  "callingCode": "+508",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    6
+  ],
+  "formats": {
+    "national": "XX XX XX",
+    "international": "+508 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (41, 55)",
+      "national": "41 XX XX",
+      "international": "+508 41 XX XX"
+    },
+    {
+      "label": "Mobile (55)",
+      "national": "55 XX XX",
+      "international": "+508 55 XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+508412345",
+      "international": "+508 41 23 45",
+      "national": "41 23 45",
+      "note": "Saint-Pierre — fixed lines in the 41 range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+508551234",
+      "international": "+508 55 12 34",
+      "national": "55 12 34",
+      "note": "Mobile — the 55 range"
+    }
+  ],
+  "notes": [
+    "Saint Pierre and Miquelon keeps a short 6-digit plan rather than the 9-digit format used by the other French overseas territories.",
+    "Numbers are written in pairs in the French style."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+    "ARCEP — plan de numérotation: https://www.arcep.fr/"
+  ]
+}
