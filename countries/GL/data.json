@@ -1,0 +1,64 @@
+{
+  "country": "Greenland",
+  "iso2": "GL",
+  "iso3": "GRL",
+  "callingCode": "+299",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    6
+  ],
+  "formats": {
+    "national": "XX XX XX",
+    "international": "+299 XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line, Nuuk (3x)",
+      "national": "3X XX XX",
+      "international": "+299 3X XX XX"
+    },
+    {
+      "label": "Fixed line, other settlements (6x–9x)",
+      "national": "8X XX XX",
+      "international": "+299 8X XX XX"
+    },
+    {
+      "label": "Mobile (21–29, 42–49, 51–59)",
+      "national": "2X XX XX",
+      "international": "+299 2X XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+299321234",
+      "international": "+299 32 12 34",
+      "national": "32 12 34",
+      "note": "Nuuk — 31/32 serve the capital in Sermersooq"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+299851234",
+      "international": "+299 85 12 34",
+      "national": "85 12 34",
+      "note": "Sisimiut, West Greenland"
+    },
+    {
+      "type": "mobile",
+      "e164": "+299221234",
+      "international": "+299 22 12 34",
+      "national": "22 12 34",
+      "note": "Mobile — 21–29 range"
+    }
+  ],
+  "notes": [
+    "Greenland is part of the Kingdom of Denmark but has its own country code +299.",
+    "All numbers are 6 digits, written as three pairs, with no trunk prefix.",
+    "The first two digits still carry rough geographic meaning for fixed lines."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Greenland",
+    "Tusass (Greenland Telecom): https://www.tusass.gl/"
+  ]
+}
