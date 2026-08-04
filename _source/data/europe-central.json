@@ -1,0 +1,251 @@
+[
+  {
+    "iso2": "CZ",
+    "callingCode": "+420",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "XXX XXX XXX (closed plan, no trunk prefix)",
+      "international": "+420 XXX XXX XXX"
+    },
+    "patterns": [
+      { "label": "Prague (2xx)", "national": "2XX XXX XXX", "international": "+420 2XX XXX XXX" },
+      { "label": "Other geographic (3xx–5xx)", "national": "5XX XXX XXX", "international": "+420 5XX XXX XXX" },
+      { "label": "Mobile (6xx, 7xx)", "national": "6XX XXX XXX", "international": "+420 6XX XXX XXX" },
+      { "label": "Freephone (zelená linka)", "national": "800 XXX XXX", "international": "+420 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+420224123456", "international": "+420 224 123 456", "national": "224 123 456", "note": "Prague — geographic numbers there begin with 2" },
+      { "type": "fixed-line", "e164": "+420541123456", "international": "+420 541 123 456", "national": "541 123 456", "note": "Brno — 5xx range" },
+      { "type": "mobile", "e164": "+420602123456", "international": "+420 602 123 456", "national": "602 123 456", "note": "Mobile — 602 is an O2 Czech Republic range" },
+      { "type": "toll-free", "e164": "+420800123456", "international": "+420 800 123 456", "national": "800 123 456", "note": "Zelená linka (freephone)" }
+    ],
+    "notes": [
+      "Czechia adopted a closed 9-digit plan on 2002-09-22 and dropped the trunk prefix 0; the full number is dialled for every call.",
+      "Numbers are conventionally grouped in threes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Czech_Republic",
+      "ČTÚ — číslovací plán: https://ctu.gov.cz/"
+    ]
+  },
+  {
+    "iso2": "SK",
+    "callingCode": "+421",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0A/XXXX XXXX (Bratislava) / 0AA/XXX XXXX (elsewhere)",
+      "international": "+421 A XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Bratislava (area code 2)", "national": "02/XXXX XXXX", "international": "+421 2 XXXX XXXX" },
+      { "label": "Other geographic (2-digit area codes)", "national": "0XX/XXX XXXX", "international": "+421 XX XXX XXXX" },
+      { "label": "Mobile (090x, 091x, 094x, 095x)", "national": "0905 XXX XXX", "international": "+421 905 XXX XXX" },
+      { "label": "Freephone", "national": "0800 XXX XXX", "international": "+421 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+421212345678", "international": "+421 2 1234 5678", "national": "02/1234 5678", "note": "Bratislava — single-digit area code 2 with an 8-digit subscriber number" },
+      { "type": "fixed-line", "e164": "+421551234567", "international": "+421 55 123 4567", "national": "055/123 4567", "note": "Košice — 2-digit area code 55" },
+      { "type": "mobile", "e164": "+421905123456", "international": "+421 905 123 456", "national": "0905 123 456", "note": "Mobile — 0905 is a Slovak Telekom range" },
+      { "type": "toll-free", "e164": "+421800123456", "international": "+421 800 123 456", "national": "0800 123 456", "note": "Freephone" }
+    ],
+    "notes": [
+      "Slovakia uses a closed 9-digit NSN. Bratislava has a 1-digit area code plus 8-digit subscriber number; everywhere else has a 2-digit area code plus 7 digits.",
+      "The slash notation (02/1234 5678) separating area code from subscriber number is a common Slovak and Czech writing convention."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Slovakia",
+      "RÚ — číslovací plán: https://www.teleoff.gov.sk/"
+    ]
+  },
+  {
+    "iso2": "HU",
+    "callingCode": "+36",
+    "trunkPrefix": "06",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "06 A XXX XXXX (Budapest) / 06 AA XXX XXX (elsewhere)",
+      "international": "+36 A XXX XXXX (trunk 06 dropped)"
+    },
+    "patterns": [
+      { "label": "Budapest (area code 1)", "national": "06 1 XXX XXXX", "international": "+36 1 XXX XXXX" },
+      { "label": "Other geographic (2-digit area codes)", "national": "06 XX XXX XXX", "international": "+36 XX XXX XXX" },
+      { "label": "Mobile (20, 30, 31, 50, 70)", "national": "06 20 XXX XXXX", "international": "+36 20 XXX XXXX" },
+      { "label": "Freephone", "national": "06 80 XXX XXX", "international": "+36 80 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+3612345678", "international": "+36 1 234 5678", "national": "06 1 234 5678", "note": "Budapest — area code 1, 7-digit subscriber number" },
+      { "type": "fixed-line", "e164": "+3652123456", "international": "+36 52 123 456", "national": "06 52 123 456", "note": "Debrecen — 2-digit area code 52, 6-digit subscriber number" },
+      { "type": "mobile", "e164": "+36201234567", "international": "+36 20 123 4567", "national": "06 20 123 4567", "note": "Mobile — 20 is a Yettel range; 30 and 70 are also mobile" },
+      { "type": "toll-free", "e164": "+3680123456", "international": "+36 80 123 456", "national": "06 80 123 456", "note": "Freephone" }
+    ],
+    "notes": [
+      "Hungary's trunk prefix is the two-digit 06, not a single 0 — an unusual arrangement in Europe.",
+      "Budapest numbers have a 1-digit area code and 7-digit subscriber number (NSN 8); everywhere else has a 2-digit area code and 6-digit subscriber number (NSN 8). Mobile NSNs are 9 digits."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Hungary",
+      "NMHH — számozási terv: https://nmhh.hu/"
+    ]
+  },
+  {
+    "iso2": "RO",
+    "callingCode": "+40",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XXXX (10 digits including trunk 0)",
+      "international": "+40 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Bucharest (21, 31)", "national": "021 XXX XXXX", "international": "+40 21 XXX XXXX" },
+      { "label": "Other geographic (2xx, 3xx)", "national": "0264 XXX XXX", "international": "+40 264 XXX XXX" },
+      { "label": "Mobile (7xx)", "national": "0721 XXX XXX", "international": "+40 721 XXX XXX" },
+      { "label": "Freephone", "national": "0800 XXX XXX", "international": "+40 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+40212345678", "international": "+40 21 234 5678", "national": "021 234 5678", "note": "Bucharest — area code 21" },
+      { "type": "fixed-line", "e164": "+40264123456", "international": "+40 264 123 456", "national": "0264 123 456", "note": "Cluj-Napoca — area code 264" },
+      { "type": "mobile", "e164": "+40721234567", "international": "+40 721 234 567", "national": "0721 234 567", "note": "Mobile — 072x/073x are Vodafone Romania ranges" },
+      { "type": "toll-free", "e164": "+40800123456", "international": "+40 800 123 456", "national": "0800 123 456", "note": "Freephone" }
+    ],
+    "notes": [
+      "Romania requires the full 10-digit national form (trunk 0 + 9-digit NSN) for every domestic call, including local ones.",
+      "The digit after the trunk 0 encodes the service: 2–3 geographic, 7 mobile, 8 special/toll-free, 9 premium."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Romania",
+      "ANCOM — planul naţional de numerotaţie: https://www.ancom.ro/en/numerotatie_2314"
+    ]
+  },
+  {
+    "iso2": "BG",
+    "callingCode": "+359",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A XXX XXXX (Sofia) / 0AA XXX XXX (elsewhere)",
+      "international": "+359 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Sofia (area code 2)", "national": "02 XXX XXXX", "international": "+359 2 XXX XXXX" },
+      { "label": "Other geographic", "national": "0XX XXX XXX", "international": "+359 XX XXX XXX" },
+      { "label": "Mobile (87, 88, 89, 98, 99)", "national": "088 XXX XXXX", "international": "+359 88 XXX XXXX" },
+      { "label": "Freephone", "national": "0800 XXXXX", "international": "+359 800 XXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+35921234567", "international": "+359 2 123 4567", "national": "02 123 4567", "note": "Sofia — single-digit area code 2" },
+      { "type": "fixed-line", "e164": "+35932123456", "international": "+359 32 123 456", "national": "032 123 456", "note": "Plovdiv — area code 32" },
+      { "type": "mobile", "e164": "+359881234567", "international": "+359 88 123 4567", "national": "088 123 4567", "note": "Mobile — 088 is an A1 Bulgaria range" },
+      { "type": "toll-free", "e164": "+35980012345", "international": "+359 800 12345", "national": "0800 12345", "note": "Freephone" }
+    ],
+    "notes": [
+      "The full national number, including the trunk 0, must be dialled for all domestic calls.",
+      "Geographic NSNs are typically 8 digits; mobile NSNs are 9."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bulgaria",
+      "CRC — numbering plan: https://crc.bg/en/"
+    ]
+  },
+  {
+    "iso2": "GR",
+    "callingCode": "+30",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "XXX XXX XXXX (closed 10-digit plan, no trunk prefix)",
+      "international": "+30 XXX XXX XXXX"
+    },
+    "patterns": [
+      { "label": "Athens (21x)", "national": "210 XXX XXXX", "international": "+30 210 XXX XXXX" },
+      { "label": "Thessaloniki (231x)", "national": "2310 XXX XXX", "international": "+30 2310 XXX XXX" },
+      { "label": "Mobile (69x)", "national": "694 XXX XXXX", "international": "+30 694 XXX XXXX" },
+      { "label": "Freephone", "national": "800 XXX XXXX", "international": "+30 800 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+302101234567", "international": "+30 210 123 4567", "national": "210 123 4567", "note": "Athens — area code 21, the 0 that follows is part of the subscriber block" },
+      { "type": "fixed-line", "e164": "+302310123456", "international": "+30 2310 123 456", "national": "2310 123 456", "note": "Thessaloniki — area code 2310" },
+      { "type": "mobile", "e164": "+306941234567", "international": "+30 694 123 4567", "national": "694 123 4567", "note": "Mobile — all Greek mobiles begin 69" },
+      { "type": "toll-free", "e164": "+308001234567", "international": "+30 800 123 4567", "national": "800 123 4567", "note": "Freephone" }
+    ],
+    "notes": [
+      "Greece moved to a closed 10-digit plan in 2001–2002; there is no trunk prefix and the full number is dialled for every call.",
+      "All geographic numbers begin with 2 and all mobile numbers with 69.",
+      "Area codes are 2–4 digits and the subscriber number shrinks to keep the total at 10."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Greece",
+      "EETT — national numbering plan: https://www.eett.gr/"
+    ]
+  },
+  {
+    "iso2": "HR",
+    "callingCode": "+385",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A XXXX XXX (Zagreb) / 0AA XXX XXX (elsewhere)",
+      "international": "+385 A XXXX XXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Zagreb (area code 1)", "national": "01 XXXX XXX", "international": "+385 1 XXXX XXX" },
+      { "label": "Other geographic (2-digit area codes)", "national": "0XX XXX XXX", "international": "+385 XX XXX XXX" },
+      { "label": "Mobile (91, 92, 95, 97, 98, 99)", "national": "091 XXX XXXX", "international": "+385 91 XXX XXXX" },
+      { "label": "Freephone", "national": "0800 XXX XXX", "international": "+385 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+38512345678", "international": "+385 1 2345 678", "national": "01 2345 678", "note": "Zagreb — single-digit area code 1" },
+      { "type": "fixed-line", "e164": "+38521123456", "international": "+385 21 123 456", "national": "021 123 456", "note": "Split — area code 21" },
+      { "type": "mobile", "e164": "+385912345678", "international": "+385 91 234 5678", "national": "091 234 5678", "note": "Mobile — 91 is an A1 Hrvatska range" },
+      { "type": "toll-free", "e164": "+385800123456", "international": "+385 800 123 456", "national": "0800 123 456", "note": "Freephone" }
+    ],
+    "notes": [
+      "Croatia took +385 after the breakup of Yugoslavia (which shared +38) in 1991.",
+      "Zagreb has a single-digit area code; all other regions have two digits. Mobile NSNs are 9 digits."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Croatia",
+      "HAKOM — numbering: https://www.hakom.hr/"
+    ]
+  },
+  {
+    "iso2": "SI",
+    "callingCode": "+386",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "0A XXX XX XX",
+      "international": "+386 A XXX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Ljubljana (area code 1)", "national": "01 XXX XX XX", "international": "+386 1 XXX XX XX" },
+      { "label": "Other geographic (2–7)", "national": "0X XXX XX XX", "international": "+386 X XXX XX XX" },
+      { "label": "Mobile (30, 31, 40, 41, 51, 64, 68, 69, 70, 71)", "national": "030 XXX XXX", "international": "+386 30 XXX XXX" },
+      { "label": "Freephone", "national": "080 XX XX", "international": "+386 80 XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+38612345678", "international": "+386 1 234 56 78", "national": "01 234 56 78", "note": "Ljubljana — area code 1" },
+      { "type": "fixed-line", "e164": "+38621234567", "international": "+386 2 123 45 67", "national": "02 123 45 67", "note": "Maribor — area code 2" },
+      { "type": "mobile", "e164": "+38630123456", "international": "+386 30 123 456", "national": "030 123 456", "note": "Mobile — 030 is an A1 Slovenija range" },
+      { "type": "toll-free", "e164": "+38680123456", "international": "+386 80 123 456", "national": "080 123 456", "note": "Freephone" }
+    ],
+    "notes": [
+      "All Slovenian numbers are 9 digits in national form: trunk 0 plus an 8-digit NSN.",
+      "Mobile prefixes are dialled in full even from within the same network."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Slovenia",
+      "AKOS — številski načrt: https://www.akos-rs.si/"
+    ]
+  }
+]

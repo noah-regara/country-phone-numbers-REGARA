@@ -1,0 +1,201 @@
+[
+  {
+    "iso2": "SO",
+    "callingCode": "+252",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": { "national": "0YX XXX XXX", "international": "+252 YX XXX XXX (trunk 0 dropped)" },
+    "patterns": [
+      { "label": "Fixed line — Mogadishu (021) and Federal Member State codes (02X)", "national": "021 XXX XXX", "international": "+252 21 XXX XXX" },
+      { "label": "Mobile — Hormuud, Somtel, Telesom (6X, 7X–9X)", "national": "061 XXX XXX", "international": "+252 61 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+25221123456", "international": "+252 21 123 456", "national": "021 123 456", "note": "Mogadishu — area code 21" },
+      { "type": "mobile", "e164": "+25261123456", "international": "+252 61 123 456", "national": "061 123 456", "note": "Mobile — 61 is a Hormuud range" }
+    ],
+    "notes": [
+      "Somali numbering was largely unregulated between 1991 and the establishment of the National Communications Authority in 2017; NSN length is inconsistent across operators, so length-based validation is unreliable.",
+      "Fixed-line area codes were standardised in 2021 around an 02X series for the Federal Member States.",
+      "Somaliland, which declares independence but is internationally recognised as part of Somalia, also uses +252 — the country code does not distinguish the two."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Somalia",
+      "NCA Somalia — National Communications Authority: https://nca.gov.so/"
+    ]
+  },
+  {
+    "iso2": "ST",
+    "callingCode": "+239",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+239 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line (2XX XXXX)", "national": "222 XXXX", "international": "+239 222 XXXX" },
+      { "label": "Mobile — CST, Unitel STP (9XX XXXX)", "national": "98X XXXX", "international": "+239 98X XXXX" },
+      { "label": "Freephone (8XX XXXX)", "national": "8XX XXXX", "international": "+239 8XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+2392220050", "international": "+239 222 0050", "national": "222 0050", "note": "Santo Amaro area — fixed numbers begin with 2" },
+      { "type": "mobile", "e164": "+2399812345", "international": "+239 981 2345", "national": "981 2345", "note": "Mobile — the 9 prefix denotes GSM service" }
+    ],
+    "notes": [
+      "Closed 7-digit plan with no area codes or trunk prefix.",
+      "The leading digit classifies the service: 2 fixed, 6 premium, 7 VPN, 8 freephone, 9 mobile."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+      "AGER — Autoridade Geral de Regulação, São Tomé e Príncipe: https://www.ager.st/"
+    ]
+  },
+  {
+    "iso2": "KM",
+    "callingCode": "+269",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+269 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — Moroni, Mutsamudu, Domoni, Mohéli (760–779)", "national": "773 XXXX", "international": "+269 773 XXXX" },
+      { "label": "Mobile — Comores Telecom, Telma (32X, 33X, 34X)", "national": "32X XXXX", "international": "+269 32X XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+2697731234", "international": "+269 773 1234", "national": "773 1234", "note": "Moroni — the 773 geographic prefix" },
+      { "type": "mobile", "e164": "+2693212345", "international": "+269 321 2345", "national": "321 2345", "note": "Mobile — the 32/33/34 non-geographic ranges" }
+    ],
+    "notes": [
+      "Closed 7-digit plan with no trunk prefix.",
+      "Mayotte, geographically part of the Comoros archipelago, is a French department and left +269 for +262 in 2007."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Comoros",
+      "ANRTIC — Autorité Nationale de Régulation des TIC, Comores: https://www.anrtic.km/"
+    ]
+  },
+  {
+    "iso2": "GW",
+    "callingCode": "+245",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "XX XXX XXXX", "international": "+245 XX XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — Guiné Telecom (44)", "national": "44 XXX XXXX", "international": "+245 44 XXX XXXX" },
+      { "label": "Mobile — Orange Bissau (95X), MTN Areeba (96X, 97X)", "national": "95X XXX XXX", "international": "+245 95X XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+245443301234", "international": "+245 44 330 1234", "national": "44 330 1234", "note": "Bissau — the 44 fixed prefix (Guiné Telecom)" },
+      { "type": "mobile", "e164": "+245955123456", "international": "+245 955 123 456", "national": "955 123 456", "note": "Mobile — the 95X Orange Bissau range" }
+    ],
+    "notes": [
+      "Closed 9-digit plan; the same digits are dialled domestically and after +245 from abroad.",
+      "No trunk prefix or geographic area codes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Guinea-Bissau",
+      "ARN — Autoridade Reguladora Nacional, Guiné-Bissau: https://www.arn.gw/"
+    ]
+  },
+  {
+    "iso2": "SH",
+    "callingCode": "+290",
+    "additionalCallingCodes": ["+247"],
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": { "national": "XXXXX (Saint Helena) / XXXX (Ascension)", "international": "+290 XXXXX or +247 XXXX" },
+    "patterns": [
+      { "label": "Saint Helena PSTN (2XXXX)", "national": "2XXXX", "international": "+290 2XXXX" },
+      { "label": "Saint Helena mobile (5XXXX, 6XXXX)", "national": "5XXXX", "international": "+290 5XXXX" },
+      { "label": "Tristan da Cunha (8XXXX)", "national": "8XXXX", "international": "+290 8XXXX" },
+      { "label": "Ascension Island (separate code +247)", "national": "XXXX", "international": "+247 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+29022158", "international": "+290 22158", "national": "22158", "note": "Jamestown, Saint Helena — 5-digit PSTN number" },
+      { "type": "mobile", "e164": "+29051234", "international": "+290 51234", "national": "51234", "note": "Saint Helena mobile — the 5XXXX range" },
+      { "type": "fixed-line", "e164": "+2476000", "international": "+247 6000", "national": "6000", "note": "Ascension Island — reached on its own country code +247 with 4-digit numbers" }
+    ],
+    "notes": [
+      "This single ISO entry covers three widely separated territories on two different country codes: Saint Helena and Tristan da Cunha on +290, and Ascension Island on +247.",
+      "Saint Helena moved from 4-digit to 5-digit numbers on 2013-10-01 by prefixing a '2' to existing numbers.",
+      "Tristan da Cunha also reaches the UK Foreign and Commonwealth Office network through a London 020 range, so some Tristan lines answer on +44 numbers."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Saint_Helena,_Ascension_and_Tristan_da_Cunha",
+      "Sure South Atlantic: https://www.sure.co.sh/"
+    ]
+  },
+  {
+    "iso2": "PW",
+    "callingCode": "+680",
+    "trunkPrefix": "",
+    "internationalPrefix": "011",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+680 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — PNCC, Koror (488)", "national": "488 XXXX", "international": "+680 488 XXXX" },
+      { "label": "Mobile — PT Waves (880), PNCC, PMC", "national": "880 XXXX", "international": "+680 880 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6804881234", "international": "+680 488 1234", "national": "488 1234", "note": "Koror State — the 488 PNCC exchange" },
+      { "type": "mobile", "e164": "+6808801234", "international": "+680 880 1234", "national": "880 1234", "note": "Mobile — the 880 PT Waves range" }
+    ],
+    "notes": [
+      "Palau uses 7-digit numbers with a 3-digit area or operator code plus a 4-digit line number.",
+      "The international access prefix is 011 (also 012), inherited from US practice, though Palau is not in the NANP."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Palau",
+      "Palau National Communications Corporation: https://www.palaunet.com/"
+    ]
+  },
+  {
+    "iso2": "MH",
+    "callingCode": "+692",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+692 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — Majuro (247, 528), Ebeye (329)", "national": "528 XXXX", "international": "+692 528 XXXX" },
+      { "label": "Mobile — GSM (455, 456)", "national": "455 XXXX", "international": "+692 455 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6925281234", "international": "+692 528 1234", "national": "528 1234", "note": "Majuro Atoll, Laura exchange — PSTN service" },
+      { "type": "mobile", "e164": "+6924551234", "international": "+692 455 1234", "national": "455 1234", "note": "Mobile — Majuro Atoll GSM range" }
+    ],
+    "notes": [
+      "Closed 7-digit plan with geographic prefixes for Majuro, Ebeye and the outer atolls.",
+      "Operated by the Marshall Islands National Telecommunications Authority."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Marshall_Islands",
+      "NTA Marshall Islands: https://www.ntamar.net/"
+    ]
+  },
+  {
+    "iso2": "NR",
+    "callingCode": "+674",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+674 XXX XXXX" },
+    "patterns": [
+      { "label": "Mobile (556, 557, 558)", "national": "556 XXXX", "international": "+674 556 XXXX" },
+      { "label": "Fixed line (444, 555) — largely out of service", "national": "444 XXXX", "international": "+674 444 XXXX" }
+    ],
+    "examples": [
+      { "type": "mobile", "e164": "+6745561234", "international": "+674 556 1234", "national": "556 1234", "note": "Mobile — 556/557/558 are the ranges actually in service" },
+      { "type": "fixed-line", "e164": "+6744445678", "international": "+674 444 5678", "national": "444 5678", "note": "Legacy landline range; Nauru reported no landlines in service as of 2011" }
+    ],
+    "notes": [
+      "Nauru is effectively mobile-only: the regulator has reported that only the 556, 557 and 558 ranges are in use and that no landlines remain in service.",
+      "Closed 7-digit plan with no trunk prefix or area codes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Nauru",
+      "ITU-T E.164 national numbering plans: https://www.itu.int/oth/T0202.aspx"
+    ]
+  }
+]

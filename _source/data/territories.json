@@ -1,0 +1,352 @@
+[
+  {
+    "iso2": "CK",
+    "callingCode": "+682",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [5],
+    "formats": { "national": "XX XXX", "international": "+682 XX XXX" },
+    "patterns": [
+      { "label": "Fixed line — Rarotonga (2XXXX)", "national": "2XXXX", "international": "+682 2XXXX" },
+      { "label": "Mobile (50–59, 7XXXX, 8XXXX)", "national": "5XXXX", "international": "+682 5XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+68221234", "international": "+682 21 234", "national": "21234", "note": "Rarotonga — the 2 prefix routes to the main island subscriber network" },
+      { "type": "mobile", "e164": "+68251234", "international": "+682 51 234", "national": "51234", "note": "Mobile — the 5X range" }
+    ],
+    "notes": [
+      "The Cook Islands use a short 5-digit NSN with no trunk prefix or area codes.",
+      "Self-governing in free association with New Zealand, but with its own country code +682 rather than sharing +64."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Cook_Islands",
+      "ITU-T E.164 national numbering plans: https://www.itu.int/oth/T0202.aspx"
+    ]
+  },
+  {
+    "iso2": "TV",
+    "callingCode": "+688",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [5, 6],
+    "formats": { "national": "XX XXX", "international": "+688 XX XXX" },
+    "patterns": [
+      { "label": "Fixed line — Funafuti (20, 21); other atolls (22–29)", "national": "20 XXX", "international": "+688 20 XXX" },
+      { "label": "Mobile (90 XXXX)", "national": "90 XXXX", "international": "+688 90 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+68820123", "international": "+688 20 123", "national": "20 123", "note": "Funafuti — atoll code 20" },
+      { "type": "mobile", "e164": "+688901234", "international": "+688 90 1234", "national": "90 1234", "note": "Mobile — the 90 prepaid range, one digit longer than fixed" }
+    ],
+    "notes": [
+      "Each of Tuvalu's nine atolls has its own dialling code (20–29), with Funafuti holding two (20 and 21).",
+      "Fixed NSNs are 5 digits and mobile NSNs 6."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tuvalu",
+      "ITU-T E.164 national numbering plans: https://www.itu.int/oth/T0202.aspx"
+    ]
+  },
+  {
+    "iso2": "NF",
+    "callingCode": "+672",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [6],
+    "formats": { "national": "3 XX XXX", "international": "+672 3 XX XXX" },
+    "patterns": [
+      { "label": "Fixed line (3 2X XXX)", "national": "3 2X XXX", "international": "+672 3 2X XXX" },
+      { "label": "Mobile (3 5X XXX)", "national": "3 5X XXX", "international": "+672 3 5X XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+672322123", "international": "+672 3 22 123", "national": "3 22 123", "note": "Norfolk Island — area code 3 within +672, fixed range 2X" },
+      { "type": "mobile", "e164": "+672351234", "international": "+672 3 51 234", "national": "3 51 234", "note": "Mobile — the 5X range" }
+    ],
+    "notes": [
+      "Norfolk Island shares country code +672 with the Australian Antarctic Territory, taking area code 3.",
+      "Christmas Island and the Cocos (Keeling) Islands also used +672 until October 1994, when they migrated to +61.",
+      "+672 was assigned to Portuguese Timor until 1975, and +672 9 was used for Timor-Leste under an interim arrangement after 1999."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norfolk_Island",
+      "ACMA — Australian Communications and Media Authority: https://www.acma.gov.au/numbering"
+    ]
+  },
+  {
+    "iso2": "NU",
+    "callingCode": "+683",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [4, 7],
+    "formats": { "national": "XXXX", "international": "+683 XXXX" },
+    "patterns": [
+      { "label": "Postpaid PSTN (4000–4999, 7000–9999)", "national": "4XXX", "international": "+683 4XXX" },
+      { "label": "Prepaid GSM mobile (5000–5999, 6000–6999)", "national": "5XXX", "international": "+683 5XXX" },
+      { "label": "Prepaid LTE mobile (8884000–8889999)", "national": "888XXXX", "international": "+683 888XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6834747", "international": "+683 4747", "national": "4747", "note": "Postpaid PSTN — the 4000–4999 range" },
+      { "type": "mobile", "e164": "+6835123", "international": "+683 5123", "national": "5123", "note": "Prepaid GSM mobile — the 5000–5999 range" },
+      { "type": "mobile", "e164": "+6838884000", "international": "+683 888 4000", "national": "8884000", "note": "Prepaid LTE mobile — the 7-digit 8884000–8889999 range" }
+    ],
+    "notes": [
+      "Niue has one of the shortest numbering plans in the world: most numbers are just 4 digits.",
+      "An updated ITU-registered plan took effect on 2018-05-01, adding a 7-digit LTE mobile range alongside the 4-digit numbers.",
+      "Telecom Niue is the sole provider."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Niue",
+      "ITU — Niue (country code +683) numbering plan: https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000EC0003PDFE.pdf"
+    ]
+  },
+  {
+    "iso2": "TK",
+    "callingCode": "+690",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [5],
+    "formats": { "national": "XXXXX", "international": "+690 XXXXX" },
+    "patterns": [
+      { "label": "Fixed and mobile services", "national": "2XXXX", "international": "+690 2XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+69021234", "international": "+690 21234", "national": "21234", "note": "Tokelau — 5-digit number after the November 2015 expansion" }
+    ],
+    "notes": [
+      "Tokelau moved from 4-digit to 5-digit numbers in November 2015 by prefixing '2' to existing numbers.",
+      "The registered plan permits 3 to 7 digits, but numbers in service are 5 digits.",
+      "Tokelau is a New Zealand territory but holds its own country code +690."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tokelau",
+      "ITU — Tokelau (country code +690) numbering plan: https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000D20003PDFE.pdf"
+    ]
+  },
+  {
+    "iso2": "WF",
+    "callingCode": "+681",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [6],
+    "formats": { "national": "XX XX XX", "international": "+681 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (72 XXXX)", "national": "72 XX XX", "international": "+681 72 XX XX" },
+      { "label": "Mobile (82 XXXX, 83 XXXX)", "national": "82 XX XX", "international": "+681 82 XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+681721234", "international": "+681 72 12 34", "national": "72 12 34", "note": "Fixed line — the 72 prefix" },
+      { "type": "mobile", "e164": "+681821234", "international": "+681 82 12 34", "national": "82 12 34", "note": "Mobile — the 82/83 prefixes" }
+    ],
+    "notes": [
+      "Wallis and Futuna is a French overseas collectivity but keeps its own country code +681 rather than joining the French plan.",
+      "All numbers are 6 digits with no trunk prefix; they are written in pairs in the French style."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Wallis_and_Futuna",
+      "ITU-T E.164 national numbering plans: https://www.itu.int/oth/T0202.aspx"
+    ]
+  },
+  {
+    "iso2": "IO",
+    "callingCode": "+246",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+246 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line (37X XXXX)", "national": "37X XXXX", "international": "+246 37X XXXX" },
+      { "label": "Mobile (38X XXXX)", "national": "38X XXXX", "international": "+246 38X XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+2463709100", "international": "+246 370 9100", "national": "370 9100", "note": "Diego Garcia — the 37X fixed range (this specific number is a network test tone)" },
+      { "type": "mobile", "e164": "+2463801234", "international": "+246 380 1234", "national": "380 1234", "note": "Mobile — the 38X range" }
+    ],
+    "notes": [
+      "The British Indian Ocean Territory's only inhabited island is Diego Garcia, a joint UK–US military facility; there is no civilian population.",
+      "Note the collision risk: +246 is the BIOT country code, while 246 is also the NANP area code for Barbados (+1 246). These are entirely different numbers.",
+      "No area codes; the NSN is a flat 7 digits."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_British_Indian_Ocean_Territory",
+      "ITU — Diego Garcia (country code +246) numbering plan: https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000390001MSWE.doc"
+    ]
+  },
+  {
+    "iso2": "AQ",
+    "callingCode": "+672",
+    "additionalCallingCodes": ["+64"],
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": { "national": "1X XXXX (Australian Antarctic bases)", "international": "+672 1X XXXX" },
+    "patterns": [
+      { "label": "Davis Station (10 XXXX)", "national": "10 XXXX", "international": "+672 10 XXXX" },
+      { "label": "Mawson Station (11 XXXX)", "national": "11 XXXX", "international": "+672 11 XXXX" },
+      { "label": "Casey Station (12 XXXX)", "national": "12 XXXX", "international": "+672 12 XXXX" },
+      { "label": "Macquarie Island (13 XXXX)", "national": "13 XXXX", "international": "+672 13 XXXX" },
+      { "label": "Vessels, Wilkins and mobiles (14 XXXX)", "national": "14 XXXX", "international": "+672 14 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+672101234", "international": "+672 10 1234", "national": "10 1234", "note": "Davis Station — Australian Antarctic Division numbering" },
+      { "type": "fixed-line", "e164": "+672121234", "international": "+672 12 1234", "national": "12 1234", "note": "Casey Station" },
+      { "type": "fixed-line", "e164": "+6449999999", "international": "+64 4 999 9999", "national": "04 999 9999", "note": "Scott Base (NZ) and the nearby US McMurdo Station are reached through New Zealand's +64, not +672" }
+    ],
+    "notes": [
+      "Antarctica has no public telephone network. Calls reach research stations over satellite links, and each national programme numbers its own bases.",
+      "+672 covers the Australian Antarctic Territory bases (Davis, Mawson, Casey) plus Macquarie Island — it is shared with Norfolk Island, which uses area code 3.",
+      "New Zealand's Scott Base and the US McMurdo Station are reached via +64; other national programmes use their own home country codes or Iridium/Inmarsat satellite numbers (+870 range).",
+      "ISO 3166-1 assigns AQ to Antarctica as a whole, but no single numbering plan covers the continent."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Australian_Antarctic_Territory",
+      "https://en.wikipedia.org/wiki/Telecommunications_in_Antarctica",
+      "Australian Antarctic Program — communicating with Antarctica: https://www.antarctica.gov.au/antarctic-operations/family-and-friends/introductory-package/communicating-with-antarctica-by-phone-and-email/"
+    ]
+  },
+  {
+    "iso2": "CX",
+    "callingCode": "+61",
+    "trunkPrefix": "0",
+    "internationalPrefix": "0011",
+    "nsnLengths": [9],
+    "formats": { "national": "(08) 9164 XXXX", "international": "+61 8 9164 XXXX (trunk 0 dropped)" },
+    "patterns": [
+      { "label": "Christmas Island (08 9164)", "national": "(08) 9164 XXXX", "international": "+61 8 9164 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+61891641234", "international": "+61 8 9164 1234", "national": "(08) 9164 1234", "note": "Christmas Island — the dedicated 9164 exchange within Australia's 08 area code" }
+    ],
+    "notes": [
+      "Christmas Island is an Australian external territory inside the +61 plan; it has no country code of its own.",
+      "It used +672 until October 1994, when it migrated to +61 and eventually settled on the 08 9164 range.",
+      "Administered by ACMA under the Australian Telecommunications Numbering Plan."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Christmas_Island",
+      "ACMA — Australian Communications and Media Authority: https://www.acma.gov.au/numbering"
+    ]
+  },
+  {
+    "iso2": "CC",
+    "callingCode": "+61",
+    "trunkPrefix": "0",
+    "internationalPrefix": "0011",
+    "nsnLengths": [9],
+    "formats": { "national": "(08) 9162 XXXX", "international": "+61 8 9162 XXXX (trunk 0 dropped)" },
+    "patterns": [
+      { "label": "Cocos (Keeling) Islands (08 9162)", "national": "(08) 9162 XXXX", "international": "+61 8 9162 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+61891621234", "international": "+61 8 9162 1234", "national": "(08) 9162 1234", "note": "Cocos (Keeling) Islands — the dedicated 9162 exchange within Australia's 08 area code" }
+    ],
+    "notes": [
+      "The Cocos (Keeling) Islands are an Australian external territory inside the +61 plan; they have no country code of their own.",
+      "They used +672 until October 1994, when they migrated to +61 and eventually settled on the 08 9162 range.",
+      "Christmas Island uses the adjacent 08 9164 range."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Cocos_(Keeling)_Islands",
+      "ACMA — Australian Communications and Media Authority: https://www.acma.gov.au/numbering"
+    ]
+  },
+  {
+    "iso2": "PN",
+    "callingCode": "+64",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "noPublicNumbering": true,
+    "formats": { "national": "no local numbering plan", "international": "reached via +64 (New Zealand) or satellite" },
+    "patterns": [],
+    "examples": [],
+    "notes": [
+      "Pitcairn has no numbering plan of its own and no local exchange. With a population of a few dozen, the island is served by satellite.",
+      "Contact numbers for the Pitcairn Islands administration are New Zealand +64 numbers, and the island itself has historically been reached over Inmarsat satellite numbers in the +872 range.",
+      "ISO 3166-1 assigns PN, but no country calling code is allocated to the territory."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_country_calling_codes",
+      "Government of the Pitcairn Islands: https://www.government.pn/"
+    ]
+  },
+  {
+    "iso2": "BV",
+    "callingCode": "+47",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "noPublicNumbering": true,
+    "formats": { "national": "no numbering assigned", "international": "no numbering assigned" },
+    "patterns": [],
+    "examples": [],
+    "notes": [
+      "Bouvet Island is an uninhabited subantarctic dependency of Norway. It has no permanent population, no exchange and no telephone numbers.",
+      "It is nominally associated with Norway's +47 country code, but no numbers are allocated to it and none are reachable.",
+      "Any communication with expeditions on the island is by satellite."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_country_calling_codes",
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norway"
+    ]
+  },
+  {
+    "iso2": "HM",
+    "callingCode": "+672",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "noPublicNumbering": true,
+    "formats": { "national": "no numbering assigned", "international": "no numbering assigned" },
+    "patterns": [],
+    "examples": [],
+    "notes": [
+      "Heard Island and McDonald Islands form an uninhabited Australian external territory in the subantarctic. There is no permanent population and no exchange.",
+      "The territory is nominally associated with +672, the Australian Antarctic code, but no numbers are allocated to it.",
+      "Australian Antarctic Division expeditions that visit communicate by satellite."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Australian_Antarctic_Territory",
+      "Australian Antarctic Program — Heard Island: https://heardisland.antarctica.gov.au/"
+    ]
+  },
+  {
+    "iso2": "TF",
+    "callingCode": "+262",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "noPublicNumbering": true,
+    "formats": { "national": "no public numbering", "international": "administered under +262 (Réunion)" },
+    "patterns": [],
+    "examples": [],
+    "notes": [
+      "The French Southern and Antarctic Lands have no permanent civilian population — only rotating scientific and military staff at bases on the Kerguelen and Crozet islands, Amsterdam Island and Adélie Land.",
+      "The territory is administered from Réunion and falls nominally under +262, but no public subscriber numbers are allocated.",
+      "Station communications run over satellite links operated by the French polar institute IPEV and the territorial administration."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "Terres australes et antarctiques françaises: https://taaf.fr/"
+    ]
+  },
+  {
+    "iso2": "UM",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [],
+    "noPublicNumbering": true,
+    "formats": { "national": "no dedicated numbering", "international": "military circuits reached through US ranges" },
+    "patterns": [],
+    "examples": [],
+    "notes": [
+      "The United States Minor Outlying Islands are a statistical grouping of nine uninhabited or minimally staffed islands (Baker, Howland, Jarvis, Johnston Atoll, Kingman Reef, Midway, Navassa, Palmyra, Wake). None has a civilian numbering plan.",
+      "Wake Island and Midway Atoll, the only ones with any regular staffing, are reached through US military circuits historically routed via the Hawaii area code +1 808.",
+      "There is no ISO-territory-specific country code or area code; ISO 3166-1 assigns UM for statistical purposes only."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "https://en.wikipedia.org/wiki/List_of_country_calling_codes"
+    ]
+  }
+]

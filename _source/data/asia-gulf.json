@@ -1,0 +1,236 @@
+[
+  {
+    "iso2": "KW",
+    "callingCode": "+965",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX XXXX",
+      "international": "+965 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (2)", "national": "2XXX XXXX", "international": "+965 2XXX XXXX" },
+      { "label": "Mobile — STC (5), Ooredoo (6), Zain (9)", "national": "5XXX XXXX", "international": "+965 5XXX XXXX" },
+      { "label": "Toll-free", "national": "800 XXXX", "international": "+965 800 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+96522401234", "international": "+965 2240 1234", "national": "2240 1234", "note": "Fixed line — all Kuwaiti landlines begin with 2" },
+      { "type": "mobile", "e164": "+96551234567", "international": "+965 5123 4567", "national": "5123 4567", "note": "Mobile — 5 denotes STC Kuwait" },
+      { "type": "mobile", "e164": "+96591234567", "international": "+965 9123 4567", "national": "9123 4567", "note": "Mobile — 9 denotes Zain" }
+    ],
+    "notes": [
+      "Kuwait moved to 8-digit numbers in October 2008 by prefixing a service digit to all fixed and mobile numbers.",
+      "No trunk prefix or area codes; the leading digit identifies service and operator (2 fixed, 5 STC, 6 Ooredoo, 9 Zain)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kuwait",
+      "CITRA — Communication and Information Technology Regulatory Authority: https://citra.gov.kw/"
+    ]
+  },
+  {
+    "iso2": "QA",
+    "callingCode": "+974",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX XXXX",
+      "international": "+974 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (4)", "national": "44XX XXXX", "international": "+974 44XX XXXX" },
+      { "label": "Mobile (3, 5, 6, 7)", "national": "33XX XXXX", "international": "+974 33XX XXXX" },
+      { "label": "Freephone", "national": "800 XXXX", "international": "+974 800 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+97444123456", "international": "+974 4412 3456", "national": "4412 3456", "note": "Fixed line — Qatari landlines begin with 4 (Ooredoo)" },
+      { "type": "mobile", "e164": "+97433123456", "international": "+974 3312 3456", "national": "3312 3456", "note": "Mobile — 3 is an Ooredoo range" },
+      { "type": "mobile", "e164": "+97477123456", "international": "+974 7712 3456", "national": "7712 3456", "note": "Mobile — 7 is a Vodafone Qatar range" }
+    ],
+    "notes": [
+      "Qatar introduced its current plan in 2010, standardising most numbers at 8 digits.",
+      "No area codes or trunk prefix. Mobile numbers begin 3, 5, 6 or 7; fixed lines begin 4.",
+      "Special services (emergency 99, freephone 800, audiotext 900) use shorter numbers."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Qatar",
+      "CRA — Communications Regulatory Authority of Qatar: https://www.cra.gov.qa/"
+    ]
+  },
+  {
+    "iso2": "BH",
+    "callingCode": "+973",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX XXXX",
+      "international": "+973 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line — Batelco (17)", "national": "17XX XXXX", "international": "+973 17XX XXXX" },
+      { "label": "Mobile — Batelco (39, 380–389), Zain (36, 37), stc (34)", "national": "39XX XXXX", "international": "+973 39XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+97317123456", "international": "+973 1712 3456", "national": "1712 3456", "note": "Fixed line — 17 is Batelco's fixed-line prefix" },
+      { "type": "mobile", "e164": "+97339123456", "international": "+973 3912 3456", "national": "3912 3456", "note": "Mobile — 39 is a Batelco range" },
+      { "type": "mobile", "e164": "+97336123456", "international": "+973 3612 3456", "national": "3612 3456", "note": "Mobile — 36/37 are Zain Bahrain ranges" }
+    ],
+    "notes": [
+      "Bahrain has no area codes or trunk prefix; all numbers are 8 digits.",
+      "The two digits following a landline prefix loosely indicate region, but the leading pair mainly identifies the operator."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bahrain",
+      "TRA Bahrain — Telecommunications Regulatory Authority: https://www.tra.org.bh/"
+    ]
+  },
+  {
+    "iso2": "OM",
+    "callingCode": "+968",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX XXXX (4-digit NDC + 4-digit line number)",
+      "international": "+968 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line — Muscat (24xx)", "national": "24XX XXXX", "international": "+968 24XX XXXX" },
+      { "label": "Mobile — Omantel (91xx–95xx), Ooredoo (95xx–99xx)", "national": "9XXX XXXX", "international": "+968 9XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+96824212345", "international": "+968 2421 2345", "national": "2421 2345", "note": "Muscat — the 24xx block is Omantel fixed service" },
+      { "type": "mobile", "e164": "+96891234567", "international": "+968 9123 4567", "national": "9123 4567", "note": "Mobile — 91xx is an Omantel range" },
+      { "type": "mobile", "e164": "+96895342109", "international": "+968 9534 2109", "national": "9534 2109", "note": "Mobile — 95xx is an Ooredoo Oman range" }
+    ],
+    "notes": [
+      "Oman's 8-digit NSN splits into a 4-digit national destination code and a 4-digit line number.",
+      "No trunk prefix; the full 8 digits are dialled for every domestic call."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Oman",
+      "TRA Oman — Telecommunications Regulatory Authority: https://www.tra.gov.om/"
+    ]
+  },
+  {
+    "iso2": "LB",
+    "callingCode": "+961",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [7, 8],
+    "formats": {
+      "national": "0A XXX XXX (landline) / 0AA XXX XXX (mobile)",
+      "international": "+961 A XXX XXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Beirut (01)", "national": "01 XXX XXX", "international": "+961 1 XXX XXX" },
+      { "label": "Other regions (04 Metn, 05 Aley, 06 Tripoli, 07 South, 08 Bekaa, 09 Keserwan)", "national": "0X XXX XXX", "international": "+961 X XXX XXX" },
+      { "label": "Mobile — Alfa (03, 071, 076, 078, 079), touch (03, 070, 081)", "national": "071 XXX XXX", "international": "+961 71 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+9611123456", "international": "+961 1 123 456", "national": "01 123 456", "note": "Beirut — area code 01 covers the city and its metropolitan area" },
+      { "type": "mobile", "e164": "+96171123456", "international": "+961 71 123 456", "national": "071 123 456", "note": "Mobile — 071 is an Alfa (MIC1) range" },
+      { "type": "mobile", "e164": "+96170123456", "international": "+961 70 123 456", "national": "070 123 456", "note": "Mobile — 070 is a touch (MIC2) range" }
+    ],
+    "notes": [
+      "Landline NSNs are 7 digits and mobile NSNs 8, so length distinguishes the two.",
+      "The two mobile operators are known by their licence names MIC1 (Alfa) and MIC2 (touch)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Lebanon",
+      "TRA Lebanon — Telecommunications Regulatory Authority: https://www.tra.gov.lb/"
+    ]
+  },
+  {
+    "iso2": "PS",
+    "callingCode": "+970",
+    "additionalCallingCodes": ["+972"],
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A XXX XXXX (landline) / 05X XXX XXXX (mobile)",
+      "international": "+970 A XXX XXXX — often also reachable as +972 A XXX XXXX"
+    },
+    "patterns": [
+      { "label": "West Bank — Ramallah/Jerusalem (02), Nablus (09), Hebron (02)", "national": "02 XXX XXXX", "international": "+970 2 XXX XXXX" },
+      { "label": "Gaza Strip (08)", "national": "08 XXX XXXX", "international": "+970 8 XXX XXXX" },
+      { "label": "Mobile — Jawwal (059), Ooredoo (056)", "national": "059 XXX XXXX", "international": "+970 59 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+97022951234", "international": "+970 2 295 1234", "national": "02 295 1234", "note": "Ramallah, West Bank — area code 02" },
+      { "type": "fixed-line", "e164": "+97082821234", "international": "+970 8 282 1234", "national": "08 282 1234", "note": "Gaza City — area code 08" },
+      { "type": "mobile", "e164": "+970599123456", "international": "+970 59 912 3456", "national": "059 912 3456", "note": "Mobile — 059 is a Jawwal range" }
+    ],
+    "notes": [
+      "Palestine holds country code +970, but because the network depends heavily on Israeli infrastructure many Palestinian numbers are also reachable via +972 — and from some countries +972 routes more reliably.",
+      "Any system validating Palestinian numbers should accept both +970 and +972 forms.",
+      "Area code 02 spans Ramallah, Jerusalem and Hebron; 08 covers the Gaza Strip; 09 covers Nablus and the northern West Bank."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_State_of_Palestine",
+      "Palestinian Ministry of Telecommunications and Digital Economy: https://www.mtit.pna.ps/"
+    ]
+  },
+  {
+    "iso2": "AF",
+    "callingCode": "+93",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XXXX",
+      "international": "+93 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Kabul (020)", "national": "020 XXX XXXX", "international": "+93 20 XXX XXXX" },
+      { "label": "Other provinces (2-digit area codes)", "national": "0XX XXX XXXX", "international": "+93 XX XXX XXXX" },
+      { "label": "Mobile — AWCC (070, 071), Roshan (079, 072), Etisalat (078), MTN (077)", "national": "070 XXX XXXX", "international": "+93 70 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+93201234567", "international": "+93 20 123 4567", "national": "020 123 4567", "note": "Kabul — area code 020" },
+      { "type": "mobile", "e164": "+93701234567", "international": "+93 70 123 4567", "national": "070 123 4567", "note": "Mobile — 070 is an AWCC range" },
+      { "type": "mobile", "e164": "+93791234567", "international": "+93 79 123 4567", "national": "079 123 4567", "note": "Mobile — 079 is a Roshan range" }
+    ],
+    "notes": [
+      "Closed 9-digit plan; all area codes are two digits after the trunk 0.",
+      "Mobile prefixes identify the operator: 070/071 AWCC, 072/079 Roshan, 077 MTN, 078 Etisalat."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Afghanistan",
+      "ATRA — Afghanistan Telecom Regulatory Authority: https://atra.gov.af/"
+    ]
+  },
+  {
+    "iso2": "MN",
+    "callingCode": "+976",
+    "trunkPrefix": "01 (carrier-based; 02 for the railway network)",
+    "internationalPrefix": "001 (also 002, 003, 008, 009)",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XX XX XXXX",
+      "international": "+976 XX XX XXXX"
+    },
+    "patterns": [
+      { "label": "Ulaanbaatar (11)", "national": "11 XX XXXX", "international": "+976 11 XX XXXX" },
+      { "label": "Provincial (2-digit area codes)", "national": "XX XX XXXX", "international": "+976 XX XX XXXX" },
+      { "label": "Mobile — Mobicom (94, 95, 99, 85), Unitel (80, 86, 88, 89), Skytel (90–92, 96), G-Mobile (93, 97, 98)", "national": "94 XX XXXX", "international": "+976 94 XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+97611452222", "international": "+976 11 45 2222", "national": "11 45 2222", "note": "Ulaanbaatar — area code 11 (Mongolia Telecom)" },
+      { "type": "mobile", "e164": "+97694123456", "international": "+976 94 12 3456", "national": "94 12 3456", "note": "Mobile — 94/95 are Mobicom ranges" },
+      { "type": "mobile", "e164": "+97688123456", "international": "+976 88 12 3456", "national": "88 12 3456", "note": "Mobile — 88/89 are Unitel ranges" }
+    ],
+    "notes": [
+      "Mongolia's domestic trunk access is carrier-based rather than a single national 0: 01 reaches the Mongolia Telecom network and 02 the railway network.",
+      "The international access prefix likewise varies by carrier (001, 002, 003, 008, 009).",
+      "All NSNs are 8 digits. Mobile numbers begin with 6, 8 or 9."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Mongolia",
+      "CRC — Communications Regulatory Commission of Mongolia: https://crc.gov.mn/"
+    ]
+  }
+]

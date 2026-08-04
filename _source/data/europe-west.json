@@ -1,0 +1,202 @@
+[
+  {
+    "iso2": "GB",
+    "callingCode": "+44",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9, 10],
+    "formats": {
+      "national": "0AA XXXX XXXX / 0AAAA XXXXXX (grouping depends on area-code length)",
+      "international": "+44 AA XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Geographic, 2-digit area code (London 20, Southampton 23)", "national": "020 XXXX XXXX", "international": "+44 20 XXXX XXXX" },
+      { "label": "Geographic, 3-digit area code (Manchester 161, Birmingham 121)", "national": "0161 XXX XXXX", "international": "+44 161 XXX XXXX" },
+      { "label": "Geographic, 4-digit area code (most towns)", "national": "01XXX XXXXXX", "international": "+44 1XXX XXXXXX" },
+      { "label": "Mobile", "national": "07XXX XXXXXX", "international": "+44 7XXX XXXXXX" },
+      { "label": "Freephone", "national": "0800 XXX XXXX", "international": "+44 800 XXX XXXX" },
+      { "label": "Non-geographic / national rate", "national": "0345 XXX XXXX", "international": "+44 345 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+442071234567", "international": "+44 20 7123 4567", "national": "020 7123 4567", "note": "London — area code 020, subscriber block 7xxx" },
+      { "type": "fixed-line", "e164": "+441612361234", "international": "+44 161 236 1234", "national": "0161 236 1234", "note": "Manchester — area code 0161" },
+      { "type": "mobile", "e164": "+447911123456", "international": "+44 7911 123456", "national": "07911 123456", "note": "Mobile — 07911 is an allocated UK mobile range" },
+      { "type": "toll-free", "e164": "+448001234567", "international": "+44 800 123 4567", "national": "0800 123 4567", "note": "Freephone" }
+    ],
+    "notes": [
+      "The trunk prefix 0 is part of the national presentation but is never dialled from abroad.",
+      "Area codes are variable length (2–5 digits after the 0); the subscriber number shrinks to match, keeping the NSN at 10 digits for almost all numbers.",
+      "Ofcom reserves 07700 900000–900999 and 020 7946 0xxx as fictitious 'drama' ranges for film and TV; the examples above deliberately use real allocated ranges instead."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom",
+      "Ofcom — National Telephone Numbering Plan: https://www.ofcom.org.uk/phones-and-broadband/phone-numbers/numbering/"
+    ]
+  },
+  {
+    "iso2": "DE",
+    "callingCode": "+49",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0AA XXXXXXXX / 0AAA XXXXXXX (open plan, variable length)",
+      "international": "+49 AA XXXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Geographic, 2-digit area code (Berlin 30, Hamburg 40, Munich 89)", "national": "030 XXXXXXXX", "international": "+49 30 XXXXXXXX" },
+      { "label": "Geographic, 3-digit area code (Cologne 221, Frankfurt 69)", "national": "0221 XXXXXXX", "international": "+49 221 XXXXXXX" },
+      { "label": "Geographic, 4-digit area code", "national": "0XXXX XXXXXX", "international": "+49 XXXX XXXXXX" },
+      { "label": "Mobile", "national": "0151 XXXXXXXX", "international": "+49 151 XXXXXXXX" },
+      { "label": "Freephone", "national": "0800 XXXXXXX", "international": "+49 800 XXXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+493022360", "international": "+49 30 22360", "national": "030 22360", "note": "Berlin — area code 030; subscriber numbers are genuinely variable length" },
+      { "type": "fixed-line", "e164": "+498912345678", "international": "+49 89 12345678", "national": "089 12345678", "note": "Munich — area code 089" },
+      { "type": "mobile", "e164": "+4915112345678", "international": "+49 151 12345678", "national": "0151 12345678", "note": "Mobile — 0151 is a Telekom range" },
+      { "type": "toll-free", "e164": "+498001234567", "international": "+49 800 1234567", "national": "0800 1234567", "note": "Freephone" }
+    ],
+    "notes": [
+      "Germany operates an open numbering plan: there is no fixed national number length. NSNs run from roughly 3 to 13 digits, so length alone cannot validate a German number.",
+      "Area codes are 2–5 digits after the trunk 0. Two-digit codes serve the largest cities; five-digit codes appear in the eastern states.",
+      "Direct-dial-in (Durchwahl) extensions are appended to a base number, which is why subscriber numbers vary in length within a single area code."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Germany",
+      "Bundesnetzagentur — Nummerierung: https://www.bundesnetzagentur.de/EN/Areas/Telecommunications/Companies/NumberManagement/"
+    ]
+  },
+  {
+    "iso2": "FR",
+    "callingCode": "+33",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0X XX XX XX XX (five digit-pairs)",
+      "international": "+33 X XX XX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Île-de-France / Paris", "national": "01 XX XX XX XX", "international": "+33 1 XX XX XX XX" },
+      { "label": "North-west", "national": "02 XX XX XX XX", "international": "+33 2 XX XX XX XX" },
+      { "label": "North-east", "national": "03 XX XX XX XX", "international": "+33 3 XX XX XX XX" },
+      { "label": "South-east", "national": "04 XX XX XX XX", "international": "+33 4 XX XX XX XX" },
+      { "label": "South-west", "national": "05 XX XX XX XX", "international": "+33 5 XX XX XX XX" },
+      { "label": "Mobile", "national": "06 XX XX XX XX / 07 XX XX XX XX", "international": "+33 6 XX XX XX XX" },
+      { "label": "Freephone / shared cost", "national": "08 XX XX XX XX", "international": "+33 8 XX XX XX XX" },
+      { "label": "Non-geographic / VoIP", "national": "09 XX XX XX XX", "international": "+33 9 XX XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+33142685300", "international": "+33 1 42 68 53 00", "national": "01 42 68 53 00", "note": "Paris — 01 covers Île-de-France" },
+      { "type": "fixed-line", "e164": "+33491123456", "international": "+33 4 91 12 34 56", "national": "04 91 12 34 56", "note": "Marseille — 04 covers the south-east" },
+      { "type": "mobile", "e164": "+33612345678", "international": "+33 6 12 34 56 78", "national": "06 12 34 56 78", "note": "Mobile — 06 and 07 are both mobile" },
+      { "type": "toll-free", "e164": "+33800123456", "international": "+33 8 00 12 34 56", "national": "0 800 12 34 56", "note": "Numéro vert (freephone)" }
+    ],
+    "notes": [
+      "The NSN is always exactly 9 digits, written nationally as the trunk 0 plus five pairs.",
+      "The leading digit after the trunk 0 encodes geography (1–5), mobile (6–7), special services (8) or non-geographic/VoIP (9).",
+      "Freephone 08 numbers are conventionally written as '0 800 12 34 56' rather than in strict pairs."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "ARCEP — plan de numérotation: https://www.arcep.fr/demarches-et-services/utilisateurs/numeros-speciaux.html"
+    ]
+  },
+  {
+    "iso2": "IT",
+    "callingCode": "+39",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0AA XXXXXXXX (landline, leading 0 retained) / 3XX XXXXXXX (mobile)",
+      "international": "+39 0AA XXXXXXXX — the leading 0 is KEPT when dialling from abroad"
+    },
+    "patterns": [
+      { "label": "Rome", "national": "06 XXXX XXXX", "international": "+39 06 XXXX XXXX" },
+      { "label": "Milan", "national": "02 XXXX XXXX", "international": "+39 02 XXXX XXXX" },
+      { "label": "Other cities (3–4 digit area code)", "national": "0XXX XXXXXX", "international": "+39 0XXX XXXXXX" },
+      { "label": "Mobile", "national": "3XX XXX XXXX", "international": "+39 3XX XXX XXXX" },
+      { "label": "Toll-free (numero verde)", "national": "800 XXX XXX", "international": "+39 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+390648901234", "international": "+39 06 4890 1234", "national": "06 4890 1234", "note": "Rome — area code 06, leading 0 retained internationally" },
+      { "type": "fixed-line", "e164": "+390272001234", "international": "+39 02 7200 1234", "national": "02 7200 1234", "note": "Milan — area code 02" },
+      { "type": "mobile", "e164": "+393351234567", "international": "+39 335 123 4567", "national": "335 123 4567", "note": "Mobile — 335 was originally TIM; mobile numbers never carry a leading 0" },
+      { "type": "toll-free", "e164": "+39800123456", "international": "+39 800 123 456", "national": "800 123 456", "note": "Numero verde" }
+    ],
+    "notes": [
+      "Italy is the notable European exception: since 1998 the leading 0 of a landline number is an integral part of the number and MUST be dialled from abroad (+39 06 …, not +39 6 …).",
+      "Mobile numbers start with 3 and carry no leading 0.",
+      "Italian regulations prescribe no fixed digit-grouping rules; spaces, dots and hyphens are all seen in practice.",
+      "Landline NSNs range from about 6 to 11 digits, so length alone does not validate an Italian number."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Italy",
+      "AGCOM — piano di numerazione: https://www.agcom.it/piano-di-numerazione"
+    ]
+  },
+  {
+    "iso2": "ES",
+    "callingCode": "+34",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "XXX XXX XXX (closed plan, no trunk prefix)",
+      "international": "+34 XXX XXX XXX"
+    },
+    "patterns": [
+      { "label": "Geographic (Madrid 91, Barcelona 93)", "national": "9XX XXX XXX", "international": "+34 9XX XXX XXX" },
+      { "label": "Geographic overflow", "national": "8XX XXX XXX", "international": "+34 8XX XXX XXX" },
+      { "label": "Mobile", "national": "6XX XXX XXX / 7XX XXX XXX", "international": "+34 6XX XXX XXX" },
+      { "label": "Freephone", "national": "900 XXX XXX", "international": "+34 900 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+34913123456", "international": "+34 913 123 456", "national": "913 123 456", "note": "Madrid — geographic code 91" },
+      { "type": "fixed-line", "e164": "+34934123456", "international": "+34 934 123 456", "national": "934 123 456", "note": "Barcelona — geographic code 93" },
+      { "type": "mobile", "e164": "+34612345678", "international": "+34 612 345 678", "national": "612 345 678", "note": "Mobile — 6xx and 7xx ranges" },
+      { "type": "toll-free", "e164": "+34900123456", "international": "+34 900 123 456", "national": "900 123 456", "note": "Teléfono gratuito" }
+    ],
+    "notes": [
+      "Spain abolished the trunk prefix on 1998-12-01 and moved to a closed 9-digit plan: the full national number is dialled for every call, local or long distance.",
+      "The old area codes survive as the leading digits of the 9-digit number (91 = Madrid, 93 = Barcelona), but they are no longer separable prefixes.",
+      "Numbers are conventionally grouped in threes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Spain",
+      "CNMC — plan nacional de numeración: https://numeracionyoperadores.cnmc.es/numeracion"
+    ]
+  },
+  {
+    "iso2": "NL",
+    "callingCode": "+31",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XX XX / 0AAA XX XX XX",
+      "international": "+31 AA XXX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Geographic, 2-digit area code (Amsterdam 20, Rotterdam 10, The Hague 70)", "national": "020 XXX XX XX", "international": "+31 20 XXX XX XX" },
+      { "label": "Geographic, 3-digit area code (smaller towns)", "national": "0XXX XX XX XX", "international": "+31 XXX XX XX XX" },
+      { "label": "Mobile", "national": "06 XX XX XX XX", "international": "+31 6 XX XX XX XX" },
+      { "label": "Freephone", "national": "0800 XXXX", "international": "+31 800 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+31201234567", "international": "+31 20 123 45 67", "national": "020 123 45 67", "note": "Amsterdam — 2-digit area code 20, 7-digit subscriber number" },
+      { "type": "fixed-line", "e164": "+31101234567", "international": "+31 10 123 45 67", "national": "010 123 45 67", "note": "Rotterdam — area code 10" },
+      { "type": "fixed-line", "e164": "+31519123456", "international": "+31 519 12 34 56", "national": "0519 12 34 56", "note": "Dokkum — 3-digit area code 519, 6-digit subscriber number" },
+      { "type": "mobile", "e164": "+31612345678", "international": "+31 6 12 34 56 78", "national": "06 12 34 56 78", "note": "Mobile — all Dutch mobiles are 06 + 8 digits" }
+    ],
+    "notes": [
+      "The NSN is always 9 digits. Large cities have 2-digit area codes with 7-digit subscriber numbers; everywhere else has 3-digit area codes with 6-digit subscriber numbers.",
+      "Mobile numbers are effectively a single '6' area code followed by 8 digits."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Netherlands",
+      "ACM — nummerplan: https://www.acm.nl/nl/onderwerpen/telecommunicatie/telefoonnummers"
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "iso2": "PL",
+    "callingCode": "+48",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "XX XXX XX XX (geographic) / XXX XXX XXX (mobile)",
+      "international": "+48 XX XXX XX XX"
+    },
+    "patterns": [
+      { "label": "Warsaw (22), Kraków (12), Gdańsk (58)", "national": "22 XXX XX XX", "international": "+48 22 XXX XX XX" },
+      { "label": "Mobile (45x, 5xx, 6xx, 7xx, 88x)", "national": "501 234 567", "international": "+48 501 234 567" },
+      { "label": "Freephone", "national": "800 XXX XXX", "international": "+48 800 XXX XXX" },
+      { "label": "Premium rate", "national": "70X XXX XXX", "international": "+48 70X XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+48221234567", "international": "+48 22 123 45 67", "national": "22 123 45 67", "note": "Warsaw — area code 22" },
+      { "type": "fixed-line", "e164": "+48121234567", "international": "+48 12 123 45 67", "national": "12 123 45 67", "note": "Kraków — area code 12" },
+      { "type": "mobile", "e164": "+48501234567", "international": "+48 501 234 567", "national": "501 234 567", "note": "Mobile — 50x is an allocated Polish mobile range" },
+      { "type": "toll-free", "e164": "+48800123456", "international": "+48 800 123 456", "national": "800 123 456", "note": "Freephone (free for callers in Poland)" }
+    ],
+    "notes": [
+      "Poland abolished the trunk prefix 0 on 2009-09-30 and moved to a closed 9-digit plan; the full number is dialled for every call.",
+      "Poland is one of only a handful of EU states (with Spain, Portugal, Denmark and others) to have dropped the trunk prefix entirely.",
+      "Geographic numbers are conventionally grouped 2-3-2-2; mobile numbers 3-3-3."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Poland",
+      "UKE — plan numeracji krajowej: https://www.uke.gov.pl/"
+    ]
+  },
+  {
+    "iso2": "SE",
+    "callingCode": "+46",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0AA-XXX XX XX (open plan, variable length)",
+      "international": "+46 AA XXX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Stockholm (08)", "national": "08-XXX XX XX", "international": "+46 8 XXX XX XX" },
+      { "label": "Gothenburg (031), Malmö (040)", "national": "031-XXX XX XX", "international": "+46 31 XXX XX XX" },
+      { "label": "Mobile (07x)", "national": "070-XXX XX XX", "international": "+46 70 XXX XX XX" },
+      { "label": "Freephone", "national": "020-XXX XXX", "international": "+46 20 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+4681234567", "international": "+46 8 123 45 67", "national": "08-123 45 67", "note": "Stockholm — area code 08, the shortest in the country" },
+      { "type": "fixed-line", "e164": "+4631123456", "international": "+46 31 123 456", "national": "031-123 456", "note": "Gothenburg — area code 031" },
+      { "type": "mobile", "e164": "+46701234567", "international": "+46 70 123 45 67", "national": "070-123 45 67", "note": "Mobile — 07x ranges" },
+      { "type": "toll-free", "e164": "+4620123456", "international": "+46 20 123 456", "national": "020-123 456", "note": "Freephone — not reachable from outside Sweden" }
+    ],
+    "notes": [
+      "Sweden has an open numbering plan: area codes are 2–4 digits including the trunk 0, and NSN length varies (roughly 7–13 digits).",
+      "Larger cities get shorter area codes — Stockholm is 08, Gothenburg 031, and rural areas run to four digits.",
+      "The hyphen after the area code is the conventional Swedish written separator.",
+      "020 freephone numbers generally cannot be reached from abroad."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Sweden",
+      "PTS — svensk nummerplan: https://www.pts.se/sv/bransch/telefoni/nummer-och-adressering/"
+    ]
+  },
+  {
+    "iso2": "LI",
+    "callingCode": "+423",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": {
+      "national": "XXX XX XX",
+      "international": "+423 XXX XX XX"
+    },
+    "patterns": [
+      { "label": "Fixed line (2xx xxxx)", "national": "2XX XX XX", "international": "+423 2XX XX XX" },
+      { "label": "Mobile (7xx xxxx)", "national": "7XX XX XX", "international": "+423 7XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+4232371234", "international": "+423 237 12 34", "national": "237 12 34", "note": "Vaduz — fixed lines begin with 2" },
+      { "type": "mobile", "e164": "+4237871234", "international": "+423 787 12 34", "national": "787 12 34", "note": "Mobile — 7xx ranges" }
+    ],
+    "notes": [
+      "Liechtenstein adopted its own country code +423 on 1999-04-05; it was previously reached as +41 75 through the Swiss numbering plan.",
+      "Calls from Switzerland now require international dialling (00423), despite the close integration of the two networks.",
+      "All numbers are 7 digits with no trunk prefix or area codes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Liechtenstein",
+      "Amt für Kommunikation (AK) Liechtenstein: https://www.llv.li/de/landesverwaltung/amt-fuer-kommunikation"
+    ]
+  }
+]

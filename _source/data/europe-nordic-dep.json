@@ -1,0 +1,89 @@
+[
+  {
+    "iso2": "FO",
+    "callingCode": "+298",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [6],
+    "formats": {
+      "national": "XX XX XX",
+      "international": "+298 XX XX XX"
+    },
+    "patterns": [
+      { "label": "Fixed line (3x)", "national": "3X XX XX", "international": "+298 3X XX XX" },
+      { "label": "Mobile (2x, 5x, 7x)", "national": "2X XX XX", "international": "+298 2X XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+298302010", "international": "+298 30 20 10", "national": "30 20 10", "note": "Tórshavn — fixed network ranges begin with 3" },
+      { "type": "mobile", "e164": "+298211234", "international": "+298 21 12 34", "national": "21 12 34", "note": "Mobile — 21 is a GSM range" }
+    ],
+    "notes": [
+      "The Faroe Islands are a self-governing part of Denmark but have their own country code +298, separate from Denmark's +45.",
+      "All numbers are 6 digits with no trunk prefix or area codes, written as three pairs.",
+      "The islands received a code beginning with 2 (a range normally allocated to Africa) because the European 3xx and 4xx ranges were exhausted."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Faroe_Islands",
+      "Faroese Telecom (Føroya Tele): https://www.telefon.fo/"
+    ]
+  },
+  {
+    "iso2": "GL",
+    "callingCode": "+299",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [6],
+    "formats": {
+      "national": "XX XX XX",
+      "international": "+299 XX XX XX"
+    },
+    "patterns": [
+      { "label": "Fixed line, Nuuk (3x)", "national": "3X XX XX", "international": "+299 3X XX XX" },
+      { "label": "Fixed line, other settlements (6x–9x)", "national": "8X XX XX", "international": "+299 8X XX XX" },
+      { "label": "Mobile (21–29, 42–49, 51–59)", "national": "2X XX XX", "international": "+299 2X XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+299321234", "international": "+299 32 12 34", "national": "32 12 34", "note": "Nuuk — 31/32 serve the capital in Sermersooq" },
+      { "type": "fixed-line", "e164": "+299851234", "international": "+299 85 12 34", "national": "85 12 34", "note": "Sisimiut, West Greenland" },
+      { "type": "mobile", "e164": "+299221234", "international": "+299 22 12 34", "national": "22 12 34", "note": "Mobile — 21–29 range" }
+    ],
+    "notes": [
+      "Greenland is part of the Kingdom of Denmark but has its own country code +299.",
+      "All numbers are 6 digits, written as three pairs, with no trunk prefix.",
+      "The first two digits still carry rough geographic meaning for fixed lines."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Greenland",
+      "Tusass (Greenland Telecom): https://www.tusass.gl/"
+    ]
+  },
+  {
+    "iso2": "VA",
+    "callingCode": "+379",
+    "additionalCallingCodes": ["+39"],
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "06 698 XXXXX (dialled through the Italian plan)",
+      "international": "+39 06 698 XXXXX — the assigned code +379 is not in general use"
+    },
+    "patterns": [
+      { "label": "Vatican offices via the Italian plan", "national": "06 698 XXXXX", "international": "+39 06 698 XXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+390669812345", "international": "+39 06 698 12345", "national": "06 698 12345", "note": "Vatican office — reached through Rome's 06 area code, block 698" },
+      { "type": "fixed-line", "e164": "+390669884676", "international": "+39 06 698 84676", "national": "06 698 84676", "note": "Vatican Museums switchboard range" }
+    ],
+    "notes": [
+      "+379 is assigned to Vatican City by the ITU but is effectively unused for public dialling. Almost every reachable Vatican number sits inside the Italian numbering plan as +39 06 698xxxxx.",
+      "The 698 block within Rome's 06 area code is reserved for the Holy See.",
+      "Numbers on +379 exist only as short internal exchange extensions and are not publicly routable."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Italy",
+      "https://www.howtocallabroad.com/vatican/",
+      "ITU-T E.164 assigned country codes: https://www.itu.int/pub/T-SP-E.164D"
+    ]
+  }
+]

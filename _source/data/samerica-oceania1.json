@@ -1,0 +1,245 @@
+[
+  {
+    "iso2": "BR",
+    "callingCode": "+55",
+    "trunkPrefix": "0 + 2-digit carrier selection code",
+    "internationalPrefix": "00 + 2-digit carrier selection code",
+    "nsnLengths": [10, 11],
+    "formats": {
+      "national": "(AA) NNNN-NNNN (landline) / (AA) 9NNNN-NNNN (mobile)",
+      "international": "+55 AA NNNN NNNN"
+    },
+    "patterns": [
+      { "label": "São Paulo (11), Rio de Janeiro (21), Brasília (61)", "national": "(11) NNNN-NNNN", "international": "+55 11 NNNN NNNN" },
+      { "label": "Mobile (9 prepended to the 8-digit number)", "national": "(11) 9NNNN-NNNN", "international": "+55 11 9NNNN NNNN" },
+      { "label": "Toll-free", "national": "0800 NNN NNNN", "international": "+55 800 NNN NNNN" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+551132109876", "international": "+55 11 3210 9876", "national": "(11) 3210-9876", "note": "São Paulo — DDD area code 11" },
+      { "type": "mobile", "e164": "+5511960102030", "international": "+55 11 96010 2030", "national": "(11) 96010-2030", "note": "São Paulo mobile — the leading 9 was added on 2012-07-29, making mobile NSNs 11 digits" },
+      { "type": "toll-free", "e164": "+558007290001", "international": "+55 800 729 0001", "national": "0800 729 0001", "note": "Toll-free — always billed as a local call regardless of where the call centre sits" }
+    ],
+    "notes": [
+      "Brazil requires a carrier selection code (CSP) for long-distance calls: you dial 0, then a 2-digit carrier code (21 Claro, 41 TIM, 15 Vivo), then the area code and number.",
+      "Area codes are called DDD codes and are always 2 digits.",
+      "Mobile numbers gained a leading 9 in 2012, so mobile NSNs are 11 digits against 10 for landlines — this is the reliable way to tell them apart."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brazil",
+      "ANATEL — Agência Nacional de Telecomunicações: https://www.gov.br/anatel/"
+    ]
+  },
+  {
+    "iso2": "AR",
+    "callingCode": "+54",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [10, 11],
+    "formats": {
+      "national": "0AA XXXX-XXXX (landline) / 0AA 15 XXXX-XXXX (mobile)",
+      "international": "+54 AA XXXX XXXX — mobiles take an extra 9: +54 9 AA XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Buenos Aires (11)", "national": "(011) XXXX-XXXX", "international": "+54 11 XXXX XXXX" },
+      { "label": "Other areas (3–4 digit area codes)", "national": "(0223) XXX-XXXX", "international": "+54 223 XXX XXXX" },
+      { "label": "Mobile (domestic 15 prefix)", "national": "(0223) 15 XXX-XXXX", "international": "+54 9 223 XXX XXXX" },
+      { "label": "Toll-free", "national": "0800 XXX XXXX", "international": "+54 800 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+541112345678", "international": "+54 11 1234 5678", "national": "(011) 1234-5678", "note": "Buenos Aires — 2-digit area code 11 with an 8-digit subscriber number" },
+      { "type": "mobile", "e164": "+5492231234567", "international": "+54 9 223 123 4567", "national": "(0223) 15 123-4567", "note": "Mar del Plata mobile — note the 9 replaces the domestic 15 when dialling from abroad" },
+      { "type": "toll-free", "e164": "+548001234567", "international": "+54 800 123 4567", "national": "0800 123 4567", "note": "Toll-free" }
+    ],
+    "notes": [
+      "Argentine mobile numbers are written two different ways: domestically the digit 15 sits between the area code and the subscriber number, but from abroad you drop the 15 and insert a 9 immediately after +54.",
+      "So (0223) 15 123-4567 dialled locally becomes +54 9 223 123 4567 internationally — the same line, two forms. This trips up a lot of validation code.",
+      "The national number is always 10 digits (excluding the mobile 9); area codes run 2–4 digits with the subscriber number sized to match."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Argentina",
+      "ENACOM — Ente Nacional de Comunicaciones: https://www.enacom.gob.ar/"
+    ]
+  },
+  {
+    "iso2": "CL",
+    "callingCode": "+56",
+    "trunkPrefix": "",
+    "internationalPrefix": "1XX0 (carrier-selected, e.g. 1230, 1880)",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "X XXXX XXXX (9 digits, no area codes)",
+      "international": "+56 X XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (2 = Santiago, other digits by region)", "national": "2 XXXX XXXX", "international": "+56 2 XXXX XXXX" },
+      { "label": "Mobile (9)", "national": "9 XXXX XXXX", "international": "+56 9 XXXX XXXX" },
+      { "label": "Toll-free", "national": "800 XXX XXX", "international": "+56 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+56221234567", "international": "+56 2 2123 4567", "national": "2 2123 4567", "note": "Santiago — fixed lines renumbered onto the 2 prefix in 2012–2013" },
+      { "type": "mobile", "e164": "+56987654321", "international": "+56 9 8765 4321", "national": "9 8765 4321", "note": "Mobile — the 9 prefix, though portability blurs the fixed/mobile distinction" },
+      { "type": "toll-free", "e164": "+56800123456", "international": "+56 800 123 456", "national": "800 123 456", "note": "Toll-free" }
+    ],
+    "notes": [
+      "Chile has no geographic area codes and no trunk prefix — every call within Chile is a local call and all numbers are a flat 9 digits.",
+      "Full number portability across fixed, mobile and VoIP means the leading digit no longer reliably identifies the line type.",
+      "The international access prefix is carrier-selected in the form 1XX0."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Chile",
+      "SUBTEL — Subsecretaría de Telecomunicaciones: https://www.subtel.gob.cl/"
+    ]
+  },
+  {
+    "iso2": "CO",
+    "callingCode": "+57",
+    "trunkPrefix": "0 + carrier code",
+    "internationalPrefix": "00 + carrier code",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "60B XXX XXXX (landline) / 3XX XXX XXXX (mobile)",
+      "international": "+57 60B XXX XXXX"
+    },
+    "patterns": [
+      { "label": "Bogotá (601), Medellín (604), Cali (602)", "national": "601 XXX XXXX", "international": "+57 601 XXX XXXX" },
+      { "label": "Mobile (3XX)", "national": "310 XXX XXXX", "international": "+57 310 XXX XXXX" },
+      { "label": "Toll-free", "national": "01 8000 XXXXXX", "international": "not reachable from abroad" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+576012345678", "international": "+57 601 234 5678", "national": "601 234 5678", "note": "Bogotá — the 601 prefix covers Bogotá and Cundinamarca" },
+      { "type": "fixed-line", "e164": "+576042345678", "international": "+57 604 234 5678", "national": "604 234 5678", "note": "Medellín and Antioquia — prefix 604" },
+      { "type": "mobile", "e164": "+573105678901", "international": "+57 310 567 8901", "national": "310 567 8901", "note": "Mobile — 3XX ranges; 310 is a Claro range" }
+    ],
+    "notes": [
+      "Colombia renumbered in September 2021–2022: the old single-digit dialling zones with 7-digit local numbers became uniform 10-digit numbers by inserting '60' in front of the zone digit.",
+      "So the old Bogotá (1) 234 5678 is now 601 234 5678.",
+      "Mobile numbers were already 10 digits and were unaffected by the reform."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Colombia",
+      "MinTIC — Ministerio de Tecnologías de la Información y las Comunicaciones: https://www.mintic.gov.co/"
+    ]
+  },
+  {
+    "iso2": "PE",
+    "callingCode": "+51",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A XXXXXXX (Lima) / 0AA XXXXXX (regional) / 9XX XXX XXX (mobile)",
+      "international": "+51 A XXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Lima and Callao (1)", "national": "(01) XXX XXXX", "international": "+51 1 XXX XXXX" },
+      { "label": "Regional (2-digit area codes, e.g. Cusco 84, Arequipa 54)", "national": "(084) XXXXXX", "international": "+51 84 XXXXXX" },
+      { "label": "Mobile (9XX, non-geographic)", "national": "9XX XXX XXX", "international": "+51 9XX XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+5111234567", "international": "+51 1 123 4567", "national": "(01) 123 4567", "note": "Lima — area code 1, the only area with 7-digit subscriber numbers" },
+      { "type": "fixed-line", "e164": "+5184123456", "international": "+51 84 123456", "national": "(084) 123456", "note": "Cusco — area code 84 with a 6-digit subscriber number" },
+      { "type": "mobile", "e164": "+51912345678", "international": "+51 912 345 678", "national": "912 345 678", "note": "Mobile — all Peruvian mobiles are 9 digits beginning with 9" }
+    ],
+    "notes": [
+      "Lima/Callao has a single-digit area code and 7-digit subscriber numbers; every other region has a 2-digit code and 6-digit numbers.",
+      "Mobile numbers became fully non-geographic under the 2010 'Área Virtual Móvil' reform and are dialled as a flat 9 digits nationwide."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Peru",
+      "OSIPTEL — Organismo Supervisor de Inversión Privada en Telecomunicaciones: https://www.osiptel.gob.pe/"
+    ]
+  },
+  {
+    "iso2": "VE",
+    "callingCode": "+58",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "0AAA XXXXXXX",
+      "international": "+58 AAA XXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Caracas / Distrito Capital (212)", "national": "0212 XXXXXXX", "international": "+58 212 XXXXXXX" },
+      { "label": "Other states (3-digit area codes)", "national": "0XXX XXXXXXX", "international": "+58 XXX XXXXXXX" },
+      { "label": "Mobile (412 Digitel, 414/424 Movistar, 416/426 Movilnet)", "national": "0412 XXXXXXX", "international": "+58 412 XXXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+582125551212", "international": "+58 212 555 1212", "national": "0212 5551212", "note": "Caracas — area code 212" },
+      { "type": "mobile", "e164": "+584121234567", "international": "+58 412 123 4567", "national": "0412 1234567", "note": "Mobile — 412 is a Digitel range" },
+      { "type": "mobile", "e164": "+584141234567", "international": "+58 414 123 4567", "national": "0414 1234567", "note": "Mobile — 414/424 are Movistar ranges" }
+    ],
+    "notes": [
+      "Closed 10-digit plan: a 3-digit area code plus a 7-digit subscriber number. The plan was last revised on 2000-09-21.",
+      "Mobile operator codes fall in the 412–426 range.",
+      "Numbers beginning with 5 are region-free and billed as local calls nationwide."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Venezuela",
+      "CONATEL — Comisión Nacional de Telecomunicaciones: https://www.conatel.gob.ve/"
+    ]
+  },
+  {
+    "iso2": "AU",
+    "callingCode": "+61",
+    "trunkPrefix": "0",
+    "internationalPrefix": "0011",
+    "nsnLengths": [9, 10],
+    "formats": {
+      "national": "(0A) XXXX XXXX (landline) / 04XX XXX XXX (mobile)",
+      "international": "+61 A XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Central-East — NSW, ACT (02)", "national": "(02) XXXX XXXX", "international": "+61 2 XXXX XXXX" },
+      { "label": "South-East — VIC, TAS (03); North-East — QLD (07); Central-West — WA, SA, NT (08)", "national": "(03) XXXX XXXX", "international": "+61 3 XXXX XXXX" },
+      { "label": "Mobile (04)", "national": "04XX XXX XXX", "international": "+61 4XX XXX XXX" },
+      { "label": "Toll-free", "national": "1800 XXX XXX", "international": "+61 1800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+61291234567", "international": "+61 2 9123 4567", "national": "(02) 9123 4567", "note": "Sydney — area code 02 covers NSW and the ACT" },
+      { "type": "fixed-line", "e164": "+61391234567", "international": "+61 3 9123 4567", "national": "(03) 9123 4567", "note": "Melbourne — area code 03 covers Victoria and Tasmania" },
+      { "type": "mobile", "e164": "+61412345678", "international": "+61 412 345 678", "national": "0412 345 678", "note": "Mobile — all Australian mobiles begin 04 and are nationwide" },
+      { "type": "toll-free", "e164": "+611800123456", "international": "+61 1800 123 456", "national": "1800 123 456", "note": "Freecall" }
+    ],
+    "notes": [
+      "Australia has just four geographic area codes (02, 03, 07, 08), each covering a large multi-state region.",
+      "The international access prefix is 0011, not 00.",
+      "13/1300 numbers are charged at a fixed local rate rather than being free."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Australia",
+      "ACMA — Australian Communications and Media Authority: https://www.acma.gov.au/numbering"
+    ]
+  },
+  {
+    "iso2": "NZ",
+    "callingCode": "+64",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "(0A) XXX XXXX (landline) / 02X XXX XXXX (mobile)",
+      "international": "+64 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Auckland / Northland (09)", "national": "(09) XXX XXXX", "international": "+64 9 XXX XXXX" },
+      { "label": "Wellington (04), Waikato/BoP (07), Taranaki–Hawke's Bay (06), South Island (03)", "national": "(04) XXX XXXX", "international": "+64 4 XXX XXXX" },
+      { "label": "Mobile (021, 022, 027)", "national": "021 XXX XXXX", "international": "+64 21 XXX XXXX" },
+      { "label": "Toll-free", "national": "0800 XXX XXX", "international": "+64 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6497001234", "international": "+64 9 700 1234", "national": "(09) 700 1234", "note": "Auckland — area code 09 covers Auckland and Northland" },
+      { "type": "fixed-line", "e164": "+6441234567", "international": "+64 4 123 4567", "national": "(04) 123 4567", "note": "Wellington — area code 04" },
+      { "type": "mobile", "e164": "+64212345678", "international": "+64 21 234 5678", "national": "021 234 5678", "note": "Mobile — 021 is a One NZ range; 022 and 027 are also mobile" },
+      { "type": "toll-free", "e164": "+64800123456", "international": "+64 800 123 456", "national": "0800 123 456", "note": "Toll-free" }
+    ],
+    "notes": [
+      "New Zealand has five geographic area codes (03, 04, 06, 07, 09) covering large regions; landline NSNs are 8 digits.",
+      "Mobile subscriber numbers vary in length, giving mobile NSNs of 9 (sometimes 8 or 10) digits."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_New_Zealand",
+      "Telecommunications Carriers' Forum — NZ numbering: https://www.tcf.org.nz/"
+    ]
+  }
+]

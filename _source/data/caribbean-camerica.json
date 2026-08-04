@@ -1,0 +1,364 @@
+[
+  {
+    "iso2": "HN",
+    "callingCode": "+504",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XXXX-XXXX", "international": "+504 XXXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line (2)", "national": "2XXX-XXXX", "international": "+504 2XXX XXXX" },
+      { "label": "Mobile — Tigo (9), Digicel (8), Hondutel (7), Claro (3)", "national": "9XXX-XXXX", "international": "+504 9XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+50422345678", "international": "+504 2234 5678", "national": "2234-5678", "note": "Fixed line — the leading 2 was added in 2010 when numbers went from 7 to 8 digits" },
+      { "type": "mobile", "e164": "+50491234567", "international": "+504 9123 4567", "national": "9123-4567", "note": "Mobile — 9 denotes Tigo" }
+    ],
+    "notes": [
+      "No area codes or trunk prefix; the leading digit encodes service and operator.",
+      "Mobile numbers expanded from 7 to 8 digits in 2007 and fixed lines in 2010."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Honduras",
+      "CONATEL Honduras — Comisión Nacional de Telecomunicaciones: https://www.conatel.gob.hn/"
+    ]
+  },
+  {
+    "iso2": "NI",
+    "callingCode": "+505",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XXXX XXXX", "international": "+505 XXXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line (2)", "national": "2XXX XXXX", "international": "+505 2XXX XXXX" },
+      { "label": "Mobile (5, 7, 8)", "national": "8XXX XXXX", "international": "+505 8XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+50522345678", "international": "+505 2234 5678", "national": "2234 5678", "note": "Fixed line — leading 2" },
+      { "type": "mobile", "e164": "+50581234567", "international": "+505 8123 4567", "national": "8123 4567", "note": "Mobile — 5, 7 and 8 prefixes" }
+    ],
+    "notes": [
+      "Nicaragua moved from 7 to 8 digits in 2009 by prefixing 2 for fixed lines and 5/7/8 for mobile.",
+      "Closed plan with no area codes or trunk prefix."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Nicaragua",
+      "TELCOR — Instituto Nicaragüense de Telecomunicaciones y Correos: https://www.telcor.gob.ni/"
+    ]
+  },
+  {
+    "iso2": "SV",
+    "callingCode": "+503",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XXXX-XXXX", "international": "+503 XXXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line (2)", "national": "2XXX-XXXX", "international": "+503 2XXX XXXX" },
+      { "label": "Mobile (6, 7)", "national": "7XXX-XXXX", "international": "+503 7XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+50322458901", "international": "+503 2245 8901", "national": "2245-8901", "note": "Metropolitan fixed line — NDC 2, with the second digit marking the metro area" },
+      { "type": "mobile", "e164": "+50370123456", "international": "+503 7012 3456", "national": "7012-3456", "note": "Mobile — NDCs 6 and 7 are non-geographic" }
+    ],
+    "notes": [
+      "The plan was updated in 2005: fixed services use NDC 2, mobile services NDCs 6 and 7.",
+      "No trunk prefix or area codes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_El_Salvador",
+      "SIGET — Superintendencia General de Electricidad y Telecomunicaciones: https://www.siget.gob.sv/"
+    ]
+  },
+  {
+    "iso2": "HT",
+    "callingCode": "+509",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XX XX XXXX", "international": "+509 XX XX XXXX" },
+    "patterns": [
+      { "label": "Fixed line (2X)", "national": "22 XX XXXX", "international": "+509 22 XX XXXX" },
+      { "label": "Mobile (3X, 4X)", "national": "30 XX XXXX", "international": "+509 30 XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+50922123456", "international": "+509 22 12 3456", "national": "22 12 3456", "note": "Port-au-Prince — NATCOM fixed line, 2X range" },
+      { "type": "mobile", "e164": "+50930123456", "international": "+509 30 12 3456", "national": "30 12 3456", "note": "Mobile — 3X is a Digicel Haiti range" }
+    ],
+    "notes": [
+      "Haiti expanded from 7 to 8 digits on 2008-03-01.",
+      "No trunk prefix or area codes; the leading digit distinguishes fixed (2) from mobile (3, 4)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Haiti",
+      "CONATEL Haïti — Conseil National des Télécommunications: https://www.conatel.gouv.ht/"
+    ]
+  },
+  {
+    "iso2": "SR",
+    "callingCode": "+597",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [6, 7],
+    "formats": { "national": "XXX XXX (fixed) / XXX XXXX (mobile)", "international": "+597 XXX XXX" },
+    "patterns": [
+      { "label": "Paramaribo fixed (4xxxxx)", "national": "4XXXXX", "international": "+597 4XXXXX" },
+      { "label": "Other geographic (21–37)", "national": "XXXXXX", "international": "+597 XXXXXX" },
+      { "label": "Mobile (71–89)", "national": "71XXXXX", "international": "+597 71XXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+597412345", "international": "+597 412 345", "national": "412345", "note": "Paramaribo — the 4 prefix marks Telesur geographic numbers" },
+      { "type": "mobile", "e164": "+5977112345", "international": "+597 711 2345", "national": "7112345", "note": "Mobile — 71 is a Digicel Suriname range; mobile numbers are 7 digits" }
+    ],
+    "notes": [
+      "Fixed NSNs are 6 digits and mobile NSNs 7, so length distinguishes the two.",
+      "Geographic codes 21–37 cover the districts; 56, 68 and 71–89 are non-geographic (VoIP, wireless local loop, mobile)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Suriname",
+      "TAS — Telecommunicatie Autoriteit Suriname: https://tas.sr/"
+    ]
+  },
+  {
+    "iso2": "GY",
+    "callingCode": "+592",
+    "trunkPrefix": "",
+    "internationalPrefix": "001",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX-XXXX", "international": "+592 XXX XXXX" },
+    "patterns": [
+      { "label": "Georgetown fixed (22X, 23X)", "national": "223-XXXX", "international": "+592 223 XXXX" },
+      { "label": "Mobile (600–699)", "national": "624-XXXX", "international": "+592 624 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+5922231234", "international": "+592 223 1234", "national": "223-1234", "note": "Georgetown — the 223 billing prefix serves the capital" },
+      { "type": "mobile", "e164": "+5926245678", "international": "+592 624 5678", "national": "624-5678", "note": "Mobile — the 600–699 range has been GSM-only since 2007-12-01" }
+    ],
+    "notes": [
+      "All numbers are 7 digits: a 3-digit billing prefix plus a 4-digit directory number.",
+      "Prefixes are allocated by geography for fixed lines and by service type for mobile and special numbers."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Guyana",
+      "Guyana Telecommunications Agency: https://www.gta.gov.gy/"
+    ]
+  },
+  {
+    "iso2": "BZ",
+    "callingCode": "+501",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "ZNY-XXXX", "international": "+501 ZNY XXXX" },
+    "patterns": [
+      { "label": "Belize District (2), Cayo (8), Orange Walk (3), Corozal (4), Stann Creek (5), Toledo (7)", "national": "22X-XXXX", "international": "+501 22X XXXX" },
+      { "label": "Mobile, countrywide (6)", "national": "6XX-XXXX", "international": "+501 6XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+5012224940", "international": "+501 222 4940", "national": "222-4940", "note": "Belize City — 2 = Belize District, second 2 = BTL's PSTN service" },
+      { "type": "mobile", "e164": "+5016149076", "international": "+501 614 9076", "national": "614-9076", "note": "Mobile — 6 is countrywide mobile, 1 identifies the provider" }
+    ],
+    "notes": [
+      "Since 2002 numbers follow a ZNY-XXXX structure: Z is the geographic/service code, N the service type (0 prepaid, 1 mobile, 2 PSTN), and the rest the subscriber number.",
+      "The full 7 digits are dialled for every local call regardless of distance."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Belize",
+      "PUC Belize — Public Utilities Commission: https://www.puc.bz/"
+    ]
+  },
+  {
+    "iso2": "GP",
+    "callingCode": "+590",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "0590 XX XX XX", "international": "+590 590 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (0590)", "national": "0590 XX XX XX", "international": "+590 590 XX XX XX" },
+      { "label": "Mobile (0690, 0691)", "national": "0690 XX XX XX", "international": "+590 690 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+590590123456", "international": "+590 590 12 34 56", "national": "0590 12 34 56", "note": "Guadeloupe fixed — note the 590 appears twice: once as country code, once as the internal area code" },
+      { "type": "mobile", "e164": "+590690123456", "international": "+590 690 12 34 56", "national": "0690 12 34 56", "note": "Mobile — the 0690 range" }
+    ],
+    "notes": [
+      "Guadeloupe uses the French 10-digit national format with the country code doubling as the internal area code — +590 590 xx xx xx is correct and not a typo.",
+      "Saint Barthélemy and Saint Martin share the +590 country code with Guadeloupe.",
+      "Numbers are written in the French style as pairs."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "ARCEP — plan de numérotation: https://www.arcep.fr/"
+    ]
+  },
+  {
+    "iso2": "MQ",
+    "callingCode": "+596",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "0596 XX XX XX", "international": "+596 596 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (0596)", "national": "0596 XX XX XX", "international": "+596 596 XX XX XX" },
+      { "label": "Mobile (0696, 0697)", "national": "0696 XX XX XX", "international": "+596 696 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+596596123456", "international": "+596 596 12 34 56", "national": "0596 12 34 56", "note": "Martinique fixed — the country code repeats as the internal area code" },
+      { "type": "mobile", "e164": "+596696123456", "international": "+596 696 12 34 56", "national": "0696 12 34 56", "note": "Mobile — the 0696 range" }
+    ],
+    "notes": [
+      "Martinique follows the French 10-digit national format; +596 596 xx xx xx repeats the code by design.",
+      "Numbers are written in pairs in the French style."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "ARCEP — plan de numérotation: https://www.arcep.fr/"
+    ]
+  },
+  {
+    "iso2": "GF",
+    "callingCode": "+594",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "0594 XX XX XX", "international": "+594 594 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (0594)", "national": "0594 XX XX XX", "international": "+594 594 XX XX XX" },
+      { "label": "Mobile (0694)", "national": "0694 XX XX XX", "international": "+594 694 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+594594123456", "international": "+594 594 12 34 56", "national": "0594 12 34 56", "note": "French Guiana fixed — country code repeats as the internal area code" },
+      { "type": "mobile", "e164": "+594694123456", "international": "+594 694 12 34 56", "national": "0694 12 34 56", "note": "Mobile — the 0694 range" }
+    ],
+    "notes": [
+      "French Guiana is an overseas department using the French 10-digit national format.",
+      "Numbers are written in pairs in the French style."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "ARCEP — plan de numérotation: https://www.arcep.fr/"
+    ]
+  },
+  {
+    "iso2": "RE",
+    "callingCode": "+262",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "0262 XX XX XX", "international": "+262 262 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (0262, 0263)", "national": "0262 XX XX XX", "international": "+262 262 XX XX XX" },
+      { "label": "Mobile (0692, 0693)", "national": "0692 XX XX XX", "international": "+262 692 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+262262123456", "international": "+262 262 12 34 56", "national": "0262 12 34 56", "note": "Réunion fixed — country code repeats as the internal area code" },
+      { "type": "mobile", "e164": "+262692123456", "international": "+262 692 12 34 56", "national": "0692 12 34 56", "note": "Mobile — the 0692/0693 ranges" }
+    ],
+    "notes": [
+      "Réunion shares country code +262 with Mayotte; the two are separated by their internal prefixes (262/692 for Réunion, 269/639 for Mayotte).",
+      "The French Southern and Antarctic Lands are also administratively attached to +262."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "ARCEP — plan de numérotation: https://www.arcep.fr/"
+    ]
+  },
+  {
+    "iso2": "YT",
+    "callingCode": "+262",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "0269 XX XX XX", "international": "+262 269 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (0269)", "national": "0269 XX XX XX", "international": "+262 269 XX XX XX" },
+      { "label": "Mobile (0639)", "national": "0639 XX XX XX", "international": "+262 639 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+262269123456", "international": "+262 269 12 34 56", "national": "0269 12 34 56", "note": "Mayotte fixed — the 0269 range distinguishes Mayotte from Réunion inside +262" },
+      { "type": "mobile", "e164": "+262639123456", "international": "+262 639 12 34 56", "national": "0639 12 34 56", "note": "Mobile — the 0639 range" }
+    ],
+    "notes": [
+      "Mayotte has no country code of its own: it shares +262 with Réunion and is identified by the internal prefixes 269 (fixed) and 639 (mobile).",
+      "Mayotte moved from +269 (now Comoros only) to +262 in 2007."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "ARCEP — plan de numérotation: https://www.arcep.fr/"
+    ]
+  },
+  {
+    "iso2": "BL",
+    "callingCode": "+590",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "0590 XX XX XX", "international": "+590 590 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (0590 27…)", "national": "0590 27 XX XX", "international": "+590 590 27 XX XX" },
+      { "label": "Mobile (0690)", "national": "0690 XX XX XX", "international": "+590 690 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+590590271234", "international": "+590 590 27 12 34", "national": "0590 27 12 34", "note": "Saint Barthélemy — the 27 block within the shared Guadeloupe 0590 range" },
+      { "type": "mobile", "e164": "+590690123456", "international": "+590 690 12 34 56", "national": "0690 12 34 56", "note": "Mobile — shares Guadeloupe's 0690 range" }
+    ],
+    "notes": [
+      "Saint Barthélemy has no separate country code; it shares +590 with Guadeloupe and Saint Martin.",
+      "The three territories are distinguished by subscriber block, not by prefix, so the country cannot be determined from the number alone."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "ARCEP — plan de numérotation: https://www.arcep.fr/"
+    ]
+  },
+  {
+    "iso2": "MF",
+    "callingCode": "+590",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "0590 XX XX XX", "international": "+590 590 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (0590 87…)", "national": "0590 87 XX XX", "international": "+590 590 87 XX XX" },
+      { "label": "Mobile (0690)", "national": "0690 XX XX XX", "international": "+590 690 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+590590871234", "international": "+590 590 87 12 34", "national": "0590 87 12 34", "note": "Saint Martin (French part) — the 87 block within the shared 0590 range" },
+      { "type": "mobile", "e164": "+590690123456", "international": "+590 690 12 34 56", "national": "0690 12 34 56", "note": "Mobile — shares Guadeloupe's 0690 range" }
+    ],
+    "notes": [
+      "Saint Martin (French part) shares +590 with Guadeloupe and Saint Barthélemy.",
+      "The Dutch half of the same island, Sint Maarten, is entirely separate: it sits in the NANP as +1 721."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "ARCEP — plan de numérotation: https://www.arcep.fr/"
+    ]
+  },
+  {
+    "iso2": "PM",
+    "callingCode": "+508",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [6],
+    "formats": { "national": "XX XX XX", "international": "+508 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (41, 55)", "national": "41 XX XX", "international": "+508 41 XX XX" },
+      { "label": "Mobile (55)", "national": "55 XX XX", "international": "+508 55 XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+508412345", "international": "+508 41 23 45", "national": "41 23 45", "note": "Saint-Pierre — fixed lines in the 41 range" },
+      { "type": "mobile", "e164": "+508551234", "international": "+508 55 12 34", "national": "55 12 34", "note": "Mobile — the 55 range" }
+    ],
+    "notes": [
+      "Saint Pierre and Miquelon keeps a short 6-digit plan rather than the 9-digit format used by the other French overseas territories.",
+      "Numbers are written in pairs in the French style."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France",
+      "ARCEP — plan de numérotation: https://www.arcep.fr/"
+    ]
+  }
+]

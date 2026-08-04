@@ -1,0 +1,231 @@
+[
+  {
+    "iso2": "CR",
+    "callingCode": "+506",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX-XXXX",
+      "international": "+506 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (2)", "national": "2XXX-XXXX", "international": "+506 2XXX XXXX" },
+      { "label": "Mobile (6, 7, 8)", "national": "8XXX-XXXX", "international": "+506 8XXX XXXX" },
+      { "label": "Toll-free", "national": "800-XXX-XXXX", "international": "+506 800 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+50622221234", "international": "+506 2222 1234", "national": "2222-1234", "note": "San José — the 2 prefix marks all Costa Rican landlines" },
+      { "type": "mobile", "e164": "+50687654321", "international": "+506 8765 4321", "national": "8765-4321", "note": "Mobile — 8 prefix (also 6 and 7)" }
+    ],
+    "notes": [
+      "On 2008-03-20 Costa Rica moved from 7 to 8 digits by prefixing 2 to every landline and 8 to every mobile number.",
+      "No area codes or trunk prefix; the leading digit distinguishes fixed from mobile."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Costa_Rica",
+      "SUTEL — Superintendencia de Telecomunicaciones: https://sutel.go.cr/"
+    ]
+  },
+  {
+    "iso2": "PA",
+    "callingCode": "+507",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7, 8],
+    "formats": {
+      "national": "XXX-XXXX (fixed) / 6XXX-XXXX (mobile)",
+      "international": "+507 XXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line — Panama City (2, 3)", "national": "2XX-XXXX", "international": "+507 2XX XXXX" },
+      { "label": "Mobile (6)", "national": "6XXX-XXXX", "international": "+507 6XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+5072123456", "international": "+507 212 3456", "national": "212-3456", "note": "Panama City — the leading 2 or 3 encodes location" },
+      { "type": "mobile", "e164": "+50761234567", "international": "+507 6123 4567", "national": "6123-4567", "note": "Mobile — 8-digit numbers beginning with 6, introduced August 2005" }
+    ],
+    "notes": [
+      "Panama has no area codes. Fixed lines are 7 digits with geography encoded in the first digit; mobile numbers are 8 digits beginning with 6.",
+      "Numbers are recycled after a subscriber cancels or goes inactive."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Panama",
+      "ASEP — Autoridad Nacional de los Servicios Públicos: https://www.asep.gob.pa/"
+    ]
+  },
+  {
+    "iso2": "GT",
+    "callingCode": "+502",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX-XXXX",
+      "international": "+502 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Guatemala City fixed (2, 6)", "national": "2XXX-XXXX", "international": "+502 2XXX XXXX" },
+      { "label": "Provincial fixed (7)", "national": "7XXX-XXXX", "international": "+502 7XXX XXXX" },
+      { "label": "Mobile (3, 4, 5)", "national": "5XXX-XXXX", "international": "+502 5XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+50222345678", "international": "+502 2234 5678", "national": "2234-5678", "note": "Guatemala City — leading 2 (also 6) denotes a capital landline" },
+      { "type": "mobile", "e164": "+50251234567", "international": "+502 5123 4567", "national": "5123-4567", "note": "Mobile — 3, 4 and 5 are mobile prefixes" },
+      { "type": "fixed-line", "e164": "+50271234567", "international": "+502 7123 4567", "national": "7123-4567", "note": "Provincial landline — leading 7" }
+    ],
+    "notes": [
+      "No area codes or trunk prefix; the first digit classifies the service (2/6 capital fixed, 7 provincial fixed, 3/4/5 mobile).",
+      "The three digits after the first identify the service provider.",
+      "1-800 gives international toll-free access and 1-801 domestic toll-free."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Guatemala",
+      "SIT — Superintendencia de Telecomunicaciones de Guatemala: https://sit.gob.gt/"
+    ]
+  },
+  {
+    "iso2": "CU",
+    "callingCode": "+53",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "0A XXXXXXX (landline) / 5XXX XXXX (mobile)",
+      "international": "+53 A XXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Havana (7)", "national": "07 XXXXXXX", "international": "+53 7 XXXXXXX" },
+      { "label": "Other provinces (2-digit area codes)", "national": "0XX XXXXXX", "international": "+53 XX XXXXXX" },
+      { "label": "Mobile (5)", "national": "5XXX XXXX", "international": "+53 5XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+5371234567", "international": "+53 7 123 4567", "national": "07 123 4567", "note": "Havana — area code 7" },
+      { "type": "mobile", "e164": "+5351234567", "international": "+53 5123 4567", "national": "5123 4567", "note": "Mobile — all Cuban mobiles begin with 5 and carry no trunk prefix" }
+    ],
+    "notes": [
+      "The NSN is 8 digits, with the first one or two forming the area code for fixed lines.",
+      "Mobile numbers are dialled as a flat 8 digits beginning with 5, without the trunk 0."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cuba",
+      "ETECSA — Empresa de Telecomunicaciones de Cuba: https://www.etecsa.cu/"
+    ]
+  },
+  {
+    "iso2": "EC",
+    "callingCode": "+593",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "(0A) XXX-XXXX (landline) / 09X XXX XXXX (mobile)",
+      "international": "+593 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Quito / Pichincha (02)", "national": "(02) XXX-XXXX", "international": "+593 2 XXX XXXX" },
+      { "label": "Guayaquil / Guayas (04), other provinces (03, 05, 06, 07)", "national": "(04) XXX-XXXX", "international": "+593 4 XXX XXXX" },
+      { "label": "Mobile (09X)", "national": "09X XXX XXXX", "international": "+593 9X XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+59322111111", "international": "+593 2 211 1111", "national": "(02) 211-1111", "note": "Quito — area code 2 covers Pichincha province" },
+      { "type": "fixed-line", "e164": "+59341234567", "international": "+593 4 123 4567", "national": "(04) 123-4567", "note": "Guayaquil — area code 4" },
+      { "type": "mobile", "e164": "+593991234567", "international": "+593 99 123 4567", "national": "099 123 4567", "note": "Mobile — the 9 prefix denotes cellular; 92–99 identify networks" }
+    ],
+    "notes": [
+      "Geographic area codes 2–7 map to provinces; the 9 prefix is reserved for mobile.",
+      "Fixed NSNs are 8 digits and mobile NSNs 9."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Ecuador",
+      "ARCOTEL — Agencia de Regulación y Control de las Telecomunicaciones: https://www.arcotel.gob.ec/"
+    ]
+  },
+  {
+    "iso2": "BO",
+    "callingCode": "+591",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "A XXXXXXX",
+      "international": "+591 A XXXXXXX"
+    },
+    "patterns": [
+      { "label": "La Paz, Oruro, Potosí (2)", "national": "2 XXXXXXX", "international": "+591 2 XXXXXXX" },
+      { "label": "Santa Cruz, Beni, Pando (3); Cochabamba, Chuquisaca, Tarija (4)", "national": "3 XXXXXXX", "international": "+591 3 XXXXXXX" },
+      { "label": "Mobile (6, 7)", "national": "7 XXXXXXX", "international": "+591 7 XXXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+59122123456", "international": "+591 2 212 3456", "national": "2 2123456", "note": "La Paz — area code 2 also covers Oruro and Potosí departments" },
+      { "type": "mobile", "e164": "+59171234567", "international": "+591 7 123 4567", "national": "7 1234567", "note": "Mobile — 6 and 7 are the mobile ranges" },
+      { "type": "fixed-line", "e164": "+59133123456", "international": "+591 3 312 3456", "national": "3 3123456", "note": "Santa Cruz — area code 3" }
+    ],
+    "notes": [
+      "Closed 8-digit plan; the leading digit is the area code (2, 3, 4 geographic; 5 national services; 6, 7 mobile).",
+      "Administered by the ATT (Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bolivia",
+      "ATT — Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes: https://www.att.gob.bo/"
+    ]
+  },
+  {
+    "iso2": "UY",
+    "callingCode": "+598",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX XXXX (fixed) / 9X XXX XXX (mobile)",
+      "international": "+598 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Montevideo fixed (2)", "national": "2XXX XXXX", "international": "+598 2XXX XXXX" },
+      { "label": "Fixed outside Montevideo (4)", "national": "4XXX XXXX", "international": "+598 4XXX XXXX" },
+      { "label": "Mobile (9X)", "national": "09X XXX XXX", "international": "+598 9X XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+59822045199", "international": "+598 2204 5199", "national": "2204 5199", "note": "Montevideo — the 2 prefix identifies the metropolitan area" },
+      { "type": "mobile", "e164": "+59899123456", "international": "+598 99 123 456", "national": "099 123 456", "note": "Mobile — 99 was an Antel range; portability means prefixes no longer identify the operator" },
+      { "type": "fixed-line", "e164": "+59843123456", "international": "+598 4312 3456", "national": "4312 3456", "note": "Fixed line outside Montevideo — the 4 prefix" }
+    ],
+    "notes": [
+      "Uruguay abolished area codes in 2010 and moved to a flat 8-digit plan with no trunk prefix.",
+      "Number portability means the leading digits of a mobile number no longer indicate the operator."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Uruguay",
+      "URSEC — Unidad Reguladora de Servicios de Comunicaciones: https://www.gub.uy/unidad-reguladora-servicios-comunicaciones/"
+    ]
+  },
+  {
+    "iso2": "PY",
+    "callingCode": "+595",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "(0AA) XXXXXX (landline) / (09XX) XXXXXX (mobile)",
+      "international": "+595 AA XXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Asunción (21)", "national": "(021) XXXXXX", "international": "+595 21 XXXXXX" },
+      { "label": "Other areas (2–3 digit area codes)", "national": "(0XXX) XXXXXX", "international": "+595 XXX XXXXXX" },
+      { "label": "Mobile — Claro (991–995), Personal (971–976), Tigo (981–985), VOX (961, 963)", "national": "(0991) XXXXXX", "international": "+595 991 XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+59521123456", "international": "+595 21 123456", "national": "(021) 123456", "note": "Asunción — area code 21" },
+      { "type": "mobile", "e164": "+595991123456", "international": "+595 991 123456", "national": "(0991) 123456", "note": "Mobile — 991 is a Claro Paraguay range" },
+      { "type": "mobile", "e164": "+595981123456", "international": "+595 981 123456", "national": "(0981) 123456", "note": "Mobile — 981 is a Tigo range" }
+    ],
+    "notes": [
+      "Area codes are 2–3 digits and subscriber numbers 6–7, so NSN length varies between 8 and 9 digits.",
+      "All mobile prefixes begin with 9."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Paraguay",
+      "CONATEL — Comisión Nacional de Telecomunicaciones: https://www.conatel.gov.py/"
+    ]
+  }
+]

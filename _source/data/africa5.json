@@ -1,0 +1,195 @@
+[
+  {
+    "iso2": "BJ",
+    "callingCode": "+229",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [10],
+    "formats": { "national": "01 YY XX XXXX", "international": "+229 01 YY XX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — Littoral/Atlantique incl. Cotonou (0121)", "national": "01 21 XX XXXX", "international": "+229 01 21 XX XXXX" },
+      { "label": "Mobile — MTN (0150–0159), Moov (0160–0169)", "national": "01 50 XX XXXX", "international": "+229 01 50 XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+2290121301234", "international": "+229 01 21 30 1234", "national": "01 21 30 1234", "note": "Cotonou — 21 is the Littoral/Atlantique code, 30 the Cadjehoun district" },
+      { "type": "mobile", "e164": "+2290150123456", "international": "+229 01 50 12 3456", "national": "01 50 12 3456", "note": "Mobile — the 50–59 block is MTN Benin" }
+    ],
+    "notes": [
+      "On 2024-11-30 Benin prefixed '01' to every number, taking the NSN from 8 to 10 digits. Older 8-digit Beninese numbers are no longer valid.",
+      "The leading 01 is part of the number, not a trunk prefix — it is dialled from abroad too."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Benin",
+      "ARCEP Bénin — Autorité de Régulation des Communications Électroniques et de la Poste: https://arcep.bj/"
+    ]
+  },
+  {
+    "iso2": "TG",
+    "callingCode": "+228",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XX XX XX XX", "international": "+228 XX XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line — Lomé (22)", "national": "22 XX XX XX", "international": "+228 22 XX XX XX" },
+      { "label": "Mobile — Togocel (70–73, 90–93), Moov (78, 79, 96–99)", "national": "70 XX XX XX", "international": "+228 70 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+22822123456", "international": "+228 22 12 34 56", "national": "22 12 34 56", "note": "Lomé — area code 22" },
+      { "type": "mobile", "e164": "+22870123456", "international": "+228 70 12 34 56", "national": "70 12 34 56", "note": "Mobile — 70 is a Togocel range" }
+    ],
+    "notes": [
+      "Closed 8-digit plan with no trunk prefix; numbers are written in pairs in the French style.",
+      "Mobile codes begin 7x or 9x with the second digit identifying the operator."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Togo",
+      "ARCEP Togo: https://arcep.tg/"
+    ]
+  },
+  {
+    "iso2": "GA",
+    "callingCode": "+241",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "0X XX XX XX", "international": "+241 0X XX XX XX (the leading 0 is kept)" },
+    "patterns": [
+      { "label": "Fixed line — Gabon Telecom (01)", "national": "01 XX XX XX", "international": "+241 01 XX XX XX" },
+      { "label": "Mobile — Libertis, Airtel, Moov (02–07)", "national": "02 XX XX XX", "international": "+241 02 XX XX XX" },
+      { "label": "Value-added services (8)", "national": "8X XX XX XX", "international": "+241 8X XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+24101441234", "international": "+241 01 44 12 34", "national": "01 44 12 34", "note": "Libreville — 01 is Gabon Telecom's fixed prefix, retained when dialling from abroad" },
+      { "type": "mobile", "e164": "+24102123456", "international": "+241 02 12 34 56", "national": "02 12 34 56", "note": "Mobile — 02 is a Libertis range" }
+    ],
+    "notes": [
+      "Gabon is one of the countries where the leading 0 is part of the number rather than a trunk prefix, so it must be dialled from abroad.",
+      "The plan was revised in 2012 and again on 2019-07-12."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Gabon",
+      "ARCEP Gabon: https://arcep.ga/"
+    ]
+  },
+  {
+    "iso2": "CG",
+    "callingCode": "+242",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "YY ZZ XXXXX", "international": "+242 YY ZZ XXXXX" },
+    "patterns": [
+      { "label": "Fixed line — Brazzaville (2228)", "national": "22 28 XXXXX", "international": "+242 22 28 XXXXX" },
+      { "label": "Mobile — MTN Congo (06), Airtel (05)", "national": "06 XX XXXXX", "international": "+242 06 XX XXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+242222812345", "international": "+242 22 28 12345", "national": "22 28 12345", "note": "Brazzaville — the 2228 fixed block serves the capital" },
+      { "type": "mobile", "e164": "+242061234567", "international": "+242 06 123 4567", "national": "06 123 4567", "note": "Mobile — 06 is an MTN Congo range" }
+    ],
+    "notes": [
+      "The Republic of the Congo (+242) is distinct from the Democratic Republic of the Congo (+243) — the two are frequently confused.",
+      "NSNs are 9 digits; mobile numbers keep their leading 0 when dialled internationally."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Republic_of_the_Congo",
+      "ARPCE Congo — Agence de Régulation des Postes et des Communications Électroniques: https://www.arpce.cg/"
+    ]
+  },
+  {
+    "iso2": "TD",
+    "callingCode": "+235",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XX XX XX XX", "international": "+235 XX XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line — N'Djamena (2251)", "national": "22 51 XX XX", "international": "+235 22 51 XX XX" },
+      { "label": "Mobile — Airtel (66), Moov (63), Sotel (9X)", "national": "66 XX XX XX", "international": "+235 66 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+23522511234", "international": "+235 22 51 12 34", "national": "22 51 12 34", "note": "N'Djamena — the 2251 block serves the capital" },
+      { "type": "mobile", "e164": "+23566123456", "international": "+235 66 12 34 56", "national": "66 12 34 56", "note": "Mobile — 66 is an Airtel Chad range" }
+    ],
+    "notes": [
+      "Closed 8-digit plan with no trunk prefix; the first four digits act as the area or operator code.",
+      "Numbers are written in pairs in the French style."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Chad",
+      "ARCEP Tchad: https://www.arcep.td/"
+    ]
+  },
+  {
+    "iso2": "DJ",
+    "callingCode": "+253",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XX XX XX XX", "international": "+253 XX XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line — Djibouti City (21)", "national": "21 XX XX XX", "international": "+253 21 XX XX XX" },
+      { "label": "Mobile — Djibouti Telecom (77)", "national": "77 XX XX XX", "international": "+253 77 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+25321123456", "international": "+253 21 12 34 56", "national": "21 12 34 56", "note": "Djibouti City and Balbala — the 21 fixed range" },
+      { "type": "mobile", "e164": "+25377123456", "international": "+253 77 12 34 56", "national": "77 12 34 56", "note": "Mobile — the 77 GSM range (Djibouti Telecom)" }
+    ],
+    "notes": [
+      "The first two digits define the service type and the next two the locality for fixed lines.",
+      "Closed 8-digit plan with no trunk prefix; numbers are written in pairs."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Djibouti",
+      "Djibouti Telecom: https://www.djiboutitelecom.dj/"
+    ]
+  },
+  {
+    "iso2": "SC",
+    "callingCode": "+248",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "X XXX XXX", "international": "+248 X XXX XXX" },
+    "patterns": [
+      { "label": "Fixed line — Cable & Wireless Seychelles (4XX XXXX)", "national": "4 XXX XXX", "international": "+248 4 XXX XXX" },
+      { "label": "Mobile — Airtel, Cable & Wireless (2XX XXXX)", "national": "2 XXX XXX", "international": "+248 2 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+2484201234", "international": "+248 4 201 234", "national": "4 201 234", "note": "Fixed line — the 4 prefix is Cable & Wireless Seychelles" },
+      { "type": "mobile", "e164": "+2482795678", "international": "+248 2 795 678", "national": "2 795 678", "note": "Mobile — the 2 prefix (Airtel Seychelles)" }
+    ],
+    "notes": [
+      "The numbering plan was revised in May 2011, moving to the current 7-digit format.",
+      "No trunk prefix or area codes; the leading digit identifies the service."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Seychelles",
+      "Department of Information Communications Technology, Seychelles: https://www.ict.gov.sc/"
+    ]
+  },
+  {
+    "iso2": "LR",
+    "callingCode": "+231",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": { "national": "XX XXX XXXX (variable)", "international": "+231 XX XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — LIBTELCO (2X)", "national": "2 XXXXXXX", "international": "+231 2 XXXXXXX" },
+      { "label": "Mobile — Orange (77X), Lonestar/MTN (88X)", "national": "77 XXXXXXX", "international": "+231 77 XXXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+23121234567", "international": "+231 2 123 4567", "national": "2 123 4567", "note": "Monrovia — the 2X fixed range operated by LIBTELCO" },
+      { "type": "mobile", "e164": "+231771234567", "international": "+231 77 123 4567", "national": "77 123 4567", "note": "Mobile — 77X is an Orange Liberia range" }
+    ],
+    "notes": [
+      "Liberian NSNs run 7–9 digits depending on the service, so length alone cannot validate a number.",
+      "Mobile numbers dominate; fixed-line coverage is limited."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Liberia",
+      "LTA — Liberia Telecommunications Authority: https://lta.gov.lr/"
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "iso2": "FJ",
+    "callingCode": "+679",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+679 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line (3, 5, 6)", "national": "33X XXXX", "international": "+679 33X XXXX" },
+      { "label": "Mobile (2, 7, 8, 9)", "national": "77X XXXX", "international": "+679 77X XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6793321234", "international": "+679 332 1234", "national": "332 1234", "note": "Suva CBD — 3 marks a fixed line, the second digit the locality" },
+      { "type": "mobile", "e164": "+6797712345", "international": "+679 771 2345", "national": "771 2345", "note": "Mobile — 7 is a Digicel Fiji range" }
+    ],
+    "notes": [
+      "Fiji has no area codes and no trunk prefix; the first digit indicates usage or location.",
+      "The international access prefix is 00 or 052 depending on the carrier."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Fiji",
+      "TAF — Telecommunications Authority of Fiji: https://www.taf.org.fj/"
+    ]
+  },
+  {
+    "iso2": "PG",
+    "callingCode": "+675",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7, 8],
+    "formats": { "national": "XXX XXXX (fixed) / XXXX XXXX (mobile)", "international": "+675 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — Port Moresby (300–303)", "national": "300 XXXX", "international": "+675 300 XXXX" },
+      { "label": "Mobile — Digicel (70–79, 88), bmobile (75–77), Vodafone (81–84)", "national": "70XX XXXX", "international": "+675 70XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6753001234", "international": "+675 300 1234", "national": "300 1234", "note": "Port Moresby — the 300–303 block serves the National Capital District" },
+      { "type": "mobile", "e164": "+67570123456", "international": "+675 7012 3456", "national": "7012 3456", "note": "Mobile — 8 digits, one more than a fixed line; 70–79 are Digicel PNG ranges" }
+    ],
+    "notes": [
+      "Fixed NSNs are 7 digits and mobile NSNs 8, so length distinguishes the two.",
+      "The international access prefix changed from 05 to 00 in 2010."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Papua_New_Guinea",
+      "NICTA — National Information and Communications Technology Authority: https://www.nicta.gov.pg/"
+    ]
+  },
+  {
+    "iso2": "PF",
+    "callingCode": "+689",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XX XX XX XX", "international": "+689 XX XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line — OPT (40–49)", "national": "40 XX XX XX", "international": "+689 40 XX XX XX" },
+      { "label": "Mobile — VINI (87), VITI (88), Pacific Mobile Telecom (89)", "national": "87 XX XX XX", "international": "+689 87 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+68940123456", "international": "+689 40 12 34 56", "national": "40 12 34 56", "note": "Fixed line — the 40–49 range is operated by OPT" },
+      { "type": "mobile", "e164": "+68987123456", "international": "+689 87 12 34 56", "national": "87 12 34 56", "note": "Mobile — 87 is a VINI range" }
+    ],
+    "notes": [
+      "French Polynesia has used a closed 8-digit plan since 2014, replacing the earlier 6-digit numbers.",
+      "No trunk prefix; numbers are written in pairs in the French style."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_French_Polynesia",
+      "OPT French Polynesia: https://www.opt.pf/"
+    ]
+  },
+  {
+    "iso2": "NC",
+    "callingCode": "+687",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [6],
+    "formats": { "national": "XX XX XX", "international": "+687 XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line (20–29, 30–35, 41–47)", "national": "20 XX XX", "international": "+687 20 XX XX" },
+      { "label": "Mobile (70, 73–79, 80–87, 89–99)", "national": "70 XX XX", "international": "+687 70 XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+687201234", "international": "+687 20 12 34", "national": "20 12 34", "note": "Fixed line — the 2x range serves the PSTN" },
+      { "type": "mobile", "e164": "+687701234", "international": "+687 70 12 34", "national": "70 12 34", "note": "Mobile — the 7x–9x ranges (Mobilis)" }
+    ],
+    "notes": [
+      "New Caledonia keeps a short 6-digit plan with no trunk prefix or area codes.",
+      "Leading digits classify the service: 2–4 fixed, 7–9 mobile."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_New_Caledonia",
+      "OPT-NC — Office des Postes et Télécommunications de Nouvelle-Calédonie: https://www.opt.nc/"
+    ]
+  },
+  {
+    "iso2": "WS",
+    "callingCode": "+685",
+    "trunkPrefix": "",
+    "internationalPrefix": "0",
+    "nsnLengths": [],
+    "formats": { "national": "XX XXX / XXX XXXX (variable)", "international": "+685 XX XXX" },
+    "patterns": [
+      { "label": "Fixed line (2–6)", "national": "20 XXX", "international": "+685 20 XXX" },
+      { "label": "Mobile (7X, 83–87, 89)", "national": "72 XX XXX", "international": "+685 72 XX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+68520123", "international": "+685 20 123", "national": "20 123", "note": "Apia — 5-digit fixed line in the 2x range" },
+      { "type": "mobile", "e164": "+6857201234", "international": "+685 7201 234", "national": "7201 234", "note": "Mobile — 7x ranges, 7 digits" }
+    ],
+    "notes": [
+      "Samoa has a genuinely variable plan: NSNs run from about 3 to 7 digits depending on the service, so length cannot validate a Samoan number.",
+      "Numbers beginning 2–6 are mainly fixed; 7, 83–87 and 89 are cellular and special services."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Samoa",
+      "Office of the Regulator, Samoa: https://www.regulator.gov.ws/"
+    ]
+  },
+  {
+    "iso2": "VU",
+    "callingCode": "+678",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": { "national": "XX XXX (fixed) / XX XXXXX (mobile)", "international": "+678 XX XXX" },
+    "patterns": [
+      { "label": "Fixed line (2X — Telecom Vanuatu)", "national": "20 XXXX", "international": "+678 20 XXXX" },
+      { "label": "Mobile (5X, 7X — Telecom Vanuatu, Digicel)", "national": "70 XXXXX", "international": "+678 70 XXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+678201234", "international": "+678 20 1234", "national": "20 1234", "note": "Fixed line — the 2x range is Telecom Vanuatu" },
+      { "type": "mobile", "e164": "+6787012345", "international": "+678 70 12345", "national": "70 12345", "note": "Mobile — 7x ranges; mobile numbers are one digit longer than fixed" }
+    ],
+    "notes": [
+      "Vanuatu NSNs vary from 5 to 7 digits by service, so length is not a reliable validator.",
+      "National destination codes are allocated per operator (Telecom Vanuatu, Digicel Vanuatu)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Vanuatu",
+      "TRBR — Telecommunications, Radiocommunications and Broadcasting Regulator: https://www.trbr.vu/"
+    ]
+  },
+  {
+    "iso2": "SB",
+    "callingCode": "+677",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [5, 7],
+    "formats": { "national": "XXXXX (fixed) / XXX XXXX (mobile)", "international": "+677 XXXXX" },
+    "patterns": [
+      { "label": "Fixed line — Honiara (1xxxx)", "national": "XXXXX", "international": "+677 XXXXX" },
+      { "label": "Mobile (74xxxxx, 75xxxxx, 7xxxxxx)", "national": "740 XXXX", "international": "+677 740 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+67721234", "international": "+677 21234", "national": "21234", "note": "Honiara — fixed lines are 5 digits" },
+      { "type": "mobile", "e164": "+6777401234", "international": "+677 740 1234", "national": "740 1234", "note": "Mobile — 7 digits, in the 74xxxxx prepaid range" }
+    ],
+    "notes": [
+      "Fixed NSNs are 5 digits and mobile NSNs 7.",
+      "Honiara holds several dedicated fixed blocks; regional centres such as Auki, Gizo and Lata have their own."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Solomon_Islands",
+      "Telecommunications Commission of Solomon Islands: https://www.tcsi.org.sb/"
+    ]
+  },
+  {
+    "iso2": "TO",
+    "callingCode": "+676",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [5, 7],
+    "formats": { "national": "XX XXX", "international": "+676 XX XXX" },
+    "patterns": [
+      { "label": "Fixed line — Nukuʻalofa (20–29)", "national": "20 XXX", "international": "+676 20 XXX" },
+      { "label": "Mobile (77, 84, 87, 88)", "national": "87 XXX", "international": "+676 87 XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+67620123", "international": "+676 20 123", "national": "20 123", "note": "Nukuʻalofa — area code 20" },
+      { "type": "mobile", "e164": "+67687456", "international": "+676 87 456", "national": "87 456", "note": "Mobile — Tongatapu island group, prefix 87" }
+    ],
+    "notes": [
+      "Tonga uses a short 5-digit NSN: a 2-digit area code plus a 3-digit local number. Some newer mobile ranges have been extended to 7 digits.",
+      "No trunk prefix — the full number is dialled for every domestic call."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tonga",
+      "Ministry of MEIDECC, Department of Communications, Tonga: https://www.meidecc.gov.to/"
+    ]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "iso2": "CN",
+    "callingCode": "+86",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0AA-XXXXXXXX (landline) / 1XX-XXXX-XXXX (mobile)",
+      "international": "+86 AA XXXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Beijing (10), Shanghai (21) — 2-digit area codes", "national": "010-XXXXXXXX", "international": "+86 10 XXXXXXXX" },
+      { "label": "Other cities — 3-digit area codes", "national": "0XXX-XXXXXXX", "international": "+86 XXX XXXXXXX" },
+      { "label": "Mobile (11 digits, always begins with 1)", "national": "1XX XXXX XXXX", "international": "+86 1XX XXXX XXXX" },
+      { "label": "Service numbers", "national": "400-XXX-XXXX / 800-XXX-XXXX", "international": "+86 400 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+861012345678", "international": "+86 10 1234 5678", "national": "010-12345678", "note": "Beijing — 2-digit area code 10" },
+      { "type": "fixed-line", "e164": "+862112345678", "international": "+86 21 1234 5678", "national": "021-12345678", "note": "Shanghai — 2-digit area code 21" },
+      { "type": "mobile", "e164": "+8613812345678", "international": "+86 138 1234 5678", "national": "138 1234 5678", "note": "Mobile — always 11 digits beginning with 1; 138 is a China Mobile range" },
+      { "type": "toll-free", "e164": "+864001234567", "international": "+86 400 123 4567", "national": "400-123-4567", "note": "Shared-cost service number; 800 is the true freephone range" }
+    ],
+    "notes": [
+      "Landlines carry area codes (2 digits for the largest cities, 3 elsewhere) but mobile numbers do not — a mobile number is always a flat 11 digits starting with 1.",
+      "Because landline NSN length varies with area-code length, length alone cannot validate a Chinese number.",
+      "400 numbers are shared-cost (the caller pays a local rate); 800 numbers are true freephone but are often unreachable from mobiles."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_China",
+      "MIIT — Ministry of Industry and Information Technology: https://www.miit.gov.cn/"
+    ]
+  },
+  {
+    "iso2": "JP",
+    "callingCode": "+81",
+    "trunkPrefix": "0",
+    "internationalPrefix": "010",
+    "nsnLengths": [9, 10],
+    "formats": {
+      "national": "0A-XXXX-XXXX (major cities) / 0AAAA-XX-XXXX (rural)",
+      "international": "+81 A XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Tokyo (03), Osaka (06)", "national": "03-XXXX-XXXX", "international": "+81 3 XXXX XXXX" },
+      { "label": "Regional (2–5 digit area codes)", "national": "0XX-XXX-XXXX", "international": "+81 XX XXX XXXX" },
+      { "label": "Mobile (070, 080, 090)", "national": "090-XXXX-XXXX", "international": "+81 90 XXXX XXXX" },
+      { "label": "Toll-free (free dial)", "national": "0120-XXX-XXX", "international": "+81 120 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+81312345678", "international": "+81 3 1234 5678", "national": "03-1234-5678", "note": "Tokyo — area code 3, the shortest in Japan" },
+      { "type": "fixed-line", "e164": "+81612345678", "international": "+81 6 1234 5678", "national": "06-1234-5678", "note": "Osaka — area code 6" },
+      { "type": "mobile", "e164": "+819012345678", "international": "+81 90 1234 5678", "national": "090-1234-5678", "note": "Mobile — 070, 080 and 090 are the mobile prefixes" },
+      { "type": "toll-free", "e164": "+81120123456", "international": "+81 120 123 456", "national": "0120-123-456", "note": "Free dial (フリーダイヤル)" }
+    ],
+    "notes": [
+      "Japan's international access prefix is 010, not 00.",
+      "Area code length is inversely proportional to population density: Tokyo is a single digit (3), while rural areas run to five digits. The subscriber number shrinks to compensate.",
+      "Area codes increase roughly north to south — Sapporo 11, Kagoshima 99.",
+      "Numbers are conventionally written with hyphens."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Japan",
+      "MIC — Ministry of Internal Affairs and Communications: https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/tel_number/"
+    ]
+  },
+  {
+    "iso2": "KR",
+    "callingCode": "+82",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00X (carrier-selected, e.g. 001, 002, 00700)",
+    "nsnLengths": [8, 9, 10],
+    "formats": {
+      "national": "0A-XXX-XXXX (Seoul) / 0AA-XXX-XXXX (elsewhere)",
+      "international": "+82 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Seoul (02)", "national": "02-XXX-XXXX", "international": "+82 2 XXX XXXX" },
+      { "label": "Busan (051), Incheon (032), Daegu (053)", "national": "051-XXX-XXXX", "international": "+82 51 XXX XXXX" },
+      { "label": "Mobile (010)", "national": "010-XXXX-XXXX", "international": "+82 10 XXXX XXXX" },
+      { "label": "Nationwide single number", "national": "1577-XXXX", "international": "+82 1577 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+8223123456", "international": "+82 2 312 3456", "national": "02-312-3456", "note": "Seoul — area code 02, the only single-digit code" },
+      { "type": "fixed-line", "e164": "+82511234567", "international": "+82 51 123 4567", "national": "051-123-4567", "note": "Busan — area code 051" },
+      { "type": "mobile", "e164": "+821012345678", "international": "+82 10 1234 5678", "national": "010-1234-5678", "note": "Mobile — since 2004-01-01 all South Korean mobiles use the single 010 prefix" }
+    ],
+    "notes": [
+      "Since 2004 every South Korean mobile number uses the 010 prefix regardless of carrier, replacing the old per-operator prefixes (011, 016, 017, 018, 019).",
+      "The international access prefix is carrier-selected — 001, 002, 00700 and others all work and are billed differently.",
+      "Seoul has the single-digit area code 2; other regions have two digits."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_South_Korea",
+      "KCC — Korea Communications Commission: https://www.kcc.go.kr/"
+    ]
+  },
+  {
+    "iso2": "IN",
+    "callingCode": "+91",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "0AA-XXXX-XXXX (STD code + subscriber number, 10 digits total)",
+      "international": "+91 AA XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Metro STD codes — Delhi (11), Mumbai (22), Kolkata (33), Chennai (44)", "national": "011-XXXX-XXXX", "international": "+91 11 XXXX XXXX" },
+      { "label": "Second-tier cities — Jaipur (141), Lucknow (522)", "national": "0141-XXX-XXXX", "international": "+91 141 XXX XXXX" },
+      { "label": "Mobile (starts 6, 7, 8 or 9)", "national": "9XXXX XXXXX", "international": "+91 9XXXX XXXXX" },
+      { "label": "Toll-free", "national": "1800-XXX-XXXX", "international": "+91 1800 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+911123456789", "international": "+91 11 2345 6789", "national": "011-2345-6789", "note": "Delhi — STD code 11" },
+      { "type": "fixed-line", "e164": "+912223456789", "international": "+91 22 2345 6789", "national": "022-2345-6789", "note": "Mumbai — STD code 22" },
+      { "type": "mobile", "e164": "+919812345678", "international": "+91 98123 45678", "national": "98123 45678", "note": "Mobile — 10 digits beginning 6, 7, 8 or 9; operator-independent since number portability" },
+      { "type": "fixed-line", "e164": "+911412345678", "international": "+91 141 234 5678", "national": "0141-234-5678", "note": "Jaipur — 3-digit STD code 141" }
+    ],
+    "notes": [
+      "India runs a closed 10-digit plan: the STD (area) code plus subscriber number always totals 10 digits, so a 2-digit metro code leaves 8 subscriber digits while an 8-digit rural code leaves 2.",
+      "Mobile numbers are 10 digits beginning with 6, 7, 8 or 9 and carry no area code.",
+      "Governed by the National Numbering Plan 2003 under the Department of Telecommunications."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_India",
+      "DoT — National Numbering Plan: https://dot.gov.in/"
+    ]
+  },
+  {
+    "iso2": "ID",
+    "callingCode": "+62",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0AA-XXXX-XXXX (landline) / 08XX-XXXX-XXXX (mobile)",
+      "international": "+62 AA XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Jakarta (21), Surabaya (31), Bandung (22)", "national": "021-XXXX-XXXX", "international": "+62 21 XXXX XXXX" },
+      { "label": "Other regions (3-digit area codes)", "national": "0XXX-XXXXXX", "international": "+62 XXX XXXXXX" },
+      { "label": "Mobile (8XX)", "national": "08XX-XXXX-XXXX", "international": "+62 8XX XXXX XXXX" },
+      { "label": "Toll-free", "national": "0800-1-XXXXXX", "international": "+62 800 1 XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+622112345678", "international": "+62 21 1234 5678", "national": "021-1234-5678", "note": "Jakarta — area code 21" },
+      { "type": "fixed-line", "e164": "+62311234567", "international": "+62 31 123 4567", "national": "031-123-4567", "note": "Surabaya — area code 31" },
+      { "type": "mobile", "e164": "+6281234567890", "international": "+62 812 3456 7890", "national": "0812-3456-7890", "note": "Mobile — 8XX ranges; 812 is a Telkomsel range" }
+    ],
+    "notes": [
+      "Landlines carry area codes (2 digits for the largest cities, 3 elsewhere); mobile numbers do not.",
+      "Mobile subscriber numbers vary in length by operator, giving NSNs of roughly 9–12 digits, so length-based validation is unreliable."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Indonesia",
+      "Kominfo — Ministry of Communication and Informatics: https://www.komdigi.go.id/"
+    ]
+  },
+  {
+    "iso2": "PK",
+    "callingCode": "+92",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "(0AA) XXXXXXXX (landline) / 03XX-XXXXXXX (mobile)",
+      "international": "+92 AA XXXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Karachi (21), Lahore (42), Islamabad (51)", "national": "(021) XXXXXXXX", "international": "+92 21 XXXXXXXX" },
+      { "label": "Smaller cities (3–5 digit area codes)", "national": "(0XXX) XXXXXX", "international": "+92 XXX XXXXXX" },
+      { "label": "Mobile (03XX)", "national": "03XX-XXXXXXX", "international": "+92 3XX XXXXXXX" },
+      { "label": "Toll-free", "national": "0800-XXXXX", "international": "+92 800 XXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+922112345678", "international": "+92 21 1234 5678", "national": "(021) 12345678", "note": "Karachi — area code 21" },
+      { "type": "fixed-line", "e164": "+924212345678", "international": "+92 42 1234 5678", "national": "(042) 12345678", "note": "Lahore — area code 42" },
+      { "type": "mobile", "e164": "+923001234567", "international": "+92 300 1234567", "national": "0300-1234567", "note": "Mobile — 0300 is a Jazz range; 0310 Zong, 0330 Ufone, 0340 Telenor" }
+    ],
+    "notes": [
+      "Landline area codes are 2–5 digits; the largest cities have the shortest codes.",
+      "All mobile numbers begin 03 and are 10 digits in NSN form.",
+      "Toll-free 0800 numbers have shorter NSNs (8 digits) than the 10-digit norm."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Pakistan",
+      "PTA — Pakistan Telecommunication Authority: https://www.pta.gov.pk/"
+    ]
+  },
+  {
+    "iso2": "BD",
+    "callingCode": "+880",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0A-XXXXXXXX (landline) / 01XXX-XXXXXX (mobile)",
+      "international": "+880 A XXXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Dhaka (2)", "national": "02-XXXXXXXX", "international": "+880 2 XXXXXXXX" },
+      { "label": "Other districts (2–4 digit area codes)", "national": "0XXX-XXXXXX", "international": "+880 XXX XXXXXX" },
+      { "label": "Mobile (013, 014, 015, 016, 017, 018, 019)", "national": "01XXX-XXXXXX", "international": "+880 1XXX XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+880212345678", "international": "+880 2 1234 5678", "national": "02-12345678", "note": "Dhaka — area code 2, operated by BTCL" },
+      { "type": "mobile", "e164": "+8801712345678", "international": "+880 1712 345678", "national": "01712-345678", "note": "Mobile — 017 and 013 are Grameenphone ranges" },
+      { "type": "mobile", "e164": "+8801812345678", "international": "+880 1812 345678", "national": "01812-345678", "note": "Mobile — 018 is a Robi Axiata range" }
+    ],
+    "notes": [
+      "All Bangladeshi mobile numbers begin with 01; the following two digits identify the original operator (013/017 Grameenphone, 014/019 Banglalink, 018 Robi Axiata, 015 Teletalk, 016 Airtel).",
+      "Landline area codes are 2–4 digits with variable subscriber lengths, so NSN length varies.",
+      "The national numbering plan was last revised on 2017-07-31."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bangladesh",
+      "BTRC — Bangladesh Telecommunication Regulatory Commission: https://btrc.gov.bd/"
+    ]
+  },
+  {
+    "iso2": "PH",
+    "callingCode": "+63",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9, 10],
+    "formats": {
+      "national": "0AA-XXX-XXXX (landline) / 09XX-XXX-XXXX (mobile)",
+      "international": "+63 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Metro Manila (2) — 8-digit subscriber numbers", "national": "02-XXXX-XXXX", "international": "+63 2 XXXX XXXX" },
+      { "label": "Other areas (2–3 digit area codes)", "national": "0XX-XXX-XXXX", "international": "+63 XX XXX XXXX" },
+      { "label": "Mobile (9XX)", "national": "09XX-XXX-XXXX", "international": "+63 9XX XXX XXXX" },
+      { "label": "Toll-free", "national": "1800-X-XXX-XXXX", "international": "+63 1800 X XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+63281234567", "international": "+63 2 8123 4567", "national": "02-8123-4567", "note": "Metro Manila — area code 2, expanded to 8-digit subscriber numbers in 2019" },
+      { "type": "fixed-line", "e164": "+63321234567", "international": "+63 32 123 4567", "national": "032-123-4567", "note": "Cebu — area code 32" },
+      { "type": "mobile", "e164": "+639171234567", "international": "+63 917 123 4567", "national": "0917-123-4567", "note": "Mobile — 0917 is a Globe Telecom range" }
+    ],
+    "notes": [
+      "The Philippines uses an open plan: within the same area code the area code is normally omitted from landline-to-landline calls.",
+      "Metro Manila landlines were expanded from 7 to 8 subscriber digits in 2019, so older 7-digit Manila numbers are no longer valid.",
+      "All mobile numbers are 10 digits in NSN form and begin with 9."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Philippines",
+      "NTC — National Telecommunications Commission: https://ntc.gov.ph/"
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "iso2": "NG",
+    "callingCode": "+234",
+    "trunkPrefix": "0",
+    "internationalPrefix": "009",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "0AAA XXX XXXX (landline) / 0AAA XXX XXXX (mobile)",
+      "international": "+234 AAA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Lagos (0201)", "national": "0201 XXX XXXX", "international": "+234 201 XXX XXXX" },
+      { "label": "Abuja (0209)", "national": "0209 XXX XXXX", "international": "+234 209 XXX XXXX" },
+      { "label": "Mobile (070X, 080X, 081X, 090X, 091X)", "national": "0803 XXX XXXX", "international": "+234 803 XXX XXXX" },
+      { "label": "Toll-free", "national": "0800 XXX XXXX", "international": "+234 800 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+2342012345678", "international": "+234 201 234 5678", "national": "0201 234 5678", "note": "Lagos — '20' was prepended to every fixed-line area code in 2023, so the old 01 became 0201" },
+      { "type": "mobile", "e164": "+2348031234567", "international": "+234 803 123 4567", "national": "0803 123 4567", "note": "Mobile — 0803 is an MTN Nigeria range, though portability makes this indicative only" },
+      { "type": "toll-free", "e164": "+2348001234567", "international": "+234 800 123 4567", "national": "0800 123 4567", "note": "Toll-free" }
+    ],
+    "notes": [
+      "Nigeria renumbered fixed lines in 2023 by prefixing '20' to every geographic area code; the grace period for the old codes ended on 2024-01-01.",
+      "The international access prefix is 009, not 00.",
+      "Mobile numbers are 11 digits nationally including the trunk 0."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Nigeria",
+      "NCC — Nigerian Communications Commission: https://www.ncc.gov.ng/"
+    ]
+  },
+  {
+    "iso2": "ZA",
+    "callingCode": "+27",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XXXX",
+      "international": "+27 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Johannesburg / Gauteng (011)", "national": "011 XXX XXXX", "international": "+27 11 XXX XXXX" },
+      { "label": "Cape Town / Western Cape (021), Durban / KZN (031)", "national": "021 XXX XXXX", "international": "+27 21 XXX XXXX" },
+      { "label": "Mobile (060–069, 071–079, 081–084)", "national": "082 XXX XXXX", "international": "+27 82 XXX XXXX" },
+      { "label": "Toll-free", "national": "0800 XXX XXX", "international": "+27 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+27111234567", "international": "+27 11 123 4567", "national": "011 123 4567", "note": "Johannesburg — area code 011" },
+      { "type": "fixed-line", "e164": "+27211234567", "international": "+27 21 123 4567", "national": "021 123 4567", "note": "Cape Town — area code 021" },
+      { "type": "mobile", "e164": "+27821234567", "international": "+27 82 123 4567", "national": "082 123 4567", "note": "Mobile — 082 is a Vodacom range" },
+      { "type": "toll-free", "e164": "+27800123456", "international": "+27 800 123 456", "national": "0800 123 456", "note": "Toll-free" }
+    ],
+    "notes": [
+      "South Africa moved to a closed numbering plan on 2007-01-16: the full 10-digit national form (trunk 0 + 9-digit NSN) is required even for local calls.",
+      "Administered by ICASA."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_South_Africa",
+      "ICASA — Independent Communications Authority of South Africa: https://www.icasa.org.za/"
+    ]
+  },
+  {
+    "iso2": "KE",
+    "callingCode": "+254",
+    "trunkPrefix": "0",
+    "internationalPrefix": "000",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXXXXXX (landline) / 07XX XXXXXX (mobile)",
+      "international": "+254 AA XXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Nairobi (020)", "national": "020 XXXXXXX", "international": "+254 20 XXXXXXX" },
+      { "label": "Other regions (area codes 20–69)", "national": "0XX XXXXXX", "international": "+254 XX XXXXXX" },
+      { "label": "Mobile (701–799)", "national": "0722 XXXXXX", "international": "+254 722 XXXXXX" },
+      { "label": "Toll-free", "national": "0800 XXXXXX", "international": "+254 800 XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+254201234567", "international": "+254 20 1234567", "national": "020 1234567", "note": "Nairobi — area code 20" },
+      { "type": "mobile", "e164": "+254722123456", "international": "+254 722 123456", "national": "0722 123456", "note": "Mobile — 722 is a Safaricom range" },
+      { "type": "toll-free", "e164": "+254800123456", "international": "+254 800 123456", "national": "0800 123456", "note": "Toll-free within Kenya" }
+    ],
+    "notes": [
+      "The international access prefix is 000.",
+      "Landline area codes 20–69 map to geographic regions; mobile prefixes 701–799 are nationwide and portable since 2011."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kenya",
+      "CAK — Communications Authority of Kenya: https://www.ca.go.ke/"
+    ]
+  },
+  {
+    "iso2": "GH",
+    "callingCode": "+233",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XXXX",
+      "international": "+233 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Greater Accra (030)", "national": "030 2XXXXXX", "international": "+233 30 2XXXXXX" },
+      { "label": "Kumasi / Ashanti (032)", "national": "032 XXXXXXX", "international": "+233 32 XXXXXXX" },
+      { "label": "Mobile (020, 023, 024, 026, 027, 028, 050, 054, 055, 059)", "national": "024 XXX XXXX", "international": "+233 24 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+233302123456", "international": "+233 30 2123456", "national": "030 2123456", "note": "Accra — regional code 030 with '2' designating Accra itself" },
+      { "type": "mobile", "e164": "+233241234567", "international": "+233 24 123 4567", "national": "024 123 4567", "note": "Mobile — 024 is an MTN Ghana range" },
+      { "type": "mobile", "e164": "+233201234567", "international": "+233 20 123 4567", "national": "020 123 4567", "note": "Mobile — 020 range" }
+    ],
+    "notes": [
+      "Since 2010-05-01 all Ghanaian fixed and mobile numbers have a uniform 9-digit NSN.",
+      "Administered by the National Communications Authority."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Ghana",
+      "NCA — National Communications Authority of Ghana: https://nca.org.gh/"
+    ]
+  },
+  {
+    "iso2": "ET",
+    "callingCode": "+251",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XXXX",
+      "international": "+251 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Addis Ababa (011)", "national": "011 XXX XXXX", "international": "+251 11 XXX XXXX" },
+      { "label": "Regional (area codes 22–58)", "national": "0XX XXX XXXX", "international": "+251 XX XXX XXXX" },
+      { "label": "Mobile — Ethio telecom (09X)", "national": "091 XXX XXXX", "international": "+251 91 XXX XXXX" },
+      { "label": "Mobile — Safaricom Ethiopia (07X)", "national": "070 XXX XXXX", "international": "+251 70 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+251111112345", "international": "+251 11 111 2345", "national": "011 111 2345", "note": "Addis Ababa — area code 11" },
+      { "type": "mobile", "e164": "+251911234567", "international": "+251 91 123 4567", "national": "091 123 4567", "note": "Mobile — 9X denotes Ethio telecom" },
+      { "type": "mobile", "e164": "+251701234567", "international": "+251 70 123 4567", "national": "070 123 4567", "note": "Mobile — 7X denotes Safaricom Ethiopia" }
+    ],
+    "notes": [
+      "Closed 9-digit plan; area codes were revised in 2005 with Addis Ababa on 11 and regional codes running 22–58.",
+      "The first digit of a mobile number identifies the operator: 9 Ethio telecom, 7 Safaricom Ethiopia."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Ethiopia",
+      "ECA — Ethiopian Communications Authority: https://eca.et/"
+    ]
+  },
+  {
+    "iso2": "TZ",
+    "callingCode": "+255",
+    "trunkPrefix": "0",
+    "internationalPrefix": "000",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XXXX",
+      "international": "+255 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Dar es Salaam (022)", "national": "022 XXX XXXX", "international": "+255 22 XXX XXXX" },
+      { "label": "Other regions (2X, 4X geographic)", "national": "0XX XXX XXXX", "international": "+255 XX XXX XXXX" },
+      { "label": "Mobile (06X, 07X)", "national": "074 XXX XXXX", "international": "+255 74 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+255221234567", "international": "+255 22 123 4567", "national": "022 123 4567", "note": "Dar es Salaam — area code 22" },
+      { "type": "mobile", "e164": "+255741234567", "international": "+255 74 123 4567", "national": "074 123 4567", "note": "Mobile — 74 is a Vodacom Tanzania range" },
+      { "type": "mobile", "e164": "+255651234567", "international": "+255 65 123 4567", "national": "065 123 4567", "note": "Mobile — 65 range" }
+    ],
+    "notes": [
+      "Tanzania adopted its own numbering plan in 1999, replacing a system shared with Kenya and Uganda.",
+      "Zanzibar is part of Tanzania and uses the same +255 plan (area code 024).",
+      "The international access prefix is 000."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tanzania",
+      "TCRA — Tanzania Communications Regulatory Authority: https://www.tcra.go.tz/"
+    ]
+  },
+  {
+    "iso2": "UG",
+    "callingCode": "+256",
+    "trunkPrefix": "0",
+    "internationalPrefix": "000",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XXXX",
+      "international": "+256 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Kampala (041)", "national": "041 XXX XXXX", "international": "+256 41 XXX XXXX" },
+      { "label": "Other regions (2-digit area codes)", "national": "0XX XXX XXXX", "international": "+256 XX XXX XXXX" },
+      { "label": "Mobile (07X)", "national": "077 XXX XXXX", "international": "+256 77 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+256411234567", "international": "+256 41 123 4567", "national": "041 123 4567", "note": "Kampala — area code 41" },
+      { "type": "mobile", "e164": "+256771234567", "international": "+256 77 123 4567", "national": "077 123 4567", "note": "Mobile — 77 is an MTN Uganda range" },
+      { "type": "mobile", "e164": "+256701234567", "international": "+256 70 123 4567", "national": "070 123 4567", "note": "Mobile — 70 range" }
+    ],
+    "notes": [
+      "Closed 9-digit plan requiring the full number for domestic calls.",
+      "The international access prefix is 000."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Uganda",
+      "UCC — Uganda Communications Commission: https://www.ucc.co.ug/"
+    ]
+  },
+  {
+    "iso2": "DZ",
+    "callingCode": "+213",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0AA XX XX XX (landline) / 0AXX XX XX XX (mobile)",
+      "international": "+213 AA XX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Algiers (021, 023)", "national": "021 XX XX XX", "international": "+213 21 XX XX XX" },
+      { "label": "Other wilayas (2-digit area codes)", "national": "0XX XX XX XX", "international": "+213 XX XX XX XX" },
+      { "label": "Mobile — Ooredoo (05), Mobilis (06), Djezzy (07)", "national": "05XX XX XX XX", "international": "+213 5XX XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+21321123456", "international": "+213 21 12 34 56", "national": "021 12 34 56", "note": "Algiers — area codes 021 and 023" },
+      { "type": "mobile", "e164": "+213550123456", "international": "+213 550 12 34 56", "national": "0550 12 34 56", "note": "Mobile — 05 denotes Ooredoo" },
+      { "type": "mobile", "e164": "+213660123456", "international": "+213 660 12 34 56", "national": "0660 12 34 56", "note": "Mobile — 06 denotes Mobilis" }
+    ],
+    "notes": [
+      "Landline NSNs are 8 digits and mobile NSNs 9, so length distinguishes the two.",
+      "The digit after the trunk 0 identifies the mobile operator: 5 Ooredoo, 6 Mobilis, 7 Djezzy.",
+      "Numbers are conventionally written in pairs in the French style."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Algeria",
+      "ARPCE — Autorité de Régulation de la Poste et des Communications Électroniques: https://www.arpce.dz/"
+    ]
+  }
+]

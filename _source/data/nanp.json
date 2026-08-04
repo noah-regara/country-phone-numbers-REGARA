@@ -1,0 +1,1258 @@
+[
+  {
+    "iso2": "US",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "201–989 (hundreds of area codes)"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+12127361234",
+        "international": "+1 212 736 1234",
+        "national": "(212) 736-1234",
+        "note": "New York City, NY — area code 212 covers Manhattan"
+      },
+      {
+        "type": "fixed-line",
+        "e164": "+14156261234",
+        "international": "+1 415 626 1234",
+        "national": "(415) 626-1234",
+        "note": "San Francisco, CA — area code 415"
+      },
+      {
+        "type": "toll-free",
+        "e164": "+18005551234",
+        "international": "+1 800 555 1234",
+        "national": "(800) 555-1234",
+        "note": "Toll-free — 800/888/877/866/855/844/833 are shared NANP-wide"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "The United States uses hundreds of area codes; 212 (Manhattan) and 415 (San Francisco) are shown as representative examples.",
+      "NANP numbers give no indication of whether a line is mobile or fixed — US mobile numbers are drawn from the same geographic area codes as landlines.",
+      "555-0100 through 555-0199 are reserved NANP-wide for fictional use in film and television."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "CA",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "204, 226, 416, 604, 905 and many others"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+14163631234",
+        "international": "+1 416 363 1234",
+        "national": "(416) 363-1234",
+        "note": "Toronto, ON — area code 416"
+      },
+      {
+        "type": "fixed-line",
+        "e164": "+16046821234",
+        "international": "+1 604 682 1234",
+        "national": "(604) 682-1234",
+        "note": "Vancouver, BC — area code 604"
+      },
+      {
+        "type": "toll-free",
+        "e164": "+18005551234",
+        "international": "+1 800 555 1234",
+        "national": "(800) 555-1234",
+        "note": "Toll-free — shared with the rest of the NANP"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Canada shares the +1 country code and the entire NANP format with the United States; the two are not separable by number format alone.",
+      "Mobile and fixed lines share the same geographic area codes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "PR",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "787",
+      "939"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+17877211234",
+        "international": "+1 787 721 1234",
+        "national": "(787) 721-1234",
+        "note": "San Juan — 787 is the original Puerto Rico area code"
+      },
+      {
+        "type": "fixed-line",
+        "e164": "+19395551234",
+        "international": "+1 939 555 1234",
+        "national": "(939) 555-1234",
+        "note": "Puerto Rico — 939 is the overlay area code added in 2001"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Puerto Rico uses two overlaid area codes, 787 and 939; ten-digit dialling is mandatory."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "VI",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "340"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+13407741234",
+        "international": "+1 340 774 1234",
+        "national": "(340) 774-1234",
+        "note": "Charlotte Amalie, St. Thomas"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "The US Virgin Islands use the single area code 340, assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "GU",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "671"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+16714721234",
+        "international": "+1 671 472 1234",
+        "national": "(671) 472-1234",
+        "note": "Hagåtña"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Guam joined the NANP in 1997, moving from country code +671 to +1 671."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "AS",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "684"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+16846331234",
+        "international": "+1 684 633 1234",
+        "national": "(684) 633-1234",
+        "note": "Pago Pago"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "American Samoa joined the NANP in 2004, moving from country code +684 to +1 684."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "MP",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "670"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+16702341234",
+        "international": "+1 670 234 1234",
+        "national": "(670) 234-1234",
+        "note": "Saipan"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "The Northern Mariana Islands joined the NANP in 1997."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "BS",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "242"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+12423021234",
+        "international": "+1 242 302 1234",
+        "national": "(242) 302-1234",
+        "note": "Nassau, New Providence"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "The Bahamas use the single area code 242, assigned in 1996 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "BB",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "246"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+12462271234",
+        "international": "+1 246 227 1234",
+        "national": "(246) 227-1234",
+        "note": "Bridgetown"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Barbados uses the single area code 246, assigned in 1996 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "AI",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "264"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+12644971234",
+        "international": "+1 264 497 1234",
+        "national": "(264) 497-1234",
+        "note": "The Valley"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Anguilla uses the single area code 264, assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "AG",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "268"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+12684621234",
+        "international": "+1 268 462 1234",
+        "national": "(268) 462-1234",
+        "note": "St. John's"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Antigua and Barbuda use the single area code 268, assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "VG",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "284"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+12844941234",
+        "international": "+1 284 494 1234",
+        "national": "(284) 494-1234",
+        "note": "Road Town, Tortola"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "The British Virgin Islands use the single area code 284, assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "KY",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "345"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+13459491234",
+        "international": "+1 345 949 1234",
+        "national": "(345) 949-1234",
+        "note": "George Town, Grand Cayman"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "The Cayman Islands use the single area code 345, assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "BM",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "441"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+14412921234",
+        "international": "+1 441 292 1234",
+        "national": "(441) 292-1234",
+        "note": "Hamilton"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Bermuda uses the single area code 441, assigned in 1995 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "GD",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "473"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+14734401234",
+        "international": "+1 473 440 1234",
+        "national": "(473) 440-1234",
+        "note": "St. George's"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Grenada uses the single area code 473, assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "TC",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "649"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+16499461234",
+        "international": "+1 649 946 1234",
+        "national": "(649) 946-1234",
+        "note": "Grand Turk / Providenciales"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "The Turks and Caicos Islands use the single area code 649, assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "MS",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "664"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+16644911234",
+        "international": "+1 664 491 1234",
+        "national": "(664) 491-1234",
+        "note": "Brades"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Montserrat uses the single area code 664, assigned in 1996 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "SX",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "721"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+17215421234",
+        "international": "+1 721 542 1234",
+        "national": "(721) 542-1234",
+        "note": "Philipsburg"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Sint Maarten uses the single area code 721, assigned in 2011 when it left the Netherlands Antilles (+599)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "LC",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "758"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+17584521234",
+        "international": "+1 758 452 1234",
+        "national": "(758) 452-1234",
+        "note": "Castries"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Saint Lucia uses the single area code 758, assigned in 1996 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "DM",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "767"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+17674481234",
+        "international": "+1 767 448 1234",
+        "national": "(767) 448-1234",
+        "note": "Roseau"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Dominica uses the single area code 767, assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "VC",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "784"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+17844561234",
+        "international": "+1 784 456 1234",
+        "national": "(784) 456-1234",
+        "note": "Kingstown"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Saint Vincent and the Grenadines use the single area code 784, assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "DO",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "809",
+      "829",
+      "849"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+18092211234",
+        "international": "+1 809 221 1234",
+        "national": "(809) 221-1234",
+        "note": "Santo Domingo — 809 is the original area code"
+      },
+      {
+        "type": "fixed-line",
+        "e164": "+18295551234",
+        "international": "+1 829 555 1234",
+        "national": "(829) 555-1234",
+        "note": "Dominican Republic — 829 overlay, added 2005"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "The Dominican Republic uses three overlaid area codes: 809 (original), 829 (2005) and 849 (2009)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "TT",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "868"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+18686221234",
+        "international": "+1 868 622 1234",
+        "national": "(868) 622-1234",
+        "note": "Port of Spain"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Trinidad and Tobago use the single area code 868 (\"TNT\" on a keypad), assigned in 1997 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "KN",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "869"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+18694651234",
+        "international": "+1 869 465 1234",
+        "national": "(869) 465-1234",
+        "note": "Basseterre"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Saint Kitts and Nevis use the single area code 869, assigned in 1996 (previously 809)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  },
+  {
+    "iso2": "JM",
+    "callingCode": "+1",
+    "trunkPrefix": "1",
+    "internationalPrefix": "011",
+    "nsnLengths": [
+      10
+    ],
+    "areaCodes": [
+      "876",
+      "658"
+    ],
+    "formats": {
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    "patterns": [
+      {
+        "label": "Geographic (fixed or mobile)",
+        "national": "(NPA) NXX-XXXX",
+        "international": "+1 NPA NXX XXXX"
+      },
+      {
+        "label": "Toll-free (shared NANP-wide)",
+        "national": "(800) NXX-XXXX",
+        "international": "+1 800 NXX XXXX"
+      }
+    ],
+    "examples": [
+      {
+        "type": "fixed-line",
+        "e164": "+18769261234",
+        "international": "+1 876 926 1234",
+        "national": "(876) 926-1234",
+        "note": "Kingston — 876 is the original area code"
+      },
+      {
+        "type": "fixed-line",
+        "e164": "+16585551234",
+        "international": "+1 658 555 1234",
+        "national": "(658) 555-1234",
+        "note": "Jamaica — 658 overlay, added 2018"
+      }
+    ],
+    "notes": [
+      "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+      "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+      "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+      "Jamaica uses area code 876 with the 658 overlay added in 2018; ten-digit dialling is mandatory."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+      "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+      "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+    ]
+  }
+]

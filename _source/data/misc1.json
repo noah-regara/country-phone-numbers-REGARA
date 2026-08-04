@@ -1,0 +1,246 @@
+[
+  {
+    "iso2": "KP",
+    "callingCode": "+850",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": { "national": "0A XXX XXXX (fixed) / 019X XXXXXXX (mobile)", "international": "+850 A XXX XXXX (trunk 0 dropped)" },
+    "patterns": [
+      { "label": "Pyongyang (2)", "national": "02 XXX XXXX", "international": "+850 2 XXX XXXX" },
+      { "label": "Provincial (2-digit area codes)", "national": "0XX XXXXXX", "international": "+850 XX XXXXXX" },
+      { "label": "Mobile (019X)", "national": "019X XXXXXXX", "international": "+850 19X XXXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+85023811234", "international": "+850 2 381 1234", "national": "02 381 1234", "note": "Pyongyang — area code 2; the 381 block includes lines reachable from abroad" },
+      { "type": "mobile", "e164": "+8501921234567", "international": "+850 192 1234567", "national": "0192 1234567", "note": "Mobile — the 019X ranges (Koryolink)" }
+    ],
+    "notes": [
+      "International connectivity is heavily restricted: most calls into North Korea require operator assistance via +850 2 18111, and only selected numbers can be dialled directly.",
+      "Calls between North and South Korea are banned outside the former Kaesong Industrial Region.",
+      "NSN length varies — roughly 8 digits for Pyongyang landlines and 10 for mobile numbers."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_North_Korea",
+      "ITU-T E.164 assigned country codes: https://www.itu.int/pub/T-SP-E.164D"
+    ]
+  },
+  {
+    "iso2": "SY",
+    "callingCode": "+963",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "0AA XXXXXXX", "international": "+963 AA XXXXXXX (trunk 0 dropped)" },
+    "patterns": [
+      { "label": "Damascus (11)", "national": "011 XXXXXXX", "international": "+963 11 XXXXXXX" },
+      { "label": "Aleppo (21), Homs (31), Latakia (41), Al-Hasakah (52)", "national": "021 XXXXXXX", "international": "+963 21 XXXXXXX" },
+      { "label": "Mobile — Syriatel (93, 98, 99), MTN Syria (94, 95, 96)", "national": "093X XXXXXX", "international": "+963 93X XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+963111234567", "international": "+963 11 123 4567", "national": "011 123 4567", "note": "Damascus — area code 11" },
+      { "type": "mobile", "e164": "+963933123456", "international": "+963 933 123 456", "national": "0933 123 456", "note": "Mobile — 93 is a Syriatel range" }
+    ],
+    "notes": [
+      "Closed plan with twelve regional area codes running from Damascus (11) to Al-Hasakah (52).",
+      "The NSN is 9 digits: a 2-digit area or operator code plus a 7-digit subscriber number."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Syria",
+      "Syrian Telecommunications Regulatory Authority: https://www.sytra.gov.sy/"
+    ]
+  },
+  {
+    "iso2": "TL",
+    "callingCode": "+670",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7, 8],
+    "formats": { "national": "XXX XXXX (fixed) / XXXX XXXX (mobile)", "international": "+670 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — Dili (33X)", "national": "33X XXXX", "international": "+670 33X XXXX" },
+      { "label": "Mobile (73XX–78XX)", "national": "73XX XXXX", "international": "+670 73XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6703301234", "international": "+670 330 1234", "national": "330 1234", "note": "Dili — the 33X fixed allocation" },
+      { "type": "mobile", "e164": "+67073123456", "international": "+670 7312 3456", "national": "7312 3456", "note": "Mobile — a 7 was prefixed to mobile numbers, making them 8 digits" }
+    ],
+    "notes": [
+      "Timor-Leste moved off Indonesia's +62 plan after 1999 and took its own code +670.",
+      "Closed plan: fixed NSNs are 7 digits, mobile NSNs 8."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_East_Timor",
+      "ANC — Autoridade Nacional de Comunicações, Timor-Leste: https://www.anc.tl/"
+    ]
+  },
+  {
+    "iso2": "AW",
+    "callingCode": "+297",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+297 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line (28, 52, 58)", "national": "58X XXXX", "international": "+297 58X XXXX" },
+      { "label": "Mobile (56, 59, 64, 73, 74, 99)", "national": "56X XXXX", "international": "+297 56X XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+2975821234", "international": "+297 582 1234", "national": "582 1234", "note": "Fixed line — the 58 range" },
+      { "type": "mobile", "e164": "+2975601234", "international": "+297 560 1234", "national": "560 1234", "note": "Mobile — the 56 range" }
+    ],
+    "notes": [
+      "Aruba left the Netherlands Antilles plan (+599 8) in 1986 and took its own code +297.",
+      "Although the 7-digit format resembles a NANP local number, Aruba is not part of the NANP — calls are international."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Aruba",
+      "DTZ Aruba — Directie Telecommunicatie Zaken: https://www.dtz.aw/"
+    ]
+  },
+  {
+    "iso2": "CW",
+    "callingCode": "+599",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "9 XXX XXXX", "international": "+599 9 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line (9 4XX XXXX, 9 8XX XXXX)", "national": "9 461 XXXX", "international": "+599 9 461 XXXX" },
+      { "label": "Mobile (9 5XX XXXX, 9 6XX XXXX)", "national": "9 518 XXXX", "international": "+599 9 518 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+59994611234", "international": "+599 9 461 1234", "national": "9 461 1234", "note": "Curaçao — area code 9 plus a 7-digit local number" },
+      { "type": "mobile", "e164": "+59995181234", "international": "+599 9 518 1234", "national": "9 518 1234", "note": "Mobile — the 9 5XX range" }
+    ],
+    "notes": [
+      "Curaçao retains country code +599, originally assigned to the Netherlands Antilles, with area code 9.",
+      "Sint Maarten left +599 in 2011 to join the NANP as +1 721; Aruba had left earlier for +297."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cura%C3%A7ao_and_the_Caribbean_Netherlands",
+      "BT&P — Bureau Telecommunicatie en Post Curaçao: https://www.btnp.org/"
+    ]
+  },
+  {
+    "iso2": "BQ",
+    "callingCode": "+599",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+599 XXX XXXX" },
+    "patterns": [
+      { "label": "Bonaire (7XX XXXX)", "national": "717 XXXX", "international": "+599 717 XXXX" },
+      { "label": "Saba (416 XXXX)", "national": "416 XXXX", "international": "+599 416 XXXX" },
+      { "label": "Sint Eustatius (318 XXXX)", "national": "318 XXXX", "international": "+599 318 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+5997171234", "international": "+599 717 1234", "national": "717 1234", "note": "Bonaire — the 7XX range" },
+      { "type": "fixed-line", "e164": "+5994161234", "international": "+599 416 1234", "national": "416 1234", "note": "Saba — the 416 range" },
+      { "type": "fixed-line", "e164": "+5993181234", "international": "+599 318 1234", "national": "318 1234", "note": "Sint Eustatius — the 318 range" }
+    ],
+    "notes": [
+      "The Caribbean Netherlands (Bonaire, Sint Eustatius and Saba) share +599 with Curaçao but use different leading digits rather than a separate country code.",
+      "The three islands are distinguished only by their number blocks, so the specific island cannot be inferred from the country code alone.",
+      "Local numbers were standardised to seven digits in the 1999 reforms."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cura%C3%A7ao_and_the_Caribbean_Netherlands",
+      "Rijksdienst Caribisch Nederland: https://www.rijksdienstcn.com/"
+    ]
+  },
+  {
+    "iso2": "FK",
+    "callingCode": "+500",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [5],
+    "formats": { "national": "XXXXX", "international": "+500 XXXXX" },
+    "patterns": [
+      { "label": "Fixed line (2XXXX, 3XXXX, 4XXXX, 7XXXX)", "national": "2XXXX", "international": "+500 2XXXX" },
+      { "label": "Mobile (5XXXX, 6XXXX)", "national": "5XXXX", "international": "+500 5XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+50021234", "international": "+500 21234", "national": "21234", "note": "Stanley — PSTN range" },
+      { "type": "mobile", "e164": "+50051234", "international": "+500 51234", "national": "51234", "note": "Mobile — GSM range 5XXXX" }
+    ],
+    "notes": [
+      "The Falkland Islands use a short 5-digit NSN with no trunk prefix or area codes.",
+      "South Georgia and the South Sandwich Islands share the +500 code."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Falkland_Islands",
+      "Sure South Atlantic: https://www.sure.co.fk/"
+    ]
+  },
+  {
+    "iso2": "GS",
+    "callingCode": "+500",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [5],
+    "formats": { "national": "XXXXX (Falkland Islands plan)", "international": "+500 XXXXX" },
+    "patterns": [
+      { "label": "Fixed / research station lines", "national": "2XXXX", "international": "+500 2XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+50021234", "international": "+500 21234", "national": "21234", "note": "South Georgia shares the Falkland Islands numbering plan; King Edward Point is served through it" }
+    ],
+    "notes": [
+      "South Georgia and the South Sandwich Islands have no separate country code and no permanent civilian population; the territory shares +500 with the Falkland Islands.",
+      "Communications serve the British Antarctic Survey station at King Edward Point and visiting vessels, and satellite services are widely used in place of terrestrial numbering."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Falkland_Islands",
+      "Government of South Georgia and the South Sandwich Islands: https://www.gov.gs/"
+    ]
+  },
+  {
+    "iso2": "KI",
+    "callingCode": "+686",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XXXX XXXX", "international": "+686 XXXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — South Tarawa (65X XXXXX)", "national": "6502 XXXX", "international": "+686 6502 XXXX" },
+      { "label": "Mobile (63X XXXXX)", "national": "6300 XXXX", "international": "+686 6300 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+68665021500", "international": "+686 6502 1500", "national": "6502 1500", "note": "Bairiki, South Tarawa — the 650 geographic block" },
+      { "type": "mobile", "e164": "+68663005000", "international": "+686 6300 5000", "national": "6300 5000", "note": "Mobile — the 630 cellular block" }
+    ],
+    "notes": [
+      "Kiribati expanded from 5-digit to 8-digit numbers in a phased migration between 2013 and 2018.",
+      "No trunk prefix or area codes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kiribati",
+      "CCK — Communications Commission of Kiribati: https://www.cck.ki/"
+    ]
+  },
+  {
+    "iso2": "FM",
+    "callingCode": "+691",
+    "trunkPrefix": "",
+    "internationalPrefix": "011",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+691 XXX XXXX" },
+    "patterns": [
+      { "label": "Pohnpei (320, 920)", "national": "320 XXXX", "international": "+691 320 XXXX" },
+      { "label": "Chuuk (330, 930), Yap (350, 950), Kosrae (370, 970)", "national": "330 XXXX", "international": "+691 330 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6919201234", "international": "+691 920 1234", "national": "920 1234", "note": "Pohnpei — the 920 prefix" },
+      { "type": "mobile", "e164": "+6919305678", "international": "+691 930 5678", "national": "930 5678", "note": "Chuuk — the 930 prefix" }
+    ],
+    "notes": [
+      "The current plan dates from 2003, with prefixes assigned by state (Pohnpei, Chuuk, Yap, Kosrae) and by service type.",
+      "The international access prefix is 011, inherited from US practice, though the FSM is not part of the NANP."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Federated_States_of_Micronesia",
+      "FSM Telecommunications Regulation Authority: https://www.fsmtra.fm/"
+    ]
+  }
+]

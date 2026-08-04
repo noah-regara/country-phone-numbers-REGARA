@@ -1,0 +1,195 @@
+[
+  {
+    "iso2": "NA",
+    "callingCode": "+264",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": { "national": "0AA XXX XXXX", "international": "+264 AA XXX XXXX (trunk 0 dropped)" },
+    "patterns": [
+      { "label": "Windhoek (061)", "national": "061 XXX XXXX", "international": "+264 61 XXX XXXX" },
+      { "label": "Other regions (2-digit area codes)", "national": "0XX XXX XXXX", "international": "+264 XX XXX XXXX" },
+      { "label": "Mobile — MTC (081), MTN (084), tn mobile (085)", "national": "081 XXX XXXX", "international": "+264 81 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+264611234567", "international": "+264 61 123 4567", "national": "061 123 4567", "note": "Windhoek — area code 061" },
+      { "type": "mobile", "e164": "+264811234567", "international": "+264 81 123 4567", "national": "081 123 4567", "note": "Mobile — 081 is an MTC range" }
+    ],
+    "notes": [
+      "Namibia's plan was originally part of South Africa's; the ITU allocated +264 in the late 1960s and it came into full use after independence in 1990.",
+      "The international access prefix changed from 09 to 00."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Namibia",
+      "CRAN — Communications Regulatory Authority of Namibia: https://www.cran.na/"
+    ]
+  },
+  {
+    "iso2": "MW",
+    "callingCode": "+265",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7, 9],
+    "formats": { "national": "X XXX XXX (7-digit) / X XXXX XXXX (9-digit)", "international": "+265 X XXX XXX" },
+    "patterns": [
+      { "label": "Geographic — Malawi Telecom (1)", "national": "1 XXX XXX", "international": "+265 1 XXX XXX" },
+      { "label": "Mobile — TNM (8), Airtel (9)", "national": "9 XXXX XXXX", "international": "+265 9 XXXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+2651234567", "international": "+265 1 234 567", "national": "1 234 567", "note": "Lilongwe — Malawi Telecom geographic numbers on the 1 prefix are 7 digits" },
+      { "type": "mobile", "e164": "+265981234567", "international": "+265 9 8123 4567", "national": "9 8123 4567", "note": "Mobile — 9 is an Airtel Malawi range; mobile NSNs are 9 digits" }
+    ],
+    "notes": [
+      "Malawi has no area codes; the leading digit identifies the operator and service.",
+      "Legacy 7-digit geographic numbers on the 1 prefix coexist with 9-digit numbers introduced after the 2009 plan revision, so length varies."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Malawi",
+      "MACRA — Malawi Communications Regulatory Authority: https://www.macra.mw/"
+    ]
+  },
+  {
+    "iso2": "LS",
+    "callingCode": "+266",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XX XXX XXX", "international": "+266 XX XXX XXX" },
+    "patterns": [
+      { "label": "Maseru fixed (22, 28)", "national": "22 XXX XXX", "international": "+266 22 XXX XXX" },
+      { "label": "Mobile (56, 57, 58, 59, 63, 6x)", "national": "58 XXX XXX", "international": "+266 58 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+26622123456", "international": "+266 22 123 456", "national": "22 123 456", "note": "Maseru — fixed prefixes 22 and 28" },
+      { "type": "mobile", "e164": "+26658123456", "international": "+266 58 123 456", "national": "58 123 456", "note": "Mobile — 5x and 6x ranges" }
+    ],
+    "notes": [
+      "Closed 8-digit plan with no trunk prefix or area codes; the leading pair identifies the service.",
+      "Before independence-era renumbering, Lesotho was reached from South Africa via the regional code 050."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Lesotho",
+      "LCA — Lesotho Communications Authority: https://www.lca.org.ls/"
+    ]
+  },
+  {
+    "iso2": "SZ",
+    "callingCode": "+268",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XX XX XXXX", "international": "+268 XX XX XXXX" },
+    "patterns": [
+      { "label": "Mbabane / Hhohho fixed (2404, 2405, 2406)", "national": "24 XX XXXX", "international": "+268 24 XX XXXX" },
+      { "label": "Mobile — MTN Eswatini (76, 78, 79)", "national": "79 XX XXXX", "international": "+268 79 XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+26824041234", "international": "+268 24 04 1234", "national": "24 04 1234", "note": "Mbabane — the 2404–2406 blocks serve the capital in the Hhohho region" },
+      { "type": "mobile", "e164": "+26879123456", "international": "+268 79 12 3456", "national": "79 12 3456", "note": "Mobile — non-geographic GSM on the 7x range" }
+    ],
+    "notes": [
+      "Eswatini expanded to 8 digits in 2010–2011 by prepending 2 to fixed lines and 7 to mobile numbers.",
+      "No trunk prefix or area codes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Eswatini",
+      "ESCCOM — Eswatini Communications Commission: https://www.esccom.org.sz/"
+    ]
+  },
+  {
+    "iso2": "ML",
+    "callingCode": "+223",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XXXX XXXX", "international": "+223 XXXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — SOTELMA (20, 21)", "national": "20 XX XX XX", "international": "+223 20 XX XX XX" },
+      { "label": "Mobile — Malitel, Orange Mali (6X, 7X)", "national": "6X XX XX XX", "international": "+223 6X XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+22320201234", "international": "+223 2020 1234", "national": "2020 1234", "note": "Bamako — SOTELMA fixed service on the 20 prefix" },
+      { "type": "mobile", "e164": "+22365012345", "international": "+223 6501 2345", "national": "6501 2345", "note": "Mobile — 6X and 7X GSM ranges" }
+    ],
+    "notes": [
+      "Mali has no area codes; all calls use the full 8 digits.",
+      "The plan was restructured in 2008 to accommodate growth."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Mali",
+      "AMRTP — Autorité Malienne de Régulation des Télécommunications: https://amrtp.ml/"
+    ]
+  },
+  {
+    "iso2": "BF",
+    "callingCode": "+226",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XX XX XX XX", "international": "+226 XX XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line — Ouagadougou (50 30–50 38)", "national": "50 XX XX XX", "international": "+226 50 XX XX XX" },
+      { "label": "Mobile — ONATEL (60, 61), Airtel (65, 66, 77), Telecel (68, 79)", "national": "70 XX XX XX", "international": "+226 70 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+22650301234", "international": "+226 50 30 12 34", "national": "50 30 12 34", "note": "Ouagadougou — the 50 30–50 38 fixed block" },
+      { "type": "mobile", "e164": "+22670123456", "international": "+226 70 12 34 56", "national": "70 12 34 56", "note": "Mobile — 7x range" }
+    ],
+    "notes": [
+      "Burkina Faso restructured its plan in 2004, prefixing two digits to area codes to reach the current 8-digit format.",
+      "No trunk prefix; numbers are written in pairs in the French style."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Burkina_Faso",
+      "ARCEP Burkina Faso: https://www.arcep.bf/"
+    ]
+  },
+  {
+    "iso2": "NE",
+    "callingCode": "+227",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": { "national": "XX XX XX XX (AB identifies service/network)", "international": "+227 XX XX XX XX" },
+    "patterns": [
+      { "label": "Fixed line — Niamey (20 20)", "national": "20 XX XX XX", "international": "+227 20 XX XX XX" },
+      { "label": "Mobile (9X, 8X)", "national": "96 XX XX XX", "international": "+227 96 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+22720201234", "international": "+227 20 20 12 34", "national": "20 20 12 34", "note": "Niamey — 2 marks fixed service, the following digit the operator" },
+      { "type": "mobile", "e164": "+22796051234", "international": "+227 96 05 12 34", "national": "96 05 12 34", "note": "Mobile — the 96 prefix, allocated under the 2006 restructuring" }
+    ],
+    "notes": [
+      "The first two digits (AB) identify the service or network; the remaining six identify the subscriber.",
+      "No trunk prefix or geographic area codes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Niger",
+      "ARCEP Niger: https://www.arcep.ne/"
+    ]
+  },
+  {
+    "iso2": "CV",
+    "callingCode": "+238",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7],
+    "formats": { "national": "XXX XXXX", "international": "+238 XXX XXXX" },
+    "patterns": [
+      { "label": "Fixed line — Santiago/Praia (26X)", "national": "26X XXXX", "international": "+238 26X XXXX" },
+      { "label": "Mobile (9XX)", "national": "9XX XXXX", "international": "+238 9XX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+2382601234", "international": "+238 260 1234", "national": "260 1234", "note": "Praia — the first three digits of a fixed number encode the geographic area (26 = Santiago)" },
+      { "type": "mobile", "e164": "+2389912345", "international": "+238 991 2345", "national": "991 2345", "note": "Mobile — the 9 prefix carries no geographic meaning" }
+    ],
+    "notes": [
+      "Closed 7-digit plan restructured on 2004-07-03 by prepending digits to the older shorter numbers.",
+      "Fixed numbers encode geography in their first three digits; mobile numbers do not."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cape_Verde",
+      "ARME — Agência Reguladora Multissetorial da Economia: https://www.arme.cv/"
+    ]
+  }
+]

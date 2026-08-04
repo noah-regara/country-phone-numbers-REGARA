@@ -1,0 +1,251 @@
+[
+  {
+    "iso2": "IE",
+    "callingCode": "+353",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [7, 8, 9, 10],
+    "formats": {
+      "national": "0AA XXX XXXX (open plan, variable)",
+      "international": "+353 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Dublin", "national": "01 XXX XXXX", "international": "+353 1 XXX XXXX" },
+      { "label": "Other geographic (Cork 021, Galway 091)", "national": "0XX XXX XXXX", "international": "+353 XX XXX XXXX" },
+      { "label": "Mobile", "national": "08X XXX XXXX", "international": "+353 8X XXX XXXX" },
+      { "label": "Freephone", "national": "1800 XXX XXX", "international": "+353 1800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+35312345678", "international": "+353 1 234 5678", "national": "01 234 5678", "note": "Dublin — area code 01" },
+      { "type": "fixed-line", "e164": "+353214123456", "international": "+353 21 412 3456", "national": "021 412 3456", "note": "Cork — area code 021" },
+      { "type": "mobile", "e164": "+353871234567", "international": "+353 87 123 4567", "national": "087 123 4567", "note": "Mobile — 087 originally Vodafone" },
+      { "type": "toll-free", "e164": "+3531800123456", "international": "+353 1800 123 456", "national": "1800 123 456", "note": "Freephone — dialled without a trunk 0" }
+    ],
+    "notes": [
+      "Ireland uses an open numbering plan: area codes are 1–3 digits after the trunk 0 and subscriber numbers vary, so NSN length ranges from 7 to 9 digits (10 for 1800 freephone).",
+      "Freephone (1800) and shared-cost (1850/0818) numbers are dialled without the trunk 0."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Republic_of_Ireland",
+      "ComReg — National Numbering Conventions: https://www.comreg.ie/industry/electronic-communications/numbering/"
+    ]
+  },
+  {
+    "iso2": "BE",
+    "callingCode": "+32",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A XXX XX XX (large cities) / 0AA XX XX XX (smaller areas)",
+      "international": "+32 A XXX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Brussels (02), Antwerp (03), Liège (04), Ghent (09)", "national": "02 XXX XX XX", "international": "+32 2 XXX XX XX" },
+      { "label": "Two-digit area codes (smaller regions)", "national": "0XX XX XX XX", "international": "+32 XX XX XX XX" },
+      { "label": "Mobile", "national": "04XX XX XX XX", "international": "+32 4XX XX XX XX" },
+      { "label": "Freephone", "national": "0800 XX XXX", "international": "+32 800 XX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+3225551212", "international": "+32 2 555 12 12", "national": "02 555 12 12", "note": "Brussels — single-digit area code 2" },
+      { "type": "fixed-line", "e164": "+3232123456", "international": "+32 3 212 34 56", "national": "03 212 34 56", "note": "Antwerp — area code 3" },
+      { "type": "mobile", "e164": "+32474123456", "international": "+32 474 12 34 56", "national": "0474 12 34 56", "note": "Mobile — 047x is a Proximus range" },
+      { "type": "toll-free", "e164": "+3280012345", "international": "+32 800 12 345", "national": "0800 12 345", "note": "Freephone" }
+    ],
+    "notes": [
+      "Belgium uses full-number dialling: the trunk 0 and area code are required even for local calls.",
+      "Geographic NSNs are 8 digits; mobile NSNs are 9 digits.",
+      "The four largest cities have single-digit area codes (2, 3, 4, 9); everywhere else has two digits."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Belgium",
+      "BIPT — numbering plan: https://www.bipt.be/operators/numbering"
+    ]
+  },
+  {
+    "iso2": "CH",
+    "callingCode": "+41",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XX XX (closed plan, area code always dialled)",
+      "international": "+41 AA XXX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Zurich (044/043)", "national": "044 XXX XX XX", "international": "+41 44 XXX XX XX" },
+      { "label": "Bern (031), Geneva (022), Basel (061)", "national": "031 XXX XX XX", "international": "+41 31 XXX XX XX" },
+      { "label": "Mobile", "national": "07X XXX XX XX", "international": "+41 7X XXX XX XX" },
+      { "label": "Freephone", "national": "0800 XXX XXX", "international": "+41 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+41441234567", "international": "+41 44 123 45 67", "national": "044 123 45 67", "note": "Zurich — area code 044" },
+      { "type": "fixed-line", "e164": "+41311234567", "international": "+41 31 123 45 67", "national": "031 123 45 67", "note": "Bern — area code 031" },
+      { "type": "mobile", "e164": "+41791234567", "international": "+41 79 123 45 67", "national": "079 123 45 67", "note": "Mobile — 079 is a Swisscom range" },
+      { "type": "toll-free", "e164": "+41800123456", "international": "+41 800 123 456", "national": "0800 123 456", "note": "Gratisnummer / numéro gratuit" }
+    ],
+    "notes": [
+      "Switzerland runs a closed plan: the full 10-digit national form (0 + 9-digit NSN) is dialled for every call, including local ones.",
+      "Liechtenstein (+423) is a separate country code but is closely integrated with the Swiss network."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Switzerland",
+      "OFCOM/BAKOM — numbering: https://www.bakom.admin.ch/bakom/en/homepage/telecommunication/numbering-and-addressing.html"
+    ]
+  },
+  {
+    "iso2": "AT",
+    "callingCode": "+43",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0A XXXXXXX / 0AAAA XXXX (open plan, highly variable)",
+      "international": "+43 A XXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Vienna", "national": "01 XXXXXXX", "international": "+43 1 XXXXXXX" },
+      { "label": "Graz (0316), Linz (0732), Salzburg (0662)", "national": "0316 XXXXXX", "international": "+43 316 XXXXXX" },
+      { "label": "Mobile", "national": "0664 XXXXXXX", "international": "+43 664 XXXXXXX" },
+      { "label": "Freephone", "national": "0800 XXXXXX", "international": "+43 800 XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+431234567", "international": "+43 1 234567", "national": "01 234567", "note": "Vienna — area code 1, the shortest in the country" },
+      { "type": "fixed-line", "e164": "+43316123456", "international": "+43 316 123456", "national": "0316 123456", "note": "Graz — area code 0316" },
+      { "type": "mobile", "e164": "+436641234567", "international": "+43 664 1234567", "national": "0664 1234567", "note": "Mobile — 0664 is an A1 range; 0676 T-Mobile, 0660/0699 Drei" },
+      { "type": "toll-free", "e164": "+43800123456", "international": "+43 800 123456", "national": "0800 123456", "note": "Freephone" }
+    ],
+    "notes": [
+      "Austria has an open numbering plan with no standard length for either the area code or the subscriber number; some subscriber numbers are as short as three digits.",
+      "Larger cities get shorter area codes (Vienna = 1) and correspondingly longer subscriber numbers.",
+      "Length-based validation of Austrian numbers is unreliable — match on prefix instead."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Austria",
+      "RTR — Nummerierung: https://www.rtr.at/TKP/was_wir_tun/telekommunikation/nummerierung/"
+    ]
+  },
+  {
+    "iso2": "PT",
+    "callingCode": "+351",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "XXX XXX XXX (closed plan, no trunk prefix)",
+      "international": "+351 XXX XXX XXX"
+    },
+    "patterns": [
+      { "label": "Lisbon (21), Porto (22)", "national": "21 XXX XXXX", "international": "+351 21 XXX XXXX" },
+      { "label": "Other geographic", "national": "2XX XXX XXX", "international": "+351 2XX XXX XXX" },
+      { "label": "Mobile", "national": "9X XXX XXXX", "international": "+351 9X XXX XXXX" },
+      { "label": "Freephone", "national": "800 XXX XXX", "international": "+351 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+351213456789", "international": "+351 21 345 6789", "national": "21 345 6789", "note": "Lisbon — geographic code 21" },
+      { "type": "fixed-line", "e164": "+351223456789", "international": "+351 22 345 6789", "national": "22 345 6789", "note": "Porto — geographic code 22" },
+      { "type": "mobile", "e164": "+351912345678", "international": "+351 91 234 5678", "national": "91 234 5678", "note": "Mobile — 91/92/93/96; the second digit identifies the original operator" },
+      { "type": "toll-free", "e164": "+351800123456", "international": "+351 800 123 456", "national": "800 123 456", "note": "Número verde" }
+    ],
+    "notes": [
+      "Portugal dropped the trunk prefix 0 on 1999-10-31 and moved to a closed 9-digit plan; the full number is dialled for every call.",
+      "Geographic numbers begin with 2, mobile numbers with 9."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Portugal",
+      "ANACOM — plano nacional de numeração: https://www.anacom.pt/render.jsp?categoryId=1044"
+    ]
+  },
+  {
+    "iso2": "NO",
+    "callingCode": "+47",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XX XX XX XX (landline) / XXX XX XXX (mobile)",
+      "international": "+47 XX XX XX XX"
+    },
+    "patterns": [
+      { "label": "Fixed line", "national": "XX XX XX XX", "international": "+47 XX XX XX XX" },
+      { "label": "Mobile (4x / 9x)", "national": "XXX XX XXX", "international": "+47 XXX XX XXX" },
+      { "label": "Freephone", "national": "800 XX XXX", "international": "+47 800 XX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+4722123456", "international": "+47 22 12 34 56", "national": "22 12 34 56", "note": "Historically Oslo; geographic meaning was abolished in January 2020" },
+      { "type": "mobile", "e164": "+4741234567", "international": "+47 412 34 567", "national": "412 34 567", "note": "Mobile — ranges beginning 4 or 9" },
+      { "type": "toll-free", "e164": "+4780012345", "international": "+47 800 12 345", "national": "800 12 345", "note": "Grønt nummer (freephone)" }
+    ],
+    "notes": [
+      "Norway has no trunk prefix and no area codes: all subscriber numbers are 8 digits, dialled in full every time.",
+      "Geographic significance of the leading digits was formally abolished in January 2020 — a number beginning 22 no longer implies Oslo.",
+      "Landlines are conventionally grouped in four pairs; mobiles in a 3-2-3 pattern."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norway",
+      "Nkom — nummerplan: https://www.nkom.no/telefoni-og-telefonnummer/nummerressurser"
+    ]
+  },
+  {
+    "iso2": "DK",
+    "callingCode": "+45",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XX XX XX XX",
+      "international": "+45 XX XX XX XX"
+    },
+    "patterns": [
+      { "label": "Fixed line", "national": "XX XX XX XX", "international": "+45 XX XX XX XX" },
+      { "label": "Mobile", "national": "XX XX XX XX", "international": "+45 XX XX XX XX" },
+      { "label": "Freephone", "national": "80 XX XX XX", "international": "+45 80 XX XX XX" },
+      { "label": "Premium rate", "national": "90 XX XX XX", "international": "+45 90 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+4533123456", "international": "+45 33 12 34 56", "national": "33 12 34 56", "note": "Fixed line — 33 is a Copenhagen-origin range" },
+      { "type": "mobile", "e164": "+4525876543", "international": "+45 25 87 65 43", "national": "25 87 65 43", "note": "Mobile — 2x ranges" },
+      { "type": "toll-free", "e164": "+4580123456", "international": "+45 80 12 34 56", "national": "80 12 34 56", "note": "Freephone" }
+    ],
+    "notes": [
+      "Denmark abolished area codes in 1989. All numbers are 8 digits with no trunk prefix, dialled in full for every call.",
+      "Numbers are portable across both provider and geography, so the leading digits do not reliably indicate operator or location.",
+      "Fixed and mobile numbers share the same 8-digit format and are distinguished only by allocated range."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Denmark",
+      "Danish Energy Agency — nummerplan: https://ens.dk/ansvarsomraader/telepolitik/nummerforhold"
+    ]
+  },
+  {
+    "iso2": "FI",
+    "callingCode": "+358",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0A XXX XXXX / 0AA XXX XXXX (open plan, variable)",
+      "international": "+358 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Helsinki", "national": "09 XXXX XXXX", "international": "+358 9 XXXX XXXX" },
+      { "label": "Other geographic (Tampere 03, Turku 02, Oulu 08)", "national": "0X XXX XXXX", "international": "+358 X XXX XXXX" },
+      { "label": "Mobile", "national": "04X XXX XXXX / 050 XXX XXXX", "international": "+358 4X XXX XXXX" },
+      { "label": "Freephone", "national": "0800 XXX XXX", "international": "+358 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+358912345678", "international": "+358 9 1234 5678", "national": "09 1234 5678", "note": "Helsinki — area code 09" },
+      { "type": "fixed-line", "e164": "+35831234567", "international": "+358 3 123 4567", "national": "03 123 4567", "note": "Tampere region — area code 03" },
+      { "type": "mobile", "e164": "+358401234567", "international": "+358 40 123 4567", "national": "040 123 4567", "note": "Mobile — 040/050 and 04x ranges" },
+      { "type": "toll-free", "e164": "+358800123456", "international": "+358 800 123 456", "national": "0800 123 456", "note": "Maksuton palvelunumero (freephone)" }
+    ],
+    "notes": [
+      "Finland has an open numbering plan; NSN length varies roughly from 5 to 12 digits, so length alone cannot validate a Finnish number.",
+      "Åland (AX) shares +358 and uses the 018 area code."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Finland",
+      "Traficom — numbering: https://www.traficom.fi/en/communications/telecommunications-networks/telephone-numbers"
+    ]
+  }
+]

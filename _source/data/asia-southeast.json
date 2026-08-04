@@ -1,0 +1,244 @@
+[
+  {
+    "iso2": "VN",
+    "callingCode": "+84",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "02AA XXXX XXXX (landline) / 0AA XXX XX XX (mobile)",
+      "international": "+84 AA XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Hanoi (24), Ho Chi Minh City (28)", "national": "024 XXXX XXXX", "international": "+84 24 XXXX XXXX" },
+      { "label": "Other provinces (2-3 digit area codes, all begin 02)", "national": "02XX XXX XXXX", "international": "+84 2XX XXX XXXX" },
+      { "label": "Mobile (03x, 05x, 07x, 08x, 09x)", "national": "091 XXX XX XX", "international": "+84 91 XXX XX XX" },
+      { "label": "Toll-free", "national": "1800 XXXX", "international": "+84 1800 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+842438254433", "international": "+84 24 3825 4433", "national": "024 3825 4433", "note": "Hanoi — area code 24 since the 2017 renumbering (was 4)" },
+      { "type": "fixed-line", "e164": "+842838221234", "international": "+84 28 3822 1234", "national": "028 3822 1234", "note": "Ho Chi Minh City — area code 28 (was 8)" },
+      { "type": "mobile", "e164": "+84912345678", "international": "+84 91 234 56 78", "national": "091 234 56 78", "note": "Mobile — 091 is a Vinaphone range; 096–098 Viettel, 090/093 MobiFone" }
+    ],
+    "notes": [
+      "Vietnam renumbered in 2017–2018: landline area codes were re-prefixed so all now begin 02, and 11-digit mobile numbers on 012x/016x/018x/019x were converted to 10-digit numbers on 03x/05x/07x/08x.",
+      "Landline NSNs are 9–10 digits and mobile NSNs 9, so length alone is a weak validator.",
+      "Operator prefixes: 032–039 and 096–098 Viettel; 033–035, 091, 094 Vinaphone; 036–038, 090, 093 MobiFone."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Vietnam",
+      "Ministry of Information and Communications: https://mic.gov.vn/"
+    ]
+  },
+  {
+    "iso2": "TH",
+    "callingCode": "+66",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A-XXX-XXXX (landline) / 0AX-XXX-XXXX (mobile)",
+      "international": "+66 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Bangkok (02)", "national": "02-XXX-XXXX", "international": "+66 2 XXX XXXX" },
+      { "label": "Provincial (2-digit area codes: 032 Phetchaburi, 053 Chiang Mai)", "national": "0XX-XXX-XXX", "international": "+66 XX XXX XXX" },
+      { "label": "Mobile (08x, 09x, 06x)", "national": "08X-XXX-XXXX", "international": "+66 8X XXX XXXX" },
+      { "label": "Toll-free", "national": "1800-XXX-XXX", "international": "not reachable from abroad" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6622134567", "international": "+66 2 213 4567", "national": "02-213-4567", "note": "Bangkok — area code 02 also covers nearby provinces" },
+      { "type": "fixed-line", "e164": "+6653123456", "international": "+66 53 123 456", "national": "053-123-456", "note": "Chiang Mai — area code 053" },
+      { "type": "mobile", "e164": "+66812345678", "international": "+66 81 234 5678", "national": "081-234-5678", "note": "Mobile — 08x, 09x and 06x ranges" }
+    ],
+    "notes": [
+      "Thailand uses a closed plan: the area code must be dialled even for calls within the same area.",
+      "Bangkok has the single-digit area code 2 with a 7-digit subscriber number; provinces have 2-digit codes with 6-digit subscriber numbers.",
+      "1800 toll-free numbers are domestic-only and cannot be reached from abroad."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Thailand",
+      "NBTC — National Broadcasting and Telecommunications Commission: https://www.nbtc.go.th/"
+    ]
+  },
+  {
+    "iso2": "MY",
+    "callingCode": "+60",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9, 10],
+    "formats": {
+      "national": "0A-XXXX XXXX (landline) / 01X-XXX XXXX (mobile)",
+      "international": "+60 A XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Kuala Lumpur / Selangor (03)", "national": "03-XXXX XXXX", "international": "+60 3 XXXX XXXX" },
+      { "label": "Other states (04 Penang, 07 Johor, 088 Sabah)", "national": "04-XXX XXXX", "international": "+60 4 XXX XXXX" },
+      { "label": "Mobile (010–019)", "national": "012-XXX XXXX", "international": "+60 12 XXX XXXX" },
+      { "label": "Toll-free", "national": "1800-XX-XXXX", "international": "not reachable from abroad" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+60321234567", "international": "+60 3 2123 4567", "national": "03-2123 4567", "note": "Kuala Lumpur — area code 03, the largest block" },
+      { "type": "fixed-line", "e164": "+6041234567", "international": "+60 4 123 4567", "national": "04-123 4567", "note": "Penang — area code 04" },
+      { "type": "mobile", "e164": "+60123456789", "international": "+60 12 345 6789", "national": "012-345 6789", "note": "Mobile — 010–019 ranges" }
+    ],
+    "notes": [
+      "Malaysia uses an open plan: landline area codes are 1–2 digits with 6–8 subscriber digits; mobile codes are 2 digits with 7–8 subscriber digits.",
+      "Until 2017 Singapore could be dialled from Malaysia as a domestic call using the 02 code; that arrangement ended and +65 international dialling is now required."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Malaysia",
+      "MCMC — Malaysian Communications and Multimedia Commission: https://www.mcmc.gov.my/"
+    ]
+  },
+  {
+    "iso2": "SG",
+    "callingCode": "+65",
+    "trunkPrefix": "",
+    "internationalPrefix": "000 (or carrier codes 001 SingTel, 002 M1, 008 StarHub)",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX XXXX",
+      "international": "+65 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line / residential IP telephony (6)", "national": "6XXX XXXX", "international": "+65 6XXX XXXX" },
+      { "label": "Mobile (8, 9)", "national": "9XXX XXXX", "international": "+65 9XXX XXXX" },
+      { "label": "Toll-free (domestic alias)", "national": "1800 XXX XXXX", "international": "reachable from abroad as +65 6XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+6561234567", "international": "+65 6123 4567", "national": "6123 4567", "note": "Fixed line — the 6 prefix covers PSTN and residential IP telephony" },
+      { "type": "mobile", "e164": "+6591234567", "international": "+65 9123 4567", "national": "9123 4567", "note": "Mobile — 8 and 9 prefixes" },
+      { "type": "mobile", "e164": "+6581234567", "international": "+65 8123 4567", "national": "8123 4567", "note": "Mobile — 8 prefix, including prepaid and data services" }
+    ],
+    "notes": [
+      "Singapore has no area codes or trunk prefix — the country is a single numbering area. All numbers are 8 digits, adopted in 2002.",
+      "A 1800 toll-free number is an alias for a 6xxx xxxx line; from abroad you dial the underlying +65 6xxx xxxx number instead.",
+      "Until 1995 Singapore was dialled from Malaysia using a trunk prefix rather than a country code."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Singapore",
+      "IMDA — Infocomm Media Development Authority: https://www.imda.gov.sg/"
+    ]
+  },
+  {
+    "iso2": "HK",
+    "callingCode": "+852",
+    "trunkPrefix": "",
+    "internationalPrefix": "001",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX XXXX",
+      "international": "+852 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (2, 3)", "national": "2XXX XXXX", "international": "+852 2XXX XXXX" },
+      { "label": "Mobile (4, 5, 6, 7, 9)", "national": "5XXX XXXX", "international": "+852 5XXX XXXX" },
+      { "label": "Toll-free", "national": "800 XXX XXX", "international": "+852 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+85221234567", "international": "+852 2123 4567", "national": "2123 4567", "note": "Fixed line — 2 and 3 prefixes" },
+      { "type": "fixed-line", "e164": "+85231234567", "international": "+852 3123 4567", "national": "3123 4567", "note": "Fixed line — 3 prefix, generally newer allocations" },
+      { "type": "mobile", "e164": "+85251234567", "international": "+852 5123 4567", "national": "5123 4567", "note": "Mobile — 4, 5, 6, 7 and 9 prefixes" }
+    ],
+    "notes": [
+      "Hong Kong abolished area codes at the end of 1989; all numbers are a flat 8 digits with no trunk prefix.",
+      "The international access prefix is 001, not 00.",
+      "Hong Kong keeps its own country code +852 separate from mainland China's +86; calls between them are international."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Hong_Kong",
+      "OFCA — Office of the Communications Authority: https://www.ofca.gov.hk/"
+    ]
+  },
+  {
+    "iso2": "MO",
+    "callingCode": "+853",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX XXXX",
+      "international": "+853 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line, residential/business (28)", "national": "28XX XXXX", "international": "+853 28XX XXXX" },
+      { "label": "Fixed line, business/government (8)", "national": "8XXX XXXX", "international": "+853 8XXX XXXX" },
+      { "label": "Mobile (6)", "national": "6XXX XXXX", "international": "+853 6XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+85328123456", "international": "+853 2812 3456", "national": "2812 3456", "note": "Fixed line — 28 is the main residential and business prefix" },
+      { "type": "fixed-line", "e164": "+85388123456", "international": "+853 8812 3456", "national": "8812 3456", "note": "Fixed line — 8 prefix used by government and corporate lines" },
+      { "type": "mobile", "e164": "+85366123456", "international": "+853 6612 3456", "national": "6612 3456", "note": "Mobile — all Macau mobiles begin with 6" }
+    ],
+    "notes": [
+      "Macau has no area codes or trunk prefix; all numbers are 8 digits.",
+      "Macau keeps its own country code +853, separate from both mainland China (+86) and Hong Kong (+852)."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Macau",
+      "DSRT — Bureau of Telecommunications Regulation: https://www.dsrt.gov.mo/"
+    ]
+  },
+  {
+    "iso2": "TW",
+    "callingCode": "+886",
+    "trunkPrefix": "0",
+    "internationalPrefix": "002 (also 005, 006, 007, 009)",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A-XXXX-XXXX (landline) / 09XX-XXX-XXX (mobile)",
+      "international": "+886 A XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Taipei / New Taipei / Keelung (02)", "national": "02-XXXX-XXXX", "international": "+886 2 XXXX XXXX" },
+      { "label": "Other areas (03 Taoyuan, 04 Taichung, 07 Kaohsiung)", "national": "04-XXXX-XXXX", "international": "+886 4 XXXX XXXX" },
+      { "label": "Mobile (09X)", "national": "09XX-XXX-XXX", "international": "+886 9XX XXX XXX" },
+      { "label": "Toll-free", "national": "0800-XXX-XXX", "international": "+886 800 XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+886223456789", "international": "+886 2 2345 6789", "national": "02-2345-6789", "note": "Taipei — area code 02 covers Taipei City, New Taipei City and Keelung" },
+      { "type": "fixed-line", "e164": "+886412345678", "international": "+886 4 1234 5678", "national": "04-1234-5678", "note": "Taichung — area code 04" },
+      { "type": "mobile", "e164": "+886912345678", "international": "+886 912 345 678", "national": "0912-345-678", "note": "Mobile — all Taiwanese mobiles begin 09 and work nationwide" },
+      { "type": "toll-free", "e164": "+886800111222", "international": "+886 800 111 222", "national": "0800-111-222", "note": "Toll-free — 0800 and 0809 prefixes" }
+    ],
+    "notes": [
+      "The international access prefix varies by carrier (002, 005, 006, 007, 009), each billed differently.",
+      "Area codes are 1–2 digits after the trunk 0; Taipei is 2."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Taiwan",
+      "NCC — National Communications Commission: https://www.ncc.gov.tw/"
+    ]
+  },
+  {
+    "iso2": "KH",
+    "callingCode": "+855",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0AA-XXX-XXX (landline) / 0AA-XXX-XXXX (mobile)",
+      "international": "+855 AA XXX XXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Phnom Penh (023)", "national": "023-XXX-XXX", "international": "+855 23 XXX XXX" },
+      { "label": "Provincial (2-digit area codes)", "national": "0XX-XXX-XXX", "international": "+855 XX XXX XXX" },
+      { "label": "Mobile (010, 011, 012, 015–017, 06x, 07x, 08x, 09x)", "national": "010-XXX-XXXX", "international": "+855 10 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+85523123456", "international": "+855 23 123 456", "national": "023-123-456", "note": "Phnom Penh — area code 023" },
+      { "type": "mobile", "e164": "+855102345678", "international": "+855 10 234 5678", "national": "010-234-5678", "note": "Mobile — 010 is a Smart Axiata range" },
+      { "type": "mobile", "e164": "+855882345678", "international": "+855 88 234 5678", "national": "088-234-5678", "note": "Mobile — 088 is a Metfone range" }
+    ],
+    "notes": [
+      "Cambodia uses a closed plan compliant with ITU-T E.164; the leading 0 is dropped when dialling from abroad.",
+      "The first two digits after the trunk 0 identify the operator for mobile numbers.",
+      "Mobile NSNs run 8–9 digits depending on the operator's allocated block."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cambodia",
+      "TRC — Telecommunication Regulator of Cambodia: https://trc.gov.kh/"
+    ]
+  }
+]

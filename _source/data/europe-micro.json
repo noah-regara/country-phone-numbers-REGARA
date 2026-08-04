@@ -1,0 +1,202 @@
+[
+  {
+    "iso2": "IS",
+    "callingCode": "+354",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [7, 9],
+    "formats": {
+      "national": "XXX XXXX",
+      "international": "+354 XXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (Capital Region 5xx, regional 4xx)", "national": "5XX XXXX", "international": "+354 5XX XXXX" },
+      { "label": "Mobile (6xx, 7xx, 8xx)", "national": "8XX XXXX", "international": "+354 8XX XXXX" },
+      { "label": "Freephone", "national": "800 XXXX", "international": "+354 800 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+3545512345", "international": "+354 551 2345", "national": "551 2345", "note": "Reykjavík — 5xx is the Capital Region fixed range" },
+      { "type": "mobile", "e164": "+3548215678", "international": "+354 821 5678", "national": "821 5678", "note": "Mobile — 6xx/7xx/8xx ranges" },
+      { "type": "toll-free", "e164": "+3548001234", "international": "+354 800 1234", "national": "800 1234", "note": "Freephone" }
+    ],
+    "notes": [
+      "Iceland uses a closed 7-digit plan with no trunk prefix or area codes; numbers beginning with 3 are 9 digits.",
+      "Number portability means the leading digits no longer reliably indicate operator or region."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Iceland",
+      "Electronic Communications Office of Iceland (Fjarskiptastofa): https://www.fjarskiptastofa.is/"
+    ]
+  },
+  {
+    "iso2": "LU",
+    "callingCode": "+352",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "XX XX XX (variable length, closed dialling)",
+      "international": "+352 XX XX XX"
+    },
+    "patterns": [
+      { "label": "Fixed line (legacy short form)", "national": "XX XXXX", "international": "+352 XX XXXX" },
+      { "label": "Fixed line (Luxembourg City 4xxxxx)", "national": "4X XX XX", "international": "+352 4X XX XX" },
+      { "label": "Mobile (621, 661, 691…)", "national": "6X1 XXX XXX", "international": "+352 6X1 XXX XXX" },
+      { "label": "Freephone", "national": "800 XXXXX", "international": "+352 800 XXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+3524123456", "international": "+352 4 123 456", "national": "4 123 456", "note": "Luxembourg City fixed line" },
+      { "type": "fixed-line", "e164": "+35226791234", "international": "+352 2679 1234", "national": "2679 1234", "note": "Consdorf — 8-digit form introduced in 2000" },
+      { "type": "mobile", "e164": "+352661234567", "international": "+352 661 234 567", "national": "661 234 567", "note": "Mobile — 661 is an Orange range" },
+      { "type": "toll-free", "e164": "+35280012345", "international": "+352 800 12345", "national": "800 12345", "note": "Freephone" }
+    ],
+    "notes": [
+      "Luxembourg uses a closed dialling system: numbers are dialled identically from inside and outside the country (minus the country code), with no trunk prefix.",
+      "Fixed-line NSNs are genuinely variable — historically 6 digits, extended to 7–8 — so length-based validation is unreliable. Mobile NSNs are 9 digits."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Luxembourg",
+      "ILR — plan de numérotation: https://web.ilr.lu/communications-electroniques/Pages/Numerotation.aspx"
+    ]
+  },
+  {
+    "iso2": "MT",
+    "callingCode": "+356",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXXX XXXX",
+      "international": "+356 XXXX XXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (21, 22, 27)", "national": "21XX XXXX", "international": "+356 21XX XXXX" },
+      { "label": "Mobile (79, 99, 77, 98)", "national": "99XX XXXX", "international": "+356 99XX XXXX" },
+      { "label": "Freephone", "national": "8007 XXXX", "international": "+356 8007 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+35621234567", "international": "+356 2123 4567", "national": "2123 4567", "note": "Fixed line — 21 is a GO range" },
+      { "type": "mobile", "e164": "+35699234567", "international": "+356 9923 4567", "national": "9923 4567", "note": "Mobile — 99 range (replaced the old 09 prefix in 2002)" },
+      { "type": "mobile", "e164": "+35679123456", "international": "+356 7912 3456", "national": "7912 3456", "note": "Mobile — 79 range" }
+    ],
+    "notes": [
+      "Malta runs a closed 8-digit plan with no trunk prefix or area codes; numbers are conventionally written as two groups of four.",
+      "All numbers were expanded from 6–7 digits to 8 digits during the 2001–2002 reform."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Malta",
+      "MCA — national numbering plan: https://www.mca.org.mt/regulatory/numbering"
+    ]
+  },
+  {
+    "iso2": "GI",
+    "callingCode": "+350",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XXX XXXXX",
+      "international": "+350 XXX XXXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (Gibtelecom, 200xxxxx)", "national": "200 XXXXX", "international": "+350 200 XXXXX" },
+      { "label": "Mobile (5xxxxxxx)", "national": "5XX XXXХХ", "international": "+350 5XX XXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+35020052200", "international": "+350 200 52200", "national": "200 52200", "note": "Gibtelecom fixed line — '200' was prepended to the legacy 5-digit number" },
+      { "type": "mobile", "e164": "+35054123456", "international": "+350 541 23456", "national": "541 23456", "note": "Mobile — 5x ranges" }
+    ],
+    "notes": [
+      "Gibraltar moved to 8-digit numbers on 2008-10-01. Legacy 5-digit landlines were preserved by prefixing '200'.",
+      "No trunk prefix or area codes; the full 8-digit number is always dialled."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Gibraltar",
+      "Gibraltar Regulatory Authority: https://www.gra.gi/communications"
+    ]
+  },
+  {
+    "iso2": "MC",
+    "callingCode": "+377",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XX XX XX XX",
+      "international": "+377 XX XX XX XX"
+    },
+    "patterns": [
+      { "label": "Fixed line (9x)", "national": "9X XX XX XX", "international": "+377 9X XX XX XX" },
+      { "label": "Mobile (4x, 6x)", "national": "6X XX XX XX", "international": "+377 6X XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+37793151234", "international": "+377 93 15 12 34", "national": "93 15 12 34", "note": "Fixed line — Monaco landlines begin with 9" },
+      { "type": "mobile", "e164": "+37764123456", "international": "+377 64 12 34 56", "national": "64 12 34 56", "note": "Mobile — 4x and 6x ranges" }
+    ],
+    "notes": [
+      "Monaco left the French numbering plan on 1996-06-21 and took country code +377. Calls between Monaco and neighbouring France must be dialled in full international format.",
+      "Numbers are 8 digits, written as four pairs in the French style, with no trunk prefix."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Monaco",
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_France"
+    ]
+  },
+  {
+    "iso2": "AD",
+    "callingCode": "+376",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [6],
+    "formats": {
+      "national": "XXX XXX",
+      "international": "+376 XXX XXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (7xxxxx, 8xxxxx)", "national": "8XX XXX", "international": "+376 8XX XXX" },
+      { "label": "Mobile (3xxxxx, 6xxxxx)", "national": "3XX XXX", "international": "+376 3XX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+376812345", "international": "+376 812 345", "national": "812 345", "note": "Fixed line — 7 and 8 ranges" },
+      { "type": "mobile", "e164": "+376312345", "international": "+376 312 345", "national": "312 345", "note": "Mobile — 3 and 6 ranges" }
+    ],
+    "notes": [
+      "Andorra took its own country code +376 on 1994-12-17; it was previously reachable through France (prefix 628) and Spain (area code 9738).",
+      "All numbers are 6 digits with no trunk prefix or area codes."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Andorra",
+      "Andorra Telecom: https://www.andorratelecom.ad/"
+    ]
+  },
+  {
+    "iso2": "SM",
+    "callingCode": "+378",
+    "additionalCallingCodes": ["+39"],
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0549 XXXXXX (all digits always dialled)",
+      "international": "+378 0549 XXXXXX — also reachable as +39 0549 XXXXXX"
+    },
+    "patterns": [
+      { "label": "Fixed line (0549 …)", "national": "0549 XXXXXX", "international": "+378 0549 XXXXXX" },
+      { "label": "Mobile (6…)", "national": "6X XXX XXX", "international": "+378 6X XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+3780549123456", "international": "+378 0549 123456", "national": "0549 123456", "note": "Fixed line — 0549 is the Italian area code San Marino incorporates" },
+      { "type": "fixed-line", "e164": "+390549123456", "international": "+39 0549 123456", "national": "0549 123456", "note": "The same subscriber reached through the Italian country code +39" },
+      { "type": "mobile", "e164": "+378612345678", "international": "+378 61 234 5678", "national": "61 234 5678", "note": "Mobile — 6 range" }
+    ],
+    "notes": [
+      "San Marino is dual-routed: it holds country code +378 but is also reachable through Italy as +39 0549 xxxxxx, because it is embedded in the Italian numbering plan.",
+      "All digits are always dialled; there is no trunk prefix.",
+      "Leading digits 0/8/9 denote landlines, 6 mobile, 5 IP telephony and 7 premium services."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_San_Marino",
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Italy"
+    ]
+  }
+]

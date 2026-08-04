@@ -1,0 +1,143 @@
+[
+  {
+    "iso2": "JE",
+    "callingCode": "+44",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "01534 XXXXXX",
+      "international": "+44 1534 XXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Fixed line", "national": "01534 XXXXXX", "international": "+44 1534 XXXXXX" },
+      { "label": "Mobile (Jersey-allocated 07 ranges)", "national": "07797 XXXXXX", "international": "+44 7797 XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+441534123456", "international": "+44 1534 123456", "national": "01534 123456", "note": "Jersey — area code 01534" },
+      { "type": "mobile", "e164": "+447797123456", "international": "+44 7797 123456", "national": "07797 123456", "note": "Mobile — 077977–077979 are Jersey-allocated ranges" }
+    ],
+    "notes": [
+      "Jersey is a Crown Dependency, not part of the UK, but shares the +44 country code and the UK numbering plan.",
+      "All Jersey landlines sit under the single area code 01534.",
+      "Jersey mobile ranges (e.g. 074572, 075090–075097, 077003, 077977–077979, 079370–079379) are separately allocated and are frequently excluded from UK mobile call allowances."
+    ],
+    "sources": [
+      "https://www.area-codes.org.uk/international/uk-offshore",
+      "Jersey Competition Regulatory Authority: https://www.jcra.je/",
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom"
+    ]
+  },
+  {
+    "iso2": "GG",
+    "callingCode": "+44",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "01481 XXXXXX",
+      "international": "+44 1481 XXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Fixed line (Guernsey, Alderney, Sark)", "national": "01481 XXXXXX", "international": "+44 1481 XXXXXX" },
+      { "label": "Mobile (Guernsey-allocated 07 ranges)", "national": "07781 XXXXXX", "international": "+44 7781 XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+441481123456", "international": "+44 1481 123456", "national": "01481 123456", "note": "Guernsey — area code 01481, also covering Alderney and Sark" },
+      { "type": "mobile", "e164": "+447781123456", "international": "+44 7781 123456", "national": "07781 123456", "note": "Mobile — 077810–077819 are Guernsey-allocated ranges" }
+    ],
+    "notes": [
+      "Guernsey is a Crown Dependency sharing the +44 country code and UK numbering plan.",
+      "The Bailiwick of Guernsey — including Alderney and Sark — uses the single area code 01481.",
+      "Guernsey mobile ranges include 077810–077819, 078391/078392, 078397/078398, 079111 and 079117."
+    ],
+    "sources": [
+      "https://www.area-codes.org.uk/international/uk-offshore",
+      "https://en.wikipedia.org/wiki/Telecommunications_in_Guernsey",
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom"
+    ]
+  },
+  {
+    "iso2": "IM",
+    "callingCode": "+44",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "01624 XXXXXX",
+      "international": "+44 1624 XXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Fixed line", "national": "01624 XXXXXX", "international": "+44 1624 XXXXXX" },
+      { "label": "Mobile (Manx-allocated)", "national": "07624 XXXXXX", "international": "+44 7624 XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+441624123456", "international": "+44 1624 123456", "national": "01624 123456", "note": "Isle of Man — area code 01624" },
+      { "type": "mobile", "e164": "+447624123456", "international": "+44 7624 123456", "national": "07624 123456", "note": "Mobile — 07624 is the Manx-allocated range" }
+    ],
+    "notes": [
+      "The Isle of Man is a Crown Dependency sharing the +44 country code and UK numbering plan.",
+      "All Manx landlines use area code 01624 and Manx mobiles use 07624, making the island unusually easy to identify by prefix.",
+      "Manx numbers are often excluded from UK inclusive call allowances."
+    ],
+    "sources": [
+      "https://www.area-codes.org.uk/international/uk-offshore",
+      "Isle of Man Communications Commission: https://www.gov.im/categories/business-and-industries/communications-commission/",
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom"
+    ]
+  },
+  {
+    "iso2": "AX",
+    "callingCode": "+358",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "018 XXXXX (Finnish plan, Åland area code 18)",
+      "international": "+358 18 XXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Fixed line (Åland area code 18)", "national": "018 XXXXX", "international": "+358 18 XXXXX" },
+      { "label": "Mobile (Ålands Mobiltelefon 0457)", "national": "0457 XXX XXXX", "international": "+358 457 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+35818123456", "international": "+358 18 123456", "national": "018 123456", "note": "Mariehamn — Åland uses Finnish area code 018" },
+      { "type": "mobile", "e164": "+358457123456", "international": "+358 457 123 456", "national": "0457 123 456", "note": "Mobile — 0457 is the Ålands Mobiltelefon range" }
+    ],
+    "notes": [
+      "Åland is an autonomous region of Finland and has no separate country code; it uses +358 with the reserved area code 018.",
+      "Finland's open numbering plan means Åland NSN lengths vary."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Finland",
+      "Traficom — numbering: https://www.traficom.fi/en/communications/telecommunications-networks/telephone-numbers"
+    ]
+  },
+  {
+    "iso2": "SJ",
+    "callingCode": "+47",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "XX XX XX XX (Norwegian plan)",
+      "international": "+47 XX XX XX XX"
+    },
+    "patterns": [
+      { "label": "Fixed line (Longyearbyen, historically 79 02)", "national": "79 XX XX XX", "international": "+47 79 XX XX XX" },
+      { "label": "Mobile (Norwegian ranges)", "national": "XXX XX XXX", "international": "+47 XXX XX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+4779021234", "international": "+47 79 02 12 34", "national": "79 02 12 34", "note": "Longyearbyen, Svalbard — the 79 02 block historically served the archipelago" },
+      { "type": "mobile", "e164": "+4741234567", "international": "+47 412 34 567", "national": "412 34 567", "note": "Mobile — ordinary Norwegian mobile range" }
+    ],
+    "notes": [
+      "Svalbard and Jan Mayen have no separate country code; they use Norway's +47 and its 8-digit closed plan.",
+      "Norway abolished geographic significance of number ranges in January 2020, so the 79 block no longer formally denotes Svalbard."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norway",
+      "Nkom — nummerplan: https://www.nkom.no/telefoni-og-telefonnummer/nummerressurser"
+    ]
+  }
+]

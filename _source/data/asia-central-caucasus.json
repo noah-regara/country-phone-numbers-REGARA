@@ -1,0 +1,238 @@
+[
+  {
+    "iso2": "KZ",
+    "callingCode": "+7",
+    "trunkPrefix": "8",
+    "internationalPrefix": "810",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "8 (AAA) XXX XX XX",
+      "international": "+7 AAA XXX XX XX"
+    },
+    "patterns": [
+      { "label": "Almaty (727), Astana (717)", "national": "8 (727) XXX XX XX", "international": "+7 727 XXX XX XX" },
+      { "label": "Other regions (zone codes 710–729)", "national": "8 (7XX) XXX XX XX", "international": "+7 7XX XXX XX XX" },
+      { "label": "Mobile (70X, 77X)", "national": "8 (701) XXX XX XX", "international": "+7 701 XXX XX XX" },
+      { "label": "Non-geographic (75X, 76X)", "national": "8 (75X) XXX XX XX", "international": "+7 75X XXX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+77271234567", "international": "+7 727 123 45 67", "national": "8 (727) 123 45 67", "note": "Almaty — zone code 727" },
+      { "type": "fixed-line", "e164": "+77171234567", "international": "+7 717 123 45 67", "national": "8 (717) 123 45 67", "note": "Astana — zone code 717" },
+      { "type": "mobile", "e164": "+77011234567", "international": "+7 701 123 45 67", "national": "8 (701) 123 45 67", "note": "Mobile — 70X and 77X ranges" }
+    ],
+    "notes": [
+      "Kazakhstan shares country code +7 with Russia; the two are distinguished by zone code, with Kazakhstan holding 6xx and 7xx blocks.",
+      "Kazakhstan planned to adopt its own code (+997) but confirmed continued code-sharing with Russia in a November 2023 agreement.",
+      "Trunk prefix 8 and international access 8~10 follow the Soviet-era convention retained across the region.",
+      "Geographic zone codes 710–729 were assigned by region under a 2006 agreement with Russia."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kazakhstan",
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Russia"
+    ]
+  },
+  {
+    "iso2": "UZ",
+    "callingCode": "+998",
+    "trunkPrefix": "",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "AA XXX XX XX",
+      "international": "+998 AA XXX XX XX"
+    },
+    "patterns": [
+      { "label": "Tashkent (71)", "national": "71 XXX XX XX", "international": "+998 71 XXX XX XX" },
+      { "label": "Other regions (2-digit area codes)", "national": "XX XXX XX XX", "international": "+998 XX XXX XX XX" },
+      { "label": "Mobile (88, 90, 91, 93, 94, 95, 97, 98, 99)", "national": "90 XXX XX XX", "international": "+998 90 XXX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+998711234567", "international": "+998 71 123 45 67", "national": "71 123 45 67", "note": "Tashkent — area code 71" },
+      { "type": "mobile", "e164": "+998901234567", "international": "+998 90 123 45 67", "national": "90 123 45 67", "note": "Mobile — 90 is a Beeline range" },
+      { "type": "mobile", "e164": "+998971234567", "international": "+998 97 123 45 67", "national": "97 123 45 67", "note": "Mobile — 97 range" }
+    ],
+    "notes": [
+      "Uzbekistan uses a closed 9-digit plan: a 2-digit area or operator code plus a 7-digit subscriber number.",
+      "The Soviet-era 8~10 international prefix has been replaced by 00."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Uzbekistan",
+      "Ministry of Digital Technologies of Uzbekistan: https://digital.uz/"
+    ]
+  },
+  {
+    "iso2": "GE",
+    "callingCode": "+995",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XXXX",
+      "international": "+995 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Tbilisi (32)", "national": "0 32 2XX XXXX", "international": "+995 32 2XX XXXX" },
+      { "label": "Eastern Georgia (3xx), Western Georgia (4xx)", "national": "0 4XX XX XXXX", "international": "+995 4XX XX XXXX" },
+      { "label": "Mobile (5XX)", "national": "0 5XX XXX XXX", "international": "+995 5XX XXX XXX" },
+      { "label": "Fixed wireless (7XX)", "national": "0 7XX XXX XXX", "international": "+995 7XX XXX XXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+995322123456", "international": "+995 32 212 3456", "national": "0 32 212 3456", "note": "Tbilisi — area code 32; Tbilisi subscriber numbers begin with 2" },
+      { "type": "mobile", "e164": "+995595123456", "international": "+995 595 123 456", "national": "0 595 123 456", "note": "Mobile — 595 is a MagtiCom range" },
+      { "type": "mobile", "e164": "+995551123456", "international": "+995 551 123 456", "national": "0 551 123 456", "note": "Mobile — all Georgian mobile prefixes begin with 5" }
+    ],
+    "notes": [
+      "Closed 9-digit plan. Geographic numbers begin with 3 (eastern Georgia) or 4 (western Georgia); mobile numbers begin with 5.",
+      "A leading 5 was added to all mobile prefixes on 2011-06-20 to separate them cleanly from geographic ranges."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Georgia_(country)",
+      "ComCom Georgia — National Communications Commission: https://comcom.ge/"
+    ]
+  },
+  {
+    "iso2": "AM",
+    "callingCode": "+374",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8],
+    "formats": {
+      "national": "0AA XXXXXX",
+      "international": "+374 AA XXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Yerevan (10, 11, 12, 15)", "national": "0 10 XXXXXX", "international": "+374 10 XXXXXX" },
+      { "label": "Other regions (2-digit destination codes)", "national": "0 XX XXXXXX", "international": "+374 XX XXXXXX" },
+      { "label": "Mobile (91, 93, 94, 95, 96, 98, 99, 77)", "national": "0 91 XXXXXX", "international": "+374 91 XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+37410123456", "international": "+374 10 123456", "national": "0 10 123456", "note": "Yerevan — destination codes 10, 11, 12 and 15" },
+      { "type": "mobile", "e164": "+37491123456", "international": "+374 91 123456", "national": "0 91 123456", "note": "Mobile — 91, 93, 95, 96 and 99 are Team/Viva ranges" },
+      { "type": "mobile", "e164": "+37477123456", "international": "+374 77 123456", "national": "0 77 123456", "note": "Mobile — 77 range" }
+    ],
+    "notes": [
+      "Closed 8-digit plan: a 2-digit destination code plus a 6-digit subscriber number.",
+      "The trunk prefix 0 is used domestically and dropped when dialling from abroad."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Armenia",
+      "PSRC — Public Services Regulatory Commission of Armenia: https://psrc.am/"
+    ]
+  },
+  {
+    "iso2": "AZ",
+    "callingCode": "+994",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA XXX XX XX",
+      "international": "+994 AA XXX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Baku (12)", "national": "012 XXX XX XX", "international": "+994 12 XXX XX XX" },
+      { "label": "Other regions (2-digit area codes)", "national": "0XX XXX XX XX", "international": "+994 XX XXX XX XX" },
+      { "label": "Mobile (50–55 Azercell, 55–59/99 Bakcell, 70 Nar)", "national": "050 XXX XX XX", "international": "+994 50 XXX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+994124980335", "international": "+994 12 498 03 35", "national": "012 498 03 35", "note": "Baku — area code 12" },
+      { "type": "mobile", "e164": "+994501234567", "international": "+994 50 123 45 67", "national": "050 123 45 67", "note": "Mobile — 50 is an Azercell range" },
+      { "type": "mobile", "e164": "+994701234567", "international": "+994 70 123 45 67", "national": "070 123 45 67", "note": "Mobile — 70 is a Nar Mobile range" }
+    ],
+    "notes": [
+      "Closed 9-digit plan: a 2-digit area or operator code plus a 7-digit subscriber number.",
+      "Mobile operator prefixes: 50/51 Azercell, 55/99 Bakcell, 70/77 Nar Mobile."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Azerbaijan",
+      "Ministry of Digital Development and Transport of Azerbaijan: https://mincom.gov.az/"
+    ]
+  },
+  {
+    "iso2": "LK",
+    "callingCode": "+94",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AA X XXXXXX (fixed) / 0XX XXXXXXX (mobile)",
+      "international": "+94 AA X XXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Colombo (011)", "national": "011 X XXXXXX", "international": "+94 11 X XXXXXX" },
+      { "label": "Other districts (2-digit area codes)", "national": "0XX X XXXXXX", "international": "+94 XX X XXXXXX" },
+      { "label": "Mobile (070–078)", "national": "077 XXXXXXX", "international": "+94 77 XXXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+94112123456", "international": "+94 11 2 123456", "national": "011 2 123456", "note": "Colombo — area code 011; the digit after it identifies the fixed operator (2 = SLT-Mobitel)" },
+      { "type": "mobile", "e164": "+94777123456", "international": "+94 77 7123456", "national": "077 7123456", "note": "Mobile — 077 is a Dialog Axiata range" },
+      { "type": "mobile", "e164": "+94712345678", "international": "+94 71 2345678", "national": "071 2345678", "note": "Mobile — 071 is an SLT-Mobitel range" }
+    ],
+    "notes": [
+      "Sri Lankan fixed numbers embed an operator digit between the area code and the 6-digit subscriber number.",
+      "Mobile operator codes fall in the 070–078 range; the NSN is 9 digits for both fixed and mobile."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Sri_Lanka",
+      "TRCSL — Telecommunications Regulatory Commission of Sri Lanka: https://www.trc.gov.lk/"
+    ]
+  },
+  {
+    "iso2": "NP",
+    "callingCode": "+977",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 10],
+    "formats": {
+      "national": "0A XXXXXXX (fixed) / 98X XXX XXXX (mobile)",
+      "international": "+977 A XXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Kathmandu (1)", "national": "01 4XXXXXX", "international": "+977 1 4XXXXXX" },
+      { "label": "Other districts (2-digit area codes, e.g. Pokhara 61)", "national": "061 XXXXXX", "international": "+977 61 XXXXXX" },
+      { "label": "Mobile (97X, 98X)", "national": "98X XXX XXXX", "international": "+977 98X XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+97714441234", "international": "+977 1 444 1234", "national": "01 444 1234", "note": "Kathmandu — area code 1; subscriber numbers begin 4, 5 or 6" },
+      { "type": "fixed-line", "e164": "+97761123456", "international": "+977 61 123456", "national": "061 123456", "note": "Pokhara — area code 61" },
+      { "type": "mobile", "e164": "+9779841234567", "international": "+977 984 123 4567", "national": "984 123 4567", "note": "Mobile — 98X and 97X ranges; 10-digit NSN dialled without a trunk 0" }
+    ],
+    "notes": [
+      "Geographic numbers take the trunk prefix 0 for domestic long-distance; mobile numbers are dialled as a flat 10 digits with no trunk prefix.",
+      "Area codes are 1–2 digits with the subscriber number sized to match, giving an 8-digit fixed NSN and a 10-digit mobile NSN."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Nepal",
+      "NTA — Nepal Telecommunications Authority: https://nta.gov.np/"
+    ]
+  },
+  {
+    "iso2": "MM",
+    "callingCode": "+95",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0A XXX XXXX (fixed) / 09 XXX XXXXXX (mobile)",
+      "international": "+95 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Yangon (1)", "national": "01 XXX XXXX", "international": "+95 1 XXX XXXX" },
+      { "label": "Mandalay (2), Nay Pyi Taw (67)", "national": "02 XXX XXXX", "international": "+95 2 XXX XXXX" },
+      { "label": "Mobile (09)", "national": "09 XXX XXXXXX", "international": "+95 9 XXX XXXXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+9512345678", "international": "+95 1 234 5678", "national": "01 234 5678", "note": "Yangon — area code 1" },
+      { "type": "fixed-line", "e164": "+9522834567", "international": "+95 2 283 4567", "national": "02 283 4567", "note": "Mandalay — area code 2" },
+      { "type": "mobile", "e164": "+95797123456", "international": "+95 797 123 456", "national": "09 797 123 456", "note": "Mobile — 097 is a Telenor range; 096 Mytel, 098/099 Ooredoo, 092/094/095 MPT" }
+    ],
+    "notes": [
+      "Myanmar's NSN varies from about 7 to 10 digits, so length-based validation is unreliable.",
+      "All mobile numbers are dialled domestically with the 09 prefix; the operator is identified by the digit that follows."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Myanmar",
+      "PTD — Posts and Telecommunications Department, Myanmar: https://www.ptd.gov.mm/"
+    ]
+  }
+]

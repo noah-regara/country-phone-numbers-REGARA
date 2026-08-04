@@ -1,0 +1,274 @@
+[
+  {
+    "iso2": "SA",
+    "callingCode": "+966",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9, 10],
+    "formats": {
+      "national": "0AA XXX XXXX",
+      "international": "+966 AA XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Riyadh (011)", "national": "011 XXX XXXX", "international": "+966 11 XXX XXXX" },
+      { "label": "Western region incl. Jeddah (012), Eastern Province (013)", "national": "012 XXX XXXX", "international": "+966 12 XXX XXXX" },
+      { "label": "Mobile (050, 053, 055 STC; 054, 056 Mobily; 058, 059 Zain)", "national": "050 XXX XXXX", "international": "+966 50 XXX XXXX" },
+      { "label": "Toll-free", "national": "800 XXX XXXX", "international": "+966 800 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+966111234567", "international": "+966 11 123 4567", "national": "011 123 4567", "note": "Riyadh — area code 011" },
+      { "type": "fixed-line", "e164": "+966121234567", "international": "+966 12 123 4567", "national": "012 123 4567", "note": "Jeddah and the western region — area code 012" },
+      { "type": "mobile", "e164": "+966501234567", "international": "+966 50 123 4567", "national": "050 123 4567", "note": "Mobile — 050 is an STC range" },
+      { "type": "toll-free", "e164": "+9668001234567", "international": "+966 800 123 4567", "national": "800 123 4567", "note": "Toll-free — 10-digit NSN, longer than the 9-digit norm" }
+    ],
+    "notes": [
+      "Saudi area codes were expanded to three digits (011, 012, 013…) in a 2013 renumbering.",
+      "Mobile prefixes map to operators: 050/053/055 STC, 054/056 Mobily, 058/059 Zain."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Saudi_Arabia",
+      "CST — Communications, Space and Technology Commission: https://www.cst.gov.sa/"
+    ]
+  },
+  {
+    "iso2": "AE",
+    "callingCode": "+971",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A XXX XXXX (landline) / 05X XXX XXXX (mobile)",
+      "international": "+971 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Abu Dhabi (02), Dubai (04), Sharjah (06)", "national": "04 XXX XXXX", "international": "+971 4 XXX XXXX" },
+      { "label": "Mobile (050, 052, 054, 055, 056, 058)", "national": "050 XXX XXXX", "international": "+971 50 XXX XXXX" },
+      { "label": "Toll-free", "national": "800 XXXX", "international": "+971 800 XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+97141234567", "international": "+971 4 123 4567", "national": "04 123 4567", "note": "Dubai — area code 04" },
+      { "type": "fixed-line", "e164": "+97121234567", "international": "+971 2 123 4567", "national": "02 123 4567", "note": "Abu Dhabi — area code 02" },
+      { "type": "mobile", "e164": "+971501234567", "international": "+971 50 123 4567", "national": "050 123 4567", "note": "Mobile — 050/054/056 Etisalat, 052/055/058 du" }
+    ],
+    "notes": [
+      "Landline subscriber numbers are 7 digits behind a single-digit emirate code, giving an 8-digit NSN; mobile NSNs are 9 digits.",
+      "Each emirate has its own area code: 02 Abu Dhabi, 03 Al Ain, 04 Dubai, 06 Sharjah/Ajman/Umm Al Quwain, 07 Ras Al Khaimah, 09 Fujairah."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Arab_Emirates",
+      "TDRA — Telecommunications and Digital Government Regulatory Authority: https://tdra.gov.ae/"
+    ]
+  },
+  {
+    "iso2": "IL",
+    "callingCode": "+972",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00 (also carrier codes 012, 013, 014, 018)",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A-XXX-XXXX (landline) / 05X-XXX-XXXX (mobile)",
+      "international": "+972 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Tel Aviv and Central District (03)", "national": "03-XXX-XXXX", "international": "+972 3 XXX XXXX" },
+      { "label": "Jerusalem (02), Haifa (04), South (08), Sharon (09)", "national": "02-XXX-XXXX", "international": "+972 2 XXX XXXX" },
+      { "label": "Mobile (050–059)", "national": "050-XXX-XXXX", "international": "+972 50 XXX XXXX" },
+      { "label": "VoIP (07X)", "national": "077-XXX-XXXX", "international": "+972 77 XXX XXXX" },
+      { "label": "Toll-free (domestic only)", "national": "1-800-XXX-XXX", "international": "not reachable from abroad" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+97235551234", "international": "+972 3 555 1234", "national": "03-555-1234", "note": "Tel Aviv — area code 03 covers Tel Aviv and the Central District" },
+      { "type": "fixed-line", "e164": "+97226665678", "international": "+972 2 666 5678", "national": "02-666-5678", "note": "Jerusalem — area code 02" },
+      { "type": "mobile", "e164": "+972501234567", "international": "+972 50 123 4567", "national": "050-123-4567", "note": "Mobile — 050 is a Pelephone range; 050–059 are all mobile" }
+    ],
+    "notes": [
+      "International access can be dialled as 00 or via a carrier-specific code (012, 013, 014, 018), each billed differently.",
+      "1-800 toll-free numbers work only from inside Israel.",
+      "The +972 code is also used for Palestinian numbers in some contexts; the State of Palestine additionally holds +970."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Israel",
+      "Israeli Ministry of Communications: https://www.gov.il/en/departments/ministry_of_communications"
+    ]
+  },
+  {
+    "iso2": "EG",
+    "callingCode": "+20",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0A XXXX XXXX (landline) / 01X XXXX XXXX (mobile)",
+      "international": "+20 A XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Cairo (2), Alexandria (3)", "national": "02 XXXX XXXX", "international": "+20 2 XXXX XXXX" },
+      { "label": "Governorates (2-digit area codes)", "national": "0XX XXX XXXX", "international": "+20 XX XXX XXXX" },
+      { "label": "Mobile (010 Vodafone, 011 Etisalat, 012 Orange, 015 WE)", "national": "010 XXXX XXXX", "international": "+20 10 XXXX XXXX" },
+      { "label": "Toll-free", "national": "0800 XXX XXXX", "international": "+20 800 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+20234567890", "international": "+20 2 3456 7890", "national": "02 3456 7890", "note": "Cairo — single-digit area code 2 with an 8-digit subscriber number" },
+      { "type": "fixed-line", "e164": "+2031234567", "international": "+20 3 123 4567", "national": "03 123 4567", "note": "Alexandria — area code 3" },
+      { "type": "mobile", "e164": "+201012345678", "international": "+20 10 1234 5678", "national": "010 1234 5678", "note": "Mobile — 010 is a Vodafone Egypt range" }
+    ],
+    "notes": [
+      "Landline NSNs vary (8–9 digits) because area codes are 1–2 digits; mobile NSNs are 10 digits.",
+      "Mobile operator prefixes: 010 Vodafone, 011 Etisalat, 012 Orange, 015 WE (Telecom Egypt).",
+      "Governed by the 2003 Telecom Act and administered by the NTRA."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Egypt",
+      "NTRA — National Telecommunications Regulatory Authority: https://www.tra.gov.eg/"
+    ]
+  },
+  {
+    "iso2": "IR",
+    "callingCode": "+98",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [10],
+    "formats": {
+      "national": "0AA XXXX XXXX (landline) / 09XX XXX XXXX (mobile)",
+      "international": "+98 AA XXXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Tehran (021)", "national": "021 XXXX XXXX", "international": "+98 21 XXXX XXXX" },
+      { "label": "Other provinces (2-digit area codes, e.g. Mashhad 051, Isfahan 031)", "national": "0XX XXXX XXXX", "international": "+98 XX XXXX XXXX" },
+      { "label": "Mobile (091X IR-MCI, 093X Irancell, 092X RighTel)", "national": "0910 123 4567", "international": "+98 910 123 4567" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+982112345678", "international": "+98 21 1234 5678", "national": "021 1234 5678", "note": "Tehran — area code 21" },
+      { "type": "fixed-line", "e164": "+985112345678", "international": "+98 51 1234 5678", "national": "051 1234 5678", "note": "Mashhad — area code 51" },
+      { "type": "mobile", "e164": "+989101234567", "international": "+98 910 123 4567", "national": "0910 123 4567", "note": "Mobile — 091X is an IR-MCI (Hamrah-e Avval) range" }
+    ],
+    "notes": [
+      "Closed 10-digit plan: 11 digits including the trunk 0.",
+      "All mobile numbers begin 09, making them easy to distinguish from geographic ranges."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Iran",
+      "CRA — Communications Regulatory Authority of Iran: https://www.cra.ir/"
+    ]
+  },
+  {
+    "iso2": "IQ",
+    "callingCode": "+964",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [],
+    "formats": {
+      "national": "0A XXXXXXX (landline) / 07XX XXX XXXX (mobile)",
+      "international": "+964 A XXXXXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Baghdad (1)", "national": "01 XXXXXXX", "international": "+964 1 XXXXXXX" },
+      { "label": "Governorates (2-digit area codes)", "national": "0XX XXXXXX", "international": "+964 XX XXXXXX" },
+      { "label": "Mobile (75X Korek, 77X Asiacell, 78X/79X Zain)", "national": "0751 234 5678", "international": "+964 751 234 5678" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+96412345678", "international": "+964 1 234 5678", "national": "01 234 5678", "note": "Baghdad — area code 1; Baghdad has 7-digit subscriber numbers where most governorates have 6" },
+      { "type": "mobile", "e164": "+9647512345678", "international": "+964 751 234 5678", "national": "0751 234 5678", "note": "Mobile — 75X is a Korek Telecom range" },
+      { "type": "mobile", "e164": "+9647712345678", "international": "+964 771 234 5678", "national": "0771 234 5678", "note": "Mobile — 77X is an Asiacell range" }
+    ],
+    "notes": [
+      "Area codes are 1–2 digits and subscriber numbers 6–7, so landline NSN length varies.",
+      "Mobile numbers use a 3-digit operator code plus 7 digits, giving a 10-digit NSN."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Iraq",
+      "CMC — Communications and Media Commission of Iraq: https://www.cmc.iq/"
+    ]
+  },
+  {
+    "iso2": "MA",
+    "callingCode": "+212",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0AAA XX XX XX",
+      "international": "+212 AAA XX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Casablanca (0522, 0529)", "national": "0522 XX XX XX", "international": "+212 522 XX XX XX" },
+      { "label": "Rabat (0537), Marrakesh (0524), Fes (0535)", "national": "0537 XX XX XX", "international": "+212 537 XX XX XX" },
+      { "label": "Mobile (06X, 07X)", "national": "0661 XX XX XX", "international": "+212 661 XX XX XX" },
+      { "label": "Toll-free (080)", "national": "0800 XX XX XX", "international": "+212 800 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+212522123456", "international": "+212 522 12 34 56", "national": "0522 12 34 56", "note": "Casablanca — one of about ten prefixes serving the city" },
+      { "type": "fixed-line", "e164": "+212537123456", "international": "+212 537 12 34 56", "national": "0537 12 34 56", "note": "Rabat — prefix 0537" },
+      { "type": "mobile", "e164": "+212661123456", "international": "+212 661 12 34 56", "national": "0661 12 34 56", "note": "Mobile — 06X and 07X ranges across Maroc Telecom, Orange Maroc and INWI" },
+      { "type": "toll-free", "e164": "+212800123456", "international": "+212 800 12 34 56", "national": "0800 12 34 56", "note": "Numéro vert (freephone)" }
+    ],
+    "notes": [
+      "Closed 9-digit plan: the prefix must be dialled even for local calls.",
+      "One geographic area may be served by several prefixes — Casablanca alone has around ten.",
+      "Numbers grew from 6 digits (1990) to 7, then 8 (2000) and finally 9 (2009).",
+      "Western Sahara is administered within the same +212 plan, principally under the 0528 prefix."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Morocco",
+      "ANRT — Agence Nationale de Réglementation des Télécommunications: https://www.anrt.ma/"
+    ]
+  },
+  {
+    "iso2": "EH",
+    "callingCode": "+212",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [9],
+    "formats": {
+      "national": "0528 XX XX XX (Moroccan plan)",
+      "international": "+212 528 XX XX XX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Laayoune / Dakhla region (0528)", "national": "0528 XX XX XX", "international": "+212 528 XX XX XX" },
+      { "label": "Mobile (06X, 07X — Moroccan ranges)", "national": "0661 XX XX XX", "international": "+212 661 XX XX XX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+212528123456", "international": "+212 528 12 34 56", "national": "0528 12 34 56", "note": "Laayoune — the 0528 prefix serves the southern provinces including Western Sahara" },
+      { "type": "mobile", "e164": "+212661123456", "international": "+212 661 12 34 56", "national": "0661 12 34 56", "note": "Mobile — Moroccan mobile ranges apply throughout the territory" }
+    ],
+    "notes": [
+      "Western Sahara has no separate country code. The territory is administered by Morocco for telecommunications purposes and falls entirely within the +212 numbering plan.",
+      "The 0528 prefix covers the southern provinces including Laayoune and Dakhla.",
+      "The territory's political status is disputed; this entry reflects the numbering arrangement in operational use, not a position on sovereignty."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Morocco",
+      "ANRT — Agence Nationale de Réglementation des Télécommunications: https://www.anrt.ma/"
+    ]
+  },
+  {
+    "iso2": "JO",
+    "callingCode": "+962",
+    "trunkPrefix": "0",
+    "internationalPrefix": "00",
+    "nsnLengths": [8, 9],
+    "formats": {
+      "national": "0A XXX XXXX (landline) / 07X XXX XXXX (mobile)",
+      "international": "+962 A XXX XXXX (trunk 0 dropped)"
+    },
+    "patterns": [
+      { "label": "Amman (6)", "national": "06 XXX XXXX", "international": "+962 6 XXX XXXX" },
+      { "label": "North — Irbid, Ajloun, Jerash, Mafraq (2)", "national": "02 XXX XXXX", "international": "+962 2 XXX XXXX" },
+      { "label": "South — Karak, Ma'an, Aqaba, Petra (3); Zarqa (5)", "national": "03 XXX XXXX", "international": "+962 3 XXX XXXX" },
+      { "label": "Mobile (77 Orange, 78 Umniah, 79 Zain)", "national": "079 XXX XXXX", "international": "+962 79 XXX XXXX" }
+    ],
+    "examples": [
+      { "type": "fixed-line", "e164": "+96265555555", "international": "+962 6 555 5555", "national": "06 555 5555", "note": "Amman — area code 6" },
+      { "type": "fixed-line", "e164": "+96221234567", "international": "+962 2 123 4567", "national": "02 123 4567", "note": "Irbid and the north — area code 2" },
+      { "type": "mobile", "e164": "+962791234567", "international": "+962 79 123 4567", "national": "079 123 4567", "note": "Mobile — 79 is a Zain range; 77 Orange, 78 Umniah" }
+    ],
+    "notes": [
+      "Closed plan with single-digit geographic area codes; mobile numbers use 2-digit codes starting with 7.",
+      "8xx and 9xx ranges are reserved for free and service lines."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telephone_numbers_in_Jordan",
+      "TRC — Telecommunications Regulatory Commission of Jordan: https://trc.gov.jo/"
+    ]
+  }
+]
