@@ -1,0 +1,49 @@
+{
+  "country": "Liberia",
+  "iso2": "LR",
+  "iso3": "LBR",
+  "callingCode": "+231",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "XX XXX XXXX (variable)",
+    "international": "+231 XX XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — LIBTELCO (2X)",
+      "national": "2 XXXXXXX",
+      "international": "+231 2 XXXXXXX"
+    },
+    {
+      "label": "Mobile — Orange (77X), Lonestar/MTN (88X)",
+      "national": "77 XXXXXXX",
+      "international": "+231 77 XXXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+23121234567",
+      "international": "+231 2 123 4567",
+      "national": "2 123 4567",
+      "note": "Monrovia — the 2X fixed range operated by LIBTELCO"
+    },
+    {
+      "type": "mobile",
+      "e164": "+231771234567",
+      "international": "+231 77 123 4567",
+      "national": "77 123 4567",
+      "note": "Mobile — 77X is an Orange Liberia range"
+    }
+  ],
+  "notes": [
+    "Liberian NSNs run 7–9 digits depending on the service, so length alone cannot validate a number.",
+    "Mobile numbers dominate; fixed-line coverage is limited."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Liberia",
+    "LTA — Liberia Telecommunications Authority: https://lta.gov.lr/"
+  ]
+}
