@@ -1,0 +1,64 @@
+{
+  "country": "Qatar",
+  "iso2": "QA",
+  "iso3": "QAT",
+  "callingCode": "+974",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+974 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (4)",
+      "national": "44XX XXXX",
+      "international": "+974 44XX XXXX"
+    },
+    {
+      "label": "Mobile (3, 5, 6, 7)",
+      "national": "33XX XXXX",
+      "international": "+974 33XX XXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "800 XXXX",
+      "international": "+974 800 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+97444123456",
+      "international": "+974 4412 3456",
+      "national": "4412 3456",
+      "note": "Fixed line — Qatari landlines begin with 4 (Ooredoo)"
+    },
+    {
+      "type": "mobile",
+      "e164": "+97433123456",
+      "international": "+974 3312 3456",
+      "national": "3312 3456",
+      "note": "Mobile — 3 is an Ooredoo range"
+    },
+    {
+      "type": "mobile",
+      "e164": "+97477123456",
+      "international": "+974 7712 3456",
+      "national": "7712 3456",
+      "note": "Mobile — 7 is a Vodafone Qatar range"
+    }
+  ],
+  "notes": [
+    "Qatar introduced its current plan in 2010, standardising most numbers at 8 digits.",
+    "No area codes or trunk prefix. Mobile numbers begin 3, 5, 6 or 7; fixed lines begin 4.",
+    "Special services (emergency 99, freephone 800, audiotext 900) use shorter numbers."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Qatar",
+    "CRA — Communications Regulatory Authority of Qatar: https://www.cra.gov.qa/"
+  ]
+}
