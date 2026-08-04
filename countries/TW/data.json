@@ -1,0 +1,76 @@
+{
+  "country": "Taiwan, Province of China",
+  "iso2": "TW",
+  "iso3": "TWN",
+  "callingCode": "+886",
+  "trunkPrefix": "0",
+  "internationalPrefix": "002 (also 005, 006, 007, 009)",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A-XXXX-XXXX (landline) / 09XX-XXX-XXX (mobile)",
+    "international": "+886 A XXXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Taipei / New Taipei / Keelung (02)",
+      "national": "02-XXXX-XXXX",
+      "international": "+886 2 XXXX XXXX"
+    },
+    {
+      "label": "Other areas (03 Taoyuan, 04 Taichung, 07 Kaohsiung)",
+      "national": "04-XXXX-XXXX",
+      "international": "+886 4 XXXX XXXX"
+    },
+    {
+      "label": "Mobile (09X)",
+      "national": "09XX-XXX-XXX",
+      "international": "+886 9XX XXX XXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "0800-XXX-XXX",
+      "international": "+886 800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+886223456789",
+      "international": "+886 2 2345 6789",
+      "national": "02-2345-6789",
+      "note": "Taipei — area code 02 covers Taipei City, New Taipei City and Keelung"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+886412345678",
+      "international": "+886 4 1234 5678",
+      "national": "04-1234-5678",
+      "note": "Taichung — area code 04"
+    },
+    {
+      "type": "mobile",
+      "e164": "+886912345678",
+      "international": "+886 912 345 678",
+      "national": "0912-345-678",
+      "note": "Mobile — all Taiwanese mobiles begin 09 and work nationwide"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+886800111222",
+      "international": "+886 800 111 222",
+      "national": "0800-111-222",
+      "note": "Toll-free — 0800 and 0809 prefixes"
+    }
+  ],
+  "notes": [
+    "The international access prefix varies by carrier (002, 005, 006, 007, 009), each billed differently.",
+    "Area codes are 1–2 digits after the trunk 0; Taipei is 2."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Taiwan",
+    "NCC — National Communications Commission: https://www.ncc.gov.tw/"
+  ]
+}
