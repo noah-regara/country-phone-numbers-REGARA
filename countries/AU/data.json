@@ -1,0 +1,77 @@
+{
+  "country": "Australia",
+  "iso2": "AU",
+  "iso3": "AUS",
+  "callingCode": "+61",
+  "trunkPrefix": "0",
+  "internationalPrefix": "0011",
+  "nsnLengths": [
+    9,
+    10
+  ],
+  "formats": {
+    "national": "(0A) XXXX XXXX (landline) / 04XX XXX XXX (mobile)",
+    "international": "+61 A XXXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Central-East — NSW, ACT (02)",
+      "national": "(02) XXXX XXXX",
+      "international": "+61 2 XXXX XXXX"
+    },
+    {
+      "label": "South-East — VIC, TAS (03); North-East — QLD (07); Central-West — WA, SA, NT (08)",
+      "national": "(03) XXXX XXXX",
+      "international": "+61 3 XXXX XXXX"
+    },
+    {
+      "label": "Mobile (04)",
+      "national": "04XX XXX XXX",
+      "international": "+61 4XX XXX XXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "1800 XXX XXX",
+      "international": "+61 1800 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+61291234567",
+      "international": "+61 2 9123 4567",
+      "national": "(02) 9123 4567",
+      "note": "Sydney — area code 02 covers NSW and the ACT"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+61391234567",
+      "international": "+61 3 9123 4567",
+      "national": "(03) 9123 4567",
+      "note": "Melbourne — area code 03 covers Victoria and Tasmania"
+    },
+    {
+      "type": "mobile",
+      "e164": "+61412345678",
+      "international": "+61 412 345 678",
+      "national": "0412 345 678",
+      "note": "Mobile — all Australian mobiles begin 04 and are nationwide"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+611800123456",
+      "international": "+61 1800 123 456",
+      "national": "1800 123 456",
+      "note": "Freecall"
+    }
+  ],
+  "notes": [
+    "Australia has just four geographic area codes (02, 03, 07, 08), each covering a large multi-state region.",
+    "The international access prefix is 0011, not 00.",
+    "13/1300 numbers are charged at a fixed local rate rather than being free."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Australia",
+    "ACMA — Australian Communications and Media Authority: https://www.acma.gov.au/numbering"
+  ]
+}
