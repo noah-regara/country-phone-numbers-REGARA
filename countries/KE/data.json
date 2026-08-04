@@ -1,0 +1,68 @@
+{
+  "country": "Kenya",
+  "iso2": "KE",
+  "iso3": "KEN",
+  "callingCode": "+254",
+  "trunkPrefix": "0",
+  "internationalPrefix": "000",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "0AA XXXXXXX (landline) / 07XX XXXXXX (mobile)",
+    "international": "+254 AA XXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Nairobi (020)",
+      "national": "020 XXXXXXX",
+      "international": "+254 20 XXXXXXX"
+    },
+    {
+      "label": "Other regions (area codes 20–69)",
+      "national": "0XX XXXXXX",
+      "international": "+254 XX XXXXXX"
+    },
+    {
+      "label": "Mobile (701–799)",
+      "national": "0722 XXXXXX",
+      "international": "+254 722 XXXXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "0800 XXXXXX",
+      "international": "+254 800 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+254201234567",
+      "international": "+254 20 1234567",
+      "national": "020 1234567",
+      "note": "Nairobi — area code 20"
+    },
+    {
+      "type": "mobile",
+      "e164": "+254722123456",
+      "international": "+254 722 123456",
+      "national": "0722 123456",
+      "note": "Mobile — 722 is a Safaricom range"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+254800123456",
+      "international": "+254 800 123456",
+      "national": "0800 123456",
+      "note": "Toll-free within Kenya"
+    }
+  ],
+  "notes": [
+    "The international access prefix is 000.",
+    "Landline area codes 20–69 map to geographic regions; mobile prefixes 701–799 are nationwide and portable since 2011."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kenya",
+    "CAK — Communications Authority of Kenya: https://www.ca.go.ke/"
+  ]
+}
