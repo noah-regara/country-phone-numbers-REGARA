@@ -1,0 +1,51 @@
+{
+  "country": "Guinea-Bissau",
+  "iso2": "GW",
+  "iso3": "GNB",
+  "callingCode": "+245",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "XX XXX XXXX",
+    "international": "+245 XX XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — Guiné Telecom (44)",
+      "national": "44 XXX XXXX",
+      "international": "+245 44 XXX XXXX"
+    },
+    {
+      "label": "Mobile — Orange Bissau (95X), MTN Areeba (96X, 97X)",
+      "national": "95X XXX XXX",
+      "international": "+245 95X XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+245443301234",
+      "international": "+245 44 330 1234",
+      "national": "44 330 1234",
+      "note": "Bissau — the 44 fixed prefix (Guiné Telecom)"
+    },
+    {
+      "type": "mobile",
+      "e164": "+245955123456",
+      "international": "+245 955 123 456",
+      "national": "955 123 456",
+      "note": "Mobile — the 95X Orange Bissau range"
+    }
+  ],
+  "notes": [
+    "Closed 9-digit plan; the same digits are dialled domestically and after +245 from abroad.",
+    "No trunk prefix or geographic area codes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Guinea-Bissau",
+    "ARN — Autoridade Reguladora Nacional, Guiné-Bissau: https://www.arn.gw/"
+  ]
+}
