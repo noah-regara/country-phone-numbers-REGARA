@@ -1,0 +1,51 @@
+{
+  "country": "Gambia",
+  "iso2": "GM",
+  "iso3": "GMB",
+  "callingCode": "+220",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    7
+  ],
+  "formats": {
+    "national": "XXX XXXX",
+    "international": "+220 XXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line — GAMTEL (42X–44X)",
+      "national": "42X XXXX",
+      "international": "+220 42X XXXX"
+    },
+    {
+      "label": "Mobile — Africell (2XX), QCell (3XX), Comium (7XX), Gamcel (9XX)",
+      "national": "2XX XXXX",
+      "international": "+220 2XX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+2204221234",
+      "international": "+220 422 1234",
+      "national": "422 1234",
+      "note": "Banjul — the 42X GAMTEL fixed allocation"
+    },
+    {
+      "type": "mobile",
+      "e164": "+2202991234",
+      "international": "+220 299 1234",
+      "national": "299 1234",
+      "note": "Mobile — the 2XX Africell allocation"
+    }
+  ],
+  "notes": [
+    "Closed 7-digit plan with no trunk prefix; numbers are dialled directly within the country.",
+    "The leading digit identifies the operator rather than a geographic area."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Gambia",
+    "PURA — Public Utilities Regulatory Authority of The Gambia: https://www.pura.gm/"
+  ]
+}
