@@ -1,0 +1,58 @@
+{
+  "country": "Cameroon",
+  "iso2": "CM",
+  "iso3": "CMR",
+  "callingCode": "+237",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    9
+  ],
+  "formats": {
+    "national": "XXX XX XX XX",
+    "international": "+237 XXX XX XX XX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2XX)",
+      "national": "2XX XX XX XX",
+      "international": "+237 2XX XX XX XX"
+    },
+    {
+      "label": "Mobile (6XX)",
+      "national": "6XX XX XX XX",
+      "international": "+237 6XX XX XX XX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+237266401234",
+      "international": "+237 266 40 12 34",
+      "national": "266 40 12 34",
+      "note": "CAMTEL fixed line — all fixed numbers begin with 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+237677123456",
+      "international": "+237 677 12 34 56",
+      "national": "677 12 34 56",
+      "note": "Mobile — all mobile numbers begin with 6 (MTN Cameroon, Orange Cameroun)"
+    },
+    {
+      "type": "mobile",
+      "e164": "+237690123456",
+      "international": "+237 690 12 34 56",
+      "national": "690 12 34 56",
+      "note": "Mobile — 69X range"
+    }
+  ],
+  "notes": [
+    "Cameroon expanded from 8 to 9 digits on 2014-11-21 by prefixing 2 (fixed) or 6 (mobile), raising capacity from 80 to 800 million numbers.",
+    "There is no trunk prefix: the same 9 digits are dialled domestically and internationally after +237."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cameroon",
+    "ART — Agence de Régulation des Télécommunications du Cameroun: https://www.art.cm/"
+  ]
+}
