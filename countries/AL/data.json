@@ -1,0 +1,64 @@
+{
+  "country": "Albania",
+  "iso2": "AL",
+  "iso3": "ALB",
+  "callingCode": "+355",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8,
+    9
+  ],
+  "formats": {
+    "national": "0A XXX XXXX (Tirana) / 0AA XXX XXX (elsewhere)",
+    "international": "+355 A XXX XXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Tirana (04)",
+      "national": "04 XXX XXXX",
+      "international": "+355 4 XXX XXXX"
+    },
+    {
+      "label": "Other geographic",
+      "national": "0XX XXX XXX",
+      "international": "+355 XX XXX XXX"
+    },
+    {
+      "label": "Mobile (066–069)",
+      "national": "069 XXX XXXX",
+      "international": "+355 69 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+35542345678",
+      "international": "+355 4 234 5678",
+      "national": "04 234 5678",
+      "note": "Tirana — area code 4"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+35533123456",
+      "international": "+355 33 123 456",
+      "national": "033 123 456",
+      "note": "Durrës region — 2-digit area code"
+    },
+    {
+      "type": "mobile",
+      "e164": "+355691234567",
+      "international": "+355 69 123 4567",
+      "national": "069 123 4567",
+      "note": "Mobile — 069 is a Vodafone Albania range; 067/068 One Albania"
+    }
+  ],
+  "notes": [
+    "Albania added a digit to local numbers nationwide in September 2008, moving to the current 8-digit standard for fixed lines.",
+    "Mobile NSNs are 9 digits; fixed-line NSNs are 8."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Albania",
+    "AKEP — Electronic and Postal Communications Authority: https://akep.al/"
+  ]
+}
