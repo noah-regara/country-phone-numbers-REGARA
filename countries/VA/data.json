@@ -1,0 +1,49 @@
+{
+  "country": "Holy See",
+  "iso2": "VA",
+  "iso3": "VAT",
+  "callingCode": "+379",
+  "additionalCallingCodes": [
+    "+39"
+  ],
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "06 698 XXXXX (dialled through the Italian plan)",
+    "international": "+39 06 698 XXXXX — the assigned code +379 is not in general use"
+  },
+  "patterns": [
+    {
+      "label": "Vatican offices via the Italian plan",
+      "national": "06 698 XXXXX",
+      "international": "+39 06 698 XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+390669812345",
+      "international": "+39 06 698 12345",
+      "national": "06 698 12345",
+      "note": "Vatican office — reached through Rome's 06 area code, block 698"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+390669884676",
+      "international": "+39 06 698 84676",
+      "national": "06 698 84676",
+      "note": "Vatican Museums switchboard range"
+    }
+  ],
+  "notes": [
+    "+379 is assigned to Vatican City by the ITU but is effectively unused for public dialling. Almost every reachable Vatican number sits inside the Italian numbering plan as +39 06 698xxxxx.",
+    "The 698 block within Rome's 06 area code is reserved for the Holy See.",
+    "Numbers on +379 exist only as short internal exchange extensions and are not publicly routable."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Italy",
+    "https://www.howtocallabroad.com/vatican/",
+    "ITU-T E.164 assigned country codes: https://www.itu.int/pub/T-SP-E.164D"
+  ]
+}
