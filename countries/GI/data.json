@@ -1,0 +1,51 @@
+{
+  "country": "Gibraltar",
+  "iso2": "GI",
+  "iso3": "GIB",
+  "callingCode": "+350",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXX XXXXX",
+    "international": "+350 XXX XXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (Gibtelecom, 200xxxxx)",
+      "national": "200 XXXXX",
+      "international": "+350 200 XXXXX"
+    },
+    {
+      "label": "Mobile (5xxxxxxx)",
+      "national": "5XX XXXХХ",
+      "international": "+350 5XX XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+35020052200",
+      "international": "+350 200 52200",
+      "national": "200 52200",
+      "note": "Gibtelecom fixed line — '200' was prepended to the legacy 5-digit number"
+    },
+    {
+      "type": "mobile",
+      "e164": "+35054123456",
+      "international": "+350 541 23456",
+      "national": "541 23456",
+      "note": "Mobile — 5x ranges"
+    }
+  ],
+  "notes": [
+    "Gibraltar moved to 8-digit numbers on 2008-10-01. Legacy 5-digit landlines were preserved by prefixing '200'.",
+    "No trunk prefix or area codes; the full 8-digit number is always dialled."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Gibraltar",
+    "Gibraltar Regulatory Authority: https://www.gra.gi/communications"
+  ]
+}
