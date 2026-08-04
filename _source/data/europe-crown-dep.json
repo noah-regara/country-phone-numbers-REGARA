@@ -93,16 +93,16 @@
     "internationalPrefix": "00",
     "nsnLengths": [],
     "formats": {
-      "national": "018 XXXXX (Finnish plan, Åland area code 18)",
-      "international": "+358 18 XXXXX (trunk 0 dropped)"
+      "national": "018 XXXXXX (Finnish plan, Åland area code 18)",
+      "international": "+358 18 XXXXXX (trunk 0 dropped)"
     },
     "patterns": [
-      { "label": "Fixed line (Åland area code 18)", "national": "018 XXXXX", "international": "+358 18 XXXXX" },
-      { "label": "Mobile (Ålands Mobiltelefon 0457)", "national": "0457 XXX XXXX", "international": "+358 457 XXX XXXX" }
+      { "label": "Fixed line (Åland area code 18)", "national": "018 XXXXXX", "international": "+358 18 XXXXXX" },
+      { "label": "Mobile (Finnish 045 prefix, Åland 0457 sub-range)", "national": "045 7XX XXXX", "international": "+358 45 7XX XXXX" }
     ],
     "examples": [
       { "type": "fixed-line", "e164": "+35818123456", "international": "+358 18 123456", "national": "018 123456", "note": "Mariehamn — Åland uses Finnish area code 018" },
-      { "type": "mobile", "e164": "+358457123456", "international": "+358 457 123 456", "national": "0457 123 456", "note": "Mobile — 0457 is the Ålands Mobiltelefon range" }
+      { "type": "mobile", "e164": "+358457123456", "international": "+358 45 712 3456", "national": "045 712 3456", "note": "Mobile — 045 is a Finnish mobile prefix; the 0457 sub-range is Ålands Mobiltelefon" }
     ],
     "notes": [
       "Åland is an autonomous region of Finland and has no separate country code; it uses +358 with the reserved area code 018.",

@@ -9,23 +9,23 @@
 ## Formatting
 
 ```
-National:      018 XXXXX (Finnish plan, Åland area code 18)
-International: +358 18 XXXXX (trunk 0 dropped)
+National:      018 XXXXXX (Finnish plan, Åland area code 18)
+International: +358 18 XXXXXX (trunk 0 dropped)
 ```
 
 ## Number ranges
 
 | Range | National format | International format |
 | --- | --- | --- |
-| Fixed line (Åland area code 18) | `018 XXXXX` | `+358 18 XXXXX` |
-| Mobile (Ålands Mobiltelefon 0457) | `0457 XXX XXXX` | `+358 457 XXX XXXX` |
+| Fixed line (Åland area code 18) | `018 XXXXXX` | `+358 18 XXXXXX` |
+| Mobile (Finnish 045 prefix, Åland 0457 sub-range) | `045 7XX XXXX` | `+358 45 7XX XXXX` |
 
 ## Examples
 
 | Type | E.164 | International | National | Notes |
 | --- | --- | --- | --- | --- |
 | fixed-line | `+35818123456` | `+358 18 123456` | `018 123456` | Mariehamn — Åland uses Finnish area code 018 |
-| mobile | `+358457123456` | `+358 457 123 456` | `0457 123 456` | Mobile — 0457 is the Ålands Mobiltelefon range |
+| mobile | `+358457123456` | `+358 45 712 3456` | `045 712 3456` | Mobile — 045 is a Finnish mobile prefix; the 0457 sub-range is Ålands Mobiltelefon |
 
 ## Notes
 
