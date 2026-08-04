@@ -1,0 +1,63 @@
+{
+  "country": "Montenegro",
+  "iso2": "ME",
+  "iso3": "MNE",
+  "callingCode": "+382",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "0AA XXX XXX",
+    "international": "+382 AA XXX XXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Podgorica (020)",
+      "national": "020 XXX XXX",
+      "international": "+382 20 XXX XXX"
+    },
+    {
+      "label": "Other geographic (030–052)",
+      "national": "0XX XXX XXX",
+      "international": "+382 XX XXX XXX"
+    },
+    {
+      "label": "Mobile (060–069)",
+      "national": "067 XXX XXX",
+      "international": "+382 67 XXX XXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+38220123456",
+      "international": "+382 20 123 456",
+      "national": "020 123 456",
+      "note": "Podgorica — area code 20 also covers Danilovgrad and Kolašin"
+    },
+    {
+      "type": "mobile",
+      "e164": "+38267123456",
+      "international": "+382 67 123 456",
+      "national": "067 123 456",
+      "note": "Mobile — 06x ranges"
+    },
+    {
+      "type": "mobile",
+      "e164": "+38260123456",
+      "international": "+382 60 123 456",
+      "national": "060 123 456",
+      "note": "Mobile — 60 is an m:tel range"
+    }
+  ],
+  "notes": [
+    "Montenegro took country code +382 after independence; the shared Serbian +381 was fully phased out by October 2007.",
+    "Closed plan with 8-digit NSNs: 2-digit area code plus 6-digit subscriber number."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Montenegro",
+    "EKIP — Agency for Electronic Communications: https://www.ekip.me/"
+  ]
+}
