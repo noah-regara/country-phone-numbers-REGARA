@@ -1,0 +1,70 @@
+{
+  "country": "Saint Helena, Ascension and Tristan da Cunha",
+  "iso2": "SH",
+  "iso3": "SHN",
+  "callingCode": "+290",
+  "additionalCallingCodes": [
+    "+247"
+  ],
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "formats": {
+    "national": "XXXXX (Saint Helena) / XXXX (Ascension)",
+    "international": "+290 XXXXX or +247 XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Saint Helena PSTN (2XXXX)",
+      "national": "2XXXX",
+      "international": "+290 2XXXX"
+    },
+    {
+      "label": "Saint Helena mobile (5XXXX, 6XXXX)",
+      "national": "5XXXX",
+      "international": "+290 5XXXX"
+    },
+    {
+      "label": "Tristan da Cunha (8XXXX)",
+      "national": "8XXXX",
+      "international": "+290 8XXXX"
+    },
+    {
+      "label": "Ascension Island (separate code +247)",
+      "national": "XXXX",
+      "international": "+247 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+29022158",
+      "international": "+290 22158",
+      "national": "22158",
+      "note": "Jamestown, Saint Helena — 5-digit PSTN number"
+    },
+    {
+      "type": "mobile",
+      "e164": "+29051234",
+      "international": "+290 51234",
+      "national": "51234",
+      "note": "Saint Helena mobile — the 5XXXX range"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+2476000",
+      "international": "+247 6000",
+      "national": "6000",
+      "note": "Ascension Island — reached on its own country code +247 with 4-digit numbers"
+    }
+  ],
+  "notes": [
+    "This single ISO entry covers three widely separated territories on two different country codes: Saint Helena and Tristan da Cunha on +290, and Ascension Island on +247.",
+    "Saint Helena moved from 4-digit to 5-digit numbers on 2013-10-01 by prefixing a '2' to existing numbers.",
+    "Tristan da Cunha also reaches the UK Foreign and Commonwealth Office network through a London 020 range, so some Tristan lines answer on +44 numbers."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Saint_Helena,_Ascension_and_Tristan_da_Cunha",
+    "Sure South Atlantic: https://www.sure.co.sh/"
+  ]
+}
