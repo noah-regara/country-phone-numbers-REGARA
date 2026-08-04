@@ -1,0 +1,53 @@
+{
+  "country": "Jersey",
+  "iso2": "JE",
+  "iso3": "JEY",
+  "callingCode": "+44",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    10
+  ],
+  "formats": {
+    "national": "01534 XXXXXX",
+    "international": "+44 1534 XXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line",
+      "national": "01534 XXXXXX",
+      "international": "+44 1534 XXXXXX"
+    },
+    {
+      "label": "Mobile (Jersey-allocated 07 ranges)",
+      "national": "07797 XXXXXX",
+      "international": "+44 7797 XXXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+441534123456",
+      "international": "+44 1534 123456",
+      "national": "01534 123456",
+      "note": "Jersey — area code 01534"
+    },
+    {
+      "type": "mobile",
+      "e164": "+447797123456",
+      "international": "+44 7797 123456",
+      "national": "07797 123456",
+      "note": "Mobile — 077977–077979 are Jersey-allocated ranges"
+    }
+  ],
+  "notes": [
+    "Jersey is a Crown Dependency, not part of the UK, but shares the +44 country code and the UK numbering plan.",
+    "All Jersey landlines sit under the single area code 01534.",
+    "Jersey mobile ranges (e.g. 074572, 075090–075097, 077003, 077977–077979, 079370–079379) are separately allocated and are frequently excluded from UK mobile call allowances."
+  ],
+  "sources": [
+    "https://www.area-codes.org.uk/international/uk-offshore",
+    "Jersey Competition Regulatory Authority: https://www.jcra.je/",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom"
+  ]
+}
