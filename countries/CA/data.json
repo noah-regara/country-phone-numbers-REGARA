@@ -1,0 +1,65 @@
+{
+  "country": "Canada",
+  "iso2": "CA",
+  "iso3": "CAN",
+  "callingCode": "+1",
+  "trunkPrefix": "1",
+  "internationalPrefix": "011",
+  "nsnLengths": [
+    10
+  ],
+  "areaCodes": [
+    "204, 226, 416, 604, 905 and many others"
+  ],
+  "formats": {
+    "national": "(NPA) NXX-XXXX",
+    "international": "+1 NPA NXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Geographic (fixed or mobile)",
+      "national": "(NPA) NXX-XXXX",
+      "international": "+1 NPA NXX XXXX"
+    },
+    {
+      "label": "Toll-free (shared NANP-wide)",
+      "national": "(800) NXX-XXXX",
+      "international": "+1 800 NXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+14163631234",
+      "international": "+1 416 363 1234",
+      "national": "(416) 363-1234",
+      "note": "Toronto, ON — area code 416"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+16046821234",
+      "international": "+1 604 682 1234",
+      "national": "(604) 682-1234",
+      "note": "Vancouver, BC — area code 604"
+    },
+    {
+      "type": "toll-free",
+      "e164": "+18005551234",
+      "international": "+1 800 555 1234",
+      "national": "(800) 555-1234",
+      "note": "Toll-free — shared with the rest of the NANP"
+    }
+  ],
+  "notes": [
+    "Part of the North American Numbering Plan: country code +1, a 10-digit NSN written NPA-NXX-XXXX.",
+    "NPA is the 3-digit area code, NXX the 3-digit central office code; both begin with a digit 2–9. The final four digits are the line number.",
+    "The domestic long-distance prefix is 1 and the international call prefix is 011.",
+    "Canada shares the +1 country code and the entire NANP format with the United States; the two are not separable by number format alone.",
+    "Mobile and fixed lines share the same geographic area codes."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+    "NANPA — North American Numbering Plan Administrator: https://nationalnanpa.com/",
+    "https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes"
+  ]
+}
