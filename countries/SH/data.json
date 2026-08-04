@@ -10,8 +10,8 @@
   "internationalPrefix": "00",
   "nsnLengths": [],
   "formats": {
-    "national": "XXXXX (Saint Helena) / XXXX (Ascension)",
-    "international": "+290 XXXXX or +247 XXXX"
+    "national": "XXXXX (Saint Helena) / XXXXX (Ascension)",
+    "international": "+290 XXXXX or +247 XXXXX"
   },
   "patterns": [
     {
@@ -31,8 +31,8 @@
     },
     {
       "label": "Ascension Island (separate code +247)",
-      "national": "XXXX",
-      "international": "+247 XXXX"
+      "national": "XXXXX",
+      "international": "+247 XXXXX"
     }
   ],
   "examples": [
@@ -52,19 +52,21 @@
     },
     {
       "type": "fixed-line",
-      "e164": "+2476000",
-      "international": "+247 6000",
-      "national": "6000",
-      "note": "Ascension Island — reached on its own country code +247 with 4-digit numbers"
+      "e164": "+24766000",
+      "international": "+247 66000",
+      "national": "66000",
+      "note": "Ascension Island — reached on its own country code +247 with 5-digit numbers"
     }
   ],
   "notes": [
     "This single ISO entry covers three widely separated territories on two different country codes: Saint Helena and Tristan da Cunha on +290, and Ascension Island on +247.",
     "Saint Helena moved from 4-digit to 5-digit numbers on 2013-10-01 by prefixing a '2' to existing numbers.",
+    "Ascension Island made the same move on 2015-06-01, prefixing a '6' to its 4-digit geographic numbers; its fixed ranges are now 62XXX, 63XXX, 64XXX, 66XXX and 67XXX, with mobile on 4XXXX.",
     "Tristan da Cunha also reaches the UK Foreign and Commonwealth Office network through a London 020 range, so some Tristan lines answer on +44 numbers."
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/Telephone_numbers_in_Saint_Helena,_Ascension_and_Tristan_da_Cunha",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Ascension_Island",
     "Sure South Atlantic: https://www.sure.co.sh/"
   ]
 }
