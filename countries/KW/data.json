@@ -1,0 +1,63 @@
+{
+  "country": "Kuwait",
+  "iso2": "KW",
+  "iso3": "KWT",
+  "callingCode": "+965",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+965 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line (2)",
+      "national": "2XXX XXXX",
+      "international": "+965 2XXX XXXX"
+    },
+    {
+      "label": "Mobile — STC (5), Ooredoo (6), Zain (9)",
+      "national": "5XXX XXXX",
+      "international": "+965 5XXX XXXX"
+    },
+    {
+      "label": "Toll-free",
+      "national": "800 XXXX",
+      "international": "+965 800 XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+96522401234",
+      "international": "+965 2240 1234",
+      "national": "2240 1234",
+      "note": "Fixed line — all Kuwaiti landlines begin with 2"
+    },
+    {
+      "type": "mobile",
+      "e164": "+96551234567",
+      "international": "+965 5123 4567",
+      "national": "5123 4567",
+      "note": "Mobile — 5 denotes STC Kuwait"
+    },
+    {
+      "type": "mobile",
+      "e164": "+96591234567",
+      "international": "+965 9123 4567",
+      "national": "9123 4567",
+      "note": "Mobile — 9 denotes Zain"
+    }
+  ],
+  "notes": [
+    "Kuwait moved to 8-digit numbers in October 2008 by prefixing a service digit to all fixed and mobile numbers.",
+    "No trunk prefix or area codes; the leading digit identifies service and operator (2 fixed, 5 STC, 6 Ooredoo, 9 Zain)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kuwait",
+    "CITRA — Communication and Information Technology Regulatory Authority: https://citra.gov.kw/"
+  ]
+}
