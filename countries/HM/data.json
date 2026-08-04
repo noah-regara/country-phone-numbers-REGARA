@@ -1,0 +1,25 @@
+{
+  "country": "Heard Island and McDonald Islands",
+  "iso2": "HM",
+  "iso3": "HMD",
+  "callingCode": "+672",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [],
+  "noPublicNumbering": true,
+  "formats": {
+    "national": "no numbering assigned",
+    "international": "no numbering assigned"
+  },
+  "patterns": [],
+  "examples": [],
+  "notes": [
+    "Heard Island and McDonald Islands form an uninhabited Australian external territory in the subantarctic. There is no permanent population and no exchange.",
+    "The territory is nominally associated with +672, the Australian Antarctic code, but no numbers are allocated to it.",
+    "Australian Antarctic Division expeditions that visit communicate by satellite."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Australian_Antarctic_Territory",
+    "Australian Antarctic Program — Heard Island: https://heardisland.antarctica.gov.au/"
+  ]
+}
