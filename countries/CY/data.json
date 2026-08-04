@@ -1,0 +1,63 @@
+{
+  "country": "Cyprus",
+  "iso2": "CY",
+  "iso3": "CYP",
+  "callingCode": "+357",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XX XXXXXX",
+    "international": "+357 XX XXXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Nicosia (22), Limassol (25), Larnaca (24), Paphos (26)",
+      "national": "22 XXXXXX",
+      "international": "+357 22 XXXXXX"
+    },
+    {
+      "label": "Mobile (9X)",
+      "national": "9X XXXXXX",
+      "international": "+357 9X XXXXXX"
+    },
+    {
+      "label": "Freephone",
+      "national": "800 XXXXX",
+      "international": "+357 800 XXXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+35722123456",
+      "international": "+357 22 123456",
+      "national": "22 123456",
+      "note": "Nicosia — district code 22"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+35725123456",
+      "international": "+357 25 123456",
+      "national": "25 123456",
+      "note": "Limassol — district code 25"
+    },
+    {
+      "type": "mobile",
+      "e164": "+35796123456",
+      "international": "+357 96 123456",
+      "national": "96 123456",
+      "note": "Mobile — 9x; the second digit identifies the carrier (7 CYTA, 6 Epic, 5 PrimeTel, 4 Cablenet)"
+    }
+  ],
+  "notes": [
+    "Cyprus uses a closed 8-digit plan with no trunk prefix; district codes are dialled as part of the number.",
+    "Northern Cyprus is not covered by +357: it is integrated into the Turkish numbering plan and reached as +90 392."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cyprus",
+    "OCECPR — Office of the Commissioner of Electronic Communications: https://www.ocecpr.org.cy/"
+  ]
+}
