@@ -1,0 +1,56 @@
+{
+  "country": "Cuba",
+  "iso2": "CU",
+  "iso3": "CUB",
+  "callingCode": "+53",
+  "trunkPrefix": "0",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "0A XXXXXXX (landline) / 5XXX XXXX (mobile)",
+    "international": "+53 A XXXXXXX (trunk 0 dropped)"
+  },
+  "patterns": [
+    {
+      "label": "Havana (7)",
+      "national": "07 XXXXXXX",
+      "international": "+53 7 XXXXXXX"
+    },
+    {
+      "label": "Other provinces (2-digit area codes)",
+      "national": "0XX XXXXXX",
+      "international": "+53 XX XXXXXX"
+    },
+    {
+      "label": "Mobile (5)",
+      "national": "5XXX XXXX",
+      "international": "+53 5XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+5371234567",
+      "international": "+53 7 123 4567",
+      "national": "07 123 4567",
+      "note": "Havana — area code 7"
+    },
+    {
+      "type": "mobile",
+      "e164": "+5351234567",
+      "international": "+53 5123 4567",
+      "national": "5123 4567",
+      "note": "Mobile — all Cuban mobiles begin with 5 and carry no trunk prefix"
+    }
+  ],
+  "notes": [
+    "The NSN is 8 digits, with the first one or two forming the area code for fixed lines.",
+    "Mobile numbers are dialled as a flat 8 digits beginning with 5, without the trunk 0."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Cuba",
+    "ETECSA — Empresa de Telecomunicaciones de Cuba: https://www.etecsa.cu/"
+  ]
+}
