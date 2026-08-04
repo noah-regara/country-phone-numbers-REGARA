@@ -1,0 +1,63 @@
+{
+  "country": "Macao",
+  "iso2": "MO",
+  "iso3": "MAC",
+  "callingCode": "+853",
+  "trunkPrefix": "",
+  "internationalPrefix": "00",
+  "nsnLengths": [
+    8
+  ],
+  "formats": {
+    "national": "XXXX XXXX",
+    "international": "+853 XXXX XXXX"
+  },
+  "patterns": [
+    {
+      "label": "Fixed line, residential/business (28)",
+      "national": "28XX XXXX",
+      "international": "+853 28XX XXXX"
+    },
+    {
+      "label": "Fixed line, business/government (8)",
+      "national": "8XXX XXXX",
+      "international": "+853 8XXX XXXX"
+    },
+    {
+      "label": "Mobile (6)",
+      "national": "6XXX XXXX",
+      "international": "+853 6XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+85328123456",
+      "international": "+853 2812 3456",
+      "national": "2812 3456",
+      "note": "Fixed line — 28 is the main residential and business prefix"
+    },
+    {
+      "type": "fixed-line",
+      "e164": "+85388123456",
+      "international": "+853 8812 3456",
+      "national": "8812 3456",
+      "note": "Fixed line — 8 prefix used by government and corporate lines"
+    },
+    {
+      "type": "mobile",
+      "e164": "+85366123456",
+      "international": "+853 6612 3456",
+      "national": "6612 3456",
+      "note": "Mobile — all Macau mobiles begin with 6"
+    }
+  ],
+  "notes": [
+    "Macau has no area codes or trunk prefix; all numbers are 8 digits.",
+    "Macau keeps its own country code +853, separate from both mainland China (+86) and Hong Kong (+852)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Macau",
+    "DSRT — Bureau of Telecommunications Regulation: https://www.dsrt.gov.mo/"
+  ]
+}
