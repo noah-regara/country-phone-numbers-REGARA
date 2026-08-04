@@ -1,0 +1,54 @@
+{
+  "country": "Tajikistan",
+  "iso2": "TJ",
+  "iso3": "TJK",
+  "callingCode": "+992",
+  "trunkPrefix": "8",
+  "internationalPrefix": "810",
+  "nsnLengths": [],
+  "formats": {
+    "national": "8 AAA XXXXXX (variable area-code length)",
+    "international": "+992 AAA XXXXXX"
+  },
+  "patterns": [
+    {
+      "label": "Dushanbe (372)",
+      "national": "8 372 XXXXXX",
+      "international": "+992 372 XXXXXX"
+    },
+    {
+      "label": "Other regions (2–6 digit area codes)",
+      "national": "8 XXXX XXXX",
+      "international": "+992 XXXX XXXX"
+    },
+    {
+      "label": "Mobile (5X, 9X)",
+      "national": "8 55 XXX XXXX",
+      "international": "+992 55 XXX XXXX"
+    }
+  ],
+  "examples": [
+    {
+      "type": "fixed-line",
+      "e164": "+992372123456",
+      "international": "+992 372 123456",
+      "national": "8 372 123456",
+      "note": "Dushanbe — 3-digit area code 372"
+    },
+    {
+      "type": "mobile",
+      "e164": "+992551234567",
+      "international": "+992 55 123 4567",
+      "national": "8 55 123 4567",
+      "note": "Mobile — 5X range"
+    }
+  ],
+  "notes": [
+    "Tajikistan retains the Soviet-era trunk prefix 8 and the 8~10 international access sequence.",
+    "Area codes run from 2 to 6 digits and NSN length varies from about 4 to 9, so length-based validation is unreliable."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Tajikistan",
+    "Communications Service under the Government of Tajikistan: https://www.aloqa.tj/"
+  ]
+}
